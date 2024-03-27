@@ -15,7 +15,7 @@
 remote_theme: raviriley/agency-jekyll-theme
 
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/DarkMatterLabs2.github.io" # the subpath of your site, e.g. /blog
+baseurl: "/DarkMatterLabs.github.io" # the subpath of your site, e.g. /blog
 
 title      : Agency Jekyll Draft For Dark Matter Labs
 email      : your-email@example.com #this is also the email contact forms will go to
