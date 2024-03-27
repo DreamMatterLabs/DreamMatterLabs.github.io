@@ -16,7 +16,7 @@ en: &DEFAULT_EN
     button: Tell Me More
     buttonlink: "#services"
 
-services:
+  services:
     title: "Services"
     text: "Lorem ipsum"
     section: services
@@ -36,7 +36,7 @@ services:
     text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
     closebutton: "Close Project"
-      
+
   timeline:
     title: "Timeline"
     text: "Lorem ipsum timeline"
@@ -71,7 +71,7 @@ services:
   about:
     title: "About Us"
     text: "our story"
-    body: "We thought about creating a Pokemon hyrbid with playforming and lasers but then decided Tony Hawk Proskater in space with collectables would be a lot more exciting!"
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
     section: about
 
   clients:
@@ -93,8 +93,8 @@ services:
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "The Team Behind Dreamwalker: Altered Reveries"
-    text: "ꝎꝃꝪ⨑꜠Ꜽ∄"
+    title: "OUR AMAZING TEAM"
+    text: "Lorem ipsum dolor sit amet consectetur."
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
@@ -129,10 +129,9 @@ services:
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
 
-
   contact:
     title: "Contact Us"
-    text: "Hello There!"
+    text: "Lorem ipsum or call 123456789"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -175,7 +174,6 @@ es: &DEFAULT_ES
     text: Es un placer conocerle
     button: Ver más
     buttonlink: "#servicios"
-
 
   services:
     title: "Servicios"
