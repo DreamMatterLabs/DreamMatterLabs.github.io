@@ -13,23 +13,8 @@ en: &DEFAULT_EN
   header:
     title: Welcome to our Studio!
     text: It's Nice To Meet You
-    button: Tell Me More
+    button: Dreamwalker: Altered Reveries
     buttonlink: "#services"
-
-  services:
-    title: "Services"
-    text: "Lorem ipsum"
-    section: services
-    list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
 
   portfolio:
     title: "Portfolio"
@@ -71,7 +56,7 @@ en: &DEFAULT_EN
   about:
     title: "About Us"
     text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    body: "We thought about creating a Pokemon hyrbid with playforming and lasers but then decided Tony Hawk Proskater in space with collectables would be a lot more exciting!"
     section: about
 
   clients:
@@ -131,7 +116,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "I would really rather not set this one up; let's leave an email and boogie."
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -174,6 +159,24 @@ es: &DEFAULT_ES
     text: Es un placer conocerle
     button: Ver más
     buttonlink: "#servicios"
+
+
+  services:
+    title: "Services"
+    text: "Lorem ipsum"
+    section: services
+    list:
+      - title: "E-Commerce"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: "Responsive Design"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-laptop
+      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+        desc: "Your description here, full **Markdown** support"
+        icon: fab fa-markdown
+
+
 
   services:
     title: "Servicios"
