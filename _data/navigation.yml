@@ -11,9 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Services"
-      section: services
-    - title: "Portfolio"
+    - title: "Game Features aka portfolio for dev reference"
       section: portfolio
     - title: "About"
       section: about
@@ -21,6 +19,8 @@ en: &DEFAULT_EN
       section: timeline
     - title: "Team"
       section: team
+    - title: "Game Pillars"
+      section: services
     - title: "Contact"
       section: contact
     - title: "Theme Source"
