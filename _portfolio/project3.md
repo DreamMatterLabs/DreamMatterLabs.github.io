@@ -5,7 +5,7 @@ image: assets/img/portfolio/03-full.jpg
 alt: 
 
 caption:
-  title: Finish
+  title: A E S T H E T I C S
   subtitle: Identity
   thumbnail: assets/img/portfolio/03-thumbnail.jpg
 ---
