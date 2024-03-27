@@ -132,7 +132,7 @@ services:
 
   contact:
     title: "Contact Us"
-    text: "I would really rather not set this one up; let's leave an email and boogie."
+    text: "Hello There!"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
