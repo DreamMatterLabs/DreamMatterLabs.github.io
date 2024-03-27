@@ -5,7 +5,7 @@ image: assets/img/portfolio/05-full.jpg
 alt: 
 
 caption:
-  title: Southwest
+  title: Intentional GameDesign
   subtitle: Website Design
   thumbnail: assets/img/portfolio/05-thumbnail.jpg
 ---
