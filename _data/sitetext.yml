@@ -17,7 +17,7 @@ en: &DEFAULT_EN
     buttonlink: "#services"
 
   portfolio:
-    title: "Portfolio"
+    title: "Game Features AKA Portfolio for Dev Reference"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
     closebutton: "Close Project"
