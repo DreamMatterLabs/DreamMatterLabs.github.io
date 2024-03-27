@@ -5,7 +5,7 @@ image: assets/img/portfolio/06-full.jpg
 alt: 
 
 caption:
-  title: Window
+  title: Alter Dreams
   subtitle: Photography
   thumbnail: assets/img/portfolio/06-thumbnail.jpg
 ---
