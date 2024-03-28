@@ -10,7 +10,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: 
+    title: Dream
     text: 
     button: Meet the Team
     buttonlink: "#team"
