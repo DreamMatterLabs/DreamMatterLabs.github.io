@@ -11,20 +11,20 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: Dreamwalker: Altered Reveries
+    text: 
+    button: Meet the Team
     buttonlink: "#services"
 
   portfolio:
-    title: "Game Features: AKA mini portfolio (All departments)"
+    title: "Pokemon, Skateboards, and Platforming"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
     closebutton: "Close & Return"
 
   timeline:
     title: "Timeline"
-    text: "Lorem ipsum timeline"
+    text: "Is this over the top?"
     section: timeline
     # left is the default
     #start_align: "left"
