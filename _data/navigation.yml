@@ -17,10 +17,8 @@ en: &DEFAULT_EN
       section: about
     - title: "Timeline & Dev Log"
       section: timeline
-    - title: "Meet The Team!"
+    - title: "Team!"
       section: team
-    - title: "Game Pillars"
-      section: services
     - title: "Contact"
       section: contact
     - title: "Steam Page - Coming Soon"
