@@ -79,7 +79,7 @@ en: &DEFAULT_EN
     section: team
     people:
       - name: "Person Name"
-        role: "Lead Designer"
+        role: "Interactive Sound Design & Project Director"
         image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
@@ -89,7 +89,7 @@ en: &DEFAULT_EN
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Another Name"
-        role: "Lead Designer"
+        role: "Lead Programmer"
         image: assets/img/team/2.jpg
         social:
           - url: https://twitter.com
@@ -108,18 +108,18 @@ en: &DEFAULT_EN
             icon: fab fa-glasses
           - url: https://linkedin.com
             icon: fab fa-gitkraken
-      - name: "Person Name"
-        role: "3D Art & Modeling"
+      - name: "You're a name too"
+        role: "Lead Game Design"
         image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
-            icon: fab fa-hand-spock
+            icon: fab fa-mars
           - url: https://facebook.com
             icon: fab fa-headset
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Narrative Specialist"
-        role: "Lead Marketer"
+      - name: "Here's a name!"
+        role: "3D Art & Modeling"
         image: assets/img/team/2.jpg
         social:
           - url: https://twitter.com
@@ -127,9 +127,9 @@ en: &DEFAULT_EN
           - url: https://facebook.com
             icon: fab fa-info-circle
           - url: https://linkedin.com
-            icon: fab fa-laptop
+            icon: fab fa-mastodon
       - name: "And Another Name"
-        role: "Interactive Sound Design & Project Director"
+        role: "Narrative Specialist"
         image: assets/img/team/3.jpg
         social:
           - url: https://twitter.com
