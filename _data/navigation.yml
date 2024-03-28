@@ -15,14 +15,14 @@ en: &DEFAULT_EN
       section: portfolio
     - title: "About"
       section: about
-    - title: "Timeline & Dev Log"
-      section: timeline
     - title: "Team!"
       section: team
+    - title: "Timeline & Dev Log"
+      section: timeline
     - title: "Contact"
       section: contact
     - title: "Steam Page - Coming Soon"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+      url: https://dreammatterlabs.github.io/
 en-US:
   <<: *DEFAULT_EN
 en-CA:
