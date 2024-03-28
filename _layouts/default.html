@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}">
 
+{% include head.html %}
+  <body id="page-top">
   <style>
         body {
             margin: 0;
@@ -12,10 +14,7 @@
         }
         /* Additional styles for other elements can be added here */
     </style>
-
-{% include head.html %}
-  <body id="page-top">
-
+	
       {{ content }}
 
 	  {% include footer.html %}
