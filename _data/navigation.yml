@@ -11,19 +11,19 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Game Features aka portfolio for dev reference"
+    - title: ""
       section: portfolio
     - title: "About"
       section: about
-    - title: "Timeline"
+    - title: "Timeline & Dev Log"
       section: timeline
-    - title: "Team"
+    - title: "Meet The Team!"
       section: team
     - title: "Game Pillars"
       section: services
     - title: "Contact"
       section: contact
-    - title: "Theme Source"
+    - title: "Steam Page - Coming Soon"
       url: https://github.com/raviriley/agency-jekyll-theme/
 en-US:
   <<: *DEFAULT_EN
