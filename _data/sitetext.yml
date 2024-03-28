@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: Dreamwalker: Altered Reveries
-    text: 
+    text: Hi
     button: Meet the Team
     buttonlink: "#services"
 
