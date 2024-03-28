@@ -10,13 +10,13 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Dreamwalker!
-    text: Hi
+    title: 
+    text: 
     button: Meet the Team
     buttonlink: "#team"
 
   portfolio:
-    title: "Epic Game Deets"
+    title: "Exploring, another level deeper. Under the Hood with some Epic Game Deets"
     text: "Pokemon, Skateboarding, Platforms. now with stealth attack."
     section: portfolio
     closebutton: "Close Project"
@@ -49,7 +49,7 @@ en: &DEFAULT_EN
         alt:
         # you can enforce the alignment
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "Ready <br> to <br> Explore?"
   about:
     title: "About Us"
     text: "our story"
