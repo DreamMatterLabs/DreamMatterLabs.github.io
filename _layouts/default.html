@@ -2,24 +2,22 @@
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}">
 
   {% include head.html %}
-	<head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
+    <title>Your Page Title</title>
     <style>
         body {
-            background-image: url('{{ site.baseurl }}/assets/images/backgroundimage.jpg');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-            /* Additional styles for the body */
             margin: 0;
             padding: 0;
-            /* Adjust other body styles as needed */
+            background-image: url('/assets/images/backgroundimage.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
         }
+        /* Additional styles for other elements can be added here */
     </style>
-	</head>
-	
+</head>
   <body id="page-top">
 
       {{ content }}
