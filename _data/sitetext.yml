@@ -13,11 +13,11 @@ en: &DEFAULT_EN
     title: Dreamwalker!
     text: Hi
     button: Meet the Team
-    buttonlink: "#services"
+    buttonlink: "#team"
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Epic Game Deets"
+    text: "Pokemon, Skateboarding, Platforms. now with stealth attack."
     section: portfolio
     closebutton: "Close Project"
   timeline:
@@ -27,23 +27,23 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
+      - title: "JAM TIME!"
         year: "2009-2011"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "An Agency is Born"
+      - title: "POWER UP"
         year: "March 2011"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/2.jpg
         alt:
-      - title: "Jekyll Theme is created"
+      - title: "ORGANIZED"
         year: "2019"
         desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
         image: assets/img/timeline/3.jpg
         alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
+      - title: "COMING SOON"
+        year: "Fall 2024"
         desc: "Your description here, **Markdown** is fully supported."
         image: assets/img/timeline/4.jpg
         alt:
@@ -73,7 +73,7 @@ en: &DEFAULT_EN
         url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/creative-market.jpg
   team:
-    title: "OUR AMAZING TEAM"
+    title: "OUR TEAM"
     text: "Lorem ipsum dolor sit amet consectetur."
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
