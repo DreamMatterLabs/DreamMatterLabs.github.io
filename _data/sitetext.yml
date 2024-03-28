@@ -93,9 +93,9 @@ en: &DEFAULT_EN
         image: assets/img/team/2.jpg
         social:
           - url: https://twitter.com
-            icon: fab fa-globe
+            icon: fa-solid fa-globe
           - url: https://facebook.com
-            icon: fab fa-comment-o
+            icon: fab fa-circle
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "And Another Name"
