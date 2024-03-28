@@ -1,4 +1,4 @@
-@@ -1,19 +1,19 @@
+@@ -1,23 +1,23 @@
 #
 # Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
 #
@@ -13,7 +13,6 @@ en: &DEFAULT_EN
   header:
     title: Welcome to our Studio!
     text: It's Nice To Meet You
-    button: Dreamwalker: Altered Reveries
     button: Tell Me More
     buttonlink: "#services"
 
