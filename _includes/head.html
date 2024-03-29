@@ -13,9 +13,19 @@
   </script>
   <!-- End Google Analytics -->
   {% endif %}
-
-  <meta charset="utf-8">
+  <meta charset="utf-8">  
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('/assets/images/backgroundimage.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+	
   <meta name="description" content="{{ site.description }}">
   <meta name="author" content="{{ site.author }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
