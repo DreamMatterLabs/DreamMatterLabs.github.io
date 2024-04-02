@@ -29,8 +29,8 @@ $contact-image: "{{ site.data.style.contact-image }}";
 @import "base/page.scss";
 
 // Components
-@import "components/buttons.scss";
-@import "components/navbar.scss";
+// @import "components/buttons.scss";
+// @import "components/navbar.scss";
 @import "components/client-scroll.scss";
 
 // Layout
