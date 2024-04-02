@@ -113,11 +113,11 @@ en: &DEFAULT_EN
         image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
-            icon: fa-home
+            icon: fab fa-home
           - url: https://facebook.com
-            icon: .fa-headphones
+            icon: fab fa-headphones
           - url: https://linkedin.com
-            icon: fa-paper-plane
+            icon: fab fa-paper-plane
       - name: "Here's a name!"
         role: "3D Art & Modeling"
         image: assets/img/team/2.jpg
