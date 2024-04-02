@@ -154,7 +154,7 @@ en: &DEFAULT_EN
         icon: fab fa-markdown
   contact:
     title: "Contact Us"
-    text: "We would love to hear from you! <a href="mailto:DreamMatterLabs@protonmail.com">DreamMatterLabs@protonmail.com</a>"
+    text: "Drop us a message, we would love to hear from you!"
     section: contact
   footer:
     legal: "Privacy Policy"
