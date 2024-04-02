@@ -85,9 +85,9 @@ en: &DEFAULT_EN
           - url: https://twitter.com
             icon: fab fa-twitch
           - url: https://facebook.com
-            icon: fab fa-facebook-f
+            icon: fab fa-moon
           - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+            icon: fab hat-wizard
       - name: "Another Name"
         role: "Lead Programmer"
         image: assets/img/team/2.jpg
@@ -95,9 +95,9 @@ en: &DEFAULT_EN
           - url: https://twitter.com
             icon: fab fa-youtube
           - url: https://facebook.com
-            icon: fab fa--circle
+            icon: fab fa-puzzle-piece
           - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+            icon: fab fa-soundcloud
       - name: "And Another Name"
         role: "Music Composition & Producer"
         image: assets/img/team/3.jpg
@@ -105,7 +105,7 @@ en: &DEFAULT_EN
           - url: https://twitter.com
             icon: fab fa-twitter
           - url: https://facebook.com
-            icon: fab fa-glasses
+            icon: fab fa-hand-peace
           - url: https://linkedin.com
             icon: fab fa-gitkraken
       - name: "You're a name too"
@@ -113,11 +113,11 @@ en: &DEFAULT_EN
         image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
-            icon: fab fa-mars
+            icon: fab fa-home
           - url: https://facebook.com
-            icon: fab fa-headset
+            icon: fab fa-headphones
           - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+            icon: fab fa-paper-plane
       - name: "Here's a name!"
         role: "3D Art & Modeling"
         image: assets/img/team/2.jpg
@@ -125,7 +125,7 @@ en: &DEFAULT_EN
           - url: https://twitter.com
             icon: fab fa-youtube
           - url: https://facebook.com
-            icon: fab fa-info-circle
+            icon: fab fa-satellite
           - url: https://linkedin.com
             icon: fab fa-mastodon
       - name: "And Another Name"
