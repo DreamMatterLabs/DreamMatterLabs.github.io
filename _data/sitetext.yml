@@ -49,7 +49,7 @@ en: &DEFAULT_EN
         alt:
         # you can enforce the alignment
         align: right
-    end: "Ready <br> to <br> Explore?"
+    end: "Dreams <br> Are <br> Waiting."
   about:
     title: "About Us"
     text: "our story"
