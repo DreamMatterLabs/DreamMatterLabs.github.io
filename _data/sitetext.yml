@@ -10,14 +10,14 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Dreamssssss
-    text: more text here
+    title: Dreamwalker: Altered Reveries
+    text: 
     button: Meet the Team
     buttonlink: "#team"
 
   portfolio:
-    title: "A Closer Look at Dreamwalker: Altered Reveries"
-    text: "Under The Hood With: Pokemon, Skateboarding, Platforms... AND stealth attack."
+    title: "A Closer Look At The Game"
+    text: "Under The Hood With: Creatures Battles, Skateboarding, Platforms... now with stealth attack."
     section: portfolio
     closebutton: "Close Project"
   timeline:
