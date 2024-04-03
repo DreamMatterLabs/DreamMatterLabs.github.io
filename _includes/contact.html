@@ -1,9 +1,11 @@
 <!-- Contact -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<section class="page-section" style="background: linear-gradient(to bottom, #770429, #1f112ff7), url('../assets/img/map-image.png') background-repeat: no-repeat;" id="{{ site.data.sitetext[site.locale].contact.section | default: "contact" }}">
-  <div class="container">
-    <p>Get In Touch: <strong style="color: #ff80ed !important; background-color: --blue !important;"><a href="mailto:DreamMatterStudios@protonmail.com">DreamMatterStudios@protonmail.com</a></strong></p>
-  </div>
+<section class="page-section" id="contact" style="background: background-image: url('../assets/img/map-image.png'); background-repeat: no-repeat;">
+ <div class="container" style="display: flex; justify-content: flex-end; align-items: center;">
+  <p style="color: #ff80ed !important;">Get In Touch: </p>
+  <strong style="color: #ff80ed !important; background-color: #770429 !important; margin-left: 5px;"><a href="mailto:DreamMatterStudios@protonmail.com" style="color: white;">DreamMatterStudios@protonmail.com</a></strong>
+</div>
+
 </section>
 {% else %}
 <section class="page-section" id="{{ site.data.sitetext.contact.section | default: "contact" }}">
