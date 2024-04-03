@@ -18,7 +18,7 @@
     &:active,
     &:focus,
     &:hover {
-      color: darken(#ddab13, 10%);
+      color: darken(#edc309, 10%);
     }
   }
   .navbar-nav {
@@ -32,7 +32,7 @@
         @include heading-font;
         &.active,
         &:hover {
-          color: #ddab13;
+          color: #edc309;
         }
       }
     }
