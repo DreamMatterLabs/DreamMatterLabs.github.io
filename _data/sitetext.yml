@@ -10,20 +10,20 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Dreamssssss
+    title: We Make Dreams
     text: 
     button: Meet the Team
     buttonlink: "#team"
 
   portfolio:
-    title: "A Closer Look at Dreamwalker: Altered Reveries"
+    title: "Dreamwalker: Altered Reveries DREAMWALKER ~ ALTERED REVERIES"
     text: "Under The Hood With: Pokemon, Skateboarding, Platforms... AND stealth attack."
     section: portfolio
     closebutton: "Close Project"
-  timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
-    section: timeline
+  #timeline:
+   # title: "Timeline"
+  #  text: "Lorem ipsum timeline"
+  #  section: timeline
     # left is the default
     #start_align: "left"
  #   events:
@@ -52,8 +52,8 @@ en: &DEFAULT_EN
   #  end: "Dreams <br> Are <br> Waiting."
   about:
     title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    text: "Dream Matter Labs"
+    body: "We welcome diverse backgrounds and point of views to conjure up engaging and surreal interactive worlds. We are making dreams come true!"
     section: about
   clients:
     section: clients
