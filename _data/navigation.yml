@@ -17,8 +17,6 @@ en: &DEFAULT_EN
       section: about
     - title: "Team!"
       section: team
-    - title: "Timeline & Dev Log"
-      section: timeline
     - title: "Contact"
       section: contact
     - title: "Steam Page - Coming Soon"
