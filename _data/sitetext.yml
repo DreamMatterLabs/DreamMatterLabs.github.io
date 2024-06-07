@@ -16,7 +16,7 @@ en: &DEFAULT_EN
     buttonlink: "#team"
 
   portfolio:
-    title: "Dreamwalker: Altered Reveries DREAMWALKER ~ ALTERED REVERIES"
+    title: "Dreamwalker: Altered Reveries"
     text: "Under The Hood With: Pokemon, Skateboarding, Platforms... AND stealth attack."
     section: portfolio
     closebutton: "Close Project"
