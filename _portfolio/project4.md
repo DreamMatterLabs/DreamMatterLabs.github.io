@@ -1,5 +1,5 @@
 ---
-title: Project Name
+title: Immersive Audio
 subtitle: Lorem ipsum dolor sit amet consectetur.
 image: assets/img/portfolio/04-full.jpg
 alt: 

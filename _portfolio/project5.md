@@ -1,5 +1,5 @@
 ---
-title: Project Name
+title: Original Soundtrack by Forogtten Dawn
 subtitle: Lorem ipsum dolor sit amet consectetur.
 image: assets/img/portfolio/05-full.jpg
 alt: 

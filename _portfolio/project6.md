@@ -1,17 +1,17 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
-image: assets/img/portfolio/05-full.jpg
+title: Intriguing Storyline
+subtitle: Resolve knots in each dreamscape
+image: assets/img/portfolio/06-full.jpg
 alt: 
 
 caption:
-  title: OST by Forgotten Dawn
-  subtitle: From the studio of Claudio Monteleone
-  thumbnail: assets/img/portfolio/05-thumbnail.jpg
+  title: Intriguing Storyline
+  subtitle: Resolve knots in each dreamscape.
+  thumbnail: assets/img/portfolio/06-thumbnail.jpg
 ---
-Forgotten Dawn is the mind behind the pairing of beautiful ambient music that accompanies the dreamy aesthetic of our dream worlds.
+Become a Dreamwalker, navigating through compelling narratives and helping characters overcome their deepest fears and regrets.
 
 {:.list-inline}
 - Date: 2024
-- Client: Atmospheric #Upgrades
-- Category: Dreamlike, Ambient, Cinematic Music and additional by an artist virtuoso.
+- Client: A compelling narrative adventure awaits.
+- Category: A deep story from the mind of our writer-in-residence, Fred.
