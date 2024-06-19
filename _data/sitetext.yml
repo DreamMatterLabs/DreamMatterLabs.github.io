@@ -78,27 +78,27 @@ en: &DEFAULT_EN
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "Person Name"
-        role: "Interactive Sound Design & Project Director"
-        image: assets/img/team/1.jpg
+      - name: "John"
+        role: "Project Director & Interactive Sound Design"
+        image: assets/img/team/2
         social:
-          - url: https://twitter.com
+          - url: https://ambientartstyles.com/
             icon: fab fa-twitch
-          - url: https://facebook.com
-            icon: fab fa-moon
-          - url: https://linkedin.com
-            icon: fab hat-wizard
-      - name: "Another Name"
+          - url: https://bsky.app/profile/ambientartstyles.bsky.social
+            icon: fab fa-bsky
+          - url: https://www.linkedin.com/in/john-s-6b47a565/
+            icon: fab fa-linkedin-in
+      - name: "Max"
         role: "Lead Programmer"
-        image: assets/img/team/2.jpg
+        image: assets/img/team/programmer-1
         social:
           - url: https://twitter.com
             icon: fab fa-youtube
           - url: https://facebook.com
             icon: fab fa-puzzle-piece
-          - url: https://linkedin.com
-            icon: fab fa-soundcloud
-      - name: "And Another Name"
+          - url: https://www.linkedin.com/in/mharris382
+            icon:  fab fa-linkedin-in
+      - name: "Nick"
         role: "Music Composition & Producer"
         image: assets/img/team/3.jpg
         social:
@@ -108,18 +108,18 @@ en: &DEFAULT_EN
             icon: fab fa-hand-peace
           - url: https://linkedin.com
             icon: fab fa-gitkraken
-      - name: "You're a name too"
-        role: "Lead Game Design"
+      - name: "Forgotten Dawn"
+        role: "Composer"
         image: assets/img/team/1.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-home
-          - url: https://facebook.com
+          - url: https://www.youtube.com/@ForgottenDawn
+            icon: fab fa-youtube
+          - url: https://play.reelcrafter.com/0fzIJxfjToOpUPzmgm2y6g
             icon: fab fa-headphones
-          - url: https://linkedin.com
+          - url: https://linktr.ee/forgottendawn
             icon: fab fa-paper-plane
-      - name: "Here's a name!"
-        role: "3D Art & Modeling"
+      - name: "Habu!"
+        role: "3D Artist"
         image: assets/img/team/2.jpg
         social:
           - url: https://twitter.com
@@ -128,7 +128,7 @@ en: &DEFAULT_EN
             icon: fab fa-satellite
           - url: https://linkedin.com
             icon: fab fa-mastodon
-      - name: "And Another Name"
+      - name: "Fred"
         role: "Narrative Specialist"
         image: assets/img/team/3.jpg
         social:
@@ -138,6 +138,16 @@ en: &DEFAULT_EN
             icon: fab fa-instagram
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
+      - name: "Bella"
+        role: "3D Artist"
+        image: assets/img/team/1.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-github
+          - url: https://instagram.com
+            icon: fab fa-instagram
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in 
   services:
     title: "Services"
     text: "Lorem ipsum"
