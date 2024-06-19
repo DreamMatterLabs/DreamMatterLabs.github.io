@@ -80,7 +80,7 @@ en: &DEFAULT_EN
     people:
       - name: "John"
         role: "Project Director & Interactive Sound Design"
-        image: assets/img/team/2
+        image: assets/img/team/2.jpg
         social:
           - url: https://ambientartstyles.com/
             icon: fab fa-twitch
@@ -90,7 +90,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
       - name: "Max"
         role: "Lead Programmer"
-        image: assets/img/team/programmer-1
+        image: assets/img/team/programmer-1.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-youtube
@@ -99,8 +99,8 @@ en: &DEFAULT_EN
           - url: https://www.linkedin.com/in/mharris382
             icon:  fab fa-linkedin-in
       - name: "Nick"
-        role: "Music Composition & Producer"
-        image: assets/img/team/3.jpg
+        role: "Game Designer"
+        image: assets/img/team/designer-1.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
