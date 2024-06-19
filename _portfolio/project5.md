@@ -5,8 +5,8 @@ image: assets/img/portfolio/05-full.jpg
 alt: 
 
 caption:
-  title: Original Music by Forgotten Dawn
-  subtitle: Direct from the studio of Claudio Monteleone
+  title: OST by Forgotten Dawn
+  subtitle: From the studio of Claudio Monteleone
   thumbnail: assets/img/portfolio/05-thumbnail.jpg
 ---
 Forgotten Dawn is the mind behind the pairing of beautiful ambient music that accompanies the dreamy aesthetic of our dream worlds.
