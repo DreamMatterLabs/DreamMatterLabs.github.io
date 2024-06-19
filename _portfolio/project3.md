@@ -5,14 +5,14 @@ image: assets/img/portfolio/03-full.jpg
 alt: 
 
 caption:
-  title: A E S T H E T I C S
-  subtitle: Creative Art Design
+  title: Transform the Dreamworld
+  subtitle: Your actions have consequences
   thumbnail: assets/img/portfolio/03-thumbnail.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+Watch each dream world evolve based on your decisions. Be mindful of your choices, for they may irrevocably alter the landscape of the dream worlds.
 
 {:.list-inline}
-- Date: January 2017
-- Client: Finish
-- Category: Identity
+- Date: 2024
+- Client: The Techno Reverie
+- Category: Change the world.
 

@@ -5,14 +5,14 @@ image: assets/img/portfolio/04-full.jpg
 alt: 
 
 caption:
-  title: DEEP ART AND AUDIO
-  subtitle: Interactive Audio Systems
+  title: Immersive Audio
+  subtitle: Layers of Dreamy Soundscapes
   thumbnail: assets/img/portfolio/04-thumbnail.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+Immerse yourself in beautifully crafted environments accompanied by lush worlds of sound by Ambient Artstyles.
 
 {:.list-inline}
-- Date: October 2019
-- Client: Lines
-- Category: Branding
+- Date: 2024
+- Client: Can you hear what we're producing? That's the sonification of your dream state!
+- Category: Interactive Audio Systems
 

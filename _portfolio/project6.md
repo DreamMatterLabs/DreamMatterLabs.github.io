@@ -5,14 +5,14 @@ image: assets/img/portfolio/06-full.jpg
 alt: 
 
 caption:
-  title: Alter Dreams
-  subtitle: Your influence has consequences
+  title:Intriguing Storyline
+  subtitle: Confront and Resolve knots in each dreamscape
   thumbnail: assets/img/portfolio/06-thumbnail.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+Become a Dreamwalker, navigating through compelling narratives and helping characters overcome their deepest fears and regrets.
 
 {:.list-inline}
-- Date: October 2019
-- Client: Window
-- Category: Photography
+- Date: 2024
+- Client: A compelling narrative adventure awaits.
+- Category: A deep story from the mind of our writer-in-residence, Fred.
 
