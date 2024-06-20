@@ -113,9 +113,9 @@ en: &DEFAULT_EN
         image: assets/img/team/fd.jpg
         social:
           - url: https://www.youtube.com/@ForgottenDawn
-            icon: fa fa-youtube
+            icon: fab fa-youtube
           - url: https://play.reelcrafter.com/0fzIJxfjToOpUPzmgm2y6g
-            icon: fa fa-file-video
+            icon: fa fa-headphones
           - url: https://linktr.ee/forgottendawn
             icon: fa fa-tree
       - name: "Habu!"
@@ -127,7 +127,7 @@ en: &DEFAULT_EN
           - url: https://facebook.com
             icon: fab fa-artstation
           - url: https://linkedin.com
-            icon: fab fa-linkedin-in 
+            icon: fab fa-file-video
       - name: "Fred"
         role: "Narrative Specialist"
         image: assets/img/team/3.jpg
