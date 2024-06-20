@@ -127,7 +127,7 @@ en: &DEFAULT_EN
           - url: https://facebook.com
             icon: fab fa-artstation
           - url: https://linkedin.com
-            icon: fab fa-file-video
+            icon: fa fa-file-video
       - name: "Fred"
         role: "Narrative Specialist"
         image: assets/img/team/3.jpg
