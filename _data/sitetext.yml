@@ -149,7 +149,7 @@ en: &DEFAULT_EN
           - url: https://linkedin.com
             icon: fab fa-linkedin-in 
       - name: "Cody"
-        role: "Concept Aritist"
+        role: "Concept Artist"
         image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
