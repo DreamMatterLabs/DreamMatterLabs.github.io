@@ -83,9 +83,9 @@ en: &DEFAULT_EN
         image: assets/img/team/2.jpg
         social:
           - url: https://ambientartstyles.com/
-            icon: fab fa-twitch
+            icon: fab fa-globe
           - url: https://bsky.app/profile/ambientartstyles.bsky.social
-            icon: fab fa-bsky
+            icon: fab fa-paper-plane
           - url: https://www.linkedin.com/in/john-s-6b47a565/
             icon: fab fa-linkedin-in
       - name: "Max"
@@ -93,9 +93,9 @@ en: &DEFAULT_EN
         image: assets/img/team/programmer-1.jpg
         social:
           - url: https://twitter.com
-            icon: fab fa-youtube
+            icon: fab fa-github-alt
           - url: https://facebook.com
-            icon: fab fa-puzzle-piece
+            icon: fab fa-gitkraken
           - url: https://www.linkedin.com/in/mharris382
             icon:  fab fa-linkedin-in
       - name: "Nick"
@@ -103,11 +103,11 @@ en: &DEFAULT_EN
         image: assets/img/team/designer-1.jpg
         social:
           - url: https://twitter.com
-            icon: fab fa-twitter
+            icon: fab fa-newspaper
           - url: https://facebook.com
-            icon: fab fa-hand-peace
+            icon: fab fa-dice-d20
           - url: https://linkedin.com
-            icon: fab fa-gitkraken
+            icon: fab fa-github 
       - name: "Forgotten Dawn"
         role: "Composer"
         image: assets/img/team/fd.jpg
@@ -115,9 +115,9 @@ en: &DEFAULT_EN
           - url: https://www.youtube.com/@ForgottenDawn
             icon: fab fa-youtube
           - url: https://play.reelcrafter.com/0fzIJxfjToOpUPzmgm2y6g
-            icon: fab fa-headphones
+            icon: fab fa-file-video
           - url: https://linktr.ee/forgottendawn
-            icon: fab fa-paper-plane
+            icon: fab fa-tree
       - name: "Habu!"
         role: "3D Artist"
         image: assets/img/team/2.jpg
@@ -125,9 +125,9 @@ en: &DEFAULT_EN
           - url: https://twitter.com
             icon: fab fa-youtube
           - url: https://facebook.com
-            icon: fab fa-satellite
+            icon: fab fa-artstation
           - url: https://linkedin.com
-            icon: fab fa-mastodon
+            icon: fab fa-linkedin-in 
       - name: "Fred"
         role: "Narrative Specialist"
         image: assets/img/team/3.jpg
@@ -137,13 +137,13 @@ en: &DEFAULT_EN
           - url: https://instagram.com
             icon: fab fa-instagram
           - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+            icon: fab fa-hand-peace
       - name: "Bella"
         role: "3D Artist"
         image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
-            icon: fab fa-github
+            icon: fab fa-artstation
           - url: https://instagram.com
             icon: fab fa-instagram
           - url: https://linkedin.com
@@ -181,10 +181,6 @@ en: &DEFAULT_EN
     social:
       - url: https://linkedin.com
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
