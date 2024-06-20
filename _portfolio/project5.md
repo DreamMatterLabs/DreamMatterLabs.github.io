@@ -13,6 +13,6 @@ Forgotten Dawn is the mind behind the pairing of beautiful ambient music that ac
 
 {:.list-inline}
 - Date: 2024
-- Client: Atmospheric #Upgrades
+- Image: Atmospheric #Upgrades
 - Category: Dreamlike, Ambient, Cinematic Music and additional by an artist virtuoso.
 

@@ -13,5 +13,5 @@ Embark on an epic journey through the surreal landscapes of the subconscious, so
 
 {:.list-inline}
 - Date: 2024
-- Client: The Forest
+- Image: The Forest
 - Category: Curious worlds to explore

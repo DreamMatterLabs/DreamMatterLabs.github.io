@@ -51,7 +51,7 @@ en: &DEFAULT_EN
  #       align: right
   #  end: "Dreams <br> Are <br> Waiting."
   about:
-    title: "About Us"
+    title: "Embedded Youtube Trailer Here"
     text: "Dream Matter Labs"
     body: "We welcome diverse backgrounds and point of views to conjure up engaging and surreal interactive worlds. We are making dreams come true!"
     section: about
@@ -73,13 +73,13 @@ en: &DEFAULT_EN
         url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/creative-market.jpg
   team:
-    title: "OUR TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "Dream Matter Labs"
+    text: "Meet the minds behind the dream!"
+    subtext: We welcome diverse backgrounds and point of views to conjure up engaging and surreal interactive worlds. We are making **dreams** come true!
     section: team
     people:
       - name: "John"
-        role: "Project Director & Interactive Sound Design"
+        role: "Project Director & Interactive Sound Designer"
         image: assets/img/team/2.jpg
         social:
           - url: https://ambientartstyles.com/

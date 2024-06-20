@@ -13,6 +13,6 @@ Gain extraordinary abilities as you explore new dream worlds, enhancing your pla
 
 {:.list-inline}
 - Date: 2024
-- Client: The Paper Desert
+- Image: The Paper Desert
 - Category: #Enhance the ways in which you move
 

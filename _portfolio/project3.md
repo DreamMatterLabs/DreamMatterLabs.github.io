@@ -13,6 +13,6 @@ Watch each dream world evolve based on your decisions. Be mindful of your choice
 
 {:.list-inline}
 - Date: 2024
-- Client: The Techno Reverie
+- Image: The Techno Reverie
 - Category: Change the world.
 

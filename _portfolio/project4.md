@@ -13,6 +13,6 @@ Immerse yourself in beautifully crafted environments accompanied by lush worlds 
 
 {:.list-inline}
 - Date: 2024
-- Client: Can you hear what we're producing? That's the sonification of your dream state!
+- Image: Can you hear what we're producing? That's the sonification of your dream state!
 - Category: Interactive Audio Systems
 
