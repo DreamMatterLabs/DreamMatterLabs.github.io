@@ -83,9 +83,9 @@ en: &DEFAULT_EN
         image: assets/img/team/2.jpg
         social:
           - url: https://ambientartstyles.com/
-            icon: fab fa-globe
+            icon: fa fa-globe
           - url: https://bsky.app/profile/ambientartstyles.bsky.social
-            icon: fab fa-paper-plane
+            icon: fa fa-paper-plane
           - url: https://www.linkedin.com/in/john-s-6b47a565/
             icon: fab fa-linkedin-in
       - name: "Max"
@@ -93,37 +93,37 @@ en: &DEFAULT_EN
         image: assets/img/team/programmer-1.jpg
         social:
           - url: https://twitter.com
-            icon: fab fa-github-alt
+            icon: fa fa-github
           - url: https://facebook.com
             icon: fab fa-gitkraken
           - url: https://www.linkedin.com/in/mharris382
-            icon:  fab fa-linkedin-in
+            icon: fab fa-linkedin-in
       - name: "Nick"
         role: "Game Designer"
         image: assets/img/team/designer-1.jpg
         social:
           - url: https://twitter.com
-            icon: fa-newspaper
+            icon: fa fa-newspaper
           - url: https://facebook.com
             icon: fa fa-dice-d20
           - url: https://linkedin.com
-            icon: fa-github 
+            icon: fab fa-linkedin-in
       - name: "Forgotten Dawn"
         role: "Composer"
         image: assets/img/team/fd.jpg
         social:
           - url: https://www.youtube.com/@ForgottenDawn
-            icon: fab \f77d
+            icon: fa \f77d
           - url: https://play.reelcrafter.com/0fzIJxfjToOpUPzmgm2y6g
-            icon: fab fa-file-video
+            icon: fa fa-file-video
           - url: https://linktr.ee/forgottendawn
-            icon: fab fa-tree
+            icon: fa fa-tree
       - name: "Habu!"
         role: "3D Artist"
         image: assets/img/team/2.jpg
         social:
           - url: https://twitter.com
-            icon: \f77d
+            icon: fa \f77d
           - url: https://facebook.com
             icon: fa-artstation
           - url: https://linkedin.com
@@ -133,11 +133,11 @@ en: &DEFAULT_EN
         image: assets/img/team/3.jpg
         social:
           - url: https://twitter.com
-            icon: fab fa-github
+            icon: fab fa-file
           - url: https://instagram.com
             icon: fab fa-instagram
           - url: https://linkedin.com
-            icon: fab fa-hand-peace
+            icon: fa fa-hand-peace
       - name: "Bella"
         role: "3D Artist"
         image: assets/img/team/1.jpg
@@ -153,7 +153,7 @@ en: &DEFAULT_EN
         image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
-            icon: fab fa-github
+            icon: fa fa-user-astronaut
           - url: https://instagram.com
             icon: fab fa-instagram
           - url: https://linkedin.com
