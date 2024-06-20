@@ -103,17 +103,17 @@ en: &DEFAULT_EN
         image: assets/img/team/designer-1.jpg
         social:
           - url: https://twitter.com
-            icon: fab fa-newspaper
+            icon: fa-newspaper
           - url: https://facebook.com
-            icon: fab fa-dice-d20
+            icon: fa fa-dice-d20
           - url: https://linkedin.com
-            icon: fab fa-github 
+            icon: fa-github 
       - name: "Forgotten Dawn"
         role: "Composer"
         image: assets/img/team/fd.jpg
         social:
           - url: https://www.youtube.com/@ForgottenDawn
-            icon: fab fa-youtube
+            icon: fab \f77d
           - url: https://play.reelcrafter.com/0fzIJxfjToOpUPzmgm2y6g
             icon: fab fa-file-video
           - url: https://linktr.ee/forgottendawn
@@ -123,9 +123,9 @@ en: &DEFAULT_EN
         image: assets/img/team/2.jpg
         social:
           - url: https://twitter.com
-            icon: fab fa-youtube
+            icon: \f77d
           - url: https://facebook.com
-            icon: fab fa-artstation
+            icon: fa-artstation
           - url: https://linkedin.com
             icon: fab fa-linkedin-in 
       - name: "Fred"
