@@ -93,7 +93,7 @@ en: &DEFAULT_EN
         image: assets/img/team/programmer-1.jpg
         social:
           - url: https://twitter.com
-            icon: fa fa-github
+            icon: fa fa-x-twitter
           - url: https://facebook.com
             icon: fab fa-gitkraken
           - url: https://www.linkedin.com/in/mharris382
@@ -123,17 +123,17 @@ en: &DEFAULT_EN
         image: assets/img/team/2.jpg
         social:
           - url: https://twitter.com
-            icon: fa \f77d
+            icon: fa fa-bluesky
           - url: https://facebook.com
-            icon: fa-artstation
+            icon: fad fa-artstation
           - url: https://linkedin.com
-            icon: fab fa-linkedin-in 
+            icon: fab fa-bluesky
       - name: "Fred"
         role: "Narrative Specialist"
         image: assets/img/team/3.jpg
         social:
           - url: https://twitter.com
-            icon: fab fa-file
+            icon: fa fa-file
           - url: https://instagram.com
             icon: fab fa-instagram
           - url: https://linkedin.com
