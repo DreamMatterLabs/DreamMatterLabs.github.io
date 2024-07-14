@@ -26,7 +26,7 @@ description: "A Game Studio dedicated to creating surreal and impactful experien
 author     : Dream Matter Labs
 logo:     #optional, defaults to site title
    path: assets/img/dreammatterlabs-logo.png
-  # height: 60 #height in px, defaults to 52px
+   height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
