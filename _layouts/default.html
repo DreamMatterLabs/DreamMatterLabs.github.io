@@ -1,18 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}">
 
-<header class="header-section">
-  <div class="header-content">
-    <h1>{{ site.en.header.title }}</h1>
-    <p>{{ site.en.header.text }}</p>
-    <a href="{{ site.en.header.buttonlink }}" class="btn btn-primary">{{ site.en.header.button }}</a>
-  </div>
-  {% if site.en.header.image %}
-    <div class="header-image">
-      <img src="{{ site.baseurl }}/{{ site.en.header.image }}" alt="Header Image">
-    </div>
-  {% endif %}
-</header>
 
 {% include head.html %}
   <body id="page-top">	
