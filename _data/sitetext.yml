@@ -10,6 +10,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
+    image: assets/img/dreammatterlabs-logo.png
     title: We Make Dreams
     text: 
     button: Meet the Team
