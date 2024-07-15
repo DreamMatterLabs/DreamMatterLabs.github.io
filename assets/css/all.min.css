@@ -12,15 +12,16 @@
       position: relative;
     }
     .move-up {
-      margin-top: -300px; /* Move the content up by 300px */
+      margin-top: 300px; /* Move the content up by 300px */
     }
     .center-image {
+      position: absolute;
       display: flex;
       justify-content: center;
       align-items: center;
     }
     .center-image img {
-      max-width: 200px; /* Adjust the max-width to make the image smaller */
+      max-width: 350px; /* Adjust the max-width to make the image smaller */
       height: auto;
     }
 
