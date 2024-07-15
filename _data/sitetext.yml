@@ -11,8 +11,13 @@
 en: &DEFAULT_EN
   header:
     title: 
-    image: <img src="{{ '/assets/img/dreammatterlabs-logo.png' | relative_url }}" alt="A logo image for dreammatterlabs">
-    image: /assets/img/dreammatterlabs-logo.png
+    image: <div class="header-bg">
+    <div class="move-down center-image">
+
+      <img src="/DreamMatterLabs.github.io/assets/img/dreammatterlabs-logo.png" alt="A logo image for dreammatterlabs"> </div>
+
+</div>
+
     text: 
     button: Meet the Team
     buttonlink: "#team"
