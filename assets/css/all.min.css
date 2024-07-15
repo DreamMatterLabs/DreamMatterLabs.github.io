@@ -5,14 +5,15 @@
 
 .header-bg {
       background-color: rgba(240, 240, 240, 0.0); /* Transparent background */
-      height: 300px; /* Adjust the height as needed */
+      height: 30px; /* Adjust the height as needed */
       display: flex;
       justify-content: center;
       align-items: center;
 	  position: absolute;
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%) translateY(-300px); /*
+      transform: translate(-50%, -50%) translateY(-300px);
+	  padding-bottom: 300px;	  /*
     }
     .move-up {
       margin-top: 300px; /* Move the content up by 300px */
@@ -24,7 +25,7 @@
       align-items: center;
     }
     .center-image img {
-      max-width: 350px; /* Adjust the max-width to make the image smaller */
+      max-width: 300px; /* Adjust the max-width to make the image smaller */
       height: auto;
     }
 
