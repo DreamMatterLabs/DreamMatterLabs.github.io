@@ -11,8 +11,7 @@
 en: &DEFAULT_EN
   header:
     title: 
-    image: 
-    text: 
+    text: ‍‍‍‍
     button: Meet the Team
     buttonlink: "#team"
 
