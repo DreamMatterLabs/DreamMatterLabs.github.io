@@ -10,8 +10,8 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: 
-    text: ‍‍‍‍
+    title:
+    text:
     button: Meet the Team
     buttonlink: "#team"
 
