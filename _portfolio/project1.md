@@ -1,17 +1,16 @@
 ---
-title: Dive into Dreams!
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
+title: Explore Dreamscapes!
+subtitle: Unique and Beautiful Worlds
 image: assets/img/portfolio/01-full.jpg
 alt: Shirts on a hanger
 
 caption:
-  title: Dive into Dreams!
-  subtitle: Beautiful Artistry To Explore
+  title: Explore Dreamscapes!
+  subtitle: Unique and Beautiful Worlds
   thumbnail: assets/img/portfolio/01-thumbnail.jpg
 ---
 Embark on an epic journey through the surreal landscapes of the subconscious, solving puzzles and unraveling mysteries!
 
 {:.list-inline}
-- Date: 2024
 - Image: The Forest
-- Category: Curious worlds to explore
+- A world to get lost in.

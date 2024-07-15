@@ -17,7 +17,7 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Dreamwalker: Altered Reveries"
-    text: "Under The Hood With: Pokemon, Skateboarding, Platforms... AND stealth attack."
+    text: "Dive beneath the dream."
     section: portfolio
     closebutton: "Close Project"
   #timeline:
@@ -53,7 +53,7 @@ en: &DEFAULT_EN
   about:
     title: "Embedded Youtube Trailer Here"
     text: "Dream Matter Labs"
-    body: "We welcome diverse backgrounds and point of views to conjure up engaging and surreal interactive worlds. We are making dreams come true!"
+    body: "We welcome diverse backgrounds and point of views to conjure up engaging and surreal worlds. We are making dreams come true!"
     section: about
   clients:
     section: clients
@@ -85,7 +85,7 @@ en: &DEFAULT_EN
           - url: https://ambientartstyles.com/
             icon: fa fa-globe
           - url: https://bsky.app/profile/ambientartstyles.bsky.social
-            icon: fa fa-hand-peace
+            icon: fa fa-newspaper
           - url: https://www.linkedin.com/in/john-s-6b47a565/
             icon: fab fa-linkedin-in
       - name: "Max"
@@ -102,11 +102,9 @@ en: &DEFAULT_EN
         role: "Game Designer"
         image: assets/img/team/designer-1.jpg
         social:
-          - url: https://twitter.com
-            icon: fa fa-newspaper
-          - url: https://facebook.com
+          - url: https://www.nicksceusa.com/
             icon: fa fa-dice-d20
-          - url: https://linkedin.com
+          - url: www.linkedin.com/in/nsceusa
             icon: fab fa-linkedin-in
       - name: "Forgotten Dawn"
         role: "Composer"
@@ -155,7 +153,7 @@ en: &DEFAULT_EN
           - url: https://twitter.com
             icon: fa fa-user-astronaut
           - url: https://instagram.com
-            icon: fab fa-instagram
+            icon: fa fa-hand-peace
           - url: https://linkedin.com
             icon: fab fa-linkedin-in 
   services:
