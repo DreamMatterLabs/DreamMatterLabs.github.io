@@ -26,8 +26,8 @@ email      : DreamMatterLabs@protonmail.com #this is also the email contact form
 description: "A Game Studio dedicated to creating surreal and impactful experiences."
 author     : Dream Matter Labs
 logo:     #optional, defaults to site title
-   path: assets/img/dreamatter-logo-text.jpg
-   height: 60 #height in px, defaults to 52px
+   path: assets/img/dreamatter-logo-text.png
+   height: 52 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
