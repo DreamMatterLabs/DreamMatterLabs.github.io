@@ -13,7 +13,6 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%) translateY(-300px);
-	  padding-bottom: 300px;	  /*
     }
     .move-up {
       margin-top: 300px; /* Move the content up by 300px */
@@ -27,6 +26,7 @@
     .center-image img {
       max-width: 300px; /* Adjust the max-width to make the image smaller */
       height: auto;
+      padding-bottom: 300px;
     }
 
 
