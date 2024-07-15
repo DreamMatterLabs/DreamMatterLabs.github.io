@@ -1,11 +1,11 @@
 ---
-title: Engaging Audio Experiences
-subtitle: The Sound Of Dreams
+title: Immersive Sonification
+subtitle: The Sound Of Dreams, Evolving With You
 image: assets/img/portfolio/04-full.jpg
 alt: 
 
 caption:
-  title: Engaging Audio Experiences
+  title: Immersive Sonification
   subtitle: The Sound Of Dreams
   thumbnail: assets/img/portfolio/04-thumbnail.jpg
 ---
