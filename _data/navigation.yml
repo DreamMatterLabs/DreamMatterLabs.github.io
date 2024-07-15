@@ -13,14 +13,12 @@ en: &DEFAULT_EN
   nav:
     - title: "Dreamwalker"
       section: portfolio
-    - title: "About"
-      section: about
     - title: "Team!"
       section: team
     - title: "Contact"
       section: contact
     - title: "Steam Page - Coming Soon"
-      url: https://dreammatterlabs.github.io/
+      url: https://dreammatterlabs.com/
 en-US:
   <<: *DEFAULT_EN
 en-CA:
