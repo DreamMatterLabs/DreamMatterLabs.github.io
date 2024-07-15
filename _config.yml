@@ -15,10 +15,11 @@
 remote_theme: raviriley/agency-jekyll-theme
 
 
-url    : "https://dreammatterlabs.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url    : "https://dreammatterlabs.com/" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/DreamMatterLabs.github.io" # the subpath of your site, e.g. /blog
 background-image: "/assets/img/backgroundimage.jpg"
-
+include:
+  - "_img"
 
 title      : Dream Matter Labs
 email      : DreamMatterLabs@protonmail.com #this is also the email contact forms will go to
