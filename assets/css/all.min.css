@@ -5,7 +5,7 @@
 
    .header-bg {
       background-color: rgba(240, 240, 240, 0.0); /* Transparent background */
-      height: 300px; /* Adjust the height as needed */
+      height: 220px; /* Adjust the height as needed */
       position: relative; /* Make it a containing block for absolute positioning */
     }
 	
@@ -21,12 +21,12 @@
     }*/
 	 .center-image {
       position: absolute;
-      top: 50%;
+    /*  top: 25%; */
       left: 50%;
       transform: translate(-50%, -50%);
     }
     .center-image img {
-      max-width: 300px; /* Maximum width of the image */
+      max-width: 350px; /* Maximum width of the image */
       height: auto; /* Maintain aspect ratio */
       display: block; /* Ensure image behaves as block element */
     }
