@@ -91,13 +91,13 @@ en: &DEFAULT_EN
       - name: "Max"
         role: "Lead Programmer"
         image: assets/img/team/programmer-1.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-github
-          - url: https://facebook.com
-            icon: fab fa-gitkraken
-          - url: https://www.linkedin.com/in/mharris382
-            icon: fab fa-linkedin-in
+       # social:
+      #    - url: https://twitter.com
+     #       icon: fab fa-github
+    #      - url: https://facebook.com
+   #         icon: fab fa-gitkraken
+  #        - url: https://www.linkedin.com/in/mharris382
+ #           icon: fab fa-linkedin-in
       - name: "Nick"
         role: "Game Designer"
         image: assets/img/team/designer-1.jpg
@@ -107,7 +107,7 @@ en: &DEFAULT_EN
           - url: www.linkedin.com/in/nsceusa
             icon: fab fa-linkedin-in
       - name: "Forgotten Dawn"
-        role: "Composer"
+        role: "Composer & Character Designer"
         image: assets/img/team/fd.jpg
         social:
           - url: https://www.youtube.com/@ForgottenDawn
@@ -119,43 +119,44 @@ en: &DEFAULT_EN
       - name: "Habu!"
         role: "3D Artist"
         image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fa fa-thumbs-up
-          - url: https://facebook.com
-            icon: fab fa-artstation
-          - url: https://linkedin.com
-            icon: fa fa-file-video
+       # social:
+      #    - url: https://twitter.com
+     #       icon: fa fa-thumbs-up
+    #      - url: https://facebook.com
+   #         icon: fab fa-artstation
+  #        - url: https://linkedin.com
+ #           icon: fa fa-file-video
       - name: "Fred"
         role: "Narrative Specialist"
         image: assets/img/team/3.jpg
-        social:
-          - url: https://twitter.com
-            icon: fa fa-file
-          - url: https://instagram.com
-            icon: fa fa-envelope-open-text
-          - url: https://linkedin.com
-            icon: fa fa-paper-plane
+      #  social:
+     #     - url: https://twitter.com
+    #        icon: fa fa-file
+   #       - url: https://instagram.com
+  #          icon: fa fa-envelope-open-text
+ #         - url: https://linkedin.com
+#            icon: fa fa-paper-plane
       - name: "Bella"
         role: "3D Artist"
         image: assets/img/team/1.jpg
         social:
-          - url: https://twitter.com
+          - url: https://www.artstation.com/bellapix
             icon: fab fa-artstation
-          - url: https://instagram.com
-            icon: fab fa-instagram
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in 
+            - url: https://www.linkedin.com/in/isabella-piechota-248197ba/
+            icon: fab fa-linkedin-in
+    #      - url: https://instagram.com
+     #      icon: fab fa-instagram
+           
       - name: "Cody"
         role: "Concept Artist"
         image: assets/img/team/1.jpg
-        social:
-          - url: https://twitter.com
-            icon: fa fa-user-astronaut
-          - url: https://instagram.com
-            icon: fa fa-hand-peace
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in 
+ #       social:
+ #         - url: https://twitter.com
+ #           icon: fa fa-user-astronaut
+ #         - url: https://instagram.com
+ #           icon: fa fa-hand-peace
+ #         - url: https://linkedin.com
+ #           icon: fab fa-linkedin-in 
   services:
     title: "Services"
     text: "Lorem ipsum"
