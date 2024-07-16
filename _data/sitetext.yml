@@ -91,7 +91,7 @@ en: &DEFAULT_EN
       - name: "Max"
         role: "Lead Programmer"
         image: assets/img/team/programmer-1.jpg
-       # social:
+        social:
       #    - url: https://twitter.com
      #       icon: fab fa-github
     #      - url: https://facebook.com
@@ -119,7 +119,7 @@ en: &DEFAULT_EN
       - name: "Habu!"
         role: "3D Artist"
         image: assets/img/team/2.jpg
-       # social:
+        social:
       #    - url: https://twitter.com
      #       icon: fa fa-thumbs-up
     #      - url: https://facebook.com
@@ -129,7 +129,7 @@ en: &DEFAULT_EN
       - name: "Fred"
         role: "Narrative Specialist"
         image: assets/img/team/3.jpg
-      #  social:
+        social:
      #     - url: https://twitter.com
     #        icon: fa fa-file
    #       - url: https://instagram.com
@@ -150,7 +150,7 @@ en: &DEFAULT_EN
       - name: "Cody"
         role: "Concept Artist"
         image: assets/img/team/1.jpg
- #       social:
+        social:
  #         - url: https://twitter.com
  #           icon: fa fa-user-astronaut
  #         - url: https://instagram.com
