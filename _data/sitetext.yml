@@ -107,7 +107,7 @@ en: &DEFAULT_EN
           - url: www.linkedin.com/in/nsceusa
             icon: fab fa-linkedin-in
       - name: "Forgotten Dawn"
-        role: "Composer"
+        role: "Composer & Character Designer"
         image: assets/img/team/fd.jpg
         social:
           - url: https://www.youtube.com/@ForgottenDawn
@@ -140,11 +140,11 @@ en: &DEFAULT_EN
         role: "3D Artist"
         image: assets/img/team/1.jpg
         social:
-          - url: https://twitter.com
+          - url: https://www.artstation.com/bellapix
             icon: fab fa-artstation
-          - url: https://instagram.com
-            icon: fab fa-instagram
-          - url: https://linkedin.com
+          - url: https://twitter.com/Bellapixx
+            icon: fab fa-twitter
+          - url: https://www.linkedin.com/in/isabella-piechota-248197ba/
             icon: fab fa-linkedin-in 
       - name: "Cody"
         role: "Concept Artist"
