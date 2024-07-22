@@ -118,14 +118,10 @@ en: &DEFAULT_EN
             icon: fa fa-tree
       - name: "Habu!"
         role: "3D Artist"
-        image: assets/img/team/2.jpg
+        image: assets/img/team/habu.jpg
         social:
-          - url: https://twitter.com
-            icon: fa fa-thumbs-up
-          - url: https://facebook.com
+          - url: https://www.artstation.com/habukatu
             icon: fab fa-artstation
-          - url: https://linkedin.com
-            icon: fa fa-file-video
       - name: "Fred"
         role: "Narrative Specialist"
         image: assets/img/team/3.jpg
