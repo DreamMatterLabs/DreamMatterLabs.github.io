@@ -156,11 +156,9 @@ en: &DEFAULT_EN
         role: "Level Designer"
         image: assets/img/team/pat.png
         social:
-          - url: https://twitter.com
+          - url: https://www.pat-mccabe.com/
             icon: fa fa-user-astronaut
-          - url: https://instagram.com
-            icon: fa fa-hand-peace
-          - url: https://linkedin.com
+          - url: https://www.linkedin.com/in/patrickmccabeac/
             icon: fab fa-linkedin-in 
   services:
     title: "Services"
