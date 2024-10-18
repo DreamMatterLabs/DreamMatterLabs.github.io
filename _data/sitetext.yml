@@ -80,7 +80,7 @@ en: &DEFAULT_EN
     people:
       - name: "John"
         role: "Project Director & Interactive Sound Designer"
-        image: assets/img/team/2.jpg
+        image: assets/img/team/john.png
         social:
           - url: https://ambientartstyles.com/
             icon: fa fa-globe
@@ -89,8 +89,8 @@ en: &DEFAULT_EN
           - url: https://www.linkedin.com/in/john-s-6b47a565/
             icon: fab fa-linkedin-in
       - name: "Max"
-        role: "Lead Programmer"
-        image: assets/img/team/programmer-1.jpg
+        role: "Lead Programmer, Game Designer"
+        image: assets/img/team/maxB.png
         social:
           - url: https://twitter.com
             icon: fab fa-github
@@ -99,8 +99,8 @@ en: &DEFAULT_EN
           - url: https://www.linkedin.com/in/mharris382
             icon: fab fa-linkedin-in
       - name: "Nick"
-        role: "Game Designer"
-        image: assets/img/team/designer-1.jpg
+        role: "Lead Game Designer"
+        image: assets/img/team/nick.png
         social:
           - url: https://www.nicksceusa.com/
             icon: fa fa-dice-d20
@@ -108,7 +108,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
       - name: "Forgotten Dawn"
         role: "Composer & Character Designer"
-        image: assets/img/team/fd.jpg
+        image: assets/img/team/claudio.png
         social:
           - url: https://www.youtube.com/@ForgottenDawn
             icon: fab fa-youtube
@@ -116,15 +116,15 @@ en: &DEFAULT_EN
             icon: fa fa-headphones
           - url: https://linktr.ee/forgottendawn
             icon: fa fa-tree
-      - name: "Habu!"
+      - name: "Habu"
         role: "3D Artist"
-        image: assets/img/team/habu.jpg
+        image: assets/img/team/habu.png
         social:
           - url: https://www.artstation.com/habukatu
             icon: fab fa-artstation
       - name: "Fred"
         role: "Narrative Specialist"
-        image: assets/img/team/3.jpg
+        image: assets/img/team/fred.png
         social:
           - url: https://twitter.com
             icon: fa fa-file
@@ -134,7 +134,7 @@ en: &DEFAULT_EN
             icon: fa fa-paper-plane
       - name: "Bella"
         role: "3D Artist"
-        image: assets/img/team/1.jpg
+        image: assets/img/team/bella.png
         social:
           - url: https://www.artstation.com/bellapix
             icon: fab fa-artstation
@@ -144,7 +144,17 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in 
       - name: "Cody"
         role: "Concept Artist"
-        image: assets/img/team/1.jpg
+        image: assets/img/team/cody.png
+        social:
+          - url: https://twitter.com
+            icon: fa fa-user-astronaut
+          - url: https://instagram.com
+            icon: fa fa-hand-peace
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in 
+      - name: "Pat"
+        role: "Level Designer"
+        image: assets/img/team/pat.png
         social:
           - url: https://twitter.com
             icon: fa fa-user-astronaut
