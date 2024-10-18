@@ -79,7 +79,7 @@ en: &DEFAULT_EN
     section: team
     people:
       - name: "John"
-        role: "Project Director & Interactive Sound Designer"
+        role: "Project Director & Interactive Audio Designer"
         image: assets/img/team/john.png
         social:
           - url: https://ambientartstyles.com/
@@ -146,11 +146,11 @@ en: &DEFAULT_EN
         role: "Concept Artist"
         image: assets/img/team/cody.png
         social:
-          - url: https://twitter.com
+          - url: https://codyschroeder.myportfolio.com/
             icon: fa fa-user-astronaut
-          - url: https://instagram.com
-            icon: fa fa-hand-peace
-          - url: https://linkedin.com
+          - url: https://www.artstation.com/ahlr
+            icon: fab fa-artstation
+          - url: https://www.linkedin.com/in/codyschroederdesign/
             icon: fab fa-linkedin-in 
       - name: "Pat"
         role: "Level Designer"
