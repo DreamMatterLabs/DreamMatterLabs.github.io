@@ -147,7 +147,7 @@ en: &DEFAULT_EN
         image: assets/img/team/cody.png
         social:
           - url: https://codyschroeder.myportfolio.com/
-            icon: fa fa-user-astronaut
+            icon: fa fa-hand-peace
           - url: https://www.artstation.com/ahlr
             icon: fab fa-artstation
           - url: https://www.linkedin.com/in/codyschroederdesign/
