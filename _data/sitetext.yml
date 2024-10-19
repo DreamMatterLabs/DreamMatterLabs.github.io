@@ -104,7 +104,7 @@ en: &DEFAULT_EN
         social:
           - url: https://www.nicksceusa.com/
             icon: fa fa-dice-d20
-          - url: www.linkedin.com/in/nsceusa
+          - url: https://www.linkedin.com/in/nicholas-sceusa-44089017/
             icon: fab fa-linkedin-in
       - name: "Forgotten Dawn"
         role: "Composer & Character Designer"
