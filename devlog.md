@@ -1,5 +1,5 @@
 ---
 layout: devlog
-title: "Devlog"
-permalink /devlog/
+title: "Devlog & Updates"
+permalink: /devlog/
 ---
