@@ -1,10 +1,17 @@
 ---
 layout: default
+title: "Devlog & Updates"
+permalink: /devlog/
 ---
+
 {% include navheader.html %}
 
+<h1>Devlog & Updates</h1>
 
-
-{% include portfolio_grid.html %}
-{% include team.html %}
-{% include contact.html %}
+{% for post in site.posts %}
+  <article>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p>{{ post.excerpt }}</p>
+    <hr>
+  </article>
+{% endfor %}
