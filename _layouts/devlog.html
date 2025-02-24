@@ -12,7 +12,10 @@ permalink: /devlog/
       <h1>Devlog & Updates</h1>
     </div>
   </div>
-  
+
+  {% include portfolio_grid.html %}  <!-- Added missing section -->
+  {% include team.html %}  <!-- Added missing section -->
+
   <div class="row">
     <div class="col-lg-8 mx-auto">
       {% for post in site.posts %}
