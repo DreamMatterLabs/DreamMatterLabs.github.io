@@ -6,14 +6,24 @@ permalink: /devlog/
 
 {% include navheader.html %}
 
-<h1>Devlog & Updates</h1>
-
-{% for post in site.posts %}
-  <article>
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <p>{{ post.excerpt }}</p>
-    <hr>
-  </article>
-{% endfor %}
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h1>Devlog & Updates</h1>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-lg-8 mx-auto">
+      {% for post in site.posts %}
+        <article>
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <p>{{ post.excerpt }}</p>
+          <hr>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</div>
 
 {% include contact.html %}
