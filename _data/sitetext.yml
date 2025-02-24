@@ -160,6 +160,46 @@ en: &DEFAULT_EN
             icon: fa fa-user-astronaut
           - url: https://www.linkedin.com/in/patrickmccabeac/
             icon: fab fa-linkedin-in 
+      - name: "Steph Generalist"
+        role: "Unreal Programming"
+        image: assets/img/team/pat.png
+        social:
+          - url: https://www.pat-mccabe.com/
+            icon: fa fa-user-astronaut
+          - url: https://www.linkedin.com/in/patrickmccabeac/
+            icon: fab fa-linkedin-in
+      - name: "Steph UI"
+        role: "UI/UX"
+        image: assets/img/team/pat.png
+        social:
+          - url: https://www.pat-mccabe.com/
+            icon: fa fa-user-astronaut
+          - url: https://www.linkedin.com/in/patrickmccabeac/
+            icon: fab fa-linkedin-in 
+      - name: "Gabe"
+        role: "Environmental Artist"
+        image: assets/img/team/pat.png
+        social:
+          - url: https://www.pat-mccabe.com/
+            icon: fa fa-user-astronaut
+          - url: https://www.linkedin.com/in/patrickmccabeac/
+            icon: fab fa-linkedin-in
+      - name: "Ashe"
+        role: "Environmental Artist"
+        image: assets/img/team/pat.png
+        social:
+          - url: https://www.pat-mccabe.com/
+            icon: fa fa-user-astronaut
+          - url: https://www.linkedin.com/in/patrickmccabeac/
+            icon: fab fa-linkedin-in 
+      - name: "Joël"
+        role: "Environmental Artist"
+        image: assets/img/team/pat.png
+        social:
+          - url: https://www.pat-mccabe.com/
+            icon: fa fa-user-astronaut
+          - url: https://www.linkedin.com/in/patrickmccabeac/
+            icon: fab fa-linkedin-in 
   services:
     title: "Services"
     text: "Lorem ipsum"
