@@ -160,17 +160,17 @@ en: &DEFAULT_EN
             icon: fa fa-user-astronaut
           - url: https://www.linkedin.com/in/patrickmccabeac/
             icon: fab fa-linkedin-in 
-      - name: "Steph Generalist"
+      - name: "Steph H."
         role: "Unreal Programming"
-        image: assets/img/team/pat.png
+        image: 2.png
         social:
           - url: https://www.pat-mccabe.com/
             icon: fa fa-user-astronaut
           - url: https://www.linkedin.com/in/patrickmccabeac/
             icon: fab fa-linkedin-in
-      - name: "Steph"
+      - name: "Steph T."
         role: "UI/UX"
-        image: assets/img/team/pat.png
+        image: 1.png
         social:
           - url:https://stephanieterrero.com/
             icon: fa fa-globe
@@ -180,13 +180,13 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in 
       - name: "Gabe"
         role: "Environmental Artist"
-        image: assets/img/team/pat.png
+        image: 1.png
         social:
           - url: https://www.artstation.com/gabekabam
             icon: fab fa-artstation
       - name: "Ashe"
         role: "Environmental Artist"
-        image: assets/img/team/pat.png
+        image: 2.png
         social:
           - url: https://www.twitch.tv/ashe_xo
             icon: fa fa-user-astronaut
@@ -196,7 +196,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in             
       - name: "Joël"
         role: "Environmental Artist"
-        image: assets/img/team/pat.png
+        image: 3.png
         social:
           - url: https://www.pat-mccabe.com/
             icon: fa fa-user-astronaut
