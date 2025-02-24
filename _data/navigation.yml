@@ -14,13 +14,15 @@ en: &DEFAULT_EN
     - title: "Dreamwalker"
       section: portfolio
     - title: "Team!"
-      section: team
+      url: /team/
     - title: "Contact"
       section: contact
     - title: "Press Kit"
       url: https://drive.proton.me/urls/4KF4TVH6BW#biLotE7ERWMo
     - title: "Steam Page - Coming Soon"
       url: https://dreammatterlabs.com/
+     - title: "Devlog & Updates"
+      url: https://dreammatterlabs.com/devlog
 en-US:
   <<: *DEFAULT_EN
 en-CA:
