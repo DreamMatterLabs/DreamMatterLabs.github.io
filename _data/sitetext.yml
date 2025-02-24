@@ -168,30 +168,32 @@ en: &DEFAULT_EN
             icon: fa fa-user-astronaut
           - url: https://www.linkedin.com/in/patrickmccabeac/
             icon: fab fa-linkedin-in
-      - name: "Steph UI"
+      - name: "Steph"
         role: "UI/UX"
         image: assets/img/team/pat.png
         social:
-          - url: https://www.pat-mccabe.com/
+          - url:https://stephanieterrero.com/
+            icon: fa fa-globe
+          - url:https://bsky.app/profile/stephdoesui.bsky.social
             icon: fa fa-user-astronaut
-          - url: https://www.linkedin.com/in/patrickmccabeac/
+          - url: https://www.linkedin.com/in/stephanieterrero/
             icon: fab fa-linkedin-in 
       - name: "Gabe"
         role: "Environmental Artist"
         image: assets/img/team/pat.png
         social:
-          - url: https://www.pat-mccabe.com/
-            icon: fa fa-user-astronaut
-          - url: https://www.linkedin.com/in/patrickmccabeac/
-            icon: fab fa-linkedin-in
+          - url: https://www.artstation.com/gabekabam
+            icon: fab fa-artstation
       - name: "Ashe"
         role: "Environmental Artist"
         image: assets/img/team/pat.png
         social:
-          - url: https://www.pat-mccabe.com/
+          - url: https://www.twitch.tv/ashe_xo
             icon: fa fa-user-astronaut
-          - url: https://www.linkedin.com/in/patrickmccabeac/
-            icon: fab fa-linkedin-in 
+          - url: https://www.tiktok.com/@a.s.h.e_xo
+            icon: fab fa-linkedin-in
+          - url: https://www.youtube.com/@ashe_xo
+            icon: fab fa-linkedin-in             
       - name: "Joël"
         role: "Environmental Artist"
         image: assets/img/team/pat.png
