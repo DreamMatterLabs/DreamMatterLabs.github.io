@@ -15,7 +15,7 @@
 remote_theme: raviriley/agency-jekyll-theme
 
 
-url    : "https://DreamMatterLabs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://DreamMatterLabs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:categories/:year/:month/:day/:title/
 baseurl: "/" # the subpath of your site, e.g. /blog
 background-image: "/assets/img/backgroundimage.jpg"
