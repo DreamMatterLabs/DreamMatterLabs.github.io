@@ -1,19 +1,10 @@
 ---
-layout: devlog
-title: Blog Page
+layout: post
+title: "Devlog & Updates"
+permalink: /devlog/
 ---
-<h1 class="col-header dark-orange">All posts</h1>
+<ul>
 {% for post in site.posts %}
-<div class="post-preview">
- <img class="post-preview__left" src="{{ post.image }}" alt="{{ page.image_alt }}">
- <div class="post-preview__right">
-   <a class="preview-title" href="{{ post.url }}">{{ post.title }}</a>
-   <span>{{ post.date | date: "%b %d, %Y" }}</span>
-   <div class="tag-group">
-     {% for tag in post.tags %}
-       <div class="tag"><span class="tag-text">{{ tag }}</span></div>
-     {% endfor %}
-   </div>
- </div>
-</div>
+ <li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
+</ul>
