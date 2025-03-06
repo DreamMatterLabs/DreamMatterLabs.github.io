@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: devlog
 title: Blog Page
 ---
 <h1 class="col-header dark-orange">All posts</h1>
