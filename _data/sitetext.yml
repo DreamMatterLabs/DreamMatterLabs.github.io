@@ -79,7 +79,7 @@ en: &DEFAULT_EN
     section: team
     people:
       - name: "John"
-        role: "Project Director & Interactive Audio Designer"
+        role: "Studio Director & Interactive Audio Designer"
         image: assets/img/team/john.png
         social:
           - url: https://ambientartstyles.com/
