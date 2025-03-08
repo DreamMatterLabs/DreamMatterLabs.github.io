@@ -1,10 +1,15 @@
 ---
-layout: post
+layout: default
 title: "Devlog & Updates"
 permalink: /devlog/
 ---
+<h1>Latest Posts</h1>
+
 <ul>
-{% for post in site.posts %}
- <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
 </ul>
