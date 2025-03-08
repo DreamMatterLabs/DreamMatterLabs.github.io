@@ -3,6 +3,8 @@ layout: default
 title: "Devlog & Updates"
 permalink: /devlog/
 ---
+{% include navheader.html %}
+
 <h1>Latest Posts</h1>
 
 <ul>
