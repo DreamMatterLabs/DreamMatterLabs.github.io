@@ -13,7 +13,7 @@ en: &DEFAULT_EN
     title:
     text:
     button: Meet the Team
-    buttonlink: "https://dreammatterlabs.com/#team"
+    buttonlink: "https://dreammatterlabs.com/team/"
 
   portfolio:
     title: "Dreamwalker: Altered Reveries"
