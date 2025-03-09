@@ -9,6 +9,9 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  background-color: #f5f5f5; /* Light gray */
+  border-radius: 8px; /* Optional: adds a rounded border */
+  padding: 30px; /* Ensures spacing looks good */
 }
 
 .post-list {
