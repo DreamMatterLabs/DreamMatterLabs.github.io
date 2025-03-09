@@ -2,10 +2,10 @@
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}">
 {% include head.html %}
 {% include navheader.html %}
-  <body id="page-top">	
-      {{ content }}
+ <body id="page-top" class="{% if page.body_class %}{{ page.body_class }}{% endif %}">	
+  {{ content }}
+  {% include footer.html %}
 
-	  {% include footer.html %}
 
 <!--<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}"> 
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
@@ -14,7 +14,6 @@
 
 <!--add body class to layouts-->
 
-<body id="page-top" class="{% if page.body_class %}{{ page.body_class }}{% endif %}"> 
 
 	  <!-- Bootstrap core JavaScript -->
 	  <script src="/assets/js/jquery.min.js"></script>
@@ -32,7 +31,7 @@
 	   <script src="/assets/js/agency.min.js"></script> 
 
 
-  </body>
+</body>
 </html>
 <!--
 	  <script src="{{ '/assets/js/agency.min.js' | relative_url }}"></script>
