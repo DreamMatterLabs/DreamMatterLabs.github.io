@@ -2,6 +2,7 @@
 layout: default
 title: "Devlog & Updates"
 permalink: /devlog/
+body_class: blog-page
 ---
 
 <section class="devlog-container">
