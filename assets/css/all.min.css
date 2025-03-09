@@ -5,7 +5,7 @@
 
 /* START DEVLOG FORMATTING */
 body.blog-page {
-  background-color: #2b2b2b; /* Dark gray background for blog */
+  background-color: #2b2b2b !important; /* Dark gray */
 }
 
 body.blog-page .devlog-container {
@@ -14,6 +14,10 @@ body.blog-page .devlog-container {
   padding: 30px;
 }
 
+body[data-page="/devlog/"], 
+body[data-page^="/blog/"] { 
+  background-color: #2b2b2b !important; 
+}
 
 .post-list {
   list-style: none;
