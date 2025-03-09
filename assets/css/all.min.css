@@ -9,14 +9,11 @@ body.blog-page {
 }
 
 body.blog-page .devlog-container {
-  background-color: #f5f5f5; /* Light gray content box */
+  background-color: transparent !important;
   border-radius: 8px;
   padding: 30px;
 }
 
-body[data-page="/devlog/"], 
-body[data-page^="/blog/"] { 
-  background-color: #2b2b2b !important; 
 }
 
 .post-list {
