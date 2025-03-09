@@ -3,6 +3,39 @@
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 
+/* START DEVLOG FORMATTING */
+
+.devlog-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-preview {
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.post-preview h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.post-preview p {
+  color: #666;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+
+/* END DEVLOG FORMATTING */
+
+
    .header-bg {
       background-color: rgba(240, 240, 240, 0.0); /* Transparent background */
       height: 200px; /* Adjust the height as needed */

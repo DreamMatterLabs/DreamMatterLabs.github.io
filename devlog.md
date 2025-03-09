@@ -4,13 +4,15 @@ title: "Devlog & Updates"
 permalink: /devlog/
 ---
 
-<h1>Latest Updates</h1>
+<section class="devlog-container">
+  <h1>Latest Updates</h1>
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
+  <div class="post-list">
+    {% for post in site.posts %}
+      <article class="post-preview">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p>{{ post.excerpt }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
