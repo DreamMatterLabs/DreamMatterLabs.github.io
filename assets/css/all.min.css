@@ -78,7 +78,7 @@ body.blog-page .devlog-container {
 
 @font-face {
     font-family: "CustomIcons";
-    src: url("/assets/css/webfonts/bskyicon.woff2") format("woff2");
+    src: url("/assets/css/webfonts/bskyicon.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
