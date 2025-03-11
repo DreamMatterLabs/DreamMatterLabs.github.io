@@ -189,11 +189,11 @@ en: &DEFAULT_EN
         image: assets/img/team/2.png
         social:
           - url: https://www.twitch.tv/ashe_xo
-            icon: fa fa-user-astronaut
+            icon: fa fa-tiktok
           - url: https://www.tiktok.com/@a.s.h.e_xo
-            icon: fab fa-linkedin-in
+            icon: fab fa-bluesky
           - url: https://www.youtube.com/@ashe_xo
-            icon: fab fa-linkedin-in             
+            icon: fa-bluesky            
       - name: "Joël"
         role: "Environmental Artist"
         image: assets/img/team/3.png
@@ -201,7 +201,7 @@ en: &DEFAULT_EN
           - url: https://www.pat-mccabe.com/
             icon: fa fa-user-astronaut
           - url: https://www.linkedin.com/in/patrickmccabeac/
-            icon: fab fa-linkedin-in 
+            icon: fa-brands-400
   services:
     title: "Services"
     text: "Lorem ipsum"
