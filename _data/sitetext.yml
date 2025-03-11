@@ -153,7 +153,7 @@ en: &DEFAULT_EN
           - url: https://www.linkedin.com/in/codyschroederdesign/
             icon: fab fa-linkedin-in 
       - name: "Pat"
-        role: "Level Designer"
+        role: "Level Designer (level 1)"
         image: assets/img/team/pat.png
         social:
           - url: https://www.pat-mccabe.com/
@@ -189,9 +189,9 @@ en: &DEFAULT_EN
         image: assets/img/team/2.png
         social:
           - url: https://www.twitch.tv/ashe_xo
-            icon: fa fa-tiktok
+            icon: fa-brands fa-twitch
           - url: https://www.tiktok.com/@a.s.h.e_xo
-            icon: fa fa-bskyicon
+            icon: fa fa-tiktok
           - url: https://www.youtube.com/@ashe_xo
             icon: fab fa-youtube     
       - name: "Joël"
