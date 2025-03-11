@@ -76,16 +76,20 @@ body.blog-page .devlog-container {
     font-family: "Font Awesome 6 Brands"; /* Ensure correct font */
 }
 
-/* Bluesky Icon */
-.fa-bluesky:before {
-    content: "\e901"; /* Assign unique Unicode */
+@font-face {
     font-family: "CustomIcons";
+    src: url("/assets/css/webfonts/bskyicon.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
 }
 
-.fa-bluesky2:before {
-      content: "\e474";
-      font-family: "Font Awesome 6 Brands";
-  }
+/* Define the icon class */
+.fa-bskyicon:before {
+    content: "\e901"; /* Unicode assigned in IcoMoon */
+    font-family: "CustomIcons"; /* The custom font */
+    display: inline-block;
+    font-size: 1em;
+}
   
 .fa-twitter:before {
     content: "\f099";

@@ -191,9 +191,9 @@ en: &DEFAULT_EN
           - url: https://www.twitch.tv/ashe_xo
             icon: fa fa-tiktok
           - url: https://www.tiktok.com/@a.s.h.e_xo
-            icon: fa fa-bluesky
+            icon: fa fa-bskyicon
           - url: https://www.youtube.com/@ashe_xo
-            icon: fa fa-bluesky2     
+            icon: fa fa-bskyicon     
       - name: "Joël"
         role: "Environmental Artist"
         image: assets/img/team/3.png
