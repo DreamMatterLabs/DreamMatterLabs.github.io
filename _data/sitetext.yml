@@ -121,7 +121,7 @@ en: &DEFAULT_EN
         image: assets/img/team/fred.png
         social:
           - url: https://twitter.com
-            icon: fa fa-file
+            icon: fa fa-twitter
           - url: https://instagram.com
             icon: fa fa-envelope-open-text
           - url: https://linkedin.com
@@ -193,7 +193,7 @@ en: &DEFAULT_EN
           - url: https://www.tiktok.com/@a.s.h.e_xo
             icon: fa fa-bskyicon
           - url: https://www.youtube.com/@ashe_xo
-            icon: fa fa-bskyicon     
+            icon: fab fa-youtube     
       - name: "Joël"
         role: "Environmental Artist"
         image: assets/img/team/3.png
@@ -201,7 +201,7 @@ en: &DEFAULT_EN
           - url: https://www.pat-mccabe.com/
             icon: fa fa-user-astronaut
           - url: https://www.linkedin.com/in/patrickmccabeac/
-            icon: fa-brands-400
+            icon: fab fa-linkedin-in 
   services:
     title: "Services"
     text: "Lorem ipsum"
