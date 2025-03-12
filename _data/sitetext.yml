@@ -121,7 +121,7 @@ en: &DEFAULT_EN
         image: assets/img/team/fred.png
         social:
           - url: https://twitter.com
-            icon: fa fa-twitter
+            icon: icon-x-twitter
           - url: https://instagram.com
             icon: fa fa-envelope-open-text
           - url: https://linkedin.com
@@ -135,7 +135,7 @@ en: &DEFAULT_EN
           - url: https://twitter.com/Bellapixx
             icon: fab fa-twitter
           - url: https://www.linkedin.com/in/isabella-piechota-248197ba/
-            icon: fab fa-linkedin-in 
+            icon: icon-icon-bsky2 
       - name: "Habu"
         role: "3D Artist"
         image: assets/img/team/habu.png
@@ -175,7 +175,7 @@ en: &DEFAULT_EN
           - url: https://stephanieterrero.com/
             icon: fa fa-globe
           - url: https://bsky.app/profile/stephdoesui.bsky.social
-            icon: fa fa-user-astronaut
+            icon: fa fa-bsky
           - url: https://www.linkedin.com/in/stephanieterrero/
             icon: fab fa-linkedin-in 
       - name: "Gabe"

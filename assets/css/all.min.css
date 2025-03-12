@@ -85,10 +85,15 @@ body.blog-page .devlog-container {
 
 /* Define the icon class */
 .fa-bskyicon:before {
-    content: "\e901"; /* Unicode assigned in IcoMoon */
+    content: "\e900"; /* Unicode assigned in IcoMoon */
     font-family: "CustomIcons"; /* The custom font */
     display: inline-block;
     font-size: 1em;
+}
+
+.icon-icon-bsky2:before {
+  content: "\e900";
+  color: #1185fe;
 }
   
 .fa-twitter:before {
