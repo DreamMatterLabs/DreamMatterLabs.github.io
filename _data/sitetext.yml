@@ -10,7 +10,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title:
+    title: "ONEiRA"
     text:
     button: Meet the Team
     buttonlink: "https://dreammatterlabs.com/team/"
