@@ -42,10 +42,12 @@ body.blog-page .devlog-container {
 
 /* Start Socials Banner FORMATTING */
 .social-icons {
-  margin: 0 !important;
-  padding: 0 !important;
   display: flex;
+  gap: 15px; /* Adjust space between icons */
   align-items: center;
+  justify-content: center; /* Centers icons within their container */
+  margin-left: 0 !important; /* Remove auto margin */
+  transform: scale(2);
 }
 
 /* End Socials Banner FORMATTING */
