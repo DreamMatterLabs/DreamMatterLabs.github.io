@@ -85,7 +85,7 @@ en: &DEFAULT_EN
           - url: https://ambientartstyles.com/
             icon: fa fa-globe
           - url: https://bsky.app/profile/ambientartstyles.bsky.social
-            icon: fa fa-newspaper
+            icon: fa fa-bskyicon
           - url: https://www.linkedin.com/in/john-s-6b47a565/
             icon: fab fa-linkedin-in
       - name: "Max"
@@ -175,7 +175,7 @@ en: &DEFAULT_EN
           - url: https://stephanieterrero.com/
             icon: fa fa-globe
           - url: https://bsky.app/profile/stephdoesui.bsky.social
-            icon: icon-icon-bsky2
+            icon: fa fa-bskyicon
           - url: https://www.linkedin.com/in/stephanieterrero/
             icon: fab fa-linkedin-in 
       - name: "Gabe"
