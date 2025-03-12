@@ -153,7 +153,7 @@ en: &DEFAULT_EN
           - url: https://www.linkedin.com/in/codyschroederdesign/
             icon: fab fa-linkedin-in 
       - name: "Pat"
-        role: "Level Designer (level 1)"
+        role: "Level Designer, level 1"
         image: assets/img/team/pat.png
         social:
           - url: https://www.pat-mccabe.com/
