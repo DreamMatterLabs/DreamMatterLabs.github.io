@@ -76,6 +76,17 @@ body.blog-page .devlog-container {
     font-family: "Font Awesome 6 Brands"; /* Ensure correct font */
 }
 
+@font-face {
+    font-family: "CustomIcons";
+    src: url("/assets/css/webfonts/icon-bsky2.woff") format("woff"),
+         url("/assets/css/webfonts/icon-bsky2.eot") format("embedded-opentype"),
+         url("/assets/css/webfonts/icon-bsky2.ttf") format("truetype"),
+         url("/assets/css/webfonts/icon-bsky2.svg#CustomIcons") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 
 
 /* Define the icon class */
