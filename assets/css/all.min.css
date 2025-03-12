@@ -46,7 +46,6 @@ body.blog-page .devlog-container {
   gap: 15px; /* Space between icons */
   align-items: center;
   margin-left: 20px; /* Adds spacing between navbar text and icons */
-  transform: scale(4);
 }
 .social-icons a i {
   font-size: 28px; /* Make icons larger */
