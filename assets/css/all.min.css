@@ -41,15 +41,15 @@ body.blog-page .devlog-container {
 /* END DEVLOG FORMATTING */
 
 /* Start Socials Banner FORMATTING */
-social-icons {
+.social-icons {
   display: flex;
   gap: 15px; /* Space between icons */
   align-items: center;
-  margin-left: auto; /* Push icons to the right without overlapping */
-  padding-left: 20px; /* Optional: Add spacing between nav text and icons */
-  font-size: 32px !important; /* Doubles the default 16px size */
+  margin-left: 20px; /* Adds spacing between navbar text and icons */
 }
-
+.social-icons a i {
+  font-size: 28px; /* Make icons larger */
+}
 #navbarResponsive {
   display: flex;
   align-items: center;
