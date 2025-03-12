@@ -20,36 +20,48 @@ en: &DEFAULT_EN
     text: "Dive beneath the dream."
     section: portfolio
     closebutton: "Close Project"
-  timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
-    section: timeline
-     left is the default
-    start_align: "left"
-    events:
-      - title: "JAM TIME!"
-        year: "Fall 2023"
-        desc: "ONEiRA is conceptualized as "Dreamwalker ~ Altered Reveries" and developed during LSDJAM 2023, a game jam celebrating surreal dream-inspired experiences and LSD: Dream Emulator. The team experiments with early mechanics, dreamlike aesthetics, and abstract storytelling."
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "POWER UP"
-        year: "2024"
-        desc: "Development on Dreamwalker continues, refining narrative elements, gameplay systems, and art direction. The project grows beyond its game jam roots, with an expanded team and a clearer vision for the final experience."
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "ORGANIZED"
-        year: "20252504"
-        desc: "ONEiRA enters its final development phase, polishing its dream realms, deepening narrative threads, and preparing for a wider release. Stay tuned for more updates on its journey from jam concept to full-on interactive experience."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "COMMUNITY"
-        year: "Spring 2026"
-        desc: "In our Discord community, we will be releasing release demos and short trials ahead of our official release!"
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
- #       align: right
-    end: "Dreams <br> Are <br> Waiting."
+timeline:
+  title: "Timeline"
+  text: "Lorem ipsum timeline"
+  section: timeline
+  # Left is the default alignment
+  start_align: "left"
+  events:
+    - title: "JAM TIME!"
+      year: "Fall 2023"
+      desc: >
+        ONEiRA is conceptualized as "Dreamwalker ~ Altered Reveries" and developed during LSDJAM 2023, 
+        a game jam celebrating surreal dream-inspired experiences and LSD: Dream Emulator. 
+        The team experiments with early mechanics, dreamlike aesthetics, and abstract storytelling.
+      image: assets/img/timeline/1.jpg
+      alt: ""
+      
+    - title: "POWER UP"
+      year: "2024"
+      desc: >
+        Development on Dreamwalker continues, refining narrative elements, gameplay systems, and art direction. 
+        The project grows beyond its game jam roots, with an expanded team and a clearer vision for the final experience.
+      image: assets/img/timeline/2.jpg
+      alt: ""
+
+    - title: "ORGANIZED"
+      year: "2025"
+      desc: >
+        ONEiRA enters its final development phase, polishing its dream realms, deepening narrative threads, 
+        and preparing for a wider release. Stay tuned for more updates on its journey from jam concept to full-on interactive experience.
+      image: assets/img/timeline/3.jpg
+      alt: "image alt text"
+
+    - title: "COMMUNITY"
+      year: "Spring 2026"
+      desc: >
+        In our Discord community, we will be releasing demos and short trials ahead of our official release!
+      image: assets/img/timeline/4.jpg
+      alt: ""
+      # You can enforce the alignment manually
+      # align: right
+
+  end: "Dreams <br> Are <br> Waiting."
   about:
     title: "Embedded Youtube Trailer Here"
     text: "Dream Matter Labs"
