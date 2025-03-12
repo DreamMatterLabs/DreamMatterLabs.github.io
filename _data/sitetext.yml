@@ -99,7 +99,7 @@ en: &DEFAULT_EN
           - url: https://www.linkedin.com/in/mharris382
             icon: fab fa-linkedin-in
       - name: "Nick"
-        role: "Lead Game Designer"
+        role: "Game Designer"
         image: assets/img/team/nick.png
         social:
           - url: https://www.nicksceusa.com/
