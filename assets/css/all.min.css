@@ -78,10 +78,26 @@ body.blog-page .devlog-container {
 
 @font-face {
     font-family: "CustomIcons";
-    src: url("https://dreammatterlabs.github.io/assets/css/webfonts/bskyicon.woff") format("woff");
+    src: url("/assets/css/webfonts/icon-bsky2.woff") format("woff"),
+         url("/assets/css/webfonts/icon-bsky2.eot") format("embedded-opentype"),
+         url("/assets/css/webfonts/icon-bsky2.ttf") format("truetype"),
+         url("/assets/css/webfonts/icon-bsky2.svg#CustomIcons") format("svg");
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('https://i.icomoon.io/public/temp/61393e090a/UntitledProject/icomoon.eot?jf57bg');
+  src:  url('https://i.icomoon.io/public/temp/61393e090a/UntitledProject/icomoon.eot?jf57bg#iefix') format('embedded-opentype'),
+    url('https://i.icomoon.io/public/temp/61393e090a/UntitledProject/icomoon.ttf?jf57bg') format('truetype'),
+    url('https://i.icomoon.io/public/temp/61393e090a/UntitledProject/icomoon.woff?jf57bg') format('woff'),
+    url('https://i.icomoon.io/public/temp/61393e090a/UntitledProject/icomoon.svg?jf57bg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
 
 /* Define the icon class */
 .fa-bskyicon:before {

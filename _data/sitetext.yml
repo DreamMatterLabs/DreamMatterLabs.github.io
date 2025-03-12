@@ -175,7 +175,7 @@ en: &DEFAULT_EN
           - url: https://stephanieterrero.com/
             icon: fa fa-globe
           - url: https://bsky.app/profile/stephdoesui.bsky.social
-            icon: fa fa-bsky
+            icon: icon-icon-bsky2
           - url: https://www.linkedin.com/in/stephanieterrero/
             icon: fab fa-linkedin-in 
       - name: "Gabe"
