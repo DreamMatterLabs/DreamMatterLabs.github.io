@@ -22,7 +22,7 @@ en: &DEFAULT_EN
     closebutton: "Close Project"
   timeline:
     title: "Timeline"
-    text: "Lorem ipsum timeline"
+    text: "From GameJam to Steam, this is a story of a collective dream."
     section: timeline
      left is the default
     start_align: "left"
