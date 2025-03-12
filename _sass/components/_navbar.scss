@@ -13,6 +13,8 @@
   }
   .navbar-brand {
     color: $primary;
+	 padding-left: 15px !important; /* Adjust if needed */
+	 min-height: 52px;
     @include script-font;
     &.active,
     &:active,
