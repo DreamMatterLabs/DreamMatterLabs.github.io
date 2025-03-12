@@ -13,7 +13,7 @@
   }
   .navbar-brand {
     color: $primary;
-	 padding-left: 50px !important; /* Adjust if needed */
+	 padding-left: 200px !important; /* Adjust if needed */
     @include script-font;
     &.active,
     &:active,
@@ -50,7 +50,7 @@
     background-color: transparent;
     .navbar-brand {
       min-height: 52px;
-	/*  font-size: 1.75em; */
+	  font-size: 1.75em; 
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s;

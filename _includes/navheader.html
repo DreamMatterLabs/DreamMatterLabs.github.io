@@ -3,7 +3,7 @@
     <div class="container">
 	  <a class="navbar-brand js-scroll-trigger" href="#page-top">
           {%- if site.logo -%}
-            <img height="{{ site.logo.height | default: 52 }}" src="{{ "/assets/img/dreammatterlabs-logo.png" }}"/>
+            <img height="{{ site.logo.height | default: 80 }}" src="{{ "/assets/img/dreammatterlabs-logo.png" }}"/>
           {%- else -%}
             {{ site.title }}
           {%- endif -%}
@@ -51,13 +51,13 @@
     <div class="container">
       <div class="intro-text">
 	  
-<!-- 
+
 <div class="header-bg">
     <div class="move-down center-image">
-      <img src="/DreamMatterLabs.github.io/assets/img/dreammatterlabs-logo.png" alt="A logo image for dreammatterlabs"> 
+  <!--     <img src="/DreamMatterLabs.github.io/assets/img/dreammatterlabs-logo.png" alt="A logo image for dreammatterlabs"> -->
 	  </div>
 </div>
--->
+
 
 	  {%- if site.data.sitetext[site.locale].header.title -%}
         <div class="intro-lead-in">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
