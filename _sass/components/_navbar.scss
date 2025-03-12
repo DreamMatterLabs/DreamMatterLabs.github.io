@@ -13,7 +13,7 @@
   }
   .navbar-brand {
     color: $primary;
-	 padding-left: 200px !important; /* Adjust if needed */
+	 padding-left: 100px !important; /* Adjust if needed */
     @include script-font;
     &.active,
     &:active,
@@ -42,7 +42,7 @@
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 10px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
