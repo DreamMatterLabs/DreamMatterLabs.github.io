@@ -60,7 +60,7 @@ body.blog-page .devlog-container {
 /* End Socials Banner FORMATTING */
    .header-bg {
       background-color: rgba(240, 240, 240, 0.0); /* Transparent background */
-      height: 200px; /* Adjust the height as needed */
+      height: 50px; /* Adjust the height as needed */
       position: relative; /* Make it a containing block for absolute positioning */
     }
 	
