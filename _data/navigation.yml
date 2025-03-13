@@ -11,17 +11,15 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Dreamwalker"
+    - title: "ONEiRA"
       url: https://dreammatterlabs.com/
-    - title: "Team!"
+    - title: "About Us"
       url: /team/
-    - title: "Contact"
-      section: contact
     - title: "Press Kit"
       url: https://drive.proton.me/urls/4KF4TVH6BW#biLotE7ERWMo
     - title: "Steam Page - Soon"
       url: https://dreammatterlabs.com/
-    - title: "Devlog & Updates"
+    - title: "Blog"
       url: /devlog/
 en-US:
   <<: *DEFAULT_EN
