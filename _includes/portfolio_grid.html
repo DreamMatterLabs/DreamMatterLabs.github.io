@@ -54,3 +54,12 @@
         <div class="col-md-6 text-md-left">
           <h2 class="section-heading text-uppercase text-info font-weight-bold mb-3">{{ project.title }}</h2>
           <p class="text-light lead">{{ project.subtitle }}</p>
+        </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+    
+  </div>
+</section>
+{% endif %}
+{% include modals.html %}
