@@ -51,6 +51,8 @@ body.blog-page .devlog-container {
 
 .portfolio-hover {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
@@ -58,16 +60,16 @@ body.blog-page .devlog-container {
   justify-content: center;
   align-items: center;
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease; /* Ensure smooth fade-in effect */
+}
+
+.portfolio-item {
+  position: relative; /* This ensures the hover overlay is positioned correctly */
+  overflow: hidden; /* Prevents any shifting */
 }
 
 .portfolio-item:hover .portfolio-hover {
   opacity: 1;
-}
-
-.portfolio-hover-content i {
-  color: white;
-  font-size: 3rem;
 }
 
 .portfolio-media {
