@@ -10,66 +10,34 @@
     </div>
 
     <!-- Portfolio Rows -->
+    {% for project in site.portfolio %}
     <div class="row align-items-center mb-5">
-      <div class="col-md-6">
-        <div class="portfolio-item">
-          <img class="img-fluid" src="{{ site.baseurl }}/assets/img/portfolio/project1.jpg" alt="Project 1">
+      {% if forloop.index | modulo: 2 == 1 %}
+        <!-- Image Left, Text Right -->
+        <div class="col-md-6">
+          <div class="portfolio-item">
+            <img class="img-fluid" src="{{ project.image }}" alt="{{ project.alt }}">
+          </div>
         </div>
-      </div>
-      <div class="col-md-6 text-md-left">
-        <h2 class="section-heading text-uppercase text-primary">Explore Surreal, Immersive Dreamscapes</h2>
-        <p class="text-muted">
-          In a world where dreams are sold as entertainment, it's your job to ensure that each experience is market-ready.
-          Step into surreal dreamscapes and immerse yourself in serene yet fractured landscapes, where every dream holds a
-          story waiting to be unraveled.
-        </p>
-      </div>
-    </div>
-
-    <div class="row align-items-center mb-5">
-      <div class="col-md-6 text-md-left">
-        <h2 class="section-heading text-uppercase text-primary">Uncover Secrets Buried in the Subconscious</h2>
-        <p class="text-muted">
-          Some memories don’t fade—they hide. As you navigate the minds behind the dreams, cryptic messages and lingering
-          voices pull you deeper into a psychological mystery where the truth is waiting to be untangled. Sharpen your
-          senses and dive into an unforgettable story.
-        </p>
-      </div>
-      <div class="col-md-6">
-        <div class="portfolio-item">
-          <img class="img-fluid" src="{{ site.baseurl }}/assets/img/portfolio/project2.jpg" alt="Project 2">
+        <div class="col-md-6 text-md-left">
+          <h2 class="section-heading text-uppercase text-primary">{{ project.title }}</h2>
+          <p class="text-muted">{{ project.subtitle }}</p>
         </div>
-      </div>
-    </div>
-
-    <div class="row align-items-center mb-5">
-      <div class="col-md-6">
-        <div class="portfolio-item">
-          <img class="img-fluid" src="{{ site.baseurl }}/assets/img/portfolio/project3.jpg" alt="Project 3">
+      {% else %}
+        <!-- Text Left, Image Right -->
+        <div class="col-md-6 text-md-left">
+          <h2 class="section-heading text-uppercase text-primary">{{ project.title }}</h2>
+          <p class="text-muted">{{ project.subtitle }}</p>
         </div>
-      </div>
-      <div class="col-md-6 text-md-left">
-        <h2 class="section-heading text-uppercase text-primary">Shape the Story with Every Decision</h2>
-        <p class="text-muted">
-          Tread carefully, as every decision shapes the story and the dreamscape around you. Listen closely to the characters you encounter on your journey, as some may know more than they let on. Will you uncover the hidden truths or let them slip away?
-        </p>
-      </div>
-    </div>
-
-    <div class="row align-items-center">
-      <div class="col-md-6 text-md-left">
-        <h2 class="section-heading text-uppercase text-primary">A Mix of Puzzles, Platforming, & Exploration</h2>
-        <p class="text-muted">
-          ONEiRA is a narrative-driven puzzle-platformer that blends immersive storytelling with intricate mechanics. Collect unique abilities that help you solve puzzles, traverse obstacles, and explore the ever-shifting dreamscapes. Get ready to suit up and wishlist ONEiRA on Steam today!
-        </p>
-      </div>
-      <div class="col-md-6">
-        <div class="portfolio-item">
-          <img class="img-fluid" src="{{ site.baseurl }}/assets/img/portfolio/project4.jpg" alt="Project 4">
+        <div class="col-md-6">
+          <div class="portfolio-item">
+            <img class="img-fluid" src="{{ project.image }}" alt="{{ project.alt }}">
+          </div>
         </div>
-      </div>
+      {% endif %}
     </div>
-
+    {% endfor %}
+    
   </div>
 </section>
 {% endif %}

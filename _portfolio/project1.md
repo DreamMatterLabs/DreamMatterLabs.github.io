@@ -1,9 +1,8 @@
 ---
-title: Explore Dreamscapes!
-subtitle: Unique and Beautiful Worlds
-image: assets/img/portfolio/01-full.jpg
-alt: Shirts on a hanger
-
+title: Uncover Secrets!
+subtitle: A Journey Beyond Reality
+image: assets/img/portfolio/02-full.jpg
+alt: A hidden portal
 caption:
   title: Explore Dreamscapes!
   subtitle: Unique and Beautiful Worlds
