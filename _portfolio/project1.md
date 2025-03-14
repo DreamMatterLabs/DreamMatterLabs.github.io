@@ -1,8 +1,9 @@
 ---
-title: Uncover Secrets!
-subtitle: A Journey Beyond Reality
-image: assets/img/portfolio/02-full.jpg
-alt: A hidden portal
+title: "Uncover Secrets Buried in the Subconscious"
+subtitle: "Some memories don’t fade—they hide..."
+image: "/assets/img/portfolio/project2.jpg"
+alt: "Mysterious image"
+
 caption:
   title: Explore Dreamscapes!
   subtitle: Unique and Beautiful Worlds
