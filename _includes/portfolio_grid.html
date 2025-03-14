@@ -8,24 +8,55 @@
         <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].portfolio.text | markdownify }}</h3>
       </div>
     </div>
-    <div class="row">
-	{% for project in site.portfolio %}
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
+
+    <!-- First Section (Image Left, Text Right) -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-6">
+        <div class="portfolio-item">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
-              <i class="{{ site.data.style.portfolio-icon | default: "fas fa-plus fa-3x" }}"></i>
+              <i class="fas fa-play fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
-        </a>
-        <div class="portfolio-caption">
-          <h4>{{ project.caption.title }}</h4>
-          <p class="text-muted">{{ project.caption.subtitle }}</p>
+          <div class="portfolio-media">
+            <p><i>trailer</i></p>
+          </div>
         </div>
       </div>
-	{% endfor %}
+      <div class="col-md-6 text-md-left">
+        <h2 class="section-heading text-uppercase text-primary">Explore Surreal, Immersive Dreamscapes</h2>
+        <p class="text-muted">
+          In a world where dreams are sold as entertainment, it's your job to ensure that each experience is market-ready.
+          Step into surreal dreamscapes and immerse yourself in serene yet fractured landscapes, where every dream holds a
+          story waiting to be unraveled.
+        </p>
+      </div>
     </div>
+
+    <!-- Second Section (Text Left, Image Right) -->
+    <div class="row align-items-center">
+      <div class="col-md-6 text-md-left">
+        <h2 class="section-heading text-uppercase text-primary">Uncover Secrets Buried in the Subconscious</h2>
+        <p class="text-muted">
+          Some memories don’t fade—they hide. As you navigate the minds behind the dreams, cryptic messages and lingering
+          voices pull you deeper into a psychological mystery where the truth is waiting to be untangled. Sharpen your
+          senses and dive into an unforgettable story.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <div class="portfolio-item">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-image fa-3x"></i>
+            </div>
+          </div>
+          <div class="portfolio-media">
+            <p><i>image</i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 {% else %}
@@ -37,24 +68,55 @@
         <h3 class="section-subheading text-muted">{{ site.data.sitetext.portfolio.text | markdownify }}</h3>
       </div>
     </div>
-    <div class="row">
-	{% for project in site.portfolio %}
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
+
+    <!-- First Section (Image Left, Text Right) -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-6">
+        <div class="portfolio-item">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
-              <i class="{{ site.data.style.portfolio-icon | default: "fas fa-plus fa-3x" }}"></i>
+              <i class="fas fa-play fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
-        </a>
-        <div class="portfolio-caption">
-          <h4>{{ project.caption.title }}</h4>
-          <p class="text-muted">{{ project.caption.subtitle }}</p>
+          <div class="portfolio-media">
+            <p><i>trailer</i></p>
+          </div>
         </div>
       </div>
-	{% endfor %}
+      <div class="col-md-6 text-md-left">
+        <h2 class="section-heading text-uppercase text-primary">Explore Surreal, Immersive Dreamscapes</h2>
+        <p class="text-muted">
+          In a world where dreams are sold as entertainment, it's your job to ensure that each experience is market-ready.
+          Step into surreal dreamscapes and immerse yourself in serene yet fractured landscapes, where every dream holds a
+          story waiting to be unraveled.
+        </p>
+      </div>
     </div>
+
+    <!-- Second Section (Text Left, Image Right) -->
+    <div class="row align-items-center">
+      <div class="col-md-6 text-md-left">
+        <h2 class="section-heading text-uppercase text-primary">Uncover Secrets Buried in the Subconscious</h2>
+        <p class="text-muted">
+          Some memories don’t fade—they hide. As you navigate the minds behind the dreams, cryptic messages and lingering
+          voices pull you deeper into a psychological mystery where the truth is waiting to be untangled. Sharpen your
+          senses and dive into an unforgettable story.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <div class="portfolio-item">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-image fa-3x"></i>
+            </div>
+          </div>
+          <div class="portfolio-media">
+            <p><i>image</i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 {% endif %}

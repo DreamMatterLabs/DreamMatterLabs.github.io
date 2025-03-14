@@ -37,6 +37,71 @@ body.blog-page .devlog-container {
   line-height: 1.6;
 }
 
+/* Start PROFILE FORMATTING */
+.page-section {
+  padding: 60px 0;
+}
+
+.portfolio-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.portfolio-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.portfolio-item:hover .portfolio-hover {
+  opacity: 1;
+}
+
+.portfolio-hover-content i {
+  color: white;
+  font-size: 3rem;
+}
+
+.portfolio-media {
+  width: 100%;
+  max-width: 500px;
+  height: 280px;
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+}
+
+.section-heading {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.text-primary {
+  color: #3CB4E5 !important; /* Adjust to match theme */
+}
+
+@media (max-width: 768px) {
+  .row {
+    text-align: center;
+  }
+  .portfolio-media {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* END PROFILE FORMATTING */
 
 /* END DEVLOG FORMATTING */
 
