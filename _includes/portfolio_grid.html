@@ -2,6 +2,12 @@
 {% if site.locale and site.locale != "" and site.locale != nil %}
 <section class="bg-light page-section" style="background: linear-gradient(to bottom, #aa5dbe, #7F70D9);" id="{{ site.data.sitetext.portfolio.section | default: "portfolio" }}">
   <div class="container">
+    
+    <!-- Section Title -->
+    <div class="section-header text-center p-4" style="background: linear-gradient(to right, #9b59b6, #8e44ad); color: #a0ffff; font-weight: bold; font-size: 24px; border-radius: 10px;">
+      Explore Surreal, Immersive Dreamscapes
+    </div>
+    
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading text-uppercase text-primary">
@@ -16,11 +22,15 @@
     <!-- Portfolio Rows -->
     {% for project in site.portfolio %}
     <div class="row align-items-center mb-5 p-5 rounded-lg" style="background: rgba(255, 255, 255, 0.15); border-radius: 15px;">
+      
+      <!-- Add header before each section -->
+      <div class="section-header text-center p-3 mb-4" style="background: linear-gradient(to right, #9b59b6, #8e44ad); color: #a0ffff; font-weight: bold; font-size: 22px; border-radius: 10px;">
+        {{ project.header | default: "Unique Adventure Awaits" }}
+      </div>
+
       {% if forloop.first %}
         <!-- First Item: Image Left, Text Right -->
-		<h2 class="text-uppercase custom-heading">A Mix of Puzzles, Platforming, &amp; Exploration</h2>
         <div class="col-md-6 text-center">
-		
           <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
             <div class="portfolio-item">
               <img class="img-fluid rounded shadow-lg" src="{{ project.image }}" alt="{{ project.alt }}" style="max-width: 90%; height: auto; border-radius: 10px;">
