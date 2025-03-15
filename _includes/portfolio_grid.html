@@ -1,8 +1,7 @@
 <!-- Portfolio Grid -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<section class="bg-light page-section" style="background: linear-gradient(to bottom, #aa5dbe, #7F70D9); width: 100vw;" id="{{ site.data.sitetext.portfolio.section | default: "portfolio" }}">
-  <div class="container-fluid text-center px-0">
-    
+<section class="bg-light page-section" style="background: linear-gradient(to bottom, #aa5dbe, #7F70D9);" id="{{ site.data.sitetext.portfolio.section | default: "portfolio" }}">
+  <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading text-uppercase text-primary">
@@ -14,26 +13,11 @@
       </div>
     </div>
 
-    <!-- Portfolio Rows -->
+    <!-- Portfolio Rows (Alternating Layout with Improved Formatting) -->
     {% for project in site.portfolio %}
-    <div class="row align-items-center mb-5 p-4" style="background: rgba(255, 255, 255, 0.15); border-radius: 0; width: 100%; margin: 0;">
-
-      {% if forloop.first %}
-        <!-- First Item: Image Left, Text Right -->
-        <div class="col-md-6 text-center">
-          <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
-            <div class="portfolio-item">
-              <img class="img-fluid rounded shadow-lg" src="{{ project.image }}" alt="{{ project.alt }}" style="width: 100%; max-width: 600px; height: auto; border-radius: 10px;">
-            </div>
-          </a>
-        </div>
-        <div class="col-md-6 text-md-left">
-          <h2 class="section-heading text-uppercase text-info font-weight-bold mb-3">{{ project.title }}</h2>
-          <p class="text-light lead">{{ project.subtitle }}</p>
-        </div>
-
-      {% elsif forloop.index | modulo: 2 == 1 %}
-        <!-- Odd Rows (After First): Text Left, Image Right -->
+    <div class="row align-items-center mb-5 p-5 rounded-lg" style="background: rgba(255, 255, 255, 0.15); border-radius: 15px;">
+      {% if forloop.index | modulo: 2 == 1 %}
+        <!-- Odd Rows: Text Left, Image Right -->
         <div class="col-md-6 text-md-left">
           <h2 class="section-heading text-uppercase text-info font-weight-bold mb-3">{{ project.title }}</h2>
           <p class="text-light lead">{{ project.subtitle }}</p>
@@ -41,17 +25,16 @@
         <div class="col-md-6 text-center">
           <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
             <div class="portfolio-item">
-              <img class="img-fluid rounded shadow-lg" src="{{ project.image }}" alt="{{ project.alt }}" style="width: 100%; max-width: 600px; height: auto; border-radius: 10px;">
+              <img class="img-fluid rounded shadow-lg" src="{{ project.image }}" alt="{{ project.alt }}" style="max-width: 90%; height: auto; border-radius: 10px;">
             </div>
           </a>
         </div>
-
       {% else %}
         <!-- Even Rows: Image Left, Text Right -->
         <div class="col-md-6 text-center">
           <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
             <div class="portfolio-item">
-              <img class="img-fluid rounded shadow-lg" src="{{ project.image }}" alt="{{ project.alt }}" style="width: 100%; max-width: 600px; height: auto; border-radius: 10px;">
+              <img class="img-fluid rounded shadow-lg" src="{{ project.image }}" alt="{{ project.alt }}" style="max-width: 90%; height: auto; border-radius: 10px;">
             </div>
           </a>
         </div>

@@ -37,6 +37,34 @@ body.blog-page .devlog-container {
   line-height: 1.6;
 }
 
+/* START MODAL - more info buttons on profile - FORMATTING */
+
+.modal-content {
+  background: linear-gradient(to bottom, #8D41A1, #7F70D9); /* Replace with your desired colors */
+  color: white; /* Ensures text remains readable */
+  border-radius: 15px; /* Optional rounded corners */
+}
+
+/* Change the background inside the modal */
+.modal-body {
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  padding: 30px;
+  border-radius: 10px;
+}
+
+/* Change modal close button color */
+.close-modal .lr, 
+.close-modal .rl {
+  background-color: white; /* Ensures close button remains visible */
+}
+
+/* If you want to modify the overlay background */
+.modal {
+  background-color: rgba(0, 0, 0, 0.8); /* Darkens the overlay when modal is open */
+}
+/* End MODAL - more info buttons on profile - FORMATTING */
+
+
 /* Start PROFILE FORMATTING */
 
 
