@@ -76,14 +76,14 @@ body.blog-page .devlog-container {
   background: #aa5dbe; /* Adjust to your exact purple shade */
 }
 
-/* full length
+
 .container {
-  width: 100vw !important;
-  max-width: 100% !important;
+  width: 75vw !important;
+  max-width: 75% !important;
   padding-left: 0;
   padding-right: 0;
 }
-*/
+
 .custom-heading {
   color: #50ebec !important;
 }

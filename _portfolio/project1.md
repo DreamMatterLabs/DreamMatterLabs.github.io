@@ -1,7 +1,7 @@
 ---
-title: "Uncover Secrets Buried in the Subconscious"
-subtitle: "Some memories don’t fade—they hide..."
-image: "/assets/img/portfolio/project2.jpg"
+title: ""
+subtitle: "In a world where dreams are sold as entertainment, it's your job to ensure that each experience is market-ready. Step into surreal dreamscapes and immersive yourself in serene yet fractured landscapes, where every dream holds a story waiting to be unraveled."
+image: "assets/img/portfolio/01-full.jpg"
 alt: "Mysterious image"
 
 caption:
