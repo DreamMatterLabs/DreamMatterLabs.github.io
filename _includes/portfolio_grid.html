@@ -5,28 +5,29 @@
     
     <!-- Portfolio Rows -->
     {% for project in site.portfolio %}
-    <div class="mb-5 p-5 rounded-lg" style="background: rgba(255, 255, 255, 0.15); border-radius: 15px;">
-      
-      <!-- Section Header at the Top -->
-      <div class="section-header text-center p-3 mb-4" style="background: linear-gradient(to right, #9b59b6, #8e44ad); color: #a0ffff; font-weight: bold; font-size: 22px; border-radius: 10px;">
-        {{ project.header | default: "Unique Adventure Awaits" }}
-      </div>
-      
+    
+    <!-- Section Header Above Each Image with No Background -->
+    <div class="section-header text-left text-md-left p-3 my-4" style="color: #a0ffff; font-weight: bold; font-size: 22px;">
+      {{ project.header | default: "Unique Adventure Awaits" }}
+    </div>
+    
+    <div class="mb-3 p-4 rounded-lg" style="background: rgba(255, 255, 255, 0.15); border-radius: 15px;">
       <div class="row align-items-center">
-        <!-- Text Left, Image Right for all sections -->
-        <div class="col-md-6 text-center text-md-left">
+        <!-- Text Further Left, Image Right with Increased Size -->
+        <div class="col-md-4 text-left pl-3">
           <h2 class="section-heading text-uppercase text-info font-weight-bold mb-3">{{ project.title }}</h2>
           <p class="text-light lead">{{ project.subtitle }}</p>
         </div>
-        <div class="col-md-6 text-center">
+        <div class="col-md-5 text-center">
           <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
             <div class="portfolio-item">
-              <img class="img-fluid rounded shadow-lg" src="{{ project.image }}" alt="{{ project.alt }}" style="max-width: 90%; height: auto; border-radius: 10px;">
+              <img class="img-fluid rounded shadow-lg" src="{{ project.image }}" alt="{{ project.alt }}" style="max-width: 100%; height: auto; border-radius: 10px;">
             </div>
           </a>
         </div>
       </div>
     </div>
+    
     {% endfor %}
     
   </div>
