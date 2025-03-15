@@ -175,6 +175,10 @@ body.blog-page .devlog-container {
   transition: color 0.3s ease-in-out;
 }
 
+.social-icons a {
+  margin-right: 30px; /* Adds space between each icon */
+}
+
 .social-icons a:hover i {
   color: #3b6ad7 !important; /* Change to white or another highlight color */
 }
@@ -187,6 +191,9 @@ body.blog-page .devlog-container {
 }
 
 /* End Socials Banner FORMATTING */
+
+
+
    .header-bg {
       background-color: rgba(240, 240, 240, 0.0); /* Transparent background */
       height: 150px; /* Adjust the height as needed */
