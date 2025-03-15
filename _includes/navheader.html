@@ -1,104 +1,102 @@
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color: #8D41A1;>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color: #8D41A1;">
     <div class="container">
-	  <a class="navbar-brand js-scroll-trigger" href="#page-top">
-          {%- if site.logo -%}
-            <img height="{{ site.logo.height | default: 52 }}" src="{{ "/assets/img/dreammatterlabs-logo.png" }}"/>
-          {%- else -%}
-            {{ site.title }}
-          {%- endif -%}
-      </a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
-        {% if site.locale and site.locale != "" and site.locale != nil %}
-        {% for link in site.data.navigation[site.locale].nav %}
-          <li class="nav-item">
-            {%- if link.url -%}
-              <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
-            {%- elsif link.section -%}
-              <a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            {%- if site.logo -%}
+                <img height="{{ site.logo.height | default: 52 }}" src="{{ site.baseurl }}/assets/img/dreammatterlabs-logo.png" alt="DreamMatter Labs Logo"/>
             {%- else -%}
-              <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
+                {{ site.title }}
             {%- endif -%}
-          </li>
-        {% endfor %}
-        {% else %}
-        {% for link in site.data.navigation.nav %}
-        <li class="nav-item">
-          {%- if link.url -%}
-            <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
-          {%- elsif link.section -%}
-            <a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
-          {%- else -%}
-            <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
-          {%- endif -%}
-        </li>
-        {% endfor %}
-        {% endif %}
-        </ul>
-		<div class="social-icons">
-  <a href="https://x.com/DreamMatterLabs" target="_blank"><i class="fab fa-twitter"></i></a>
-  
-  
-  <a href="https://bsky.app/profile/dreammatterlabs.bsky.social" target="_blank"><i class="fa fa-bskyicon"></i></a>
-  <a href="https://www.linkedin.com/company/dreammatterlabs" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-  
-  
-  <a href="https://www.youtube.com/@DreamMatterLabs" target="_blank"><i class="fab fa-youtube"></i></a>
-  <a href="https://discord.gg/g9Be9JtqV4" target="_blank"><i class="fab fa-discord"></i></a>
-</div>
-      </div>
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ml-auto">
+                {% if site.locale and site.locale != "" and site.locale != nil %}
+                    {% for link in site.data.navigation[site.locale].nav %}
+                        <li class="nav-item">
+                            {%- if link.url -%}
+                                <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
+                            {%- elsif link.section -%}
+                                <a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
+                            {%- else -%}
+                                <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
+                            {%- endif -%}
+                        </li>
+                    {% endfor %}
+                {% else %}
+                    {% for link in site.data.navigation.nav %}
+                        <li class="nav-item">
+                            {%- if link.url -%}
+                                <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
+                            {%- elsif link.section -%}
+                                <a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
+                            {%- else -%}
+                                <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
+                            {%- endif -%}
+                        </li>
+                    {% endfor %}
+                {% endif %}
+            </ul>
+
+            <div class="social-icons">
+                <a href="https://x.com/DreamMatterLabs" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://bsky.app/profile/dreammatterlabs.bsky.social" target="_blank" aria-label="Bluesky"><i class="fa fa-bskyicon"></i></a>
+                <a href="https://www.linkedin.com/company/dreammatterlabs" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.youtube.com/@DreamMatterLabs" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="https://discord.gg/g9Be9JtqV4" target="_blank" aria-label="Discord"><i class="fab fa-discord"></i></a>
+            </div>
+        </div>
     </div>
-  </nav>
-  <!-- End Navigation -->
-  
-  <!-- Header -->
-  {% if site.locale and site.locale != "" and site.locale != nil %}
-  <header class="masthead">
+</nav>
+<!-- End Navigation -->
+
+<!-- Header -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<header class="masthead">
     <div class="container">
-      <div class="intro-text">
-	  
+        <div class="intro-text">
+            <div class="header-bg">
+                <div class="move-down center-image"></div>
+            </div>
 
-<div class="header-bg">
-    <div class="move-down center-image">
-  <!--     <img src="/DreamMatterLabs.github.io/assets/img/dreammatterlabs-logo.png" alt="A logo image for dreammatterlabs"> -->
-	  </div>
-</div>
-
-
-	  {%- if site.data.sitetext[site.locale].header.title -%}
-        <div class="intro-lead-in">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
-	  {%- endif -%}
-	  {%- if site.data.sitetext[site.locale].header.text -%}
-        <div class="intro-heading text-uppercase">{{ site.data.sitetext[site.locale].header.text | markdownify }}</div>
-	  {%- endif -%}
-	  {%- if site.data.sitetext[site.locale].header.button -%}
-	  {% if page.url != "/team/" %}
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">{{ site.data.sitetext[site.locale].header.button }}</a>
-	   {%- endif -%}
-	  {%- endif -%}
-      </div>
+            {%- if site.data.sitetext[site.locale].header.title -%}
+                <div class="intro-lead-in">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
+            {%- endif -%}
+            {%- if site.data.sitetext[site.locale].header.text -%}
+                <div class="intro-heading text-uppercase">{{ site.data.sitetext[site.locale].header.text | markdownify }}</div>
+            {%- endif -%}
+            {%- if site.data.sitetext[site.locale].header.button -%}
+                {% if page.url != "/team/" %}
+                    <a class="btn btn-rounded text-uppercase js-scroll-trigger"
+                       href="{{ site.data.sitetext[site.locale].header.buttonlink }}">
+                        {{ site.data.sitetext[site.locale].header.button }}
+                    </a>
+                {%- endif -%}
+            {%- endif -%}
+        </div>
     </div>
-  </header>
-  {% else %}
-  <header class="masthead">
+</header>
+{% else %}
+<header class="masthead">
     <div class="container">
-      <div class="intro-text">
-	  {%- if site.data.sitetext.header.title -%}
-        <div class="intro-lead-in">{{ site.data.sitetext.header.title | markdownify }}</div>
-	  {%- endif -%}
-	  {%- if site.data.sitetext.header.text -%}
-        <div class="intro-heading text-uppercase">{{ site.data.sitetext.header.text | markdownify }}</div>
-	  {%- endif -%}
-	  {%- if site.data.sitetext.header.button -%}
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.header.buttonlink }}">{{ site.data.sitetext.header.button }}</a>
-	  {%- endif -%}
-      </div>
+        <div class="intro-text">
+            {%- if site.data.sitetext.header.title -%}
+                <div class="intro-lead-in">{{ site.data.sitetext.header.title | markdownify }}</div>
+            {%- endif -%}
+            {%- if site.data.sitetext.header.text -%}
+                <div class="intro-heading text-uppercase">{{ site.data.sitetext.header.text | markdownify }}</div>
+            {%- endif -%}
+            {%- if site.data.sitetext.header.button -%}
+                <a class="btn btn-rounded text-uppercase js-scroll-trigger"
+                   href="{{ site.data.sitetext.header.buttonlink }}">
+                    {{ site.data.sitetext.header.button }}
+                </a>
+            {%- endif -%}
+        </div>
     </div>
-  </header>
-  {% endif %}
-  <!-- End Header -->
+</header>
+{% endif %}
+<!-- End Header -->
