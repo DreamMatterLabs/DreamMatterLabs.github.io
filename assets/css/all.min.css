@@ -39,6 +39,15 @@ body.blog-page .devlog-container {
 
 /* Start PROFILE FORMATTING */
 
+
+.full-width-section {
+  width: 100vw !important;
+  max-width: 100% !important;
+  margin: 0 auto;
+  padding: 2rem 0; /* Adjust padding as needed */
+  background: #aa5dbe; /* Adjust to your exact purple shade */
+}
+
 .container {
   width: 100vw !important;
   max-width: 100% !important;
@@ -125,7 +134,7 @@ body.blog-page .devlog-container {
 /* Start Socials Banner FORMATTING */
 .social-icons {
   display: flex;
-  gap: 30px; /* Space between icons */
+  gap: 30px !important; /* Space between icons */
   align-items: center;
   margin-left: 20px; /* Adds spacing between navbar text and icons */
 }
