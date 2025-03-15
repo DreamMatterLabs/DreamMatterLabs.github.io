@@ -16,8 +16,8 @@ en: &DEFAULT_EN
     buttonlink: "https://dreammatterlabs.com/team/"
 
   portfolio:
-    title: "Dreamwalker: Altered Reveries"
-    text: "Dive beneath the dream."
+    title: 
+    text: 
     section: portfolio
     closebutton: "Close Project"
   timeline:
