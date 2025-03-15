@@ -1,44 +1,44 @@
 <!-- Portfolio Grid -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<section class="bg-light page-section full-width-section" id="{{ site.data.sitetext.portfolio.section | default: "portfolio" }}">
+<section class="bg-light page-section" style="background: linear-gradient(to bottom, #aa5dbe, #7F70D9);" id="{{ site.data.sitetext.portfolio.section | default: "portfolio" }}">
   <div class="container">
     
     <!-- Portfolio Rows -->
     {% for project in site.portfolio %}
-    <div class="portfolio-section">
+    <div class="row align-items-center mb-5 p-5 rounded-lg" style="background: rgba(255, 255, 255, 0.15); border-radius: 15px;">
       
-      <!-- Section Title -->
-      <div class="section-header text-center">
+      <!-- Section Header -->
+      <div class="section-header text-center p-3 mb-4" style="background: linear-gradient(to right, #9b59b6, #8e44ad); color: #a0ffff; font-weight: bold; font-size: 22px; border-radius: 10px;">
         {{ project.header | default: "Unique Adventure Awaits" }}
       </div>
       
-      <div class="row align-items-center">
-        {% if forloop.index | modulo: 2 == 1 %}
-          <!-- Image Left, Text Right -->
-          <div class="col-md-6 text-center">
-            <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
-              <div class="portfolio-item">
-                <div class="portfolio-media">{{ project.media_type | default: "image" }}</div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 text-md-left">
-            <p class="text-light lead">{{ project.subtitle }}</p>
-          </div>
-        {% else %}
-          <!-- Text Left, Image Right -->
-          <div class="col-md-6 text-md-left">
-            <p class="text-light lead">{{ project.subtitle }}</p>
-          </div>
-          <div class="col-md-6 text-center">
-            <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
-              <div class="portfolio-item">
-                <div class="portfolio-media">{{ project.media_type | default: "image" }}</div>
-              </div>
-            </a>
-          </div>
-        {% endif %}
-      </div>
+      {% if forloop.index | modulo: 2 == 1 %}
+        <!-- Image Left, Text Right -->
+        <div class="col-md-6 text-center">
+          <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
+            <div class="portfolio-item">
+              <div class="portfolio-media">{{ project.media_type | default: "image" }}</div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 text-md-left">
+          <h2 class="section-heading text-uppercase text-info font-weight-bold mb-3">{{ project.title }}</h2>
+          <p class="text-light lead">{{ project.subtitle }}</p>
+        </div>
+      {% else %}
+        <!-- Text Left, Image Right -->
+        <div class="col-md-6 text-md-left">
+          <h2 class="section-heading text-uppercase text-info font-weight-bold mb-3">{{ project.title }}</h2>
+          <p class="text-light lead">{{ project.subtitle }}</p>
+        </div>
+        <div class="col-md-6 text-center">
+          <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
+            <div class="portfolio-item">
+              <div class="portfolio-media">{{ project.media_type | default: "image" }}</div>
+            </div>
+          </a>
+        </div>
+      {% endif %}
     </div>
     {% endfor %}
     
