@@ -1,6 +1,6 @@
 ---
-title: Discover New Abilities
-subtitle: Free Your Inner Dreamer
+title: Uncover Secrets Buried in the Subconscious
+subtitle: Some memories don’t fade—they hide. As you navigate the minds behind the dreams, cryptic messages and lingering voices pull you deeper into a psychological mystery where the truth is waiting to be untangled. Sharpen your senses and dive into an unforgettable story.
 image: assets/img/portfolio/02-full.jpg
 alt: Keep Exploring
 
