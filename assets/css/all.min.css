@@ -163,7 +163,6 @@ body.blog-page .devlog-container {
 /* Start Socials Banner FORMATTING */
 .social-icons {
   display: flex;
-  gap: 30px !important; /* Space between icons */
   align-items: center;
   margin-left: 20px; /* Adds spacing between navbar text and icons */
 }
@@ -176,7 +175,7 @@ body.blog-page .devlog-container {
 }
 
 .social-icons a {
-  margin-right: 30px; /* Adds space between each icon */
+  margin-right: 15px; /* Adds space between each icon */
 }
 
 .social-icons a:hover i {
