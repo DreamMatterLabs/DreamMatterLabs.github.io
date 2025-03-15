@@ -1,5 +1,4 @@
 <!-- Portfolio Grid -->
-<!-- Portfolio Grid -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
 <section class="bg-light page-section" style="background: linear-gradient(to bottom, #aa5dbe, #7F70D9);" id="{{ site.data.sitetext.portfolio.section | default: "portfolio" }}">
   <div class="container">
@@ -7,9 +6,14 @@
     <!-- Portfolio Rows -->
     {% for project in site.portfolio %}
     
+    <!-- Section Header Above Each Image with No Background -->
+    <div class="section-header text-left text-md-left p-3 my-4" style="color: #a0ffff; font-weight: bold; font-size: 22px;">
+      {{ project.header | default: "Unique Adventure Awaits" }}
+    </div>
+    
     <div class="mb-3 p-4 rounded-lg" style="background: rgba(255, 255, 255, 0.15); border-radius: 15px;">
       <div class="row align-items-center">
-        <!-- Text Further Left, Image Right with Reduced Size -->
+        <!-- Text Left, Image Right with Reduced Size -->
         <div class="col-md-5 text-left pl-5">
           <h2 class="section-heading text-uppercase text-info font-weight-bold mb-3">{{ project.title }}</h2>
           <p class="text-light lead">{{ project.subtitle }}</p>
@@ -22,11 +26,6 @@
           </a>
         </div>
       </div>
-    </div>
-    
-    <!-- Section Header Between Sections -->
-    <div class="section-header text-center p-3 my-4" style="background: linear-gradient(to right, #9b59b6, #8e44ad); color: #a0ffff; font-weight: bold; font-size: 22px; border-radius: 10px;">
-      {{ project.header | default: "Unique Adventure Awaits" }}
     </div>
     
     {% endfor %}
