@@ -13,27 +13,27 @@
         
         {% if forloop.index | modulo: 2 == 1 %}
         <!-- Image on Right, Text on Left for Odd Sections -->
-        <div class="col-md-5 text-left pr-5 order-md-1">
+        <div class="col-md-6 text-left pr-5 order-md-1">
           <h2 class="text-uppercase" style="color: #39e3e3; font-weight: bold;">{{ project.title }}</h2>
           <p class="text-light">{{ project.subtitle }}</p>
         </div>
-        <div class="col-md-7 text-center order-md-2">
+        <div class="col-md-6 text-center order-md-2">
           <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
             <div class="portfolio-item">
-              <img class="img-fluid rounded shadow-lg" src="{{ project.image }}" alt="{{ project.alt }}" style="max-width: 100%; height: auto; border-radius: 10px;">
+              <img class="img-fluid rounded shadow-lg" src="{{ project.image }}" alt="{{ project.alt }}" style="max-width: 80%; height: auto; border-radius: 10px;">
             </div>
           </a>
         </div>
         {% else %}
         <!-- Image on Left, Text on Right for Even Sections -->
-        <div class="col-md-7 text-center order-md-1">
+        <div class="col-md-6 text-center order-md-1">
           <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
             <div class="portfolio-item">
-              <img class="img-fluid rounded shadow-lg" src="{{ project.image }}" alt="{{ project.alt }}" style="max-width: 100%; height: auto; border-radius: 10px;">
+              <img class="img-fluid rounded shadow-lg" src="{{ project.image }}" alt="{{ project.alt }}" style="max-width: 80%; height: auto; border-radius: 10px;">
             </div>
           </a>
         </div>
-        <div class="col-md-5 text-left pl-5 order-md-2">
+        <div class="col-md-6 text-left pl-5 order-md-2">
           <h2 class="text-uppercase" style="color: #39e3e3; font-weight: bold;">{{ project.title }}</h2>
           <p class="text-light">{{ project.subtitle }}</p>
         </div>
