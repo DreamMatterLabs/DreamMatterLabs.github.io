@@ -11,20 +11,33 @@
     <div class="mb-3 p-4 rounded-lg" style="background: rgba(255, 255, 255, 0.12); border-radius: 15px;">
       <div class="row align-items-center">
         
-        <!-- Left Side Text, Moved Further to the Left -->
+        {% if forloop.index | modulo: 2 == 1 %}
+        <!-- Image on Right, Text on Left for Odd Sections -->
         <div class="col-md-5 text-left pr-5">
           <h2 class="text-uppercase" style="color: #39e3e3; font-weight: bold;">{{ project.title }}</h2>
           <p class="text-light">{{ project.subtitle }}</p>
         </div>
-        
-        <!-- Right Side Image, Adjusted for Positioning -->
         <div class="col-md-7 text-center">
           <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
             <div class="portfolio-item">
-              <img class="img-fluid rounded shadow-lg" src="{{ project.image }}" alt="{{ project.alt }}" style="max-width: 100%; height: auto; border-radius: 10px;">
+              <img class="img-fluid rounded shadow-lg" src="{{ project.image }}" alt="{{ project.alt }}" style="max-width: 90%; height: auto; border-radius: 10px;">
             </div>
           </a>
         </div>
+        {% else %}
+        <!-- Image on Left, Text on Right for Even Sections -->
+        <div class="col-md-7 text-center">
+          <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
+            <div class="portfolio-item">
+              <img class="img-fluid rounded shadow-lg" src="{{ project.image }}" alt="{{ project.alt }}" style="max-width: 90%; height: auto; border-radius: 10px;">
+            </div>
+          </a>
+        </div>
+        <div class="col-md-5 text-left pl-5">
+          <h2 class="text-uppercase" style="color: #39e3e3; font-weight: bold;">{{ project.title }}</h2>
+          <p class="text-light">{{ project.subtitle }}</p>
+        </div>
+        {% endif %}
         
       </div>
     </div>
