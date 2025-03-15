@@ -38,6 +38,11 @@ body.blog-page .devlog-container {
 }
 
 /* Start PROFILE FORMATTING */
+
+.custom-heading {
+  color: #50ebec !important;
+}
+
 .page-section {
   padding: 60px 0;
 }
@@ -105,6 +110,9 @@ body.blog-page .devlog-container {
 
 /* END PROFILE FORMATTING */
 
+
+}
+
 /* END DEVLOG FORMATTING */
 
 /* Start Socials Banner FORMATTING */
@@ -114,9 +122,18 @@ body.blog-page .devlog-container {
   align-items: center;
   margin-left: 20px; /* Adds spacing between navbar text and icons */
 }
+
+
 .social-icons a i {
   font-size: 28px; /* Make icons larger */
+    color: #ffffff !important; /* Replace with your desired color */
+  transition: color 0.3s ease-in-out;
 }
+
+.social-icons a:hover i {
+  color: #3b6ad7 !important; /* Change to white or another highlight color */
+}
+
 #navbarResponsive {
   display: flex;
   align-items: center;
