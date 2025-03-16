@@ -197,7 +197,7 @@ en: &DEFAULT_EN
           - url: https://www.youtube.com/@ashe_xo
             icon: fab fa-youtube     
       - name: "Joël"
-        role: "Environmental Artist"
+        role: "Marketing Specialist"
         image: assets/img/team/3.png
         social:
           - url: https://www.pat-mccabe.com/
