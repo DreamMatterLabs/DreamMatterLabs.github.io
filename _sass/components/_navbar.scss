@@ -11,6 +11,15 @@
     background-color: $primary;
     @include heading-font;
   }
+  
+  .navbar-container {
+    width: 75vw !important;
+    max-width: 75% !important;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
   .navbar-brand {
     color: $primary;
 	 padding-left: 100px !important; /* Adjust if needed */
