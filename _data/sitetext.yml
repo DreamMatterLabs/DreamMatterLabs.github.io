@@ -159,15 +159,17 @@ en: &DEFAULT_EN
           - url: https://www.pat-mccabe.com/
             icon: fa fa-user-astronaut
           - url: https://www.linkedin.com/in/patrickmccabeac/
-            icon: fab fa-linkedin-in 
+            icon: fab fa-linkedin-in
+      - name: "Pam"
+        role: "Level Designer"
+        image: assets/img/team/pat.png
+        social:
+          - url: https://www.linkedin.com/in/p%C3%A2mela-beltrani-a4b808106/
+            icon: fab fa-linkedin-in            
       - name: "Steph H."
-        role: "Unreal Programming"
+        role: "Unreal Generalist"
         image: assets/img/team/2.png
         social:
-          - url: https://www.pat-mccabe.com/
-            icon: fa fa-user-astronaut
-          - url: https://www.linkedin.com/in/patrickmccabeac/
-            icon: fab fa-linkedin-in
       - name: "Steph T."
         role: "UI/UX"
         image: assets/img/team/1.png
