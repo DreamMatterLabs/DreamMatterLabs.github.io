@@ -19,33 +19,32 @@
     padding-right: 0;
 }
 
-/* Default Navbar Styling */
-.navbar {
-    padding: 1rem 1rem; /* Standard padding */
-    transition: all 0.3s ease-in-out;
-}
-
-/* Reduce Navbar Height on Smaller Screens */
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .navbar {
-        padding: 0.3rem 1rem; /* Reduce padding for smaller height */
+        padding: 0.5rem 1rem; /* Reduce navbar height */
     }
 
     .navbar-brand img {
-        height: 50px; /* Reduce logo size */
+        height: 50px; /* Shrink logo */
+    }
+
+    .navbar-nav .nav-item {
+        width: 100%; /* Full width */
+    }
+
+    .navbar-nav .collapse {
+        padding-left: 15px;
     }
 
     .navbar-toggler {
-        padding: 0.25rem 0.5rem; /* Smaller toggle button */
-        font-size: 1rem; /* Adjust icon size */
+        padding: 0.25rem 0.5rem;
+        font-size: 1rem;
     }
 
     .navbar-nav .nav-link {
-        padding: 0.5rem 0.75rem; /* Adjust link padding for compactness */
-        font-size: 0.9rem; /* Reduce font size */
+        font-size: 1rem;
     }
 }
-
 
   .navbar-brand {
     color: $primary;
