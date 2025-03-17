@@ -12,7 +12,7 @@
 
     <!-- Mobile Toggle Button -->
     <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+	  <span class="navbar-toggler-icon"></span>
     </button>
 
     <!-- Navbar Items -->
@@ -20,7 +20,10 @@
       <ul class="navbar-nav ms-auto text-uppercase">
         {% if site.locale and site.locale != "" and site.locale != nil %}
           {% for link in site.data.navigation[site.locale].nav %}
+		  
             <li class="nav-item">
+			     
+
               <a class="nav-link js-scroll-trigger" href="{{ link.url }}">
                 {{ link.title }}
               </a>
@@ -35,10 +38,14 @@
             </li>
           {% endfor %}
         {% endif %}
+		  <div class="nav-spacer"></div>
+		   <div class="nav-spacer"></div>
+		  
       </ul>
 
       <!-- Social Icons -->
       <div class="social-icons">
+	 
         <a href="https://x.com/DreamMatterLabs" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
         <a href="https://bsky.app/profile/dreammatterlabs.bsky.social" target="_blank" aria-label="Bluesky"><i class="fa fa-bskyicon"></i></a>
         <a href="https://www.linkedin.com/company/dreammatterlabs" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
@@ -98,6 +105,18 @@
 
 <!-- JavaScript to Prevent Navbar Re-expansion -->
 <script>
+document.addEventListener("DOMContentLoaded", function () {
+  const navbar = document.getElementById("mainNav");
+
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 50) {
+      navbar.classList.add("scrolled"); // Apply the shrinking effect
+    } else {
+      navbar.classList.remove("scrolled"); // Restore full size
+    }
+  });
+});
+
 document.addEventListener("DOMContentLoaded", function () {
   const navbarToggler = document.querySelector(".navbar-toggler");
   const navbarCollapse = document.querySelector("#navbarResponsive");

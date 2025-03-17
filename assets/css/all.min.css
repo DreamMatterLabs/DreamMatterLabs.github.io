@@ -179,19 +179,12 @@ body.blog-page .devlog-container {
 }
 
 .social-icons a:hover i {
-  color: #3b6ad7 !important; /* Change to white or another highlight color */
+  color: #FF00D7 !important; /* Change to white or another highlight color */
 }
 
-#navbarResponsive {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; /* Ensures nav links and icons are spaced out */
-  width: 100%;
-}
+
 
 /* End Socials Banner FORMATTING */
-
-
 
    .header-bg {
       background-color: rgba(240, 240, 240, 0.0); /* Transparent background */
