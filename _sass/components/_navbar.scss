@@ -31,10 +31,10 @@
 
 /* Ensure navbar toggler consistency */
 .navbar-toggler {
-  padding: 0.5rem 1rem !important;
-  transition: none !important;
+    display: block !important; /* Ensures visibility */
+    padding: 0.5rem 1rem !important;
+    transition: none !important;
 }
-
 /* Align social icons on the same line, pushing them to the right */
 .navbar-nav {
   display: flex;
