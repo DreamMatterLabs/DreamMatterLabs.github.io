@@ -1,40 +1,41 @@
 /* Ensure Navbar Starts Expanded by Default */
 .navbar-collapse {
-  display: flex !important;
+  display: flex;
   flex-direction: row; /* Align items in a row */
   align-items: center; /* Keep items aligned */
   justify-content: space-between; /* Push icons to the right */
-  max-height: none !important;
+  max-height: none;
   overflow-y: visible;
-  transition: none !important;
+  transition: max-height 0.3s ease-in-out; /* Smooth transition */
 }
 
 /* Navbar starts expanded */
 .navbar-collapse.show {
-  display: flex !important;
-  max-height: none !important;
+  display: flex;
+  max-height: none;
 }
 
 /* When closed, keep it hidden */
 .navbar-collapse:not(.show) {
-  max-height: 0 !important;
-  overflow: hidden !important;
-  display: none !important;
+  max-height: 0;
+  overflow: hidden;
+  display: none;
 }
 
 /* Prevent flickering on collapse */
 .navbar-collapse.collapsing {
-  max-height: 0 !important;
+  max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease-in-out !important;
+  transition: max-height 0.3s ease-in-out;
 }
 
 /* Ensure navbar toggler consistency */
 .navbar-toggler {
-    display: block !important; /* Ensures visibility */
-    padding: 0.5rem 1rem !important;
-    transition: none !important;
+  display: block; /* Ensures visibility */
+  padding: 0.5rem 1rem;
+  transition: none;
 }
+
 /* Align social icons on the same line, pushing them to the right */
 .navbar-nav {
   display: flex;
