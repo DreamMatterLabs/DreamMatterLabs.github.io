@@ -91,38 +91,19 @@
     </div>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var navbar = document.querySelector(".navbar-collapse");
-    var toggler = document.querySelector(".navbar-toggler");
+document.addEventListener("DOMContentLoaded", function () {
+  var navbarCollapse = document.querySelector(".navbar-collapse");
+  var navbarToggler = document.querySelector(".navbar-toggler");
+  var navLinks = document.querySelectorAll(".nav-link");
 
-    // Ensure Bootstrap handles the toggling properly
-    toggler.addEventListener("click", function () {
-      if (navbar.classList.contains("show")) {
-        navbar.style.maxHeight = "0"; // Collapsing effect
-      } else {
-        navbar.style.maxHeight = navbar.scrollHeight + "px"; // Expanding effect
-      }
-    });
-
-    // Close navbar when clicking outside (but prevent re-opening)
-    document.addEventListener("click", function (event) {
-      if (
-        !navbar.contains(event.target) && 
-        !toggler.contains(event.target) &&
-        navbar.classList.contains("show")
-      ) {
-        navbar.classList.remove("show");
-        navbar.style.maxHeight = "0"; // Ensure it stays collapsed
-      }
-    });
-
-    // Prevent unwanted auto-expansion on transition end
-    navbar.addEventListener("transitionend", function () {
-      if (!navbar.classList.contains("show")) {
-        navbar.style.maxHeight = "0"; // Ensure it stays collapsed
+  navLinks.forEach(function (link) {
+    link.addEventListener("click", function () {
+      if (navbarCollapse.classList.contains("show")) {
+        navbarToggler.click();
       }
     });
   });
+});
 </script>
 
 </header>
