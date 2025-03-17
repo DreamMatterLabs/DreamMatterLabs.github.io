@@ -1,72 +1,100 @@
-/* Ensure Navbar Starts Expanded by Default */
-.navbar-collapse {
-  display: flex !important;
-  flex-direction: row; /* Align items in a row */
-  align-items: center; /* Vertically center items */
-  justify-content: flex-end; /* Push items to the right */
-  max-height: none !important;
-  overflow-y: visible;
-  transition: max-height 0.3s ease-in-out; /* Smooth transition */
-}
+/* Navbar Styles */
+#mainNav {
+  background-color: transparent; // Default transparent background
+  padding: 15px 20px;
+  height: auto;
+  transition: all 0.3s ease-in-out;
 
-/* Navbar starts expanded */
-.navbar-collapse.show {
-  display: flex !important;
-  max-height: none !important;
-}
+  .navbar-brand img {
+    height: 52px; // Default logo size
+    transition: height 0.3s ease-in-out;
+  }
 
-/* When closed, keep it hidden */
-.navbar-collapse:not(.show) {
-  max-height: 0 !important;
-  overflow: hidden !important;
-  display: none !important;
-}
+  .navbar-toggler {
+    border: none;
+    outline: none;
+    font-size: 1.25rem;
+    color: #fff;
 
-/* Ensure navbar is visible on large screens */
-@media (min-width: 992px) {
-  .navbar-collapse {
-    display: flex !important; /* Force display: flex on large screens */
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  .navbar-nav {
+    font-size: 16px;
+
+    .nav-item {
+      margin-left: 15px;
+
+      .nav-link {
+        color: #fff;
+        padding: 10px;
+        transition: color 0.3s ease-in-out;
+
+        &:hover {
+          color: #f8f9fa;
+        }
+      }
+    }
+  }
+
+  &.navbar-dark {
+    .nav-link {
+      color: rgba(255, 255, 255, 0.9);
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  &.navbar-light {
+    background-color: #f8f9fa;
+
+    .nav-link {
+      color: #212529;
+
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+
+  // When scrolling, make navbar solid
+  &.scrolled {
+    background-color: #212529 !important;
   }
 }
 
-/* Prevent flickering on collapse */
-.navbar-collapse.collapsing {
-  max-height: 0 !important;
-  overflow: hidden;
-  transition: max-height 0.3s ease-in-out !important;
-}
+/* Responsive Navbar Styling */
+@media (max-width: 991px) {
+  #mainNav {
+    background-color: #8D41A1; // Solid color for small screens
+    padding: 5px 10px; // Reduce padding
+    height: 60px; // Adjust height for smaller screens
+  }
 
-/* Ensure navbar toggler consistency */
-.navbar-toggler {
-  display: block !important; /* Ensures visibility */
-  padding: 0.5rem 1rem !important;
-  transition: none !important;
-}
+  .navbar-brand img {
+    height: 40px; // Scale down logo size for mobile
+  }
 
-/* Align navbar links to the right and vertically center */
-.navbar-nav {
-  display: flex;
-  align-items: center; /* Vertically center the links */
-  margin-left: auto; /* Push the links to the right */
-}
+  .navbar-nav {
+    font-size: 14px; // Reduce font size for menu items
+  }
 
-.nav-item {
-  margin-right: 15px; /* Spacing between menu items */
-}
+  .navbar-collapse {
+    background-color: #440677; // Background for collapsed menu
+    max-width: 50%; // Restrict width
+    padding: 5px; // Add padding for proper spacing
+    text-align: center;
+  }
 
-/* Align social icons on the same line, pushing them to the right */
-.social-icons {
-  display: flex;
-  align-items: center;
-  margin-left: 20px; /* Add spacing between links and social icons */
-}
+  .navbar-toggler {
+    margin-left: auto; // Ensures the toggler stays aligned right
+  }
 
-.social-icons a {
-  margin-left: 10px;
-  font-size: 1.2rem;
-  color: white;
-}
-
-.social-icons a:hover {
-  color: #007bff; /* Highlight effect */
+  .navbar-nav .nav-item {
+    margin: 5px 0;
+  }
 }
