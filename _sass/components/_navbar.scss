@@ -61,6 +61,25 @@
       font-size: 1rem;
     }
   }
+  
+  
+  @media (max-width: 992px) {
+    .navbar-collapse {
+        max-height: 70vh; /* Prevents taking up too much space */
+        overflow-y: auto; /* Allows scrolling if needed */
+    }
+
+    /* Ensure navbar does not take unnecessary space */
+    .navbar-nav {
+        padding-bottom: 0.5rem;
+    }
+
+    /* Adjust social icons spacing */
+    .social-icons {
+        margin-top: 1rem;
+    }
+}
+
 
   .navbar-brand {
     color: $primary;
