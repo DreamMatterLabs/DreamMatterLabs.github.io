@@ -113,6 +113,26 @@
   }
 }
 
+
+@media (max-width: 768px) {
+  .row {
+    text-align: center;
+  }
+  .portfolio-media {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+#navbarResponsive {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensures nav links and icons are spaced out */
+  width: 100%;
+}
+
+
 // Fix navbar shrinking issue when toggling menu
 @media (min-width: 992px) {
   #mainNav {
