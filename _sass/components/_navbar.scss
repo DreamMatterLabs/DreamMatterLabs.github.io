@@ -118,6 +118,13 @@
   }
 }
 
+#navbarResponsive {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensures nav links and icons are spaced out */
+  width: 100%;
+}
+
 // Navbar collapse container styling
 #navbarResponsive {
   display: flex;
