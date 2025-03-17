@@ -1,131 +1,35 @@
-/* Navbar Styling */
-#mainNav {
-  background-color: #212529; /* Replaced SCSS variable */
-}
-
-.navbar-toggler {
-  font-size: 12px;
-  right: 0;
-  padding: 13px;
-  text-transform: uppercase;
-  color: white;
-  border: 0;
-  background-color: #007bff; /* Replaced SCSS variable */
-  transition: none !important;
-}
-
-.navbar-container {
-  width: 90vw;
-  max-width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-/* Responsive Fixes */
-@media (max-width: 768px) {
-  .navbar-container {
-    width: 100vw;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
-
-/* Ensure Navbar Stays Collapsed When Toggled */
+/* Ensure Navbar Starts Expanded */
 .navbar-collapse {
   display: flex !important;
   flex-direction: column;
-  max-height: 500px;
+  max-height: none !important;
   overflow-y: auto;
-  transition: max-height 0.3s ease-in-out;
+  transition: none !important;
 }
 
+/* When Closed, Keep It Hidden */
 .navbar-collapse:not(.show) {
   max-height: 0 !important;
   overflow: hidden !important;
   display: none !important;
 }
 
-/* Prevent Navbar from Auto-Expanding */
+/* Prevent Flickering on Collapse */
 .navbar-collapse.collapsing {
   max-height: 0 !important;
   overflow: hidden;
-  transition: max-height 0.3s ease-in-out;
+  transition: none !important;
 }
 
 /* Keep Navbar Expanded When Opened */
 .navbar-collapse.show {
-  max-height: 500px !important;
+  max-height: 100vh !important;
   overflow-y: auto !important;
+  display: flex !important;
 }
 
-/* Navbar Toggler */
+/* Ensure Navbar Toggler Consistency */
 .navbar-toggler {
   padding: 0.5rem 1rem !important;
   transition: none !important;
-}
-
-/* Ensure Navbar is Stable on Large Screens */
-@media (min-width: 992px) {
-  #mainNav {
-    padding-top: 10px;
-    padding-bottom: 15px;
-    transition: none !important;
-    border: none;
-    background-color: transparent;
-  }
-
-  .navbar-brand {
-    min-height: 52px;
-    font-size: 1.75em;
-    transition: none !important;
-  }
-
-  .navbar-nav .nav-item .nav-link {
-    padding: 1.1em 1em !important;
-  }
-
-  #mainNav.navbar-shrink {
-    padding-top: 0;
-    padding-bottom: 0;
-    background-color: #212529; /* Replaced SCSS variable */
-  }
-
-  .navbar-brand {
-    font-size: 1.25em;
-    padding: 12px 0;
-  }
-}
-
-/* Fix Dropdown Styling */
-.dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1000;
-  display: none;
-  float: left;
-  min-width: 10rem;
-  padding: 0.5rem 0;
-  margin: 0.125rem 0 0;
-  font-size: 1rem;
-  color: #212529;
-  text-align: left;
-  list-style: none;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0.25rem;
-}
-
-/* Fix Collapsing Behavior */
-@media (prefers-reduced-motion: reduce) {
-  .collapsing {
-    transition: none;
-  }
-}
-
-.collapsing {
-  height: 0 !important;
-  overflow: hidden !important;
-  transition: max-height 0.3s ease-in-out !important;
 }
