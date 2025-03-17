@@ -15,36 +15,36 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav text-uppercase ms-auto">
-                {% if site.locale and site.locale != "" and site.locale != nil %}
-                    {% for link in site.data.navigation[site.locale].nav %}
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="{{ link.url }}" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
-                                {{ link.title }}
-                            </a>
-                        </li>
-                    {% endfor %}
-                {% else %}
-                    {% for link in site.data.navigation.nav %}
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="{{ link.url }}" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
-                                {{ link.title }}
-                            </a>
-                        </li>
-                    {% endfor %}
-                {% endif %}
-            </ul>
+        <div class="collapse navbar-collapse show" id="navbarResponsive">
+    <ul class="navbar-nav text-uppercase ms-auto">
+        {% if site.locale and site.locale != "" and site.locale != nil %}
+            {% for link in site.data.navigation[site.locale].nav %}
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="{{ link.url }}" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+                        {{ link.title }}
+                    </a>
+                </li>
+            {% endfor %}
+        {% else %}
+            {% for link in site.data.navigation.nav %}
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="{{ link.url }}" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+                        {{ link.title }}
+                    </a>
+                </li>
+            {% endfor %}
+        {% endif %}
+    </ul>
 
-            <!-- Social Icons -->
-            <div class="social-icons ms-lg-3">
-                <a href="https://x.com/DreamMatterLabs" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                <a href="https://bsky.app/profile/dreammatterlabs.bsky.social" target="_blank" aria-label="Bluesky"><i class="fa fa-bskyicon"></i></a>
-                <a href="https://www.linkedin.com/company/dreammatterlabs" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://www.youtube.com/@DreamMatterLabs" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                <a href="https://discord.gg/g9Be9JtqV4" target="_blank" aria-label="Discord"><i class="fab fa-discord"></i></a>
-            </div>
-        </div>
+    <!-- Social Icons (Now on the same line as "Blog") -->
+    <div class="social-icons">
+        <a href="https://x.com/DreamMatterLabs" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://bsky.app/profile/dreammatterlabs.bsky.social" target="_blank" aria-label="Bluesky"><i class="fa fa-bskyicon"></i></a>
+        <a href="https://www.linkedin.com/company/dreammatterlabs" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.youtube.com/@DreamMatterLabs" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://discord.gg/g9Be9JtqV4" target="_blank" aria-label="Discord"><i class="fab fa-discord"></i></a>
+    </div>
+</div>
     </div>
 </nav>
 <!-- End Navigation -->
@@ -96,18 +96,14 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  var navbarCollapse = document.querySelector(".navbar-collapse");
-  var navbarToggler = document.querySelector(".navbar-toggler");
-  var navLinks = document.querySelectorAll(".nav-link");
+    var navbar = document.querySelector(".navbar-collapse");
 
-  navLinks.forEach(function (link) {
-    link.addEventListener("click", function () {
-      if (navbarCollapse.classList.contains("show")) {
-        navbarToggler.click();
-      }
-    });
-  });
+    // Ensure navbar starts expanded
+    navbar.classList.add("show");
+    navbar.style.maxHeight = navbar.scrollHeight + "px";
 });
+
+
 </script>
 
 </header>

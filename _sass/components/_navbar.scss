@@ -1,35 +1,63 @@
-/* Ensure Navbar Starts Expanded */
+/* Ensure Navbar Starts Expanded by Default */
 .navbar-collapse {
   display: flex !important;
-  flex-direction: column;
+  flex-direction: row; /* Align items in a row */
+  align-items: center; /* Keep items aligned */
+  justify-content: space-between; /* Push icons to the right */
   max-height: none !important;
-  overflow-y: auto;
+  overflow-y: visible;
   transition: none !important;
 }
 
-/* When Closed, Keep It Hidden */
+/* Navbar starts expanded */
+.navbar-collapse.show {
+  display: flex !important;
+  max-height: none !important;
+}
+
+/* When closed, keep it hidden */
 .navbar-collapse:not(.show) {
   max-height: 0 !important;
   overflow: hidden !important;
   display: none !important;
 }
 
-/* Prevent Flickering on Collapse */
+/* Prevent flickering on collapse */
 .navbar-collapse.collapsing {
   max-height: 0 !important;
   overflow: hidden;
-  transition: none !important;
+  transition: max-height 0.3s ease-in-out !important;
 }
 
-/* Keep Navbar Expanded When Opened */
-.navbar-collapse.show {
-  max-height: 100vh !important;
-  overflow-y: auto !important;
-  display: flex !important;
-}
-
-/* Ensure Navbar Toggler Consistency */
+/* Ensure navbar toggler consistency */
 .navbar-toggler {
   padding: 0.5rem 1rem !important;
   transition: none !important;
+}
+
+/* Align social icons on the same line, pushing them to the right */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.nav-item {
+  margin-right: 15px; /* Spacing between menu items */
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Push to the right */
+}
+
+.social-icons a {
+  margin-left: 10px;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Highlight effect */
 }
