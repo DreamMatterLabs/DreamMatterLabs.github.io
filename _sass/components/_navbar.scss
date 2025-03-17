@@ -22,7 +22,7 @@
   display: none;
 }
 
-/* Prevent flickering on collapse */
+/* Transition for collapsing */
 .navbar-collapse.collapsing {
   max-height: 0;
   overflow: hidden;

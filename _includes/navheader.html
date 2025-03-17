@@ -10,16 +10,16 @@
         </a>
 
         <!-- Mobile Toggle Button -->
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+<button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
-</button
+</button>
 
-        <div class="collapse navbar-collapse show" id="navbarResponsive">
+<div class="collapse navbar-collapse" id="navbarResponsive">
     <ul class="navbar-nav text-uppercase ms-auto">
         {% if site.locale and site.locale != "" and site.locale != nil %}
             {% for link in site.data.navigation[site.locale].nav %}
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="{{ link.url }}" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+                    <a class="nav-link js-scroll-trigger" href="{{ link.url }}">
                         {{ link.title }}
                     </a>
                 </li>
@@ -27,7 +27,7 @@
         {% else %}
             {% for link in site.data.navigation.nav %}
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="{{ link.url }}" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+                    <a class="nav-link js-scroll-trigger" href="{{ link.url }}">
                         {{ link.title }}
                     </a>
                 </li>
@@ -35,7 +35,7 @@
         {% endif %}
     </ul>
 
-    <!-- Social Icons (Now on the same line as "Blog") -->
+    <!-- Social Icons -->
     <div class="social-icons">
         <a href="https://x.com/DreamMatterLabs" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
         <a href="https://bsky.app/profile/dreammatterlabs.bsky.social" target="_blank" aria-label="Bluesky"><i class="fa fa-bskyicon"></i></a>
