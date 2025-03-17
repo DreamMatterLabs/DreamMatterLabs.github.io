@@ -92,7 +92,7 @@ en: &DEFAULT_EN
         role: "Lead Programmer, Game Designer"
         image: assets/img/team/maxB.png
         social:
-          - url: https://twitter.com
+          - url: https://dreammatterlabs.com/
             icon: fab fa-github
           - url: https://facebook.com
             icon: fab fa-gitkraken
@@ -168,13 +168,13 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in            
       - name: "Steph H."
         role: "Unreal Generalist"
-        image: assets/img/team/2.png
+        image: assets/img/team/1.jpg
         social:
           - url: https://github.com/sljeandell
             icon: fab fa-github
       - name: "Steph T."
         role: "UI/UX"
-        image: assets/img/team/1.png
+        image: assets/img/team/1.jpg
         social:
           - url: https://stephanieterrero.com/
             icon: fa fa-globe
@@ -184,7 +184,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in 
       - name: "Gabe"
         role: "Environmental Artist"
-        image: assets/img/team/1.png
+        image: assets/img/team/2.jpg
         social:
           - url: https://www.artstation.com/gabekabam
             icon: fab fa-artstation
@@ -200,7 +200,7 @@ en: &DEFAULT_EN
             icon: fab fa-youtube     
       - name: "Joël"
         role: "Marketing Manager"
-        image: assets/img/team/1.png
+        image: assets/img/team/1.jpg
         social:
           - url: https://www.artstation.com/artwork/BknOQk
             icon: fab fa-artstation
