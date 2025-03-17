@@ -1,28 +1,38 @@
 // Styling for the navbar
 #mainNav {
   background-color: $gray-900;
+  
+  /* Navbar Toggler */
   .navbar-toggler {
     font-size: 12px;
     right: 0;
-    padding: 13px;
+    padding: 10px;
     text-transform: uppercase;
     color: white;
-    border: 0;
+    border: none;
     background-color: $primary;
     @include heading-font;
   }
-  
+
+  /* Navbar Container (Width Adjustments) */
   .navbar-container {
-    width: 75vw !important;
+    width: 90vw !important;  /* Increased for better responsiveness */
     max-width: 100% !important;
-    padding-left: 0;
-    padding-right: 0;
-}
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
-
+  /* Navbar Brand (Logo) */
   .navbar-brand {
     color: $primary;
-	 padding-left: 100px !important; /* Adjust if needed */
+    padding-left: 50px !important; /* Adjusted for better positioning */
+    
+    img {
+      max-height: 60px;
+      width: auto;
+      transition: max-height 0.3s ease; /* Smooth resizing */
+    }
+
     @include script-font;
     &.active,
     &:active,
@@ -31,6 +41,8 @@
       color: darken($primary, 10%);
     }
   }
+
+  /* Navbar Links */
   .navbar-nav {
     .nav-item {
       .nav-link {
@@ -40,6 +52,7 @@
         letter-spacing: 1px;
         color: white;
         @include heading-font;
+        
         &.active,
         &:hover {
           color: $primary;
@@ -48,22 +61,22 @@
     }
   }
 }
+
+/* Large Screens (992px and above) */
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 10px;
     padding-bottom: 15px;
-    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
-    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
     background-color: transparent;
+    
     .navbar-brand {
       min-height: 52px;
-	  font-size: 1.75em; 
-      -webkit-transition: all 0.3s;
-      -moz-transition: all 0.3s;
+      font-size: 1.75em; 
       transition: all 0.3s;
     }
+
     .navbar-nav {
       .nav-item {
         .nav-link {
@@ -71,13 +84,54 @@
         }
       }
     }
+
+    /* Shrinks on Scroll */
     &.navbar-shrink {
-      padding-top: 0;
-      padding-bottom: 0;
+      padding-top: 5px;
+      padding-bottom: 5px;
       background-color: $gray-900;
+
       .navbar-brand {
         font-size: 1.25em;
-        padding: 12px 0;
+        padding: 10px 0;
+
+        img {
+          max-height: 40px; /* Shrinks on scroll */
+        }
+      }
+    }
+  }
+}
+
+/* Small Screens (Tablets & Phones) */
+@media (max-width: 991px) {
+  #mainNav {
+    padding: 5px 0;
+    
+    .navbar-brand {
+      padding-left: 15px !important; /* Centers logo better */
+      img {
+        max-height: 50px; /* Smaller logo on mobile */
+      }
+    }
+
+    .navbar-toggler {
+      padding: 8px;
+      font-size: 14px;
+    }
+
+    .navbar-nav {
+      text-align: center; /* Centers nav links */
+    }
+  }
+}
+
+/* Extra Small Screens (Phones under 480px) */
+@media (max-width: 480px) {
+  #mainNav {
+    .navbar-brand {
+      img {
+        max-height: 40px; /* Shrinks further on very small devices */
       }
     }
   }
