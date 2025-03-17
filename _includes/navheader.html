@@ -1,27 +1,42 @@
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" id="mainNav" style="background-color: #8D41A1;">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color: #8D41A1;">
     <div class="container navbar-container d-flex justify-content-between align-items-center">
-        <!-- Logo -->
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
-            <img src="/assets/img/dreammatterlabs-logo.png" 
-                 alt="DreamMatter Labs Logo"
-                 class="responsive-logo">
+            {%- if site.logo -%}
+                <img src="{{ site.baseurl }}/assets/img/dreammatterlabs-logo.png" 
+                     alt="DreamMatter Labs Logo"
+                     style="max-height: 50px; width: auto;">
+            {%- else -%}
+                {{ site.title }}
+            {%- endif -%}
         </a>
 
-        <!-- Navbar Toggler (For Mobile) -->
+        <!-- Navbar Toggler -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!-- Navbar Links -->
+        <!-- Navbar Items -->
         <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase">
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://dreammatterlabs.com/">ONEiRA</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/team/">About Us</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://drive.proton.me/urls/4KF4TVH6BW#biLotE7ERWMo">Press Kit</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://dreammatterlabs.com/">Steam Page - Soon</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/devlog/">Blog</a></li>
+                {% if site.locale and site.locale != "" and site.locale != nil %}
+                    {% for link in site.data.navigation[site.locale].nav %}
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="{{ link.url | default: '#'}}">
+                                {{ link.title }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                {% else %}
+                    {% for link in site.data.navigation.nav %}
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="{{ link.url | default: '#'}}">
+                                {{ link.title }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                {% endif %}
             </ul>
         </div>
 
@@ -35,8 +50,9 @@
         </div>
     </div>
 </nav>
+<!-- End Navigation -->
 
-<!-- Responsive Social Icons (For Mobile) -->
+<!-- Responsive Social Icons (Visible on Small Screens) -->
 <div class="social-icons text-center d-lg-none mt-3">
     <a href="https://x.com/DreamMatterLabs" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
     <a href="https://bsky.app/profile/dreammatterlabs.bsky.social" target="_blank" aria-label="Bluesky"><i class="fa fa-bskyicon"></i></a>
