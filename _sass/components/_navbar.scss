@@ -11,7 +11,6 @@
     border: 0;
     background-color: $primary;
     @include heading-font;
-    transition: none !important;
   }
 
   .navbar-container {
@@ -24,34 +23,31 @@
   // Fix navbar dropdown issues on small screens
   @media (max-width: 992px) {
     .navbar {
-      padding: 0.5rem 1rem !important;
-      position: relative;
-      transition: none !important;
+      padding: 0.5rem 1rem; /* Reduce navbar height */
+      position: relative; /* Ensure dropdowns are positioned correctly */
     }
 
     .navbar-brand img {
-      height: 50px;
+      height: 50px; /* Shrink logo */
     }
 
     .navbar-nav {
-      width: 100%;
+      width: 100%; /* Ensure full width */
     }
 
     .navbar-nav .nav-item {
-      width: 100%;
+      width: 100%; /* Full width for dropdown items */
     }
 
     /* Fix Dropdown Display Issues */
     .navbar-collapse {
-      height: auto !important;
-      min-height: 52px !important;
-      max-height: 70vh;
-      overflow-y: auto;
-      transition: none !important;
+      max-height: 70vh; /* Prevents taking up too much space */
+      overflow-y: auto; /* Allows scrolling if needed */
+      transition: max-height 0.3s ease-in-out;
     }
 
     .navbar-nav {
-      padding-bottom: 0.5rem;
+      padding-bottom: 0.5rem; /* Prevent extra space */
     }
 
     .navbar-toggler {
@@ -63,6 +59,7 @@
       font-size: 1rem;
     }
 
+    /* Adjust social icons spacing */
     .social-icons {
       margin-top: 1rem;
     }
@@ -70,7 +67,7 @@
 
   .navbar-brand {
     color: $primary;
-    padding-left: 100px !important;
+    padding-left: 100px !important; /* Adjust if needed */
     @include script-font;
 
     &.active,
@@ -116,7 +113,7 @@
 #navbarResponsive {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; /* Ensures nav links and icons are spaced out */
   width: 100%;
 }
 
@@ -125,14 +122,14 @@
   #mainNav {
     padding-top: 10px;
     padding-bottom: 15px;
-    transition: none !important;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
     background-color: transparent;
 
     .navbar-brand {
       min-height: 52px;
       font-size: 1.75em;
-      transition: none !important;
+      transition: all 0.3s;
     }
 
     .navbar-nav {
