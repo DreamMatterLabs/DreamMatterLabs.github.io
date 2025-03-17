@@ -13,12 +13,21 @@
     @include heading-font;
   }
 
-  .navbar-container {
-    width: 75vw !important;
-    max-width: 100% !important;
-    padding-left: 0;
-    padding-right: 0;
-  }
+.navbar-container {
+    width: 90vw;  /* Makes it more adaptive */
+    max-width: 1200px; /* Prevents it from getting too wide on large screens */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Mobile Screens (Phones and Tablets) */
+@media (max-width: 768px) {
+    .navbar-container {
+        width: 100vw; /* Ensures it takes full width on mobile */
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
 
   // Fix navbar dropdown issues on small screens
   @media (max-width: 992px) {
