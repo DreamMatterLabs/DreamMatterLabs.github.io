@@ -1,200 +1,36 @@
-// Ensure SCSS variables are defined (Modify this according to your Bootstrap setup)
-$gray-900: #212529 !default;
-$primary: #007bff !default;
-
+/* Navbar Styling */
 #mainNav {
-  background-color: $gray-900;
-
-  .navbar-toggler {
-    font-size: 12px;
-    right: 0;
-    padding: 13px;
-    text-transform: uppercase;
-    color: white;
-    border: 0;
-    background-color: $primary;
-    @include heading-font;
-    transition: none !important;
-  }
-
-  .navbar-container {
-    width: 90vw;
-    max-width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  @media (max-width: 768px) {
-    .navbar-container {
-      width: 100vw;
-      padding-left: 10px;
-      padding-right: 10px;
-    }
-  }
-
-  @media (max-width: 992px) {
-    .navbar {
-      padding: 0.5rem 1rem !important;
-      position: relative;
-    }
-
-    .navbar-brand img {
-      height: 50px;
-    }
-
-    .navbar-nav {
-      width: 100%;
-    }
-
-    .navbar-nav .nav-item {
-      width: 100%;
-    }
-
-    /* Navbar Starts Expanded */
-    .navbar-collapse {
-      display: flex !important;
-      flex-direction: column;
-      max-height: 500px; /* Ensure it starts expanded */
-      overflow-y: auto;
-      transition: max-height 0.3s ease-in-out;
-    }
-
-    /* When collapsed, ensure it stays closed */
-    .navbar-collapse.collapsing {
-      max-height: 0 !important;
-      overflow: hidden;
-      transition: max-height 0.3s ease-in-out !important;
-    }
-
-    .navbar-collapse:not(.show) {
-      display: none !important;
-    }
-
-    .navbar-nav {
-      padding-bottom: 0.5rem;
-    }
-
-    .navbar-toggler {
-      padding: 0.25rem 0.5rem;
-      font-size: 1rem;
-    }
-
-    .navbar-nav .nav-link {
-      font-size: 1rem;
-    }
-
-    .social-icons {
-      margin-top: 1rem;
-    }
-  }
-
-  .navbar-brand {
-    color: $primary;
-    padding-left: 100px !important;
-    @include script-font;
-
-    &.active,
-    &:active,
-    &:focus,
-    &:hover {
-      color: darken($primary, 10%);
-    }
-  }
-
-  .navbar-nav {
-    .nav-item {
-      .nav-link {
-        font-size: 90%;
-        font-weight: 400;
-        padding: 0.75em 0;
-        letter-spacing: 1px;
-        color: white;
-        @include heading-font;
-
-        &.active,
-        &:hover {
-          color: $primary;
-        }
-      }
-    }
-  }
+  background-color: #212529; /* Replaced SCSS variable */
 }
 
+.navbar-toggler {
+  font-size: 12px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+  background-color: #007bff; /* Replaced SCSS variable */
+  transition: none !important;
+}
+
+.navbar-container {
+  width: 90vw;
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Responsive Fixes */
 @media (max-width: 768px) {
-  .row {
-    text-align: center;
-  }
-
-  .portfolio-media {
-    max-width: 100%;
-    height: auto;
+  .navbar-container {
+    width: 100vw;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
-#navbarResponsive {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-}
-
-/* Fix Navbar Collapse Behavior */
-#navbarResponsive.collapsing {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease-in-out;
-}
-
-#navbarResponsive.show {
-  display: flex !important;
-  max-height: 100vh !important;
-  overflow-y: auto !important;
-}
-
-/* Ensure stability on large screens */
-@media (min-width: 992px) {
-  #mainNav {
-    padding-top: 10px;
-    padding-bottom: 15px;
-    transition: none !important;
-    border: none;
-    background-color: transparent;
-
-    .navbar-brand {
-      min-height: 52px;
-      font-size: 1.75em;
-      transition: none !important;
-    }
-
-    .navbar-nav {
-      .nav-item {
-        .nav-link {
-          padding: 1.1em 1em !important;
-        }
-      }
-    }
-
-    &.navbar-shrink {
-      padding-top: 0;
-      padding-bottom: 0;
-      background-color: $gray-900;
-
-      .navbar-brand {
-        font-size: 1.25em;
-        padding: 12px 0;
-      }
-    }
-  }
-}
-
-/* Fix Collapsing Behavior */
-.collapsing {
-  height: 0 !important;
-  overflow: hidden !important;
-  transition: max-height 0.3s ease-in-out !important;
-}
-
-/* Ensure navbar collapse starts expanded but stays collapsed when closed */
+/* Ensure Navbar Stays Collapsed When Toggled */
 .navbar-collapse {
   display: flex !important;
   flex-direction: column;
@@ -205,18 +41,91 @@ $primary: #007bff !default;
 
 .navbar-collapse:not(.show) {
   max-height: 0 !important;
-  overflow: hidden;
+  overflow: hidden !important;
   display: none !important;
 }
 
-/* Keep navbar expanded without flicker */
-.navbar-collapse.show {
-  max-height: 500px;
-  overflow-y: auto;
+/* Prevent Navbar from Auto-Expanding */
+.navbar-collapse.collapsing {
+  max-height: 0 !important;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
 }
 
-/* Fix Navbar Toggler Padding */
+/* Keep Navbar Expanded When Opened */
+.navbar-collapse.show {
+  max-height: 500px !important;
+  overflow-y: auto !important;
+}
+
+/* Navbar Toggler */
 .navbar-toggler {
   padding: 0.5rem 1rem !important;
   transition: none !important;
+}
+
+/* Ensure Navbar is Stable on Large Screens */
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    transition: none !important;
+    border: none;
+    background-color: transparent;
+  }
+
+  .navbar-brand {
+    min-height: 52px;
+    font-size: 1.75em;
+    transition: none !important;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+  }
+
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529; /* Replaced SCSS variable */
+  }
+
+  .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }
+}
+
+/* Fix Dropdown Styling */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+}
+
+/* Fix Collapsing Behavior */
+@media (prefers-reduced-motion: reduce) {
+  .collapsing {
+    transition: none;
+  }
+}
+
+.collapsing {
+  height: 0 !important;
+  overflow: hidden !important;
+  transition: max-height 0.3s ease-in-out !important;
 }
