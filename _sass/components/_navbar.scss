@@ -13,23 +13,23 @@
     @include heading-font;
   }
 
-.navbar-container {
-    width: 90vw;  /* Makes it more adaptive */
+  .navbar-container {
+    width: 90vw; /* Makes it more adaptive */
     max-width: 1200px; /* Prevents it from getting too wide on large screens */
     padding-left: 15px;
     padding-right: 15px;
-}
+  }
 
-/* Mobile Screens (Phones and Tablets) */
-@media (max-width: 768px) {
+  /* Mobile Screens (Phones and Tablets) */
+  @media (max-width: 768px) {
     .navbar-container {
-        width: 100vw; /* Ensures it takes full width on mobile */
-        padding-left: 10px;
-        padding-right: 10px;
+      width: 100vw; /* Ensures it takes full width on mobile */
+      padding-left: 10px;
+      padding-right: 10px;
     }
-}
+  }
 
-  // Fix navbar dropdown issues on small screens
+  /* Fix navbar dropdown and collapse issues on small screens */
   @media (max-width: 992px) {
     .navbar {
       padding: 0.5rem 1rem; /* Reduce navbar height */
@@ -48,11 +48,16 @@
       width: 100%; /* Full width for dropdown items */
     }
 
-    /* Fix Dropdown Display Issues */
+    /* Prevent Navbar from Expanding Unexpectedly */
     .navbar-collapse {
       max-height: 70vh; /* Prevents taking up too much space */
       overflow-y: auto; /* Allows scrolling if needed */
       transition: max-height 0.3s ease-in-out;
+    }
+
+    /* Fix flickering issue when collapsing */
+    .navbar-collapse.collapsing {
+      max-height: 0 !important; /* Ensures smooth closing transition */
     }
 
     .navbar-nav {
@@ -106,7 +111,7 @@
   }
 }
 
-// Responsive adjustments
+/* Ensure responsive behavior */
 @media (max-width: 768px) {
   .row {
     text-align: center;
@@ -118,6 +123,7 @@
   }
 }
 
+/* Fix navbar collapse behavior */
 #navbarResponsive {
   display: flex;
   align-items: center;
@@ -125,15 +131,18 @@
   width: 100%;
 }
 
-// Navbar collapse container styling
-#navbarResponsive {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; /* Ensures nav links and icons are spaced out */
-  width: 100%;
+/* Ensure navbar collapse transition works properly */
+#navbarResponsive.collapsing {
+  max-height: 0 !important;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
 }
 
-// Fix navbar shrinking issue when toggling menu
+#navbarResponsive.show {
+  display: flex !important;
+}
+
+/* Fix navbar shrinking issue when toggling menu */
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 10px;
