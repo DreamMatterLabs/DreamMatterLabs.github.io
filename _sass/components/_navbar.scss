@@ -196,22 +196,34 @@
         }
 
         /* Ensure navbar collapse doesn't shrink */
-        .navbar-collapse {
-            display: flex !important;
-            flex-direction: column;
-            max-height: none !important;
-            transition: none !important;
-        }
+.navbar-collapse {
+  display: none !important; /* Ensure it's hidden when not expanded */
+  max-height: 0 !important;
+  overflow: hidden;
+}
 
         /* Keep navbar expanded without flicker */
-        .navbar-collapse.show {
-            display: flex !important;
-            max-height: 100vh !important;
-            overflow-y: auto !important;
-        }
+.navbar-collapse.show {
+  display: flex !important;
+  max-height: 100vh !important;
+  overflow-y: auto !important;
+}
 
         /* Fix navbar toggler padding */
         .navbar-toggler {
             padding: 0.5rem 1rem !important;
             transition: none !important;
         }
+		
+		<script>
+  document.addEventListener("click", function (event) {
+    var navbar = document.querySelector(".navbar-collapse");
+    var toggler = document.querySelector(".navbar-toggler");
+
+    // If clicked outside navbar and not on the toggler, close it
+    if (!navbar.contains(event.target) && !toggler.contains(event.target)) {
+      navbar.classList.remove("show");
+      navbar.style.maxHeight = "0"; // Force collapse
+    }
+  });
+</script>
