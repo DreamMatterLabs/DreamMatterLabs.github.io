@@ -1,41 +1,40 @@
 /* Ensure Navbar Starts Expanded by Default */
 .navbar-collapse {
-  display: flex !important; /* Force display: flex */
+  display: flex !important;
   flex-direction: row; /* Align items in a row */
   align-items: center; /* Keep items aligned */
   justify-content: space-between; /* Push icons to the right */
-  max-height: none;
+  max-height: none !important;
   overflow-y: visible;
-  transition: max-height 0.3s ease-in-out; /* Smooth transition */
+  transition: none !important;
 }
 
 /* Navbar starts expanded */
 .navbar-collapse.show {
   display: flex !important;
-  max-height: none;
+  max-height: none !important;
 }
 
 /* When closed, keep it hidden */
 .navbar-collapse:not(.show) {
-  max-height: 0;
-  overflow: hidden;
-  display: none;
+  max-height: 0 !important;
+  overflow: hidden !important;
+  display: none !important;
 }
 
-/* Transition for collapsing */
+/* Prevent flickering on collapse */
 .navbar-collapse.collapsing {
-  max-height: 0;
+  max-height: 0 !important;
   overflow: hidden;
-  transition: max-height 0.3s ease-in-out;
+  transition: max-height 0.3s ease-in-out !important;
 }
 
 /* Ensure navbar toggler consistency */
 .navbar-toggler {
-  display: block; /* Ensures visibility */
-  padding: 0.5rem 1rem;
-  transition: none;
+    display: block !important; /* Ensures visibility */
+    padding: 0.5rem 1rem !important;
+    transition: none !important;
 }
-
 /* Align social icons on the same line, pushing them to the right */
 .navbar-nav {
   display: flex;
@@ -61,19 +60,4 @@
 
 .social-icons a:hover {
   color: #007bff; /* Highlight effect */
-}
-
-/* Add display: flex to containers */
-.container, .navbar-container {
-  display: flex;
-  align-items: center; /* Align items vertically */
-  justify-content: space-between; /* Space out items */
-}
-
-/* Ensure the header container also uses flex */
-.masthead .container {
-  display: flex;
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */
-  justify-content: center; /* Center items vertically */
 }
