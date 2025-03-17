@@ -1,6 +1,6 @@
 /* Ensure Navbar Starts Expanded by Default */
 .navbar-collapse {
-  display: flex;
+  display: flex !important; /* Force display: flex */
   flex-direction: row; /* Align items in a row */
   align-items: center; /* Keep items aligned */
   justify-content: space-between; /* Push icons to the right */
@@ -11,7 +11,7 @@
 
 /* Navbar starts expanded */
 .navbar-collapse.show {
-  display: flex;
+  display: flex !important;
   max-height: none;
 }
 
