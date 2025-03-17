@@ -1,70 +1,28 @@
 <!-- Navigation -->
-<nav
-  class="navbar navbar-expand-lg navbar-dark fixed-top"
-  id="mainNav"
-  style="background-color: #212529"
->
-  <div class="container">
-    <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}/#">
-      {%- if site.logo -%}
-      <img
-        height="{{ site.logo.height | default: 52 }}"
-        src="{{ site.logo.path }}" 
-      />
-      {%- else -%} {{ site.title }} {%- endif -%}
-    </a>
-    <button
-      class="navbar-toggler navbar-toggler-right"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarResponsive"
-      aria-controls="navbarResponsive"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      Menu<i class="fas fa-bars"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav text-uppercase ml-auto">
-      {% if site.locale and site.locale != "" and site.locale != nil %}
-        {%- for link in site.data.navigation[site.locale].nav -%}
-        <li class="nav-item">
-          {%- if link.url -%}
-          <a class="nav-link js-scroll-trigger" href="{{ link.url }}"
-            >{{ link.title }}</a
-          >
-          {%- elsif link.section -%}
-          <a
-            class="nav-link js-scroll-trigger"
-            href="{{ site.baseurl }}/#{{ link.section }}"
-            >{{ link.title }}</a
-          >
-          {%- else -%}
-          <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
-          {%- endif -%}
-        </li>
-        {%- endfor -%}
-      {% else %}
-        {%- for link in site.data.navigation.nav -%}
-        <li class="nav-item">
-          {%- if link.url -%}
-          <a class="nav-link js-scroll-trigger" href="{{ link.url }}"
-            >{{ link.title }}</a
-          >
-          {%- elsif link.section -%}
-          <a
-            class="nav-link js-scroll-trigger"
-            href="{{ site.baseurl }}/#{{ link.section }}"
-            >{{ link.title }}</a
-          >
-          {%- else -%}
-          <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
-          {%- endif -%}
-        </li>
-        {%- endfor -%}
-      {% endif %}
-      </ul>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <img src="/assets/img/dreammatterlabs-logo.png" alt="DreamMatter Labs Logo" height="65">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto text-uppercase">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://dreammatterlabs.com/">ONEiRA</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/team/">About Us</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://drive.proton.me/urls/4KF4TVH6BW#biLotE7ERWMo">Press Kit</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://dreammatterlabs.com/">Steam Page - Soon</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/devlog/">Blog</a></li>
+            </ul>
+            <div class="social-icons ml-lg-3">
+                <a href="https://x.com/DreamMatterLabs" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://bsky.app/profile/dreammatterlabs.bsky.social" target="_blank" aria-label="Bluesky"><i class="fa fa-bskyicon"></i></a>
+                <a href="https://www.linkedin.com/company/dreammatterlabs" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.youtube.com/@DreamMatterLabs" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="https://discord.gg/g9Be9JtqV4" target="_blank" aria-label="Discord"><i class="fab fa-discord"></i></a>
+            </div>
+        </div>
     </div>
-  </div>
 </nav>
 <!-- End Navigation -->
