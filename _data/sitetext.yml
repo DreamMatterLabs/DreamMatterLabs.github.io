@@ -162,7 +162,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
       - name: "Pam"
         role: "Level Designer"
-        image: assets/img/team/pat.png
+        image: assets/img/team/1.jpg
         social:
           - url: https://www.linkedin.com/in/p%C3%A2mela-beltrani-a4b808106/
             icon: fab fa-linkedin-in            
@@ -190,7 +190,7 @@ en: &DEFAULT_EN
             icon: fab fa-artstation
       - name: "Ashe"
         role: "Environmental Artist"
-        image: assets/img/team/1.png
+        image: assets/img/team/1.jpg
         social:
           - url: https://www.twitch.tv/ashe_xo
             icon: fa-brands fa-twitch
