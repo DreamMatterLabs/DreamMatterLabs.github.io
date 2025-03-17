@@ -1,102 +1,62 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color: #8D41A1;">
-    <div class="container navbar-container">
+    <div class="container navbar-container d-flex justify-content-between align-items-center">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             {%- if site.logo -%}
-                <img height="{{ site.logo.height | default: 52 }}" src="{{ site.baseurl }}/assets/img/dreammatterlabs-logo.png" alt="DreamMatter Labs Logo"/>
+                <img src="{{ site.baseurl }}/assets/img/dreammatterlabs-logo.png" 
+                     alt="DreamMatter Labs Logo"
+                     style="max-height: 50px; width: auto;">
             {%- else -%}
                 {{ site.title }}
             {%- endif -%}
         </a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+
+        <!-- Navbar Toggler -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            Menu <i class="fas fa-bars"></i>
+            <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav text-uppercase ml-auto">
+
+        <!-- Navbar Items -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase">
                 {% if site.locale and site.locale != "" and site.locale != nil %}
                     {% for link in site.data.navigation[site.locale].nav %}
                         <li class="nav-item">
-                            {%- if link.url -%}
-                                <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
-                            {%- elsif link.section -%}
-                                <a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
-                            {%- else -%}
-                                <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
-                            {%- endif -%}
+                            <a class="nav-link js-scroll-trigger" href="{{ link.url | default: '#'}}">
+                                {{ link.title }}
+                            </a>
                         </li>
                     {% endfor %}
                 {% else %}
                     {% for link in site.data.navigation.nav %}
                         <li class="nav-item">
-                            {%- if link.url -%}
-                                <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
-                            {%- elsif link.section -%}
-                                <a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
-                            {%- else -%}
-                                <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
-                            {%- endif -%}
+                            <a class="nav-link js-scroll-trigger" href="{{ link.url | default: '#'}}">
+                                {{ link.title }}
+                            </a>
                         </li>
                     {% endfor %}
                 {% endif %}
             </ul>
+        </div>
 
-            <div class="social-icons">
-                <a href="https://x.com/DreamMatterLabs" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                <a href="https://bsky.app/profile/dreammatterlabs.bsky.social" target="_blank" aria-label="Bluesky"><i class="fa fa-bskyicon"></i></a>
-                <a href="https://www.linkedin.com/company/dreammatterlabs" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://www.youtube.com/@DreamMatterLabs" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                <a href="https://discord.gg/g9Be9JtqV4" target="_blank" aria-label="Discord"><i class="fab fa-discord"></i></a>
-            </div>
+        <!-- Social Icons (Hidden on Small Screens) -->
+        <div class="social-icons d-none d-lg-flex">
+            <a href="https://x.com/DreamMatterLabs" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://bsky.app/profile/dreammatterlabs.bsky.social" target="_blank" aria-label="Bluesky"><i class="fa fa-bskyicon"></i></a>
+            <a href="https://www.linkedin.com/company/dreammatterlabs" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.youtube.com/@DreamMatterLabs" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="https://discord.gg/g9Be9JtqV4" target="_blank" aria-label="Discord"><i class="fab fa-discord"></i></a>
         </div>
     </div>
 </nav>
 <!-- End Navigation -->
 
-<!-- Header -->
-{% if site.locale and site.locale != "" and site.locale != nil %}
-<header class="masthead">
-    <div class="container">
-        <div class="intro-text">
-            <div class="header-bg">
-                <div class="move-down center-image"></div>
-            </div>
-
-            {%- if site.data.sitetext[site.locale].header.title -%}
-                <div class="intro-lead-in">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
-            {%- endif -%}
-            {%- if site.data.sitetext[site.locale].header.text -%}
-                <div class="intro-heading text-uppercase">{{ site.data.sitetext[site.locale].header.text | markdownify }}</div>
-            {%- endif -%}
-            {%- if site.data.sitetext[site.locale].header.button -%}
-                {% if page.url != "/team/" %}
-                    <a class="btn btn-rounded text-uppercase js-scroll-trigger"
-                       href="{{ site.data.sitetext[site.locale].header.buttonlink }}">
-                        {{ site.data.sitetext[site.locale].header.button }}
-                    </a>
-                {%- endif -%}
-            {%- endif -%}
-        </div>
-    </div>
-</header>
-{% else %}
-<header class="masthead">
-    <div class="container">
-        <div class="intro-text">
-            {%- if site.data.sitetext.header.title -%}
-                <div class="intro-lead-in">{{ site.data.sitetext.header.title | markdownify }}</div>
-            {%- endif -%}
-            {%- if site.data.sitetext.header.text -%}
-                <div class="intro-heading text-uppercase">{{ site.data.sitetext.header.text | markdownify }}</div>
-            {%- endif -%}
-            {%- if site.data.sitetext.header.button -%}
-                <a class="btn btn-rounded text-uppercase js-scroll-trigger"
-                   href="{{ site.data.sitetext.header.buttonlink }}">
-                    {{ site.data.sitetext.header.button }}
-                </a>
-            {%- endif -%}
-        </div>
-    </div>
-</header>
-{% endif %}
-<!-- End Header -->
+<!-- Responsive Social Icons (Visible on Small Screens) -->
+<div class="social-icons text-center d-lg-none mt-3">
+    <a href="https://x.com/DreamMatterLabs" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+    <a href="https://bsky.app/profile/dreammatterlabs.bsky.social" target="_blank" aria-label="Bluesky"><i class="fa fa-bskyicon"></i></a>
+    <a href="https://www.linkedin.com/company/dreammatterlabs" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://www.youtube.com/@DreamMatterLabs" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+    <a href="https://discord.gg/g9Be9JtqV4" target="_blank" aria-label="Discord"><i class="fab fa-discord"></i></a>
+</div>
