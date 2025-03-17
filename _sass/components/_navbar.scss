@@ -32,7 +32,7 @@
     }
 
     .navbar-nav {
-      width: 100%; /* Make sure menu items are properly aligned */
+      width: 100%; /* Ensure full width */
     }
 
     .navbar-nav .nav-item {
@@ -40,16 +40,14 @@
     }
 
     /* Fix Dropdown Display Issues */
-    .navbar-nav .collapse {
-      display: block !important;
-      max-height: 0;
-      overflow: hidden;
+    .navbar-collapse {
+      max-height: 70vh; /* Prevents taking up too much space */
+      overflow-y: auto; /* Allows scrolling if needed */
       transition: max-height 0.3s ease-in-out;
     }
 
-    .navbar-nav .collapse.show {
-      max-height: 500px; /* Allow enough space for dropdowns */
-      overflow: visible;
+    .navbar-nav {
+      padding-bottom: 0.5rem; /* Prevent extra space */
     }
 
     .navbar-toggler {
@@ -60,32 +58,18 @@
     .navbar-nav .nav-link {
       font-size: 1rem;
     }
-  }
-  
-  
-  @media (max-width: 992px) {
-    .navbar-collapse {
-        max-height: 70vh; /* Prevents taking up too much space */
-        overflow-y: auto; /* Allows scrolling if needed */
-    }
-
-    /* Ensure navbar does not take unnecessary space */
-    .navbar-nav {
-        padding-bottom: 0.5rem;
-    }
 
     /* Adjust social icons spacing */
     .social-icons {
-        margin-top: 1rem;
+      margin-top: 1rem;
     }
-}
-
+  }
 
   .navbar-brand {
     color: $primary;
     padding-left: 100px !important; /* Adjust if needed */
     @include script-font;
-    
+
     &.active,
     &:active,
     &:focus,
@@ -113,25 +97,25 @@
   }
 }
 
-
+// Responsive adjustments
 @media (max-width: 768px) {
   .row {
     text-align: center;
   }
+
   .portfolio-media {
     max-width: 100%;
     height: auto;
   }
 }
 
-
+// Navbar collapse container styling
 #navbarResponsive {
   display: flex;
   align-items: center;
   justify-content: space-between; /* Ensures nav links and icons are spaced out */
   width: 100%;
 }
-
 
 // Fix navbar shrinking issue when toggling menu
 @media (min-width: 992px) {
