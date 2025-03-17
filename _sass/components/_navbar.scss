@@ -11,11 +11,12 @@
     border: 0;
     background-color: $primary;
     @include heading-font;
+    transition: none !important; /* Prevents any flicker when clicking */
   }
 
   .navbar-container {
-    width: 90vw; /* Makes it more adaptive */
-    max-width: 1200px; /* Prevents it from getting too wide on large screens */
+    width: 90vw;
+    max-width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -23,7 +24,7 @@
   /* Mobile Screens (Phones and Tablets) */
   @media (max-width: 768px) {
     .navbar-container {
-      width: 100vw; /* Ensures it takes full width on mobile */
+      width: 100vw;
       padding-left: 10px;
       padding-right: 10px;
     }
@@ -32,36 +33,45 @@
   /* Fix navbar dropdown and collapse issues on small screens */
   @media (max-width: 992px) {
     .navbar {
-      padding: 0.5rem 1rem; /* Reduce navbar height */
-      position: relative; /* Ensure dropdowns are positioned correctly */
+      padding: 0.5rem 1rem !important; /* Prevents height change */
+      position: relative;
     }
 
     .navbar-brand img {
-      height: 50px; /* Shrink logo */
+      height: 50px;
     }
 
     .navbar-nav {
-      width: 100%; /* Ensure full width */
+      width: 100%;
     }
 
     .navbar-nav .nav-item {
-      width: 100%; /* Full width for dropdown items */
+      width: 100%;
     }
 
     /* Prevent Navbar from Expanding Unexpectedly */
     .navbar-collapse {
-      max-height: 70vh; /* Prevents taking up too much space */
-      overflow-y: auto; /* Allows scrolling if needed */
-      transition: max-height 0.3s ease-in-out;
+      max-height: none !important; /* Allows full expansion */
+      overflow-y: auto;
+      transition: none !important; /* Disables Bootstrap's default transition */
+      display: flex !important;
+      flex-direction: column;
     }
 
     /* Fix flickering issue when collapsing */
     .navbar-collapse.collapsing {
-      max-height: 0 !important; /* Ensures smooth closing transition */
+      max-height: 0 !important;
+      overflow: hidden;
+      transition: max-height 0.2s ease-in-out !important;
+    }
+
+    .navbar-collapse.show {
+      max-height: 100vh !important; /* Fully expand without flicker */
+      overflow-y: auto !important;
     }
 
     .navbar-nav {
-      padding-bottom: 0.5rem; /* Prevent extra space */
+      padding-bottom: 0.5rem;
     }
 
     .navbar-toggler {
@@ -81,7 +91,7 @@
 
   .navbar-brand {
     color: $primary;
-    padding-left: 100px !important; /* Adjust if needed */
+    padding-left: 100px !important;
     @include script-font;
 
     &.active,
@@ -127,7 +137,7 @@
 #navbarResponsive {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Ensures nav links and icons are spaced out */
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -135,7 +145,7 @@
 #navbarResponsive.collapsing {
   max-height: 0 !important;
   overflow: hidden;
-  transition: max-height 0.3s ease-in-out;
+  transition: none !important;
 }
 
 #navbarResponsive.show {
@@ -147,14 +157,14 @@
   #mainNav {
     padding-top: 10px;
     padding-bottom: 15px;
-    transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: none !important; /* Ensures stability */
     border: none;
     background-color: transparent;
 
     .navbar-brand {
       min-height: 52px;
       font-size: 1.75em;
-      transition: all 0.3s;
+      transition: none !important;
     }
 
     .navbar-nav {
