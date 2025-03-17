@@ -1,163 +1,92 @@
-// Styling for the navbar
+/* Styling for the navbar */
 #mainNav {
-  background-color: $gray-900;
+    background-color: #8D41A1 !important; /* Ensures proper background */
+    transition: background-color 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
 
-  .navbar-toggler {
-    font-size: 12px;
-    right: 0;
-    padding: 13px;
-    text-transform: uppercase;
+/* Navbar Toggler */
+.navbar-toggler {
+    font-size: 14px;
+    padding: 8px;
     color: white;
-    border: 0;
-    background-color: $primary;
-    @include heading-font;
-  }
+    border: none;
+    background-color: #6F42C1;
+}
 
+/* Navbar Container - Adjusts Width */
 .navbar-container {
-    width: 90vw;  /* Makes it more adaptive */
-    max-width: 1200px; /* Prevents it from getting too wide on large screens */
+    width: 100% !important;
+    max-width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-/* Mobile Screens (Phones and Tablets) */
-@media (max-width: 768px) {
-    .navbar-container {
-        width: 100vw; /* Ensures it takes full width on mobile */
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+/* Logo Resizing for Mobile */
+.navbar-brand img {
+    height: auto;
+    max-height: 60px;
+    width: auto;
+    transition: max-height 0.3s ease-in-out;
 }
 
-  // Fix navbar dropdown issues on small screens
-  @media (max-width: 992px) {
+/* Navbar Link Styles */
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: white !important;
+    transition: color 0.2s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: #FFD700 !important;
+}
+
+/* Fix Navbar Dropdown on Mobile */
+@media (max-width: 992px) {
     .navbar {
-      padding: 0.5rem 1rem; /* Reduce navbar height */
-      position: relative; /* Ensure dropdowns are positioned correctly */
+        padding: 0.5rem 1rem; /* Reduce navbar height */
+        position: relative; /* Ensure dropdowns work */
     }
 
     .navbar-brand img {
-      height: 50px; /* Shrink logo */
+        max-height: 50px; /* Shrink logo */
+    }
+
+    .navbar-collapse {
+        max-height: 70vh;
+        overflow-y: auto;
+        transition: max-height 0.3s ease-in-out;
     }
 
     .navbar-nav {
-      width: 100%; /* Ensure full width */
+        width: 100%;
+        text-align: center;
     }
 
     .navbar-nav .nav-item {
-      width: 100%; /* Full width for dropdown items */
+        width: 100%;
     }
 
-    /* Fix Dropdown Display Issues */
-    .navbar-collapse {
-      max-height: 70vh; /* Prevents taking up too much space */
-      overflow-y: auto; /* Allows scrolling if needed */
-      transition: max-height 0.3s ease-in-out;
-    }
-
-    .navbar-nav {
-      padding-bottom: 0.5rem; /* Prevent extra space */
-    }
-
-    .navbar-toggler {
-      padding: 0.25rem 0.5rem;
-      font-size: 1rem;
-    }
-
-    .navbar-nav .nav-link {
-      font-size: 1rem;
-    }
-
-    /* Adjust social icons spacing */
     .social-icons {
-      margin-top: 1rem;
+        margin-top: 1rem;
     }
-  }
-
-  .navbar-brand {
-    color: $primary;
-    padding-left: 100px !important; /* Adjust if needed */
-    @include script-font;
-
-    &.active,
-    &:active,
-    &:focus,
-    &:hover {
-      color: darken($primary, 10%);
-    }
-  }
-
-  .navbar-nav {
-    .nav-item {
-      .nav-link {
-        font-size: 90%;
-        font-weight: 400;
-        padding: 0.75em 0;
-        letter-spacing: 1px;
-        color: white;
-        @include heading-font;
-
-        &.active,
-        &:hover {
-          color: $primary;
-        }
-      }
-    }
-  }
 }
 
-// Responsive adjustments
-@media (max-width: 768px) {
-  .row {
-    text-align: center;
-  }
-
-  .portfolio-media {
-    max-width: 100%;
-    height: auto;
-  }
-}
-
-// Navbar collapse container styling
-#navbarResponsive {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; /* Ensures nav links and icons are spaced out */
-  width: 100%;
-}
-
-// Fix navbar shrinking issue when toggling menu
+/* Navbar Shrinks on Scroll */
 @media (min-width: 992px) {
-  #mainNav {
-    padding-top: 10px;
-    padding-bottom: 15px;
-    transition: padding-top 0.3s, padding-bottom 0.3s;
-    border: none;
-    background-color: transparent;
-
-    .navbar-brand {
-      min-height: 52px;
-      font-size: 1.75em;
-      transition: all 0.3s;
-    }
-
-    .navbar-nav {
-      .nav-item {
-        .nav-link {
-          padding: 1.1em 1em !important;
-        }
-      }
+    #mainNav {
+        padding-top: 10px;
+        padding-bottom: 15px;
     }
 
     &.navbar-shrink {
-      padding-top: 0;
-      padding-bottom: 0;
-      background-color: $gray-900;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: #8D41A1 !important;
 
-      .navbar-brand {
-        font-size: 1.25em;
-        padding: 12px 0;
-      }
+        .navbar-brand img {
+            max-height: 40px;
+        }
     }
-  }
 }
