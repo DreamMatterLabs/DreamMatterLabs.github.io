@@ -51,22 +51,23 @@
 
     /* Prevent Navbar from Expanding Unexpectedly */
     .navbar-collapse {
-      max-height: none !important; /* Allows full expansion */
-      overflow-y: auto;
-      transition: none !important; /* Disables Bootstrap's default transition */
       display: flex !important;
       flex-direction: column;
+      max-height: none !important;
+      transition: none !important;
+      overflow-y: auto;
     }
 
     /* Fix flickering issue when collapsing */
     .navbar-collapse.collapsing {
       max-height: 0 !important;
       overflow: hidden;
-      transition: max-height 0.2s ease-in-out !important;
+      transition: none !important;
     }
 
     .navbar-collapse.show {
-      max-height: 100vh !important; /* Fully expand without flicker */
+      display: flex !important;
+      max-height: 100vh !important;
       overflow-y: auto !important;
     }
 
@@ -125,65 +126,4 @@
 @media (max-width: 768px) {
   .row {
     text-align: center;
-  }
-
-  .portfolio-media {
-    max-width: 100%;
-    height: auto;
-  }
-}
-
-/* Fix navbar collapse behavior */
-#navbarResponsive {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-}
-
-/* Ensure navbar collapse transition works properly */
-#navbarResponsive.collapsing {
-  max-height: 0 !important;
-  overflow: hidden;
-  transition: none !important;
-}
-
-#navbarResponsive.show {
-  display: flex !important;
-}
-
-/* Fix navbar shrinking issue when toggling menu */
-@media (min-width: 992px) {
-  #mainNav {
-    padding-top: 10px;
-    padding-bottom: 15px;
-    transition: none !important; /* Ensures stability */
-    border: none;
-    background-color: transparent;
-
-    .navbar-brand {
-      min-height: 52px;
-      font-size: 1.75em;
-      transition: none !important;
-    }
-
-    .navbar-nav {
-      .nav-item {
-        .nav-link {
-          padding: 1.1em 1em !important;
-        }
-      }
-    }
-
-    &.navbar-shrink {
-      padding-top: 0;
-      padding-bottom: 0;
-      background-color: $gray-900;
-
-      .navbar-brand {
-        font-size: 1.25em;
-        padding: 12px 0;
-      }
-    }
-  }
-}
+  &#8203;:contentReference[oaicite:0]{index=0}&#8203;
