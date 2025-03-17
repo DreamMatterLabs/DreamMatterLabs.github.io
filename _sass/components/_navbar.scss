@@ -1,4 +1,7 @@
-// Styling for the navbar
+// Ensure SCSS variables are defined (Modify this according to your Bootstrap setup)
+$gray-900: #212529 !default;
+$primary: #007bff !default;
+
 #mainNav {
   background-color: $gray-900;
 
@@ -11,7 +14,7 @@
     border: 0;
     background-color: $primary;
     @include heading-font;
-    transition: none !important; /* Prevents any flicker when clicking */
+    transition: none !important;
   }
 
   .navbar-container {
@@ -21,7 +24,6 @@
     padding-right: 15px;
   }
 
-  /* Mobile Screens (Phones and Tablets) */
   @media (max-width: 768px) {
     .navbar-container {
       width: 100vw;
@@ -30,10 +32,9 @@
     }
   }
 
-  /* Fix navbar dropdown and collapse issues on small screens */
   @media (max-width: 992px) {
     .navbar {
-      padding: 0.5rem 1rem !important; /* Prevents height change */
+      padding: 0.5rem 1rem !important;
       position: relative;
     }
 
@@ -51,23 +52,16 @@
 
     /* Prevent Navbar from Expanding Unexpectedly */
     .navbar-collapse {
-      max-height: none !important; /* Allows full expansion */
-      overflow-y: auto;
-      transition: none !important; /* Disables Bootstrap's default transition */
-      display: flex !important;
+      display: flex !important; /* Keep it flexible */
       flex-direction: column;
-    }
-
-    /* Fix flickering issue when collapsing */
-    .navbar-collapse.collapsing {
-      max-height: 0 !important;
+      max-height: 0;
       overflow: hidden;
-      transition: max-height 0.2s ease-in-out !important;
+      transition: max-height 0.3s ease-in-out;
     }
 
     .navbar-collapse.show {
-      max-height: 100vh !important; /* Fully expand without flicker */
-      overflow-y: auto !important;
+      max-height: 500px; /* Prevent excessive height */
+      overflow-y: auto;
     }
 
     .navbar-nav {
@@ -83,7 +77,6 @@
       font-size: 1rem;
     }
 
-    /* Adjust social icons spacing */
     .social-icons {
       margin-top: 1rem;
     }
@@ -92,7 +85,7 @@
   .navbar-brand {
     color: $primary;
     padding-left: 100px !important;
-    @include script-font;
+    @include script-font; /* Ensure this mixin exists */
 
     &.active,
     &:active,
@@ -121,7 +114,6 @@
   }
 }
 
-/* Ensure responsive behavior */
 @media (max-width: 768px) {
   .row {
     text-align: center;
@@ -133,7 +125,6 @@
   }
 }
 
-/* Fix navbar collapse behavior */
 #navbarResponsive {
   display: flex;
   align-items: center;
@@ -141,23 +132,25 @@
   width: 100%;
 }
 
-/* Ensure navbar collapse transition works properly */
+/* Fix Navbar Collapse Behavior */
 #navbarResponsive.collapsing {
-  max-height: 0 !important;
+  max-height: 0;
   overflow: hidden;
-  transition: none !important;
+  transition: max-height 0.3s ease-in-out;
 }
 
 #navbarResponsive.show {
   display: flex !important;
+  max-height: 100vh !important;
+  overflow-y: auto !important;
 }
 
-/* Fix navbar shrinking issue when toggling menu */
+/* Ensure stability on large screens */
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 10px;
     padding-bottom: 15px;
-    transition: none !important; /* Ensures stability */
+    transition: none !important;
     border: none;
     background-color: transparent;
 
@@ -188,3 +181,30 @@
   }
 }
 
+/* Fix Collapsing Behavior */
+.collapsing {
+  height: 0 !important;
+  overflow: hidden !important;
+  transition: max-height 0.3s ease-in-out !important;
+}
+
+/* Ensure navbar collapse doesn't shrink */
+.navbar-collapse {
+  display: flex !important;
+  flex-direction: column;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+/* Keep navbar expanded without flicker */
+.navbar-collapse.show {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+/* Fix Navbar Toggler Padding */
+.navbar-toggler {
+  padding: 0.5rem 1rem !important;
+  transition: none !important;
+}
