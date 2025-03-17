@@ -50,18 +50,24 @@ $primary: #007bff !default;
       width: 100%;
     }
 
-    /* Prevent Navbar from Expanding Unexpectedly */
+    /* Navbar Starts Expanded */
     .navbar-collapse {
-      display: flex !important; /* Keep it flexible */
+      display: flex !important;
       flex-direction: column;
-      max-height: 0;
-      overflow: hidden;
+      max-height: 500px; /* Ensure it starts expanded */
+      overflow-y: auto;
       transition: max-height 0.3s ease-in-out;
     }
 
-    .navbar-collapse.show {
-      max-height: 500px; /* Prevent excessive height */
-      overflow-y: auto;
+    /* When collapsed, ensure it stays closed */
+    .navbar-collapse.collapsing {
+      max-height: 0 !important;
+      overflow: hidden;
+      transition: max-height 0.3s ease-in-out !important;
+    }
+
+    .navbar-collapse:not(.show) {
+      display: none !important;
     }
 
     .navbar-nav {
@@ -85,7 +91,7 @@ $primary: #007bff !default;
   .navbar-brand {
     color: $primary;
     padding-left: 100px !important;
-    @include script-font; /* Ensure this mixin exists */
+    @include script-font;
 
     &.active,
     &:active,
@@ -188,13 +194,19 @@ $primary: #007bff !default;
   transition: max-height 0.3s ease-in-out !important;
 }
 
-/* Ensure navbar collapse doesn't shrink */
+/* Ensure navbar collapse starts expanded but stays collapsed when closed */
 .navbar-collapse {
   display: flex !important;
   flex-direction: column;
-  max-height: 0;
-  overflow: hidden;
+  max-height: 500px;
+  overflow-y: auto;
   transition: max-height 0.3s ease-in-out;
+}
+
+.navbar-collapse:not(.show) {
+  max-height: 0 !important;
+  overflow: hidden;
+  display: none !important;
 }
 
 /* Keep navbar expanded without flicker */
