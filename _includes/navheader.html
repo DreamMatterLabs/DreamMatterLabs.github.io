@@ -103,27 +103,24 @@
     document.addEventListener("DOMContentLoaded", function ()
     {
         const navbar = document.getElementById("mainNav");
-
-        window.addEventListener("scroll", function ()
-        {
-            if (window.scrollY > 50)
-            {
-                navbar.classList.add("scrolled"); // Apply the shrinking effect
-            }
-            else
-            {
-                navbar.classList.remove("scrolled"); // Restore full size
-            }
-        });
-    });
-
-    document.addEventListener("DOMContentLoaded", function ()
-    {
         const navbarToggler = document.querySelector(".navbar-toggler");
         const navbarCollapse = document.querySelector("#navbarResponsive");
 
         // Ensure the navbar is hidden on load
         navbarCollapse.style.display = "none";
+
+        // Manages navbar size as user scrolls up and down
+        window.addEventListener("scroll", function ()
+        {
+            if (window.scrollY > 50)
+            {
+                navbar.classList.add("scrolled"); // Shrink
+            }
+            else
+            {
+                navbar.classList.remove("scrolled"); // Restore
+            }
+        });
 
         // Toggle navbar visibility when the button is clicked
         navbarToggler.addEventListener("click", function ()
