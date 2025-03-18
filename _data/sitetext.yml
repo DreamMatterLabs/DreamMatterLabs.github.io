@@ -93,18 +93,10 @@ en: &DEFAULT_EN
         image: assets/img/team/maxB.png
         social:
           - url: https://mharris382.github.io/
-            icon: fa-home
+            icon: fa fa-hat-wizard
           - url: https://github.com/mharris382,
             icon: fab fa-github
           - url: https://www.linkedin.com/in/mharris382/
-            icon: fab fa-linkedin-in
-      - name: "Nick"
-        role: "Game Designer"
-        image: assets/img/team/nick.png
-        social:
-          - url: https://www.nicksceusa.com/
-            icon: fa fa-dice-d20
-          - url: https://www.linkedin.com/in/nicholas-sceusa-44089017/
             icon: fab fa-linkedin-in
       - name: "Forgotten Dawn"
         role: "Composer & Character Designer"
@@ -142,6 +134,14 @@ en: &DEFAULT_EN
         social:
           - url: https://www.artstation.com/habukatu
             icon: fab fa-artstation
+      - name: "Nick"
+        role: "Game Designer"
+        image: assets/img/team/nick.png
+        social:
+          - url: https://www.nicksceusa.com/
+            icon: fa fa-dice-d20
+          - url: https://www.linkedin.com/in/nicholas-sceusa-44089017/
+            icon: fab fa-linkedin-in
       - name: "Cody"
         role: "Concept Artist"
         image: assets/img/team/cody.png
@@ -152,26 +152,12 @@ en: &DEFAULT_EN
             icon: fab fa-artstation
           - url: https://www.linkedin.com/in/codyschroederdesign/
             icon: fab fa-linkedin-in 
-      - name: "Pat"
-        role: "Level Designer, level 1"
-        image: assets/img/team/pat.png
-        social:
-          - url: https://www.pat-mccabe.com/
-            icon: fa fa-user-astronaut
-          - url: https://www.linkedin.com/in/patrickmccabeac/
-            icon: fab fa-linkedin-in
       - name: "Pam"
         role: "Level Designer"
         image: assets/img/team/1.jpg
         social:
           - url: https://www.linkedin.com/in/p%C3%A2mela-beltrani-a4b808106/
-            icon: fab fa-linkedin-in            
-      - name: "Steph H."
-        role: "Unreal Generalist"
-        image: assets/img/team/1.jpg
-        social:
-          - url: https://github.com/sljeandell
-            icon: fab fa-github
+            icon: fab fa-linkedin-in
       - name: "Steph T."
         role: "UI/UX"
         image: assets/img/team/1.jpg
@@ -182,22 +168,26 @@ en: &DEFAULT_EN
             icon: fa fa-bskyicon
           - url: https://www.linkedin.com/in/stephanieterrero/
             icon: fab fa-linkedin-in 
+      - name: "Pat"
+        role: "Level Designer, level 1"
+        image: assets/img/team/pat.png
+        social:
+          - url: https://www.pat-mccabe.com/
+            icon: fa fa-user-astronaut
+          - url: https://www.linkedin.com/in/patrickmccabeac/
+            icon: fab fa-linkedin-in            
+      - name: "Steph H."
+        role: "Unreal Generalist"
+        image: assets/img/team/1.jpg
+        social:
+          - url: https://github.com/sljeandell
+            icon: fab fa-github
       - name: "Gabe"
         role: "Environmental Artist"
         image: assets/img/team/2.jpg
         social:
           - url: https://www.artstation.com/gabekabam
             icon: fab fa-artstation
-      - name: "Ashe"
-        role: "Environmental Artist"
-        image: assets/img/team/1.jpg
-        social:
-          - url: https://www.twitch.tv/ashe_xo
-            icon: fa-brands fa-twitch
-          - url: https://www.tiktok.com/@a.s.h.e_xo
-            icon: fa fa-tiktok
-          - url: https://www.youtube.com/@ashe_xo
-            icon: fab fa-youtube     
       - name: "Joël"
         role: "Marketing Manager"
         image: assets/img/team/1.jpg
@@ -206,6 +196,16 @@ en: &DEFAULT_EN
             icon: fab fa-artstation
           - url: https://www.linkedin.com/in/joel-van-doorn/
             icon: fab fa-linkedin-in 
+      - name: "Ashe"
+        role: "Community Manager"
+        image: assets/img/team/1.jpg
+        social:
+          - url: https://www.twitch.tv/ashe_xo
+            icon: fa-brands fa-twitch
+          - url: https://www.tiktok.com/@a.s.h.e_xo
+            icon: fa fa-tiktok
+          - url: https://www.youtube.com/@ashe_xo
+            icon: fab fa-youtube     
   services:
     title: "Services"
     text: "Lorem ipsum"
