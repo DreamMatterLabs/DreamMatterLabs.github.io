@@ -94,7 +94,7 @@ en: &DEFAULT_EN
         social:
           - url: https://mharris382.github.io/
             icon: fa fa-hat-wizard
-          - url: https://github.com/mharris382,
+          - url: https://github.com/mharris382
             icon: fab fa-github
           - url: https://www.linkedin.com/in/mharris382/
             icon: fab fa-linkedin-in
@@ -108,16 +108,6 @@ en: &DEFAULT_EN
             icon: fa fa-headphones
           - url: https://linktr.ee/forgottendawn
             icon: fa fa-tree
-      - name: "Fred"
-        role: "Narrative Specialist"
-        image: assets/img/team/fred.png
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://instagram.com
-            icon: fa fa-envelope-open-text
-          - url: https://linkedin.com
-            icon: fa fa-paper-plane
       - name: "Bella"
         role: "3D Artist"
         image: assets/img/team/bella.png
@@ -128,12 +118,44 @@ en: &DEFAULT_EN
             icon: fab fa-twitter
           - url: https://www.linkedin.com/in/isabella-piechota-248197ba/
             icon: fab fa-linkedin-in
+      - name: "Fred"
+        role: "Narrative Specialist"
+        image: assets/img/team/fred.png
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://instagram.com
+            icon: fa fa-envelope-open-text
+          - url: https://linkedin.com
+            icon: fa fa-paper-plane
       - name: "Habu"
         role: "3D Artist"
         image: assets/img/team/habu.png
         social:
           - url: https://www.artstation.com/habukatu
             icon: fab fa-artstation
+      - name: "Steph H."
+        role: "Unreal Generalist"
+        image: assets/img/team/1.jpg
+        social:
+          - url: https://github.com/sljeandell
+            icon: fab fa-github
+      - name: "Pam"
+        role: "Level Designer"
+        image: assets/img/team/1.jpg
+        social:
+          - url: https://www.linkedin.com/in/p%C3%A2mela-beltrani-a4b808106/
+            icon: fab fa-linkedin-in
+      - name: "Steph T."
+        role: "UI/UX"
+        image: assets/img/team/1.jpg
+        social:
+          - url: https://stephanieterrero.com/
+            icon: fa fa-globe
+          - url: https://bsky.app/profile/stephdoesui.bsky.social
+            icon: fa fa-bskyicon
+          - url: https://www.linkedin.com/in/stephanieterrero/
+            icon: fab fa-linkedin-in 
       - name: "Nick"
         role: "Game Designer"
         image: assets/img/team/nick.png
@@ -152,22 +174,6 @@ en: &DEFAULT_EN
             icon: fab fa-artstation
           - url: https://www.linkedin.com/in/codyschroederdesign/
             icon: fab fa-linkedin-in 
-      - name: "Pam"
-        role: "Level Designer"
-        image: assets/img/team/1.jpg
-        social:
-          - url: https://www.linkedin.com/in/p%C3%A2mela-beltrani-a4b808106/
-            icon: fab fa-linkedin-in
-      - name: "Steph T."
-        role: "UI/UX"
-        image: assets/img/team/1.jpg
-        social:
-          - url: https://stephanieterrero.com/
-            icon: fa fa-globe
-          - url: https://bsky.app/profile/stephdoesui.bsky.social
-            icon: fa fa-bskyicon
-          - url: https://www.linkedin.com/in/stephanieterrero/
-            icon: fab fa-linkedin-in 
       - name: "Pat"
         role: "Level Designer, level 1"
         image: assets/img/team/pat.png
@@ -176,12 +182,6 @@ en: &DEFAULT_EN
             icon: fa fa-user-astronaut
           - url: https://www.linkedin.com/in/patrickmccabeac/
             icon: fab fa-linkedin-in            
-      - name: "Steph H."
-        role: "Unreal Generalist"
-        image: assets/img/team/1.jpg
-        social:
-          - url: https://github.com/sljeandell
-            icon: fab fa-github
       - name: "Gabe"
         role: "Environmental Artist"
         image: assets/img/team/2.jpg
