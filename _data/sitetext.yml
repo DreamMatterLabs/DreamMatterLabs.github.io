@@ -92,11 +92,11 @@ en: &DEFAULT_EN
         role: "Lead Programmer, Game Designer"
         image: assets/img/team/maxB.png
         social:
-          - url: https://dreammatterlabs.com/
+          - url: https://mharris382.github.io/
+            icon: fa-home
+          - url: https://github.com/mharris382,
             icon: fab fa-github
-          - url: https://facebook.com
-            icon: fab fa-gitkraken
-          - url: https://www.linkedin.com/in/mharris382
+          - url: https://www.linkedin.com/in/mharris382/
             icon: fab fa-linkedin-in
       - name: "Nick"
         role: "Game Designer"
