@@ -123,7 +123,7 @@ en: &DEFAULT_EN
         image: assets/img/team/fred.png
         social:
           - url: https://fredomato.itch.io/
-            icon: fa fa-itch-io
+            icon: fab fa-itch-io
           - url: https://www.linkedin.com/in/frederik-helgesen-208303217/
             icon: fab fa-linkedin-in
       - name: "Habu"
