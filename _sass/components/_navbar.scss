@@ -1,110 +1,110 @@
 /* Navbar Styles */
 #mainNav {
-  background-color: transparent; // Default transparent background
-  padding: 20px 20px;
-  height: 80px;
-  transition: all 0.3s ease-in-out;
-  
-  .navbar-brand img {
-   position: absolute;
-  top: 10%; // Default position
-  left: 5%;
-  width: 5%;
-  height: 85%;
-  max-width: 100px;
-    transition: height 0.3s ease-in-out;
-  }
-  
-  .navbar-nav .nav-link {
-  line-height: 1; // Adjust text spacing
-}
+    background-color: transparent; // Default transparent background
+    padding: 20px 20px;
+    height: 100px;
+    transition: all 0.3s ease-in-out;
 
-  .navbar-toggler {
-  position: absolute;
-  top: 1%; // Default position
-  right: 10%;
-  width: 100%;
-  margin-left: auto; // Ensures the toggler stays aligned right
-    border: none;
-    outline: none;
-    font-size: 2rem;
-    color: #fff;
-    &:focus {
-      box-shadow: none;
+    .navbar-brand img {
+        position: absolute;
+        top: 10%; // Default position
+        left: 5%;
+        width: 5%;
+        height: 85%;
+        max-width: 100px;
+        transition: height 0.3s ease-in-out;
     }
-  }
 
-  .navbar-nav {
-    font-size: 16px;
-  gap: 10px; // Adjust spacing between links
-    .nav-item {
-      .nav-link {
+    .navbar-nav .nav-link {
+        line-height: 1; // Adjust text spacing
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        top: 1%; // Default position
+        right: 10%;
+        width: 100%;
+        margin-left: auto; // Ensures the toggler stays aligned right
+        border: none;
+        outline: none;
+        font-size: 2rem;
         color: #fff;
-        padding: 10px;
-        transition: color 0.3s ease-in-out;
 
-        &:hover {
-          color: #f8f9fa;
+        &:focus {
+            box-shadow: none;
         }
-      }
     }
-  }
 
-  &.navbar-dark {
-    .nav-link {
-      color: rgba(255, 255, 255, 0.9);
+    .navbar-nav {
+        font-size: 16px;
+        gap: 10px; // Adjust spacing between links
+        .nav-item {
+            .nav-link {
+                color: #fff;
+                padding: 10px;
+                transition: color 0.3s ease-in-out;
 
-      &:hover {
-        color: #fff;
-      }
+                &:hover {
+                    color: #f8f9fa;
+                }
+            }
+        }
     }
-  }
 
-  &.navbar-light {
-    background-color: #f8f9fa;
+    &.navbar-dark {
+        .nav-link {
+            color: rgba(255, 255, 255, 0.9);
 
-    .nav-link {
-      color: #212529;
-
-      &:hover {
-        color: #000;
-      }
+            &:hover {
+                color: #fff;
+            }
+        }
     }
-  }
 
-  // When scrolling, make navbar solid
-  &.scrolled {
-  height: 75px;
-    background-color: #7B2F8E !important;
-	transition: all 0.5s ease-in-out;
-  }
+    &.navbar-light {
+        background-color: #f8f9fa;
+
+        .nav-link {
+            color: #212529;
+
+            &:hover {
+                color: #000;
+            }
+        }
+    }
+    // When scrolling, make navbar solid
+    &.scrolled {
+        height: 75px;
+        background-color: #7B2F8E !important;
+        transition: all 0.5s ease-in-out;
+    }
 }
 
 
 /* Responsive Navbar Styling */
 @media (max-width: 991px) {
-  #mainNav {
-    background-color: #8D41A1; // Solid color for small screens
-    padding: 5px 10px; // Reduce padding
-    height: 75px; // Adjust height for smaller screens
-  }
+    #mainNav {
+        background-color: #8D41A1; // Solid color for small screens
+        padding: 5px 10px; // Reduce padding
+        height: 75px; // Adjust height for smaller screens
+    }
 
-  .navbar-brand img {
-    width: 10%; // Scale down logo size for mobile
-  }
+    .navbar-brand img {
+        width: 10%; // Scale down logo size for mobile
+    }
 
-  .navbar-nav {
-    font-size: 14px; // Reduce font size for menu items
-  }
+    .navbar-nav {
+        font-size: 14px; // Reduce font size for menu items
+    }
 
-  .navbar-collapse {
-    background-color: #440677; // Background for collapsed menu
-    max-width: 50%; // Restrict width
-    padding: 5px; // Add padding for proper spacing
-    text-align: center;
-  }
+    .navbar-collapse {
+        background-color: #440677; // Background for collapsed menu
+        max-width: 50%; // Restrict width
+        padding: 5px; // Add padding for proper spacing
+        text-align: center;
+    }
 
-  .navbar-nav .nav-item {
-    margin: 5px 0;
-  }
+    .navbar-nav .nav-item {
+        margin: 5px 0;
+    }
 }
