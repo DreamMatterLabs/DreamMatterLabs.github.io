@@ -122,12 +122,10 @@ en: &DEFAULT_EN
         role: "Narrative Specialist"
         image: assets/img/team/fred.png
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://instagram.com
-            icon: fa fa-envelope-open-text
-          - url: https://linkedin.com
-            icon: fa fa-paper-plane
+          - url: https://fredomato.itch.io/
+            icon: fa fa-itch-io
+          - url: https://www.linkedin.com/in/frederik-helgesen-208303217/
+            icon: fab fa-linkedin-in
       - name: "Habu"
         role: "3D Artist"
         image: assets/img/team/habu.png
