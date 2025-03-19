@@ -12,7 +12,7 @@ en: &DEFAULT_EN
   header:
     title: ONEiRA
     text:
-    button: Meet the Team
+    button: MEET THE TEAM
     buttonlink: "https://dreammatterlabs.com/team/"
 
   portfolio:
