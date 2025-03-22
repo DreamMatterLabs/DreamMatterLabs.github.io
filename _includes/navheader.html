@@ -17,7 +17,7 @@
 
         <!-- Navbar Items -->
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ms-auto text-uppercase">
+            <ul class="navbar-nav ms-auto">
                 {% if site.locale and site.locale != "" and site.locale != nil %}
                 {% for link in site.data.navigation[site.locale].nav %}
                 <li class="nav-item">
@@ -53,7 +53,7 @@
 
 <!-- Header -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<header class="masthead p-0 m-0" style="height: 650px">
+<header class="masthead" style="height: 650px">
     <div class="container h-100 d-flex flex-column">
         <!--Empty-->
         <div class="col d-flex"></div>
@@ -77,7 +77,7 @@
     </div>
 </header>
 {% else %}
-<header class="masthead p-0 m-0" style="height: 650px">
+<header class="masthead" style="height: 650px">
     <div class="container h-100 d-flex flex-column">
         <!--Empty-->
         <div class="col d-flex"></div>
