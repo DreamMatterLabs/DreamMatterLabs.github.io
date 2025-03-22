@@ -53,7 +53,7 @@
 
 <!-- Header -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<header class="masthead" style="margin-top: 100px">
+<header class="masthead" style="height: 650px; margin-top: 100px">
     <div class="container">
         {%- if site.data.sitetext[site.locale].header.title -%}
         <div class="intro-lead-in">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
@@ -72,24 +72,20 @@
     </div>
 </header>
 {% else %}
-<header class="masthead">
+<header class="masthead" style="height: 650px; margin-top: 100px">
     <div class="container">
-        <div>
-            <!--EMPTY-->
-        </div>
-
-        <div>
-            <p>ONEiRA</p>
-        </div>
-
-        <div>
-            {%- if site.data.sitetext.header.button -%}
-            <a class="btn btn-rounded text-uppercase js-scroll-trigger"
-               href="{{ site.data.sitetext.header.buttonlink }}">
-                {{ site.data.sitetext.header.button }}
-            </a>
-            {%- endif -%}
-        </div>
+        {%- if site.data.sitetext.header.title -%}
+        <div class="intro-lead-in">{{ site.data.sitetext.header.title | markdownify }}</div>
+        {%- endif -%}
+        {%- if site.data.sitetext.header.text -%}
+        <div class="intro-heading text-uppercase">{{ site.data.sitetext.header.text | markdownify }}</div>
+        {%- endif -%}
+        {%- if site.data.sitetext.header.button -%}
+        <a class="btn btn-rounded text-uppercase js-scroll-trigger"
+           href="{{ site.data.sitetext.header.buttonlink }}">
+            {{ site.data.sitetext.header.button }}
+        </a>
+        {%- endif -%}
     </div>
 </header>
 {% endif %}
