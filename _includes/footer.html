@@ -4,7 +4,7 @@
         {% if site.locale and site.locale != "" and site.locale != nil %}
         <div class="row align-items-center">
             <!-- Email and Privacy-->
-            <div class="col-md-4">
+            <div class="col-md-6" style="text-align: left">
                 <ul class="list-inline quicklinks">
                     <li class="list-inline-item">
                         <a href="mailto:DreamMatterLabs@protonmail.com" style="text-decoration: underline">EMAIL US</a>
@@ -22,32 +22,27 @@
             </div>
 
             <!-- Privacy -->
-            <div class="col-md-4">
+            <div class="col-md-6" style="text-align: right">
                 <span class="copyright">&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</span>
             </div>
         </div>
         {% else %}
         <div class="row align-items-center">
             <!-- Email and Privacy-->
-            <div class="col-md-4">
+            <div class="col-md-6" style="text-align: left">
                 <ul class="list-inline quicklinks">
                     <li class="list-inline-item">
-                        <a href="mailto:DreamMatterLabs@protonmail.com" style="text-decoration: underline">EMAIL US</a>
+                        <a href="mailto:DreamMatterLabs@protonmail.com">EMAIL US</a>
                     </li>
 
                     <li class="list-inline-item">
-                        <a href="legal">
-                            {{
-                                site.data.sitetext.footer.legal | default:
-                                "PRIVACY POLICY"
-                            }}
-                        </a>
+                        <a href="legal"> {{ site.data.sitetext.footer.legal | default: "PRIVACY POLICY" }}</a>
                     </li>
                 </ul>
             </div>
 
             <!-- Privacy -->
-            <div class="col-md-4">
+            <div class="col-md-6" style="text-align: right">
                 <span class="copyright">&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</span>
             </div>
         </div>
@@ -57,6 +52,7 @@
 {% if page.layout == "page" %}
 <script>
     fixPageShort();
+
     function fixPageShort()
     {
         if (window.innerHeight > document.body.offsetHeight)
