@@ -74,9 +74,9 @@
     }
     // When scrolling, make navbar solid
     &.scrolled {
-        height: 75px;
-        background-color: #7B2F8E !important;
-        transition: all 0.5s ease-in-out;
+        height: 100px;
+        background-color: #670374 !important;
+        transition: all 0.25s ease-in-out;
     }
 }
 
