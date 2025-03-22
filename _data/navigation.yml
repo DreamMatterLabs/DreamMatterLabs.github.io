@@ -32,7 +32,7 @@ en-AU:
 # -------
 es: &DEFAULT_ES
   nav:
-     - title: "ONEiRA"
+    - title: "ONEiRA"
       url: https://dreammatterlabs.com/
     - title: "ABOUT US"
       url: /team/
