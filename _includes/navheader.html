@@ -53,38 +53,42 @@
 
 <!-- Header -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<header class="masthead" style="height: 650px; margin-top: 100px">
-    <div class="container">
+<header class="masthead" style="height: 600px">
+    <div class="container h-100 d-flex">
         {%- if site.data.sitetext[site.locale].header.title -%}
-        <div class="intro-lead-in">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
+        <div class="col d-flex align-items-stretch">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
         {%- endif -%}
         {%- if site.data.sitetext[site.locale].header.text -%}
-        <div class="intro-heading text-uppercase">{{ site.data.sitetext[site.locale].header.text | markdownify }}</div>
+        <div class="col d-flex align-items-stretch">{{ site.data.sitetext[site.locale].header.text | markdownify }}</div>
         {%- endif -%}
         {%- if site.data.sitetext[site.locale].header.button -%}
-            {% if page.url != "/team/" %}
+        {% if page.url != "/team/" %}
+        <div class="col d-flex align-items-stretch">
             <a class="btn btn-rounded text-uppercase js-scroll-trigger"
-               href="{{ site.data.sitetext[site.locale].header.buttonlink }}">
+                href="{{ site.data.sitetext[site.locale].header.buttonlink }}">
                 {{ site.data.sitetext[site.locale].header.button }}
             </a>
-            {%- endif -%}
+        </div>
+        {%- endif -%}
         {%- endif -%}
     </div>
 </header>
 {% else %}
-<header class="masthead" style="height: 650px; margin-top: 100px">
-    <div class="container">
+<header class="masthead" style="height: 600px">
+    <div class="container h-100 d-flex">
         {%- if site.data.sitetext.header.title -%}
-        <div class="intro-lead-in">{{ site.data.sitetext.header.title | markdownify }}</div>
+        <div class="col d-flex align-items-stretch">{{ site.data.sitetext.header.title | markdownify }}</div>
         {%- endif -%}
         {%- if site.data.sitetext.header.text -%}
-        <div class="intro-heading text-uppercase">{{ site.data.sitetext.header.text | markdownify }}</div>
+        <div class="col d-flex align-items-stretch">{{ site.data.sitetext.header.text | markdownify }}</div>
         {%- endif -%}
         {%- if site.data.sitetext.header.button -%}
-        <a class="btn btn-rounded text-uppercase js-scroll-trigger"
-           href="{{ site.data.sitetext.header.buttonlink }}">
-            {{ site.data.sitetext.header.button }}
-        </a>
+        <div class="col d-flex align-items-stretch">
+            <a class="btn btn-rounded text-uppercase js-scroll-trigger"
+                href="{{ site.data.sitetext.header.buttonlink }}">
+                {{ site.data.sitetext.header.button }}
+            </a>
+        </div>    
         {%- endif -%}
     </div>
 </header>
