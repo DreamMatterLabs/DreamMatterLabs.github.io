@@ -53,8 +53,8 @@
 
 <!-- Header -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<header class="masthead" style="height: 600px">
-    <div class="container h-100 d-flex">
+<header class="masthead" style="height: 650px">
+    <div class="container h-100 d-flex flex-column">
         {%- if site.data.sitetext[site.locale].header.title -%}
         <div class="col d-flex align-items-stretch">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
         {%- endif -%}
@@ -74,8 +74,8 @@
     </div>
 </header>
 {% else %}
-<header class="masthead" style="height: 600px">
-    <div class="container h-100 d-flex">
+<header class="masthead" style="height: 650px">
+    <div class="container h-100 d-flex flex-column">
         {%- if site.data.sitetext.header.title -%}
         <div class="col d-flex align-items-stretch">{{ site.data.sitetext.header.title | markdownify }}</div>
         {%- endif -%}
