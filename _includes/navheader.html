@@ -59,18 +59,20 @@
         <div class="col d-flex align-items-center"></div>
 
         <!--Logo-->
-        <div class="col d-flex align-items-center"></div>
+        <div class="col d-flex align-items-center">
+            <p style="font-size: 128px">ONEiRA</p>
+        </div>
 
         <!--Button-->
         {%- if site.data.sitetext[site.locale].header.button -%}
-        {% if page.url != "/team/" %}
-        <div class="col d-flex align-items-center">
-            <a class="btn btn-rounded text-uppercase js-scroll-trigger"
-               href="{{ site.data.sitetext[site.locale].header.buttonlink }}">
-                {{ site.data.sitetext[site.locale].header.button }}
-            </a>
-        </div>
-        {%- endif -%}
+            {% if page.url != "/team/" %}
+            <div class="col d-flex align-items-center">
+                <a class="btn btn-rounded text-uppercase js-scroll-trigger"
+                   href="{{ site.data.sitetext[site.locale].header.buttonlink }}">
+                    {{ site.data.sitetext[site.locale].header.button }}
+                </a>
+            </div>
+            {%- endif -%}
         {%- endif -%}
     </div>
 </header>
@@ -81,7 +83,9 @@
         <div class="col d-flex align-items-center"></div>
 
         <!--Logo-->
-        <div class="col d-flex align-items-center"></div>
+        <div class="col d-flex align-items-center">
+            <p style="font-size: 128px">ONEiRA</p>
+        </div>
 
         <!--Button-->
         {%- if site.data.sitetext.header.button -%}
