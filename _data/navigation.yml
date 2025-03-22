@@ -13,13 +13,11 @@ en: &DEFAULT_EN
   nav:
     - title: "ONEiRA"
       url: https://dreammatterlabs.com/
-    - title: "About Us"
+    - title: "ABOUT US"
       url: /team/
-    - title: "Press Kit"
+    - title: "PRESS KIT"
       url: https://drive.proton.me/urls/4KF4TVH6BW#biLotE7ERWMo
-    - title: "Steam Page - Soon"
-      url: https://dreammatterlabs.com/
-    - title: "Blog"
+    - title: "BLOG"
       url: /devlog/
 en-US:
   <<: *DEFAULT_EN
@@ -34,20 +32,14 @@ en-AU:
 # -------
 es: &DEFAULT_ES
   nav:
-    - title: "Servicios"
-      section: servicios
-    - title: "Portafolio"
-      section: portafolio
-    - title: "Sobre Nosotros"
-      section: nosotros
-    - title: "Cronología"
-      section: cronologia
-    - title: "Equipo"
-      section: equipo
-    - title: "Contáctenos"
-      section: contacto
-    - title: "Fuente de la plantilla"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+     - title: "ONEiRA"
+      url: https://dreammatterlabs.com/
+    - title: "ABOUT US"
+      url: /team/
+    - title: "PRESS KIT"
+      url: https://drive.proton.me/urls/4KF4TVH6BW#biLotE7ERWMo
+    - title: "BLOG"
+      url: /devlog/
 es-ES:
   <<: *DEFAULT_ES
 es-CO:
