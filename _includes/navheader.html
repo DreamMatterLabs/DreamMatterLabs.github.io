@@ -53,40 +53,36 @@
 
 <!-- Header -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<header class="masthead">
-    <div class="container" style="margin-top: 100px">
-        <div class="intro-text">
-            <div class="header-bg">
-                <div class="move-down center-image"></div>
-            </div>
-
-            {%- if site.data.sitetext[site.locale].header.title -%}
-            <div class="intro-lead-in">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
-            {%- endif -%}
-            {%- if site.data.sitetext[site.locale].header.text -%}
-            <div class="intro-heading text-uppercase">{{ site.data.sitetext[site.locale].header.text | markdownify }}</div>
-            {%- endif -%}
-            {%- if site.data.sitetext[site.locale].header.button -%}
+<header class="masthead" style="margin-top: 100px">
+    <div class="container">
+        {%- if site.data.sitetext[site.locale].header.title -%}
+        <div class="intro-lead-in">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
+        {%- endif -%}
+        {%- if site.data.sitetext[site.locale].header.text -%}
+        <div class="intro-heading text-uppercase">{{ site.data.sitetext[site.locale].header.text | markdownify }}</div>
+        {%- endif -%}
+        {%- if site.data.sitetext[site.locale].header.button -%}
             {% if page.url != "/team/" %}
             <a class="btn btn-rounded text-uppercase js-scroll-trigger"
                href="{{ site.data.sitetext[site.locale].header.buttonlink }}">
                 {{ site.data.sitetext[site.locale].header.button }}
             </a>
             {%- endif -%}
-            {%- endif -%}
-        </div>
+        {%- endif -%}
     </div>
 </header>
 {% else %}
 <header class="masthead">
     <div class="container">
-        <div class="intro-text">
-            {%- if site.data.sitetext.header.title -%}
-            <div class="intro-lead-in">{{ site.data.sitetext.header.title | markdownify }}</div>
-            {%- endif -%}
-            {%- if site.data.sitetext.header.text -%}
-            <div class="intro-heading text-uppercase">{{ site.data.sitetext.header.text | markdownify }}</div>
-            {%- endif -%}
+        <div>
+            <!--EMPTY-->
+        </div>
+
+        <div>
+            <p>ONEiRA</p>
+        </div>
+
+        <div>
             {%- if site.data.sitetext.header.button -%}
             <a class="btn btn-rounded text-uppercase js-scroll-trigger"
                href="{{ site.data.sitetext.header.buttonlink }}">
