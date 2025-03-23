@@ -175,7 +175,7 @@ body.blog-page .devlog-container {
 }
 
 .social-icons a {
-  margin-right: 15px; /* Adds space between each icon */
+  margin-right: 0px; /* Adds space between each icon */
 }
 
 .social-icons a:hover i {
