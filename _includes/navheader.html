@@ -1,7 +1,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color: #670374">
-    <div class="container navbar-container">
-        <!-- Brand Logo -->
+    <div class="container navbar-container" style="width: 90%; max-width: none">
+        <!-- Logo -->
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             {%- if site.logo -%}
             <img height="{{ site.logo.height | default: 52 }}" src="{{ site.baseurl }}/assets/img/dreammatterlabs-logo.png" alt="DreamMatter Labs Logo" />
@@ -19,24 +19,22 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto">
                 {% if site.locale and site.locale != "" and site.locale != nil %}
-                {% for link in site.data.navigation[site.locale].nav %}
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="{{ link.url }}">
-                        {{ link.title }}
-                    </a>
-                </li>
-                {% endfor %}
-                {% else %}
-                {% for link in site.data.navigation.nav %}
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="{{ link.url }}">
-                        {{ link.title }}
-                    </a>
-                </li>
-                {% endfor %}
+                    {% for link in site.data.navigation[site.locale].nav %}
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="{{ link.url }}">
+                            {{ link.title }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                    {% else %}
+                    {% for link in site.data.navigation.nav %}
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="{{ link.url }}">
+                            {{ link.title }}
+                        </a>
+                    </li>
+                    {% endfor %}
                 {% endif %}
-                <div class="nav-spacer"></div>
-                <div class="nav-spacer"></div>
             </ul>
 
             <!-- Social Icons -->
