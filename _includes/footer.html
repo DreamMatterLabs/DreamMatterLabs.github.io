@@ -4,11 +4,10 @@
         {% if site.locale and site.locale != "" and site.locale != nil %}
         <!-- Email and Privacy-->
         <div class="flex-grow-1" style="text-align: left">
-            <ul class="list-inline quicklinks gap-4">
+            <ul class="list-inline quicklinks d-flex gap-4">
                 <li class="list-inline-item">
                     <a style="color: #ffffff; text-decoration:none" href="mailto:DreamMatterLabs@protonmail.com">EMAIL US</a>
                 </li>
-
                 <li class="list-inline-item">
                     <a style="color: #ffffff; text-decoration:none" href="legal">{{ site.data.sitetext[site.locale].footer.legal | default: "PRIVACY POLICY" }}</a>
                 </li>
@@ -26,7 +25,6 @@
                 <li class="list-inline-item">
                     <a style="color: #ffffff; text-decoration:none" href="mailto:DreamMatterLabs@protonmail.com">EMAIL US</a>
                 </li>
-
                 <li class="list-inline-item">
                     <a style="color: #ffffff; text-decoration:none" href="legal">{{ site.data.sitetext.footer.legal | default: "PRIVACY POLICY" }}</a>
                 </li>
