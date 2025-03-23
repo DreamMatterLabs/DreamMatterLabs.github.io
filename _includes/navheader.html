@@ -1,6 +1,6 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color: #670374">
-    <div class="container navbar-container" style="width: 90%; max-width: none">
+    <div class="container navbar-container" style="width: 90% !important; max-width: none !important">
         <!-- Logo -->
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             {%- if site.logo -%}
@@ -17,7 +17,7 @@
 
         <!-- Navbar Items -->
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto gap-3">
                 {% if site.locale and site.locale != "" and site.locale != nil %}
                     {% for link in site.data.navigation[site.locale].nav %}
                     <li class="nav-item">
