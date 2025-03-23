@@ -21,7 +21,7 @@
                 {% if site.locale and site.locale != "" and site.locale != nil %}
                     {% for link in site.data.navigation[site.locale].nav %}
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="{{ link.url }}">
+                        <a class="nav-link js-scroll-trigger p-0" href="{{ link.url }}">
                             {{ link.title }}
                         </a>
                     </li>
@@ -29,7 +29,7 @@
                     {% else %}
                     {% for link in site.data.navigation.nav %}
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="{{ link.url }}">
+                        <a class="nav-link js-scroll-trigger p-0" href="{{ link.url }}">
                             {{ link.title }}
                         </a>
                     </li>
