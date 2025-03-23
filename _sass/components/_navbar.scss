@@ -1,9 +1,8 @@
 /* Navbar Styles */
 #mainNav {
     background-color: transparent; // Default transparent background
-    padding: 20px 20px;
     height: 100px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 
     .navbar-brand img {
         position: absolute;
@@ -12,11 +11,7 @@
         width: 5%;
         height: 85%;
         max-width: 100px;
-        transition: height 0.3s ease-in-out;
-    }
-
-    .navbar-nav .nav-link {
-        line-height: 1; // Adjust text spacing
+        transition: height 0.2s ease-in-out;
     }
 
     .navbar-toggler {
@@ -75,7 +70,7 @@
     &.scrolled {
         height: 100px;
         background-color: #670374 !important;
-        transition: all 0.25s ease-in-out;
+        transition: all 0.2s ease-in-out;
     }
 }
 
@@ -83,9 +78,8 @@
 /* Responsive Navbar Styling */
 @media (max-width: 991px) {
     #mainNav {
-        background-color: #8D41A1; // Solid color for small screens
-        padding: 5px 10px; // Reduce padding
-        height: 75px; // Adjust height for smaller screens
+        background-color: #670374; // Solid color for small screens
+        height: 100px; // Adjust height for smaller screens
     }
 
     .navbar-brand img {
@@ -101,9 +95,5 @@
         max-width: 50%; // Restrict width
         padding: 5px; // Add padding for proper spacing
         text-align: center;
-    }
-
-    .navbar-nav .nav-item {
-        margin: 5px 0;
     }
 }
