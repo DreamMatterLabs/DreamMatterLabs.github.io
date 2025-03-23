@@ -6,10 +6,10 @@
         <div class="flex-grow-1 text-start">
             <ul class="list-inline quicklinks d-flex gap-4">
                 <li class="list-inline-item m-0">
-                    <a class="text-white text-decoration-none hover-underline" href="mailto:DreamMatterLabs@protonmail.com">EMAIL US</a>
+                    <a class="text-white hover-underline" href="mailto:DreamMatterLabs@protonmail.com">EMAIL US</a>
                 </li>
                 <li class="list-inline-item m-0">
-                    <a class="text-white text-decoration-none hover-underline" href="legal">{{ site.data.sitetext[site.locale].footer.legal | default: "PRIVACY POLICY" }}</a>
+                    <a class="text-white hover-underline" href="legal">{{ site.data.sitetext[site.locale].footer.legal | default: "PRIVACY POLICY" }}</a>
                 </li>
             </ul>
         </div>
@@ -23,10 +23,10 @@
         <div class="flex-grow-1 text-start">
             <ul class="list-inline quicklinks d-flex gap-4">
                 <li class="list-inline-item m-0">
-                    <a class="text-white text-decoration-none hover-underline" href="mailto:DreamMatterLabs@protonmail.com">EMAIL US</a>
+                    <a class="text-white hover-underline" href="mailto:DreamMatterLabs@protonmail.com">EMAIL US</a>
                 </li>
                 <li class="list-inline-item m-0">
-                    <a class="text-white text-decoration-none hover-underline" href="legal">{{ site.data.sitetext.footer.legal | default: "PRIVACY POLICY" }}</a>
+                    <a class="text-white hover-underline" href="legal">{{ site.data.sitetext.footer.legal | default: "PRIVACY POLICY" }}</a>
                 </li>
             </ul>
         </div>
@@ -37,6 +37,18 @@
         </div>
         {% endif %}
     </div>
+
+    <style>
+        .hover-underline
+        {
+            text-decoration: none;
+        }
+
+        .hover-underline:hover 
+        {
+            text-decoration: underline;
+        }
+    </style>
 </footer>
 {% if page.layout == "page" %}
 <script>
