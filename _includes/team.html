@@ -2,20 +2,19 @@
 {% if site.locale and site.locale != "" and site.locale != nil %}
 <section class="page-section" style="background: linear-gradient(to bottom, #5B0557, #3A4175, #423B7A)" id="{{ site.data.sitetext[site.locale].team.section | default: "team" }}">
     <div class="container" style="padding-top: 50px; padding-bottom: 50px">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].team.title }}</h2>
-                <h3 class="section-subheading text-muted2">{{ site.data.sitetext[site.locale].team.text }}</h3>
-            </div>
+        <!--Tagline-->
+        <div class="row col-lg-12 text-center">
+            <h3 class="section-header fs-4 text-muted2">{{ site.data.sitetext[site.locale].team.text }}</h3>
         </div>
 
+        <!--Team Members-->
         <div class="row d-flex justify-content-center">
             {% for person in site.data.sitetext[site.locale].team.people %}
             <div class="col-sm-4">
                 <div class="team-member">
                     <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
 
-                    <h4>{{ person.name }}</h4>
+                    <h4 class="text-white">{{ person.name }}</h4>
 
                     <p class="text-muted2">{{ person.role }}</p>
 
@@ -32,32 +31,24 @@
             </div>
             {% endfor %}
         </div>
-
-        <div class="row">
-            <div class="col-lg-8 mx-auto text-center">
-                <div class="large text-muted2">{{ site.data.sitetext[site.locale].team.subtext | markdownify }}</div>
-            </div>
-        </div>
     </div>
 </section>
 {% else %}
-<section class="page-section" id="{{ site.data.sitetext.team.section | default: "team" }}">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">{{ site.data.sitetext.team.title }}</h2>
-
-                <h3 class="section-subheading text-muted2">{{ site.data.sitetext.team.text }}</h3>
-            </div>
+<section class="page-section" style="background: linear-gradient(to bottom, #5B0557, #3A4175, #423B7A)" id="{{ site.data.sitetext.team.section | default: "team" }}">
+    <div class="container" style="padding-top: 50px; padding-bottom: 50px">
+        <!--Tagline-->
+        <div class="row col-lg-12 text-center">
+            <h3 class="section-subheading fs-4 text-muted2">{{ site.data.sitetext.team.text }}</h3>
         </div>
 
+        <!--Team Members-->
         <div class="row d-flex justify-content-center">
             {% for person in site.data.sitetext.team.people %}
             <div class="col-sm-4">
                 <div class="team-member">
                     <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
 
-                    <h4>{{ person.name }}</h4>
+                    <h4 class="text-white">{{ person.name }}</h4>
 
                     <p class="text-muted2">{{ person.role }}</p>
 
@@ -73,12 +64,6 @@
                 </div>
             </div>
             {% endfor %}
-        </div>
-
-        <div class="row">
-            <div class="col-lg-8 mx-auto text-center">
-                <div class="large text-muted2">{{ site.data.sitetext.team.subtext | markdownify }}</div>
-            </div>
         </div>
     </div>
 </section>
