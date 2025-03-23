@@ -1,28 +1,233 @@
 // Button Styles
+
+// Base button styles
 .btn {
-    @include heading-font;
+    font-family: 'Your-Heading-Font', sans-serif; /* Replace with your actual heading font */
     font-weight: 700;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px solid transparent; /* Added for consistency across variants */
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none; /* Ensures no underline if used with <a> tags */
+}
+
+/* Button Sizes */
+.btn-sm {
+    font-size: 14px;
+    padding: 8px 16px;
+}
+
+.btn-lg {
+    font-size: 18px;
+    padding: 15px 30px;
 }
 
 .btn-xl {
-    font-size: 18px;
+    font-size: 20px; /* Slightly increased for emphasis */
     padding: 20px 40px;
 }
 
+/* Primary Button */
 .btn-primary {
-    background-color: $primary;
+    background-color: $primary; /* Assumes $primary is defined, e.g., #007bff */
     border-color: $primary;
+    color: white;
 
-    &:active,
+    &:hover,
     &:focus,
-    &:hover {
+    &:active {
         background-color: darken($primary, 7.5%) !important;
         border-color: darken($primary, 7.5%) !important;
         color: white;
+        transform: scale(1.05); /* Subtle hover animation */
     }
 
-    &:active,
+    &:focus,
+    &:active {
+        box-shadow: 0 0 0 0.2rem rgba($primary, 0.5) !important; /* Updated to use $primary */
+    }
+}
+
+/* Secondary Button */
+.btn-secondary {
+    background-color: $secondary; /* Assumes $secondary, e.g., #6c757d */
+    border-color: $secondary;
+    color: white;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: darken($secondary, 7.5%) !important;
+        border-color: darken($secondary, 7.5%) !important;
+        color: white;
+        transform: scale(1.05);
+    }
+
+    &:focus,
+    &:active {
+        box-shadow: 0 0 0 0.2rem rgba($secondary, 0.5) !important;
+    }
+}
+
+/* Success Button */
+.btn-success {
+    background-color: $success; /* Assumes $success, e.g., #28a745 */
+    border-color: $success;
+    color: white;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: darken($success, 7.5%) !important;
+        border-color: darken($success, 7.5%) !important;
+        color: white;
+        transform: scale(1.05);
+    }
+
+    &:focus,
+    &:active {
+        box-shadow: 0 0 0 0.2rem rgba($success, 0.5) !important;
+    }
+}
+
+/* Danger Button */
+.btn-danger {
+    background-color: $danger; /* Assumes $danger, e.g., #dc3545 */
+    border-color: $danger;
+    color: white;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: darken($danger, 7.5%) !important;
+        border-color: darken($danger, 7.5%) !important;
+        color: white;
+        transform: scale(1.05);
+    }
+
+    &:focus,
+    &:active {
+        box-shadow: 0 0 0 0.2rem rgba($danger, 0.5) !important;
+    }
+}
+
+/* Outline Buttons */
+.btn-outline-primary {
+    background-color: transparent;
+    border-color: $primary;
+    color: $primary;
+
+    &:hover {
+        background-color: $primary;
+        color: white;
+    }
+
     &:focus {
-        box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+        box-shadow: 0 0 0 0.2rem rgba($primary, 0.5);
+    }
+
+    &:active {
+        background-color: darken($primary, 7.5%);
+        border-color: darken($primary, 7.5%);
+        color: white;
+    }
+}
+
+/* Add .btn-outline-secondary, .btn-outline-success, .btn-outline-danger similarly if needed */
+
+/* Icon Support */
+.btn i {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+/* Button Groups */
+.btn-group {
+    display: flex;
+}
+
+.btn-group .btn {
+    margin-right: -1px; /* Overlaps borders for seamless look */
+    border-radius: 0;
+}
+
+.btn-group .btn:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.btn-group .btn:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* Loading State */
+.btn-loading {
+    position: relative;
+    color: transparent; /* Hides text during loading */
+    pointer-events: none; /* Prevents interaction */
+}
+
+.btn-loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid white; /* Matches text color of most buttons */
+    border-top-color: transparent;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+/* Tooltips */
+.btn[data-tooltip] {
+    position: relative;
+}
+
+.btn[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    white-space: nowrap;
+    font-size: 14px;
+    margin-bottom: 5px;
+    z-index: 10; /* Ensures visibility over other elements */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+    .btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .btn-lg {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .btn-xl {
+        font-size: 18px;
+        padding: 15px 30px;
     }
 }
