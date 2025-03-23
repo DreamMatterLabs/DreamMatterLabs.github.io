@@ -2,14 +2,14 @@
 #mainNav {
     background-color: transparent; // Default transparent background
     height: 100px;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
 
     .navbar-brand img {
         position: absolute;
         top: 10%; // Default position
         height: 80%;
         max-width: 100px;
-        transition: height 0.2s ease-in-out;
+        transition: height 0.3s ease-in-out;
     }
 
     .navbar-toggler {
@@ -34,7 +34,7 @@
         .nav-item {
             .nav-link {
                 color: #fff;
-                transition: color 0.2s ease-in-out;
+                transition: color 0.3s ease-in-out;
 
                 &:hover {
                     color: #f8f9fa;
@@ -68,7 +68,7 @@
     &.scrolled {
         height: 100px;
         background-color: #670374 !important;
-        transition: all 0.2s ease-in-out;
+        transition: all 0.3s ease-in-out;
     }
 }
 
