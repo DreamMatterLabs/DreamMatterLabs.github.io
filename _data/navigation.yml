@@ -17,6 +17,7 @@ en: &DEFAULT_EN
       url: /team/
     - title: "PRESS KIT"
       url: https://drive.proton.me/urls/4KF4TVH6BW#biLotE7ERWMo
+      newTab: true
     - title: "BLOG"
       url: /devlog/
 en-US:

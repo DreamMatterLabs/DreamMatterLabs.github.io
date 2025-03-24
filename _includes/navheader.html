@@ -20,13 +20,21 @@
             <ul class="navbar-nav ms-auto align-items-center gap-4">
                 {% if site.locale and site.locale != "" and site.locale != nil %}
                     {% for link in site.data.navigation[site.locale].nav %}
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger p-0" href="{{ link.url }}">
-                            {{ link.title }}
-                        </a>
-                    </li>
+                        {% if link.newTab == ""}
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger p-0" href="{{ link.url }}">
+                                {{ link.title }}
+                            </a>
+                        </li>
+                        {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger p-0" href="{{ link.url }}" target="_blank">
+                                {{ link.title }}
+                            </a>
+                        </li>
+                        {% endif %}
                     {% endfor %}
-                    {% else %}
+                {% else %}
                     {% for link in site.data.navigation.nav %}
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger p-0" href="{{ link.url }}">
