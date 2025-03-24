@@ -66,8 +66,7 @@
     }
     // When scrolling, make navbar solid
     &.scrolled {
-        height: 100px;
-        background-color: #670374 !important;
+        background-color: #5B0557 !important;
         transition: all 0.3s ease-in-out;
     }
 }
@@ -76,8 +75,7 @@
 /* Responsive Navbar Styling */
 @media (max-width: 991px) {
     #mainNav {
-        background-color: #670374; // Solid color for small screens
-        height: 100px; // Adjust height for smaller screens
+        background-color: #5B0557; // Solid color for small screens
     }
 
     .navbar-nav {
