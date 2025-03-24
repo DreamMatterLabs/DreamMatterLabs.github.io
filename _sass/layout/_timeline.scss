@@ -30,31 +30,14 @@
             position: absolute;
             z-index: 100;
             left: 0;
-            width: 80px;
-            height: 80px;
+            width: 100px;
+            height: 100px;
             margin-left: 0;
             text-align: center;
             color: #fff;
             border: 7px solid #fff;
             border-radius: 100%;
             background-color: #5B0557;
-        }
-    }
-}
-
-@media 
-{
-    .timeline 
-    {
-        > li 
-        {
-            min-height: 100px;
-
-            .timeline-image 
-            {
-                width: 100px;
-                height: 100px;
-            }
         }
     }
 }
