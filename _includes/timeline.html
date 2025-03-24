@@ -1,9 +1,9 @@
 <!-- About -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
 <section class="bg-light page-section" style="background-image: url('/assets/img/backgroundimage.jpg'); color: #ffdede; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;" id="{{ site.data.sitetext[site.locale].timeline.section | default: 'about' }}">
-    <div class="container d-flex flex-column" style="padding-top: 50px; padding-bottom: 200px; row-gap: 100px">
+    <div class="container d-flex flex-column" style="padding-top: 50px; padding-bottom: 200px">
         <!--Header-->
-        <div class="col-12 text-center">
+        <div class="col-12 text-center" style="margin-bottom: 100px">
             <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].timeline.title | markdownify | default: "About" }}</h2>
 
             <h3 class="section-subheading m-0" style="color: #ffffff;">{{ site.data.sitetext[site.locale].timeline.text | default: "timeline" }}</h3>
@@ -29,7 +29,7 @@
         </div>
 
         <!--Buttons-->
-        <div class="col-12 d-flex">
+        <div class="col-12 d-flex" style="margin-top: 100px; margin-bottom: 100px">
             <ul class="flex-grow-1 d-flex list-unstyled align-items-center justify-content-end m-0" style="column-gap: 25px">
                 <li style="height: 50px; width: 50px">
                     <div class="d-flex h-100 w-100 align-items-center justify-content-center border border-white rounded-circle" style="border-width: 2px !important; background-color: transparent">
@@ -48,11 +48,11 @@
         <!--Display-->
         <div class="bg-transparent" style="padding-left: 50px; padding-right: 50px">
             <div class="row align-items-center g-md-5">
-                <div class="col-12 col-md-6 text-start order-1">
+                <div class="col-12 col-md-6 text-start">
                     <img class="img-fluid rounded project-image" src="/assets/img/portfolio/01-full.jpg" alt="Project 1">
                 </div>
 
-                <div class="col-12 col-md-6 text-start text-md-left order-2">
+                <div class="col-12 col-md-6 text-start text-md-left">
                     <h2 class="text-white fs-4 fw-bold mb-3">2023: Jam Time</h2>
 
                     <p class="text-light fs-4 m-0">ONEiRA is conceptualized as 'Dreamwalker - Altered Reveries' and developed during LSDJAM 2023, a game jam celebrating surreal dream-inspired experiences and LSD: Dream Emulator. The team experiments with early mechanics, dreamlike aesthetics, and abstract storytelling.</p>
