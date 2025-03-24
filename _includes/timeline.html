@@ -3,12 +3,10 @@
 <section class="bg-light page-section" style="background-image: url('/assets/img/backgroundimage.jpg'); color: #ffdede; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;" id="{{ site.data.sitetext[site.locale].timeline.section | default: 'about' }}">
     <div class="container" style="padding-top: 50px; padding-bottom: 50px">
         <!--Header-->
-        <div class="row">
-            <div class="col-12 text-center">
-                <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].timeline.title | markdownify | default: "About" }}</h2>
+        <div class="col-12 text-center">
+            <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].timeline.title | markdownify | default: "About" }}</h2>
 
-                <h3 class="section-subheading" style="color: #ffffff;">{{ site.data.sitetext[site.locale].timeline.text | default: "timeline" }}</h3>
-            </div>
+            <h3 class="section-subheading" style="color: #ffffff;">{{ site.data.sitetext[site.locale].timeline.text | default: "timeline" }}</h3>
         </div>
 
         <!--Timeline-->
@@ -16,7 +14,7 @@
             <ul class="timeline">
                 {%- for event in site.data.sitetext[site.locale].timeline.events -%}
                 <li>
-                    <div class="timeline-image text-center">
+                    <div class="timeline-image align-items-center">
                         <h2 class="text-white fs-4 fw-bold">{{ event.year }}</h2>
                     </div>
                 </li>
