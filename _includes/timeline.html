@@ -13,8 +13,8 @@
         <div class="col-12 d-flex">
             <ul class="d-flex flex-grow-1 m-0 align-items-center justify-content-center">
                 {%- for event in site.data.sitetext[site.locale].timeline.events -%}
-                <li class="flex-grow-1 list-unstyled">
-                    <div class="flex-grow-1 border border-white rounded-circle" style="min-width: 100px; max-width: 100px; height: 100px; width: 100px; background: #5B0557; border-width: 7px">
+                <li class="flex-grow-1 list-unstyled" style="min-width: 100px; max-width: 100px; height: 100px; width: 100px">
+                    <div class="flex-grow-1 d-flex align-items-center justify-content-center border border-white rounded-circle" style="min-width: 100px; max-width: 100px; height: 100px; width: 100px; background: #5B0557; border-width: 7px">
                         <h2 class="text-white fs-4 fw-bold">{{ event.year }}</h2>
                     </div>
                 </li>
