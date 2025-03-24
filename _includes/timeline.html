@@ -14,7 +14,7 @@
             <ul class="d-flex flex-grow-1 align-items-center justify-content-center">
                 {%- for event in site.data.sitetext[site.locale].timeline.events -%}
                 <li class="list-unstyled">
-                    <div class="border border-white rounded-circle" style="height: 100px; width: 100px; background: #5B0557; border-width: 7px">
+                    <div class="flex-grow-1 border border-white rounded-circle" style="min-width: 100px; max-width: 100px; height: 100px; width: 100px; background: #5B0557; border-width: 7px">
                         <h2 class="text-white fs-4 fw-bold">{{ event.year }}</h2>
                     </div>
                 </li>
