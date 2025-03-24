@@ -10,11 +10,11 @@
         </div>
 
         <!--Timeline-->
-        <div class="col-12">
-            <ul class="d-flex align-items-center justify-content-center">
+        <div class="col-12 d-flex">
+            <ul class="d-flex flex-grow-1 align-items-center justify-content-center">
                 {%- for event in site.data.sitetext[site.locale].timeline.events -%}
-                <li style="list-style: none">
-                    <div class="d-flex h-100 w-100 border border-white rounded-circle align-items-center" style="background: #5B0557; border-width: 7px">
+                <li class="list-unstyled">
+                    <div class="border border-white rounded-circle" style="height: 100px; width: 100px; background: #5B0557; border-width: 7px">
                         <h2 class="text-white fs-4 fw-bold">{{ event.year }}</h2>
                     </div>
                 </li>
