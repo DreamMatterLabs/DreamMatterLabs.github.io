@@ -20,7 +20,7 @@
             <ul class="navbar-nav ms-auto align-items-center gap-4">
                 {% if site.locale and site.locale != "" and site.locale != nil %}
                     {% for link in site.data.navigation[site.locale].nav %}
-                        {% if link.newTab}
+                        {% if link.newTab %}
                         <li class="nav-item">
                             <a class="nav-link js-scroll-trigger p-0" href="{{ link.url }}">
                                 {{ link.title }}
