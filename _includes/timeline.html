@@ -32,13 +32,13 @@
         <div class="col-12 d-flex" style="margin-top: 25px; margin-bottom: 100px; padding-left: 0; padding-right: 0">
             <ul class="flex-grow-1 d-flex list-unstyled align-items-center justify-content-end m-0" style="column-gap: 30px">
                 <li style="height: 50px; width: 50px">
-                    <div class="d-flex h-100 w-100 align-items-center justify-content-center border border-white rounded-circle" style="border-width: 2px !important; background-color: transparent">
+                    <div class="d-flex h-100 w-100 align-items-center justify-content-center border border-white border-2 rounded-circle timeline-button">
                         <h2 class="text-white fs-4 fw-bold m-0"><</h2>
                     </div>
                 </li>
 
                 <li style="height: 50px; width: 50px">
-                    <div class="d-flex h-100 w-100 align-items-center justify-content-center border border-white rounded-circle" style="border-width: 2px !important; background-color: transparent">
+                    <div class="d-flex h-100 w-100 align-items-center justify-content-center border border-white border-2 rounded-circle timeline-button">
                         <h2 class="text-white fs-4 fw-bold m-0">></h2>
                     </div>
                 </li>
@@ -68,6 +68,16 @@
             aspect-ratio: 16 / 9;
             box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.25);
             transition: box-shadow 0.3s ease-in-out;
+        }
+
+        .timeline-button
+        {
+            background-color: transparent;
+        }
+
+        .timeline-button:hover 
+        {
+            background-color: rgba(255, 255, 255, 0.25);
         }
     </style>
 </section>
