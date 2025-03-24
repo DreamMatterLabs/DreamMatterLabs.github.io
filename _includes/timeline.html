@@ -14,14 +14,14 @@
             <ul class="flex-grow-1 d-flex list-unstyled m-0 align-items-center justify-content-center">
                 {%- for event in site.data.sitetext[site.locale].timeline.events -%}
                 <li style="height: 100px; width: 100px; max-height: 100px; max-width: 100px">
-                    <div class="d-flex h-100 w-100 align-items-center justify-content-center border border-white rounded-circle" style="border-width: 8px !important; background-color: transparent">
+                    <div class="d-flex h-100 w-100 align-items-center justify-content-center border border-white rounded-circle" style="border-width: 4px !important; background-color: transparent">
                         <h2 class="text-white fs-4 fw-bold m-0">{{ event.year }}</h2>
                     </div>
                 </li>
 
                 {%- unless forloop.last -%}
                 <li class="flex-grow-1">
-                    <div style="background-color: white; height: 2px; width: 100%; padding-left: 10px; padding-right: 10px"></div>
+                    <div style="background-color: white; height: 2px; width: 100%; padding-left: 14px; padding-right: 14px"></div>
                 </li>
                 {%- endunless -%}
                 {% endfor %}
