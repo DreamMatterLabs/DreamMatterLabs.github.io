@@ -27,12 +27,12 @@ en: &DEFAULT_EN
      left is the default
     start_align: "left"
     events:
-      - title: "JAM TIME!"
+      - title: "JAM TIME"
         year: "2023"
         desc: "ONEiRA is conceptualized as 'Dreamwalker ~ Altered Reveries' and developed during LSDJAM 2023, a game jam celebrating surreal dream-inspired experiences and LSD: Dream Emulator. The team experiments with early mechanics, dreamlike aesthetics, and abstract storytelling."
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "POWER UP"
+      - title: "POWER-UP"
         year: "2024"
         desc: "Development on Dreamwalker continues, refining narrative elements, gameplay systems, and art direction. The project grows beyond its game jam roots, with an expanded team and a clearer vision for the final experience."
         image: assets/img/timeline/2.jpg

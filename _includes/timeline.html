@@ -1,7 +1,7 @@
 <!-- About -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
 <section class="bg-light page-section" style="background-image: url('/assets/img/backgroundimage.jpg'); color: #ffdede; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;" id="{{ site.data.sitetext[site.locale].timeline.section | default: 'about' }}">
-    <div class="container d-flex flex-column" style="padding-top: 50px; padding-bottom: 200px">
+    <div class="container d-flex flex-column" style="padding-top: 50px; padding-bottom: 50px">
         <!--Header-->
         <div class="col-12 text-center" style="margin-bottom: 100px">
             <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].timeline.title | markdownify | default: "About" }}</h2>
@@ -29,7 +29,7 @@
         </div>
 
         <!--Buttons-->
-        <div class="col-12 d-flex" style="margin-top: 25px; margin-bottom: 100px; padding-left: 0; padding-right: 0">
+        <div class="col-12 d-flex" style="margin-top: 25px; margin-bottom: 25px; padding-left: 0; padding-right: 0">
             <ul class="flex-grow-1 d-flex list-unstyled align-items-center justify-content-end m-0" style="column-gap: 30px">
                 <li style="height: 50px; width: 50px">
                     <div class="d-flex h-100 w-100 align-items-center justify-content-center border border-white border-2 rounded-circle timeline-button">
@@ -59,6 +59,10 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div style="height: 150px; width: 100%; background-color: #423B7A">
+        <!--Empty-->
     </div>
 
     <style>
