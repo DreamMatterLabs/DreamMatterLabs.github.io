@@ -4,7 +4,7 @@
     <div class="container" style="padding-top: 50px; padding-bottom: 50px">
         <!--Header-->
         <div class="row">
-            <div class="col-lg-12 text-center">
+            <div class="col-12 text-center">
                 <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].timeline.title | markdownify | default: "About" }}</h2>
 
                 <h3 class="section-subheading" style="color: #ffffff;">{{ site.data.sitetext[site.locale].timeline.text | default: "timeline" }}</h3>
@@ -12,28 +12,18 @@
         </div>
 
         <!--Timeline-->
-        <div class="row">
-            <div class="col-lg-12">
-                <ul class="timeline">
-                    {%- for event in site.data.sitetext[site.locale].timeline.events -%}
-                    <li>
-                        <div class="timeline-image">
-                            <h4>{{ event.year }}</h4>
-                        </div>
-                    </li>
-                    {% endfor %}
-
-                    {% if site.data.sitetext[site.locale].timeline.end %}
-                    <li>
-                        <div class="timeline-image">
-                            <h4>{{ site.data.sitetext[site.locale].timeline.end }}</h4>
-                        </div>
-                    </li>
-                    {% endif %}
-                </ul>
-            </div>
+        <div class="col-12 d-flex">
+            <ul class="timeline">
+                {%- for event in site.data.sitetext[site.locale].timeline.events -%}
+                <li>
+                    <div class="timeline-image text-center">
+                        <h2 class="text-white fs-4 fw-bold">{{ event.year }}</h2>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
         </div>
-     
+
         <!--Display-->
         <div class="rounded-lg bg-transparent" style="padding: 50px">
             <div class="row align-items-center g-md-5">
@@ -42,9 +32,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 text-start text-md-left order-2">
-                    <p class="text-white fs-4 fw-bold mb-3">2023</p>
-
-                    <h2 class="text-white fs-4 fw-bold mb-3">Jam Time</h2>
+                    <h2 class="text-white fs-4 fw-bold mb-3">2023: Jam Time</h2>
 
                     <p class="text-light fs-4 m-0">ONEiRA is conceptualized as 'Dreamwalker - Altered Reveries' and developed during LSDJAM 2023, a game jam celebrating surreal dream-inspired experiences and LSD: Dream Emulator. The team experiments with early mechanics, dreamlike aesthetics, and abstract storytelling.</p>
                 </div>
