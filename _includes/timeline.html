@@ -2,6 +2,7 @@
 {% if site.locale and site.locale != "" and site.locale != nil %}
 <section class="bg-light page-section" style="background-image: url('/assets/img/backgroundimage.jpg'); color: #ffdede; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;" id="{{ site.data.sitetext[site.locale].timeline.section | default: 'about' }}">
     <div class="container" style="padding-top: 50px; padding-bottom: 50px">
+        <!--Header-->
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].timeline.title | markdownify | default: "About" }}</h2>
@@ -10,6 +11,7 @@
             </div>
         </div>
 
+        <!--Timeline-->
         <div class="row">
             <div class="col-lg-12">
                 <ul class="timeline">
@@ -57,6 +59,23 @@
                     </li>
                     {% endif %}
                 </ul>
+            </div>
+        </div>
+
+        <!--Display-->
+        <div class="rounded-lg bg-transparent" style="padding: 50px">
+            <div class="row align-items-center g-md-5">
+                <div class="col-12 col-md-6 text-start order-1">
+                    <a class="portfolio-link" data-toggle="modal" href="#p1">
+                        <img class="img-fluid rounded project-image" src="/assets/img/portfolio/01-full.jpg" alt="Project 1">
+                    </a>
+                </div>
+
+                <div class="col-12 col-md-6 text-start text-md-left order-2">
+                    <h2 class="text-white fs-4 fw-bold mb-3">Explore Surreal, Immersive Dreamscapes</h2>
+
+                    <p class="text-light fs-4 m-0">In a world where dreams are sold as entertainment, it's your job to ensure that each experience is market-ready. Step into surreal dreamscapes and immerse yourself in serene yet fractured landscapes, where every dream holds a story waiting to be unraveled.</p>
+                </div>
             </div>
         </div>
     </div>
