@@ -11,7 +11,7 @@
 
         <!--Timeline-->
         <div class="col-12 d-flex">
-            <ul class="flex-grow-1 d-flex list-unstyled m-0 align-items-center justify-content-center">
+            <ul class="flex-grow-1 d-flex list-unstyled m-0 align-items-center justify-content-center g-3">
                 {%- for event in site.data.sitetext[site.locale].timeline.events -%}
                 <li style="height: 100px; width: 100px; max-height: 100px; max-width: 100px">
                     <div class="d-flex h-100 w-100 align-items-center justify-content-center border border-white rounded-circle" style="border-width: 4px !important; background-color: transparent">
@@ -21,7 +21,7 @@
 
                 {%- unless forloop.last -%}
                 <li class="flex-grow-1">
-                    <div style="background-color: white; height: 2px; width: 100%; margin-left: 14px; margin-right: 14px"></div>
+                    <div style="background-color: white; height: 2px; width: 100%"></div>
                 </li>
                 {%- endunless -%}
                 {% endfor %}
