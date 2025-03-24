@@ -1,7 +1,7 @@
 <!-- About -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
 <section class="bg-light page-section" style="background-image: url('/assets/img/backgroundimage.jpg'); color: #ffdede; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;" id="{{ site.data.sitetext[site.locale].timeline.section | default: 'about' }}">
-    <div class="container d-flex flex-column" style="padding-top: 50px; padding-bottom: 50px; row-gap: 100px">
+    <div class="container d-flex flex-column" style="padding-top: 50px; padding-bottom: 150px; row-gap: 100px">
         <!--Header-->
         <div class="col-12 text-center">
             <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].timeline.title | markdownify | default: "About" }}</h2>
@@ -29,7 +29,7 @@
         </div>
 
         <!--Display-->
-        <div class="rounded-lg bg-transparent" style="padding: 50px">
+        <div class="bg-transparent" style="padding-left: 50px; padding-right: 50px">
             <div class="row align-items-center g-md-5">
                 <div class="col-12 col-md-6 text-start order-1">
                     <img class="img-fluid rounded" src="/assets/img/portfolio/01-full.jpg" alt="Project 1">
