@@ -22,13 +22,13 @@
                     {% for link in site.data.navigation[site.locale].nav %}
                         {% if link.newTab %}
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger p-0" href="{{ link.url }}">
+                            <a class="nav-link js-scroll-trigger p-0" href="{{ link.url }}" target="_blank">
                                 {{ link.title }}
                             </a>
                         </li>
                         {% else %}
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger p-0" href="{{ link.url }}" target="_blank">
+                            <a class="nav-link js-scroll-trigger p-0" href="{{ link.url }}">
                                 {{ link.title }}
                             </a>
                         </li>
@@ -36,11 +36,19 @@
                     {% endfor %}
                 {% else %}
                     {% for link in site.data.navigation.nav %}
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger p-0" href="{{ link.url }}">
-                            {{ link.title }}
-                        </a>
-                    </li>
+                        {% if link.newTab %}
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger p-0" href="{{ link.url }}" target="_blank">
+                                {{ link.title }}
+                            </a>
+                        </li>
+                        {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger p-0" href="{{ link.url }}">
+                                {{ link.title }}
+                            </a>
+                        </li>
+                        {% endif %}
                     {% endfor %}
                 {% endif %}
             </ul>
