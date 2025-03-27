@@ -1,7 +1,7 @@
 <!-- About -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
 <section class="bg-light page-section" style="background-image: url('/assets/img/backgroundimage.jpg'); color: #ffdede; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;" id="{{ site.data.sitetext[site.locale].timeline.section | default: 'about' }}">
-    <div style="height: 10px; width: 100%; background-color: #423B7A; box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.25)">
+    <div style="height: 0px; width: 100%; background-color: #423B7A; box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.25)">
         <!--Empty-->
     </div>
 
@@ -12,7 +12,7 @@
         </div>
 
         <!--Timeline-->
-        <div class="col-12 d-flex">
+        <div class="col-12 d-none d-md-flex">
             <ul class="flex-grow-1 d-flex list-unstyled m-0 align-items-center justify-content-center">
                 {%- for event in site.data.sitetext[site.locale].timeline.events -%}
                 <li style="height: 100px; width: 100px; max-height: 100px; max-width: 100px">
