@@ -6,7 +6,9 @@ body_class: blog-page
 ---
 
 <section class="devlog-container">
-  <h1>Latest Devlog & Updates</h1>
+  <div class="section-header text-center">
+    <h3 class="m-0 fs-4 text-uppercase text-muted2">Devlog & Updates</h3>
+  </div>
 
   <div class="post-list">
     {% for post in site.posts %}
