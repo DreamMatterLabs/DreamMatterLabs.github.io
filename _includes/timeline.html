@@ -160,8 +160,10 @@
 
         buttonLeft.addEventListener("click", function ()
         {
-            index = (index - 1 + items.length) % items.length;
-            let event = site.data.sitetext[site.locale].timeline.events[index]
+            let events = site.data.sitetext[site.locale].timeline.events
+
+            index = (index - 1 + events.length) % events.length;
+            let event = events[index]
 
             timelineImage.src = event.image
             timelineTitle.textContent = event.title
@@ -170,8 +172,10 @@
 
         buttonRight.addEventListener("click", function ()
         {
-            index = (index + 1) % images.length;
-            let event = site.data.sitetext[site.locale].timeline.events[index]
+            let events = site.data.sitetext[site.locale].timeline.events
+
+            index = (index + 1) % events.length;
+            let event = events[index]
 
             timelineImage.src = event.image
             timelineTitle.textContent = event.title
