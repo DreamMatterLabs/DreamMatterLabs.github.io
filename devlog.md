@@ -11,13 +11,16 @@ body_class: blog-page
       <h1 class="m-0 fs-4 text-uppercase text-muted2">Devlog & Updates</h1>
     </div>
 
-    <div class="row align-items-center m-0">
+    <div class="row align-items-center m-0" style="row-gap: 100px">
         {% for post in site.posts %}
           <a href="{{ post.url }}">
-            <article class=" rounded post-preview fs-4" style="padding: 50px">
-              <h2 class="fw-bold mb-3">{{ post.title }}</h2>
-              <p class="text=white fw-normal m-0">{{ post.date | date: "%B %d, %Y" }}</p>
-              <p class="text=white fw-normal m-0">{{ post.excerpt }}</p>
+            <article class=" rounded post-preview text=white fs-4" style="padding: 50px">
+	      <div class="col mb-3"> 
+                <h2 class="col-6 text-left fw-bold m-0">{{ post.title }}</h2>
+                <p class="col-6 text-right fw-normal m-0">{{ post.date | date: "%B %d, %Y" }}</p>
+              </div>
+                            
+              <p class="fw-normal m-0">{{ post.excerpt }}</p>
             </article>
           </a>       
         {% endfor %}
