@@ -150,18 +150,18 @@
 <script>
     document.addEventListener("DOMContentLoaded", function ()
     {
+        const events = {{ site.data.sitetext[site.locale].timeline.events | jsonify }};
+
         const buttonLeft = document.getElementById("buttonLeft");
         const buttonRight = document.getElementById("buttonRight");
         const timelineImage = document.getElementById("timelineImage");
         const timelineTitle = document.getElementById("timelineTitle");
         const timelineText = document.getElementById("timelineText");
 
-        let index = 0;
+        let index = 0
 
         buttonLeft.addEventListener("click", function ()
         {
-            let events = site.data.sitetext[site.locale].timeline.events
-
             index = (index - 1 + events.length) % events.length;
             let event = events[index]
 
@@ -172,8 +172,6 @@
 
         buttonRight.addEventListener("click", function ()
         {
-            let events = site.data.sitetext[site.locale].timeline.events
-
             index = (index + 1) % events.length;
             let event = events[index]
 
