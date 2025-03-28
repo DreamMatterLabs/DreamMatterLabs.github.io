@@ -15,7 +15,7 @@ body_class: blog-page
         {% for post in site.posts %}
           <a href="{{ post.url }}">
             <article class=" rounded post-preview text=white fs-4" style="padding: 50px">
-	      <div class="col mb-3"> 
+	      <div class="col p-0 d-flex mb-3"> 
                 <h2 class="col-6 text-left fw-bold m-0">{{ post.title }}</h2>
                 <p class="col-6 text-right fw-normal m-0">{{ post.date | date: "%B %d, %Y" }}</p>
               </div>
