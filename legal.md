@@ -30,3 +30,32 @@ title: Privacy Policy
         <p>For more information about our privacy practices or if you have questions, please contact us by email at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
     </div>
 </article>
+
+<style>
+    .post {
+        max-width: 800px; /* Keeps content width readable */
+        margin: 40px auto; /* Centers content with spacing */
+        padding: 20px;
+    }
+
+    .post-header {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .post-title {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .post-meta {
+        font-size: 1rem;
+        color: #666; /* Subtle color for metadata */
+        margin-bottom: 20px;
+    }
+
+    .post-content {
+        line-height: 1.6;
+        margin-bottom: 40px;
+    }
+</style>
