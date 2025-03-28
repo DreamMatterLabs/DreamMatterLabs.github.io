@@ -1,5 +1,5 @@
 ---
 layout: team
-title: "Team"
+title: "About us"
 permalink: /team/
 ---

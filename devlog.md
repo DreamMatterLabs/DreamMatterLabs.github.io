@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Devlog & Updates"
+title: "Blog"
 permalink: /devlog/
 body_class: blog-page
 ---
