@@ -85,6 +85,9 @@
         background-color: #5B0557; // Background for collapsed menu
         max-width: 50%; // Restrict width
         padding: 5px; // Add padding for proper spacing
-        text-align: center;
+        text-align: right;
+        position: absolute;
+        top: 100px;
+        right:0;
     }
 }
