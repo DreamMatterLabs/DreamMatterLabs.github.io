@@ -20,7 +20,6 @@
                         <h2 class="text-white fs-4 fw-bold m-0">{{ event.year }}</h2>
                     </div>
                 </li>
-
                 {%- unless forloop.last -%}
                 <li class="flex-grow-1">
                     <div style="background-color: white; height: 2px; width: 100%"></div>
@@ -33,14 +32,14 @@
         <!--Buttons-->
         <div class="col-12 d-flex" style="margin-top: 25px; margin-bottom: 25px; padding-left: 0; padding-right: 0">
             <ul class="flex-grow-1 d-flex list-unstyled align-items-center justify-content-center justify-content-md-end m-0" style="column-gap: 30px">
-                <li style="height: 50px; width: 50px">               
-                    <button class="d-flex h-100 w-100 align-items-center justify-content-center border border-white border-2 rounded-circle timeline-button" type="button">
+                <li style="height: 50px; width: 50px">
+                    <button id="button-left" class="d-flex h-100 w-100 align-items-center justify-content-center border border-white border-2 rounded-circle timeline-button" type="button">
                         <h2 class="text-white fs-4 fw-bold m-0"><</h2>
                     </button>
                 </li>
 
                 <li style="height: 50px; width: 50px">
-                    <button class="d-flex h-100 w-100 align-items-center justify-content-center border border-white border-2 rounded-circle timeline-button" type="button">
+                    <button id="button-right" class="d-flex h-100 w-100 align-items-center justify-content-center border border-white border-2 rounded-circle timeline-button" type="button">
                         <h2 class="text-white fs-4 fw-bold m-0">></h2>
                     </button>
                 </li>
@@ -52,13 +51,13 @@
             <div class="rounded" style="background-color: #423B7A; box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.25)">
                 <div class="row align-items-center g-5 pr-md-5 m-0">
                     <div class="col-12 col-md-6 text-start m-0 p-0">
-                        <img class="img-fluid rounded project-image" src="/assets/img/timeline/2.jpg" alt="Dream Matter Labs timeline image.">
+                        <img id="timelineImage" class="img-fluid rounded project-image" src="/assets/img/timeline/2.jpg" alt="Dream Matter Labs timeline image.">
                     </div>
 
                     <div class="col-12 col-md-6 text-start text-md-left m-0 pl-md-5">
-                        <h2 class="text-white fs-4 fw-bold mb-3">2023: Jam Time</h2>
+                        <h2 id="timelineTitle" class="text-white fs-4 fw-bold mb-3">2023: Jam Time</h2>
 
-                        <p class="text-light fs-4 m-0">ONEiRA is conceptualized and developed during LSDJAM 2023, a game jam celebrating LSD: Dream Emulator and other surreal dream-inspired games. The team experiments with early mechanics, dreamlike aesthetics, and abstract storytelling.</p>
+                        <p id="timelineText" class="text-light fs-4 m-0">ONEiRA is conceptualized and developed during LSDJAM 2023, a game jam celebrating LSD: Dream Emulator and other surreal dream-inspired games. The team experiments with early mechanics, dreamlike aesthetics, and abstract storytelling.</p>
                     </div>
                 </div>
             </div>
@@ -70,21 +69,18 @@
     </div>
 
     <style>
-        .project-image 
-        {
+        .project-image {
             width: 100%;
             aspect-ratio: 16 / 9;
         }
 
-        .timeline-button 
-        {
+        .timeline-button {
             background-color: rgba(255, 255, 255, 0.25);
         }
 
-        .timeline-button:hover 
-        {
-            background-color: rgba(255, 255, 255, 0.50);
-        }
+            .timeline-button:hover {
+                background-color: rgba(255, 255, 255, 0.50);
+            }
     </style>
 </section>
 {% else %}
@@ -150,3 +146,36 @@
     </div>
 </section>
 {% endif %}
+
+<script>
+    document.addEventListener("DOMContentLoaded", function ()
+    {
+        const buttonLeft = document.getElementById("buttonLeft");
+        const buttonRight = document.getElementById("buttonRight");
+        const timelineImage = document.getElementById("timelineImage");
+        const timelineTitle = document.getElementById("timelineTitle");
+        const timelineText = document.getElementById("timelineText");
+
+        let index = 0;
+
+        buttonLeft.addEventListener("click", function ()
+        {
+            index = (index - 1 + items.length) % items.length;
+            let event = site.data.sitetext[site.locale].timeline.events[index]
+
+            timelineImage.src = event.image
+            timelineTitle.textContent = event.title
+            timelineText.textContent = event.desc
+        });
+
+        buttonRight.addEventListener("click", function ()
+        {
+            index = (index + 1) % images.length;
+            let event = site.data.sitetext[site.locale].timeline.events[index]
+
+            timelineImage.src = event.image
+            timelineTitle.textContent = event.title
+            timelineText.textContent = event.desc
+        });
+    });
+</script>
