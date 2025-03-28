@@ -1,5 +1,5 @@
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<section class="bg-light page-section" style="background-image: url('/assets/img/backgroundimage.jpg'); color: #ffdede; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;" id="{{ site.data.sitetext[site.locale].timeline.section | default: 'about' }}">
+<section class="bg-light page-section" style="background-image: url('/assets/img/backgroundimage.jpg'); color: #ffdede; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;" id="{{ site.data.sitetext[site.locale].timeline.section | default: 'team' }}">
     <div style="height: 0px; width: 100%; background-color: #423B7A; box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.25)">
         <!--Empty-->
     </div>
@@ -118,7 +118,7 @@
     });
 </script>
 {% else %}
-<section class="bg-light page-section" style="background-image: url('/assets/img/backgroundimage.jpg'); color: #ffdede; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;" id="{{ site.data.sitetext.timeline.section | default: 'about' }}">
+<section class="bg-light page-section" style="background-image: url('/assets/img/backgroundimage.jpg'); color: #ffdede; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;" id="{{ site.data.sitetext.timeline.section | default: 'team' }}">
     <div style="height: 0px; width: 100%; background-color: #423B7A; box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.25)">
         <!--Empty-->
     </div>

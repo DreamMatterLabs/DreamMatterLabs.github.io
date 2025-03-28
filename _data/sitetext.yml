@@ -43,14 +43,9 @@ en: &DEFAULT_EN
         # you can enforce the alignment
  #       align: right
     end: "Dreams <br> Are <br> Waiting."
-  about:
-    title:
-    text: "Dream Matter Labs"
-    body: "We welcome diverse backgrounds and point of views to conjure up engaging and surreal worlds. We are making dreams come true!"
-    section: about
   team:
     title: "Dream Matter Labs"
-    text: "Meet the minds behind the dream!"
+    text: "About Us"
     subtext: We welcome diverse backgrounds and point of views to conjure up engaging and surreal interactive worlds. We are making **dreams** come true!
     section: team
     people:
@@ -236,14 +231,9 @@ es: &DEFAULT_ES
         # you can enforce the alignment
  #       align: right
     end: "Dreams <br> Are <br> Waiting."
-  about:
-    title: "Embedded Youtube Trailer Here"
-    text: "Dream Matter Labs"
-    body: "We welcome diverse backgrounds and point of views to conjure up engaging and surreal worlds. We are making dreams come true!"
-    section: about
   team:
     title: "Dream Matter Labs"
-    text: "Meet the minds behind the dream!"
+    text: "About Us"
     subtext: We welcome diverse backgrounds and point of views to conjure up engaging and surreal interactive worlds. We are making **dreams** come true!
     section: team
     people:
