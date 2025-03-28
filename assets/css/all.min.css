@@ -12,27 +12,6 @@ body.blog-page .devlog-container {
   background: linear-gradient(to bottom, #5B0557, #3A4175, #423B7A) !important;
 }
 
-.post-list {
-  list-style: none;
-  padding: 0;
-}
-
-.post-preview {
-  padding: 15px 0;
-  border-bottom: 1px solid #ddd;
-}
-
-.post-preview h2 {
-  font-size: 1.5em;
-  margin-bottom: 10px;
-}
-
-.post-preview p {
-  color: #666;
-  font-size: 1em;
-  line-height: 1.6;
-}
-
 /* START MODAL - more info buttons on profile - FORMATTING */
 
 .modal-content {
