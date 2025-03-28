@@ -16,8 +16,8 @@ body_class: blog-page
           <a class="text-decoration-none text-white" href="{{ post.url }}">
             <article class="rounded post-preview fs-4" style="padding: 50px">
 	      <div class="col p-0 d-flex mb-3"> 
-                <h2 class="col-6 text-left fw-bold m-0">{{ post.title }}</h2>
-                <p class="col-6 text-right fw-normal m-0">{{ post.date | date: "%B %d, %Y" }}</p>
+                <h2 class="col-6 text-left fw-bold m-0 p-0">{{ post.title }}</h2>
+                <p class="col-6 text-right fw-normal m-0 p-0">{{ post.date | date: "%B %d, %Y" }}</p>
               </div>
                             
               <p class="fw-normal m-0">{{ post.excerpt }}</p>
