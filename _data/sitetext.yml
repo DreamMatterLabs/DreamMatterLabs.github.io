@@ -32,18 +32,13 @@ en: &DEFAULT_EN
         alt:
       - title: "2024: POWER-UP"
         year: "2024"
-        desc: "Development on Dreamwalker continues, refining narrative elements, gameplay systems, and art direction. The project grows beyond its game jam roots, with an expanded team and a clearer vision for the final experience."
+        desc: "Development continues, narrative elements are introduced, gameplay systems are implemented, and art direction is established. The project grows beyond its game jam roots with an expanded team and a clearer vision."
         image: /assets/img/timeline/2.jpg
         alt:
-      - title: "2025: ORGANIZED"
+      - title: "2025: ASSEMBLE"
         year: "2025"
         desc: "ONEiRA enters its final development phase, polishing its dream realms, deepening narrative threads, and preparing for a wider release. Stay tuned for more updates on its journey from jam concept to full-on interactive experience."
         image: /assets/img/timeline/3.jpg
-        alt:
-      - title: "2025: COMMUNITY"
-        year: "2025"
-        desc: "In our Discord community, we will be releasing demos and short trials ahead of our official release!"
-        image: /assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
  #       align: right
