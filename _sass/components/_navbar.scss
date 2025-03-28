@@ -13,10 +13,9 @@
 
     .navbar-toggler {
         position: absolute;
-        top: 1%; // Default position
-        right: 10%;
-        width: 100%;
-        margin-left: auto; // Ensures the toggler stays aligned right
+        top: 10%; // Default position
+        height: 80%;
+        max-width: 100px;
         border: none;
         outline: none;
         font-size: 2rem;
