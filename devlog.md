@@ -11,7 +11,7 @@ body_class: blog-page
       <h1 class="m-0 fs-4 text-uppercase text-muted2">Devlog & Updates</h1>
     </div>
 
-    <div class="row align-items-center m-0" style="row-gap: 100px">
+    <div class="row align-items-center m-0" style="row-gap: 50px">
         {% for post in site.posts %}
           <a class="text-decoration-none text-white" href="{{ post.url }}">
             <article class="rounded post-preview fs-4" style="padding: 50px">
