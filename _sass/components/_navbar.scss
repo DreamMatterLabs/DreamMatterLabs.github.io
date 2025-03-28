@@ -12,10 +12,11 @@
     }
 
     .navbar-toggler {
-        float: right;
+        position: absolute;
         top: 10%; // Default position
         height: 80%;
         max-width: 100px;
+        margin-left: auto; // Ensures the toggler stays aligned right
         border: none;
         outline: none;
         font-size: 2rem;
