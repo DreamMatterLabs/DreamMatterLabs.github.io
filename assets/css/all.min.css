@@ -10,8 +10,6 @@ body.blog-page {
 
 body.blog-page .devlog-container {
   background: linear-gradient(to bottom, #5B0557, #3A4175, #423B7A) !important;
-  border-radius: 8px;
-  padding: 30px;
 }
 
 .post-list {
