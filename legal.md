@@ -9,7 +9,9 @@ title: Privacy Policy
     </header>
 
     <div class="post-content">
-	<p>At Dream Matter Labs, your privacy is important to us and we will always try to treat you and your personal information with care and respect. This Privacy Policy outlines our privacy practices and principles regarding your personal information. We may update this from time to time based on personal, operational, legal, or regulatory reasons.</p>
+	<h2 class="fs-4 fw-bold">Overview</h2>
+
+	<p>Your privacy is important to us and we will always try to treat you and your personal information with care and respect. This Privacy Policy outlines our privacy practices and principles regarding your personal information. We may update this from time to time based on personal, operational, legal, or regulatory reasons.</p>
 
 	<h2 class="fs-4 fw-bold">Data Collection</h2>
 
