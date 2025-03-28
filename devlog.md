@@ -6,7 +6,7 @@ body_class: blog-page
 ---
 
 <section class="devlog-container">
-  <div class="container d-flex flex-column" style="padding-top: 50px; padding-bottom: 150px; row-gap: 100px">
+  <div class="container d-flex flex-column" style="padding-top: 50px; padding-bottom: 150px; row-gap: 150px">
     <div class="section-header text-center">
       <h1 class="m-0 fs-4 text-uppercase text-muted2">Devlog & Updates</h1>
     </div>
