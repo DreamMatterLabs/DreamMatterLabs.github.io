@@ -153,7 +153,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in            
       - name: "Gabe"
         role: "Environmental Artist"
-        image: /assets/img/about/2.jpg
+        image: /assets/img/about/1.jpg
         social:
           - url: https://www.artstation.com/gabekabam
             icon: fab fa-artstation
@@ -341,7 +341,7 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in            
       - name: "Gabe"
         role: "Environmental Artist"
-        image: /assets/img/about/2.jpg
+        image: /assets/img/about/1.jpg
         social:
           - url: https://www.artstation.com/gabekabam
             icon: fab fa-artstation
