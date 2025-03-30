@@ -5,6 +5,18 @@ body {
     @include body-font;
 }
 
+h1 {
+    @include serif-font;
+}
+
+h2 {
+    @include serif-font;
+}
+
+h3 {
+    @include serif-font;
+}
+
 p {
     line-height: 1.75;
 }
