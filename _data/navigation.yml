@@ -19,7 +19,7 @@ en: &DEFAULT_EN
       url: https://drive.proton.me/urls/4KF4TVH6BW#biLotE7ERWMo
       newTab: true
     - title: "BLOG"
-      url: /devlog/
+      url: /blog/
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -40,7 +40,7 @@ es: &DEFAULT_ES
     - title: "PRESS KIT"
       url: https://drive.proton.me/urls/4KF4TVH6BW#biLotE7ERWMo
     - title: "BLOG"
-      url: /devlog/
+      url: /blog/
 es-ES:
   <<: *DEFAULT_ES
 es-CO:
