@@ -13,8 +13,8 @@ en: &DEFAULT_EN
   nav:
     - title: "ONEiRA"
       url: https://dreammatterlabs.com/
-    - title: "ABOUT US"
-      url: /team/
+    - title: "ABOUT"
+      url: /about/
     - title: "BLOG"
       url: /blog/
     - title: "PRESS KIT"
@@ -35,8 +35,8 @@ es: &DEFAULT_ES
   nav:
     - title: "ONEiRA"
       url: https://dreammatterlabs.com/
-    - title: "ABOUT US"
-      url: /team/
+    - title: "ABOUT"
+      url: /about/
     - title: "BLOG"
       url: /blog/
     - title: "PRESS KIT"
