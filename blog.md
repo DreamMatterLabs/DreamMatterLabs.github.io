@@ -10,7 +10,7 @@ body_class: blog-page
       <h1 class="fw-bold text-uppercase text-white m-0" style="font-size: 2.45rem">Blog</h1>
     </div>
 
-    <div class="row align-items-center m-0" style="row-gap: 50px">
+    <div class="row align-items-center" style="row-gap: 50px">
         {% for post in site.posts %}
           <a class="text-decoration-none text-white" href="{{ post.url }}">
             <article class="rounded post-preview fs-4" style="padding: 50px">
