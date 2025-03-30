@@ -1,11 +1,11 @@
 ---
 layout: default
 title: "Blog"
-permalink: /devlog/
+permalink: /blog/
 body_class: blog-page
 ---
 <section class="devlog-container">
-  <div class="container d-flex flex-column" style="padding-top: 150px; padding-bottom: 150px; row-gap: 150px">
+  <div class="container d-flex flex-column" style="padding-top: 150px; padding-bottom: 150px; row-gap: 50px">
     <div class="section-header text-center">
       <h1 class="fw-bold text-uppercase text-white m-0" style="font-size: 2.45rem">Blog</h1>
     </div>
