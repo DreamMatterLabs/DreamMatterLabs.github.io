@@ -10,9 +10,9 @@ body_class: blog-page
       <h1 class="fw-bold text-uppercase text-white m-0" style="font-size: 2.45rem">Blog</h1>
     </div>
 
-    <div class="row align-items-center g-5">
+    <div class="row align-items-start g-md-5">
         {% for post in site.posts %}
-          <a class="col-4 text-decoration-none text-white" href="{{ post.url }}">
+          <a class="col col-md-4 aspect-ratio: 1 / 2; text-decoration-none text-white" href="{{ post.url }}">
             <article class="post-preview">
               <img class="img-fluid post-banner" style="border-radius: 20px 20px 0 0; width: 100%; aspect-ratio: 16 / 9" src="{{ post.banner }}">
 
@@ -32,7 +32,6 @@ body_class: blog-page
     {
         border-radius: 20px;
         width: 100%;
-        aspect-ratio: 16 / 9;
         background-color: #423B7A;
         box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.25);
         transition: box-shadow 0.3s ease-in-out;
