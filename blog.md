@@ -10,16 +10,16 @@ body_class: blog-page
       <h1 class="fw-bold text-uppercase text-white m-0" style="font-size: 2.45rem">Blog</h1>
     </div>
 
-    <div class="row align-items-center" style="gap: 50px">
+    <div class="row align-items-center g-5">
         {% for post in site.posts %}
-          <a class="text-decoration-none text-white" href="{{ post.url }}">
+          <a class="col-4 text-decoration-none text-white" href="{{ post.url }}">
             <article class="post-preview">
               <img class="img-fluid post-banner" style="border-radius: 20px 20px 0 0; width: 100%; aspect-ratio: 16 / 9" src="{{ post.banner }}">
 
               <div class="col d-flex" style="flex-direction: column; padding: 50px">         
                 <p class="fs-5 fw-normal m-0 p-0">{{ post.date | date: "%B %d, %Y" }}</p>   
-                <h2 class="fs-1 fw-bold mb-3 p-0">{{ post.title }}</h2>                         
-                <p class="fs-4 fw-normal m-0">{{ post.preview }}</p>
+                <h2 class="fs-3 fw-bold mb-3 p-0">{{ post.title }}</h2>                         
+                <p class="fs-5 fw-normal m-0">{{ post.preview }}</p>
               </div>	      
             </article>
           </a>       
