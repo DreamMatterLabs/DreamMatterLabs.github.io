@@ -1,5 +1,5 @@
 ---
 layout: privacy
-title: "About us"
-permalink: /team/
+title: "Privacy Policy"
+permalink: /privacy/
 ---
