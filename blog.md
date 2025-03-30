@@ -5,12 +5,12 @@ permalink: /blog/
 body_class: blog-page
 ---
 <section class="devlog-container">
-  <div class="container d-flex flex-column" style="padding-top: 150px; padding-bottom: 150px">
+  <div class="container d-flex flex-column" style="padding-top: 150px; padding-bottom: 150px; row-gap: 50px">
     <div class="section-header text-center">
       <h1 class="fs-1 fw-bold text-uppercase text-white m-0">Blog</h1>
     </div>
 
-    <div class="row align-items-start g-5 m-0" style="padding-top: 50px">
+    <div class="row align-items-start g-5 m-0">
         {% for post in site.posts %}
           <a class="col col-md-4 text-decoration-none text-white m-0" style="aspect-ratio: 1 / 2; overflow: hidden" href="{{ post.url }}">
             <article class="post-preview">
