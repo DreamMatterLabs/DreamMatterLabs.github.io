@@ -1,8 +1,6 @@
 // Styling for the portfolio section
 #portfolio {
-    .h2 {
-        @include heading-font
-    }
+    @include heading-font;
 
     .portfolio-item {
         right: 0;
