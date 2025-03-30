@@ -7,7 +7,7 @@ alt:
 caption:
   title: Immersive Sonification
   subtitle: The Sound Of Dreams
-  thumbnail: assets/img/portfolio/06-full.jpg
+  thumbnail: assets/img/oneira/picture_4.jpg
 ---
 Immerse yourself in beautifully crafted environments accompanied by lush worlds of sound by Ambient Artstyles.
 

@@ -13,7 +13,7 @@ en: &DEFAULT_EN
     title: ONEiRA
     text:
     button: MEET THE TEAM
-    buttonlink: "https://dreammatterlabs.com/team/"
+    buttonlink: "https://dreammatterlabs.com/about/"
   portfolio:
     title: 
     text: 
@@ -51,7 +51,7 @@ en: &DEFAULT_EN
     people:
       - name: "John"
         role: "Studio Director & Interactive Audio Designer"
-        image: /assets/img/team/john.png
+        image: /assets/img/about/john.png
         social:
           - url: https://ambientartstyles.com/
             icon: fa fa-globe
@@ -61,7 +61,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
       - name: "Max"
         role: "Lead Programmer, Game Designer"
-        image: /assets/img/team/maxB.png
+        image: /assets/img/about/maxB.png
         social:
           - url: https://mharris382.github.io/
             icon: fa fa-hat-wizard
@@ -71,7 +71,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
       - name: "Forgotten Dawn"
         role: "Composer & Character Designer"
-        image: /assets/img/team/claudio.png
+        image: /assets/img/about/claudio.png
         social:
           - url: https://www.youtube.com/@ForgottenDawn
             icon: fab fa-youtube
@@ -81,7 +81,7 @@ en: &DEFAULT_EN
             icon: fa fa-tree
       - name: "Bella"
         role: "3D Artist"
-        image: /assets/img/team/bella.png
+        image: /assets/img/about/bella.png
         social:
           - url: https://www.artstation.com/bellapix
             icon: fab fa-artstation
@@ -91,7 +91,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
       - name: "Fred"
         role: "Narrative Specialist"
-        image: /assets/img/team/fred.png
+        image: /assets/img/about/fred.png
         social:
           - url: https://fredomato.itch.io/
             icon: fab fa-itch-io
@@ -99,25 +99,25 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
       - name: "Habu"
         role: "3D Artist"
-        image: /assets/img/team/habu.png
+        image: /assets/img/about/habu.png
         social:
           - url: https://www.artstation.com/habukatu
             icon: fab fa-artstation
       - name: "Steph H."
         role: "Unreal Generalist"
-        image: /assets/img/team/1.jpg
+        image: /assets/img/about/1.jpg
         social:
           - url: https://github.com/sljeandell
             icon: fab fa-github
       - name: "Pam"
         role: "Level Designer"
-        image: /assets/img/team/1.jpg
+        image: /assets/img/about/1.jpg
         social:
           - url: https://www.linkedin.com/in/p%C3%A2mela-beltrani-a4b808106/
             icon: fab fa-linkedin-in
       - name: "Steph T."
         role: "UI/UX"
-        image: /assets/img/team/1.jpg
+        image: /assets/img/about/1.jpg
         social:
           - url: https://stephanieterrero.com/
             icon: fa fa-globe
@@ -127,7 +127,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in 
       - name: "Nick"
         role: "Game Designer"
-        image: /assets/img/team/nick.png
+        image: /assets/img/about/nick.png
         social:
           - url: https://www.nicksceusa.com/
             icon: fa fa-dice-d20
@@ -135,7 +135,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
       - name: "Cody"
         role: "Concept Artist"
-        image: /assets/img/team/cody.png
+        image: /assets/img/about/cody.png
         social:
           - url: https://codyschroeder.myportfolio.com/
             icon: fa fa-hand-peace
@@ -145,7 +145,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in 
       - name: "Pat"
         role: "Level Designer, level 1"
-        image: /assets/img/team/pat.png
+        image: /assets/img/about/pat.png
         social:
           - url: https://www.pat-mccabe.com/
             icon: fa fa-user-astronaut
@@ -153,13 +153,13 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in            
       - name: "Gabe"
         role: "Environmental Artist"
-        image: /assets/img/team/2.jpg
+        image: /assets/img/about/2.jpg
         social:
           - url: https://www.artstation.com/gabekabam
             icon: fab fa-artstation
       - name: "Joël"
         role: "Marketing Manager"
-        image: /assets/img/team/1.jpg
+        image: /assets/img/about/1.jpg
         social:
           - url: https://www.artstation.com/artwork/BknOQk
             icon: fab fa-artstation
@@ -167,7 +167,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in 
       - name: "Ashe"
         role: "Community Manager"
-        image: /assets/img/team/1.jpg
+        image: /assets/img/about/1.jpg
         social:
           - url: https://www.twitch.tv/ashe_xo
             icon: fa-brands fa-twitch
@@ -196,7 +196,7 @@ es: &DEFAULT_ES
     title: ONEiRA
     text:
     button: MEET THE TEAM
-    buttonlink: "https://dreammatterlabs.com/team/"
+    buttonlink: "https://dreammatterlabs.com/about/"
   portfolio:
     title: 
     text: 
@@ -239,7 +239,7 @@ es: &DEFAULT_ES
     people:
       - name: "John"
         role: "Studio Director & Interactive Audio Designer"
-        image: /assets/img/team/john.png
+        image: /assets/img/about/john.png
         social:
           - url: https://ambientartstyles.com/
             icon: fa fa-globe
@@ -249,7 +249,7 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in
       - name: "Max"
         role: "Lead Programmer, Game Designer"
-        image: /assets/img/team/maxB.png
+        image: /assets/img/about/maxB.png
         social:
           - url: https://mharris382.github.io/
             icon: fa fa-hat-wizard
@@ -259,7 +259,7 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in
       - name: "Forgotten Dawn"
         role: "Composer & Character Designer"
-        image: /assets/img/team/claudio.png
+        image: /assets/img/about/claudio.png
         social:
           - url: https://www.youtube.com/@ForgottenDawn
             icon: fab fa-youtube
@@ -269,7 +269,7 @@ es: &DEFAULT_ES
             icon: fa fa-tree
       - name: "Bella"
         role: "3D Artist"
-        image: /assets/img/team/bella.png
+        image: /assets/img/about/bella.png
         social:
           - url: https://www.artstation.com/bellapix
             icon: fab fa-artstation
@@ -279,7 +279,7 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in
       - name: "Fred"
         role: "Narrative Specialist"
-        image: /assets/img/team/fred.png
+        image: /assets/img/about/fred.png
         social:
           - url: https://fredomato.itch.io/
             icon: fab fa-itch-io
@@ -287,25 +287,25 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in
       - name: "Habu"
         role: "3D Artist"
-        image: /assets/img/team/habu.png
+        image: /assets/img/about/habu.png
         social:
           - url: https://www.artstation.com/habukatu
             icon: fab fa-artstation
       - name: "Steph H."
         role: "Unreal Generalist"
-        image: /assets/img/team/1.jpg
+        image: /assets/img/about/1.jpg
         social:
           - url: https://github.com/sljeandell
             icon: fab fa-github
       - name: "Pam"
         role: "Level Designer"
-        image: /assets/img/team/1.jpg
+        image: /assets/img/about/1.jpg
         social:
           - url: https://www.linkedin.com/in/p%C3%A2mela-beltrani-a4b808106/
             icon: fab fa-linkedin-in
       - name: "Steph T."
         role: "UI/UX"
-        image: /assets/img/team/1.jpg
+        image: /assets/img/about/1.jpg
         social:
           - url: https://stephanieterrero.com/
             icon: fa fa-globe
@@ -315,7 +315,7 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in 
       - name: "Nick"
         role: "Game Designer"
-        image: /assets/img/team/nick.png
+        image: /assets/img/about/nick.png
         social:
           - url: https://www.nicksceusa.com/
             icon: fa fa-dice-d20
@@ -323,7 +323,7 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in
       - name: "Cody"
         role: "Concept Artist"
-        image: /assets/img/team/cody.png
+        image: /assets/img/about/cody.png
         social:
           - url: https://codyschroeder.myportfolio.com/
             icon: fa fa-hand-peace
@@ -333,7 +333,7 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in 
       - name: "Pat"
         role: "Level Designer, level 1"
-        image: /assets/img/team/pat.png
+        image: /assets/img/about/pat.png
         social:
           - url: https://www.pat-mccabe.com/
             icon: fa fa-user-astronaut
@@ -341,13 +341,13 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in            
       - name: "Gabe"
         role: "Environmental Artist"
-        image: /assets/img/team/2.jpg
+        image: /assets/img/about/2.jpg
         social:
           - url: https://www.artstation.com/gabekabam
             icon: fab fa-artstation
       - name: "Joël"
         role: "Marketing Manager"
-        image: /assets/img/team/1.jpg
+        image: /assets/img/about/1.jpg
         social:
           - url: https://www.artstation.com/artwork/BknOQk
             icon: fab fa-artstation
@@ -355,7 +355,7 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in 
       - name: "Ashe"
         role: "Community Manager"
-        image: /assets/img/team/1.jpg
+        image: /assets/img/about/1.jpg
         social:
           - url: https://www.twitch.tv/ashe_xo
             icon: fa-brands fa-twitch

@@ -7,7 +7,7 @@ alt: Keep Exploring
 caption:
   title: Discover New Abilities
   subtitle: Free Your Inner Dreamer
-  thumbnail: assets/img/portfolio/02-thumbnail.jpg
+  thumbnail: assets/img/oneira/picture_2.jpg
 ---
 Gain extraordinary abilities as you explore new dream worlds, enhancing your platforming and puzzle-solving skills.
 

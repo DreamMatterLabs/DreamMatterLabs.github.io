@@ -7,7 +7,7 @@ alt:
 caption:
   title: Shape the Dreamworld
   subtitle: Tread carefully however as every decision shapes the story and the dreamscape around you. Listen closely to the characters that you encounter on your journey, as some may know more than they let on. Will you uncover the hidden truths or let them slip away?
-  thumbnail: assets/img/portfolio/03-thumbnail.jpg
+  thumbnail: assets/img/oneira/picture_3.jpg
 ---
 Watch each dream world evolve based on your decisions. Be mindful of your choices, for they may irrevocably alter the landscape of the dream worlds.
 

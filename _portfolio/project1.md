@@ -7,7 +7,7 @@ alt: "Mysterious image"
 caption:
   title: Explore Dreamscapes!
   subtitle: Unique and Beautiful Worlds
-  thumbnail: assets/img/portfolio/01-thumbnail.jpg
+  thumbnail: assets/img/oneira/picture_1.jpg
 ---
 Embark on an epic journey through the surreal landscapes of the subconscious, solving puzzles and unraveling mysteries!
 
