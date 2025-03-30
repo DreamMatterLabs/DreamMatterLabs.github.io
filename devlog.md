@@ -4,6 +4,7 @@ title: "Blog"
 permalink: /devlog/
 body_class: blog-page
 ---
+{% include header_dml.html %}
 
 <section class="devlog-container">
   <div class="container d-flex flex-column" style="padding-top: 50px; padding-bottom: 150px; row-gap: 150px">

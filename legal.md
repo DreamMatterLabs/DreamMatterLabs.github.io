@@ -2,6 +2,8 @@
 layout: default
 title: Privacy Policy
 ---
+{% include header_dml.html %}
+
 <article class="post">
     <header class="post-header">
         <h1 class="post-title">Privacy Policy</h1>
