@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dream Matter Labs Partners with Cave Bear Games"
+title: "Dream Matter Labs x Cave Bear Games"
 author: Dream Matter Labs
 banner: /assets/img/blog/blogpost_1.jpg
 preview: "Dream Matter Labs is an independent video game studio focused on bringing dreams to life."
