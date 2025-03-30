@@ -16,12 +16,9 @@ body_class: blog-page
             <article class="rounded post-preview fs-4">
               <img class="img-fluid rounded post-banner" style="width: 100%; aspect-ratio: 16 / 9" src="{{ post.banner }}">
 
-              <div style="padding: 50px; row-gap: 50px">
-                <div class="col p-0 d-flex mb-3"> 
-                  <h2 class="col-6 text-left fw-bold m-0 p-0">{{ post.title }}</h2>
-                  <p class="col-6 text-right fw-normal m-0 p-0">{{ post.date | date: "%B %d, %Y" }}</p>
-                </div>
-                            
+              <div class="col p-0 d-flex" style="padding: 50px; row-gap: 50px">         
+                <p class="fw-normal mb-3 p-0">{{ post.date | date: "%B %d, %Y" }}</p>   
+                <h2 class="fw-bold m-0 p-0">{{ post.title }}</h2>                         
                 <p class="fw-normal m-0" style="font-size: 1.25rem">{{ post.preview }}</p>
               </div>	      
             </article>
