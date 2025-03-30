@@ -10,7 +10,7 @@
         font-size: 90%;
         line-height: 40px;
         text-transform: none;
-        @include heading-font;
+        @include body-font;
     }
 
     ul.quicklinks {
@@ -19,7 +19,7 @@
         line-height: 40px;
         margin-bottom: 0;
         text-transform: none;
-        @include heading-font;
+        @include body-font;
     }
 }
 
