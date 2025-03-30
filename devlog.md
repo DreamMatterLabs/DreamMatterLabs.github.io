@@ -5,9 +5,9 @@ permalink: /devlog/
 body_class: blog-page
 ---
 <section class="devlog-container">
-  <div class="container d-flex flex-column" style="padding-top: 50px; padding-bottom: 150px; row-gap: 150px">
+  <div class="container d-flex flex-column" style="padding-top: 150px; padding-bottom: 150px; row-gap: 150px">
     <div class="section-header text-center">
-      <h1 class="m-0 fs-4 text-uppercase text-muted2">Blog</h1>
+      <h1 class="m-0 fs-4 fw-bold text-uppercase text-white">Blog</h1>
     </div>
 
     <div class="row align-items-center m-0" style="row-gap: 50px">
