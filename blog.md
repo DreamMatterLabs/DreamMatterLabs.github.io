@@ -14,7 +14,7 @@ body_class: blog-page
         {% for post in site.posts %}
           <a class="text-decoration-none text-white" href="{{ post.url }}">
             <article class="post-preview">
-              <img class="img-fluid rounded post-banner" style="width: 100%; aspect-ratio: 16 / 9" src="{{ post.banner }}">
+              <img class="img-fluid post-banner" style="border-radius: 20px 20px 0 0; width: 100%; aspect-ratio: 16 / 9" src="{{ post.banner }}">
 
               <div class="col d-flex" style="flex-direction: column; padding: 50px">         
                 <p class="fs-5 fw-normal m-0 p-0">{{ post.date | date: "%B %d, %Y" }}</p>   
@@ -30,7 +30,7 @@ body_class: blog-page
   <style>
     .post-preview 
     {
-        border-radius: 25px;
+        border-radius: 20px;
         width: 33%;
         aspect-ratio: 16 / 9;
         background-color: #423B7A;
