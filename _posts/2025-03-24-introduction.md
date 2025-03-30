@@ -4,6 +4,8 @@ title: "Introducing Dream Matter Labs!"
 author: Dream Matter Labs
 banner: /assets/img/blog/picture.jpg
 ---
+<h2 class="post-heading">Hello World!</h2>
+
 Dream Matter Labs is an independent video game studio focused on bringing dreams to life. 
 
 As a team of juniors, we know how exhausting it can be to break into the game industry—and we’re tired of waiting for it to recognize our potential. So, we decided to create our own studio and forge our own path.
