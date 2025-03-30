@@ -2,7 +2,7 @@
 layout: post
 title: "Announcing ONEiRA!"
 author: Dream Matter Labs
-banner: /assets/img/blog/picture.jpg
+banner: /assets/img/blog/blogpost_1.jpg
 preview: "Dream Matter Labs is an independent video game studio focused on bringing dreams to life."
 ---
 <h2 class="post-heading">Hello World!</h2>
