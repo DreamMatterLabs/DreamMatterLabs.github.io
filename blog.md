@@ -30,7 +30,7 @@ body_class: blog-page
   <style>
     .post-preview 
     {
-        border-radius: 25px
+        border-radius: 25px;
         width: 33%;
         aspect-ratio: 16 / 9;
         background-color: #423B7A;
