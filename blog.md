@@ -13,10 +13,10 @@ body_class: blog-page
     <div class="row align-items-center" style="gap: 50px">
         {% for post in site.posts %}
           <a class="text-decoration-none text-white" href="{{ post.url }}">
-            <article class="rounded post-preview">
+            <article class="post-preview">
               <img class="img-fluid rounded post-banner" style="width: 100%; aspect-ratio: 16 / 9" src="{{ post.banner }}">
 
-              <div class="col p-0 d-flex" style="flex-direction: column; padding: 50px">         
+              <div class="col d-flex" style="flex-direction: column; padding: 50px">         
                 <p class="fs-5 fw-normal m-0 p-0">{{ post.date | date: "%B %d, %Y" }}</p>   
                 <h2 class="fs-1 fw-bold mb-3 p-0">{{ post.title }}</h2>                         
                 <p class="fs-4 fw-normal m-0">{{ post.preview }}</p>
@@ -30,6 +30,7 @@ body_class: blog-page
   <style>
     .post-preview 
     {
+        border-radius: 25px
         width: 33%;
         aspect-ratio: 16 / 9;
         background-color: #423B7A;
