@@ -3,6 +3,7 @@ layout: post
 title: "Introducing Dream Matter Labs!"
 author: Dream Matter Labs
 banner: /assets/img/blog/picture.jpg
+preview: "Dream Matter Labs is an independent video game studio focused on bringing dreams to life."
 ---
 <h2 class="post-heading">Hello World!</h2>
 

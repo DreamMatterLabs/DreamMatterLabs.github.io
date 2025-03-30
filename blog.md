@@ -19,7 +19,7 @@ body_class: blog-page
                 <p class="col-6 text-right fw-normal m-0 p-0">{{ post.date | date: "%B %d, %Y" }}</p>
               </div>
                             
-              <p class="fw-normal m-0" style="font-size: 1.25rem">{{ post.excerpt }}</p>
+              <p class="fw-normal m-0" style="font-size: 1.25rem">{{ post.preview }}</p>
             </article>
           </a>       
         {% endfor %}
