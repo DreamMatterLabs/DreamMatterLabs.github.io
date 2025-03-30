@@ -10,7 +10,7 @@ body_class: blog-page
       <h1 class="fs-1 fw-bold text-uppercase text-white m-0">Blog</h1>
     </div>
 
-    <div class="row align-items-start g-5">
+    <div class="row align-items-start g-5 m-0">
         {% for post in site.posts %}
           <a class="col col-md-4 text-decoration-none text-white m-0" style="aspect-ratio: 1 / 2; overflow: hidden" href="{{ post.url }}">
             <article class="post-preview">
