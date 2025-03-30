@@ -7,7 +7,7 @@ body_class: blog-page
 <section class="devlog-container">
   <div class="container d-flex flex-column" style="padding-top: 150px; padding-bottom: 150px; row-gap: 150px">
     <div class="section-header text-center">
-      <h1 class="m-0 fs-4 fw-bold text-uppercase text-white">Blog</h1>
+      <h1 class="fw-bold text-uppercase text-white m-0" style="font-size: 2.45rem">Blog</h1>
     </div>
 
     <div class="row align-items-center m-0" style="row-gap: 50px">
@@ -19,7 +19,7 @@ body_class: blog-page
                 <p class="col-6 text-right fw-normal m-0 p-0">{{ post.date | date: "%B %d, %Y" }}</p>
               </div>
                             
-              <p class="fw-normal m-0">{{ post.excerpt }}</p>
+              <p class="fw-normal m-0" style="font-size: 1.25rem">{{ post.excerpt }}</p>
             </article>
           </a>       
         {% endfor %}
