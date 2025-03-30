@@ -15,11 +15,11 @@ en: &DEFAULT_EN
       url: https://dreammatterlabs.com/
     - title: "ABOUT US"
       url: /team/
+    - title: "BLOG"
+      url: /blog/
     - title: "PRESS KIT"
       url: https://drive.proton.me/urls/4KF4TVH6BW#biLotE7ERWMo
       newTab: true
-    - title: "BLOG"
-      url: /blog/
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -37,10 +37,10 @@ es: &DEFAULT_ES
       url: https://dreammatterlabs.com/
     - title: "ABOUT US"
       url: /team/
-    - title: "PRESS KIT"
-      url: https://drive.proton.me/urls/4KF4TVH6BW#biLotE7ERWMo
     - title: "BLOG"
       url: /blog/
+    - title: "PRESS KIT"
+      url: https://drive.proton.me/urls/4KF4TVH6BW#biLotE7ERWMo
 es-ES:
   <<: *DEFAULT_ES
 es-CO:
