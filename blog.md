@@ -13,15 +13,17 @@ body_class: blog-page
     <div class="row align-items-center" style="gap: 50px">
         {% for post in site.posts %}
           <a class="text-decoration-none text-white" href="{{ post.url }}">
-            <article class="rounded post-preview fs-4" style="padding: 50px; row-gap: 50px">
-              <img class="img-fluid rounded post-banner" src="{{ post.banner }}">
+            <article class="rounded post-preview fs-4">
+              <img class="img-fluid rounded post-banner" style="width: 100%; aspect-ratio: 16 / 9" src="{{ post.banner }}">
 
-	      <div class="col p-0 d-flex mb-3"> 
-                <h2 class="col-6 text-left fw-bold m-0 p-0">{{ post.title }}</h2>
-                <p class="col-6 text-right fw-normal m-0 p-0">{{ post.date | date: "%B %d, %Y" }}</p>
-              </div>
+              <div style="padding: 50px; row-gap: 50px">
+                <div class="col p-0 d-flex mb-3"> 
+                  <h2 class="col-6 text-left fw-bold m-0 p-0">{{ post.title }}</h2>
+                  <p class="col-6 text-right fw-normal m-0 p-0">{{ post.date | date: "%B %d, %Y" }}</p>
+                </div>
                             
-              <p class="fw-normal m-0" style="font-size: 1.25rem">{{ post.preview }}</p>
+                <p class="fw-normal m-0" style="font-size: 1.25rem">{{ post.preview }}</p>
+              </div>	      
             </article>
           </a>       
         {% endfor %}
