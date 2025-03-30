@@ -65,53 +65,6 @@
     </div>
 </nav>
 
-<!-- Header -->
-{% if site.locale and site.locale != "" and site.locale != nil %}
-<header class="masthead" style="height: 700px">
-    <div class="container h-100 d-flex flex-column">
-        <!--Empty-->
-        <div class="col d-flex"></div>
-
-        <!--Logo-->
-        <div class="col d-flex align-items-center justify-content-center">
-            <p style="font-size: 128px">ONEiRA</p>
-        </div>
-
-        <!--Button-->
-        {%- if site.data.sitetext[site.locale].header.button -%}
-        <div class="col d-flex align-items-start justify-content-center">
-            <a class="btn btn-rounded fs-4 fw-bold text-uppercase js-scroll-trigger"
-               href="{{ site.data.sitetext[site.locale].header.buttonlink }}">
-                {{ site.data.sitetext[site.locale].header.button }}
-            </a>
-        </div>
-        {%- endif -%}
-    </div>
-</header>
-{% else %}
-<header class="masthead" style="height: 700px">
-    <div class="container h-100 d-flex flex-column">
-        <!--Empty-->
-        <div class="col d-flex"></div>
-
-        <!--Logo-->
-        <div class="col d-flex align-items-center justify-content-center">
-            <p style="font-size: 128px">ONEiRA</p>
-        </div>
-
-        <!--Button-->
-        {%- if site.data.sitetext.header.button -%}
-        <div class="col d-flex align-items-start justify-content-center">
-            <a class="btn btn-rounded fs-4 fw-bold text-uppercase js-scroll-trigger"
-               href="{{ site.data.sitetext.header.buttonlink }}">
-                {{ site.data.sitetext.header.button }}
-            </a>
-        </div>
-        {%- endif -%}
-    </div>
-</header>
-{% endif %}
-
 <script>
     document.addEventListener("DOMContentLoaded", function ()
     {
