@@ -7,7 +7,7 @@ body_class: blog-page
 <section class="devlog-container">
   <div class="container d-flex flex-column" style="padding-top: 150px; padding-bottom: 150px; row-gap: 50px">
     <div class="section-header text-center">
-      <h1 class="fw-bold text-uppercase text-white m-0" style="font-size: 2.45rem">Blog</h1>
+      <h1 class="fs-1 fw-bold text-uppercase text-white m-0">Blog</h1>
     </div>
 
     <div class="row align-items-start g-5">
