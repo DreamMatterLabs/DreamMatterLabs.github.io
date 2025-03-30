@@ -10,11 +10,11 @@ body_class: blog-page
       <h1 class="fw-bold text-uppercase text-white m-0" style="font-size: 2.45rem">Blog</h1>
     </div>
 
-    <div class="row align-items-center" style="row-gap: 50px">
+    <div class="row align-items-center" style="gap: 50px">
         {% for post in site.posts %}
           <a class="text-decoration-none text-white" href="{{ post.url }}">
-            <article class="rounded post-preview fs-4" style="padding: 50px">
-		
+            <article class="rounded post-preview fs-4" style="padding: 50px; row-gap: 50px">
+              <img class="img-fluid rounded post-banner" src="{{ post.banner }}">
 
 	      <div class="col p-0 d-flex mb-3"> 
                 <h2 class="col-6 text-left fw-bold m-0 p-0">{{ post.title }}</h2>
@@ -31,6 +31,8 @@ body_class: blog-page
   <style>
     .post-preview 
     {
+        width: 33%;
+        aspect-ratio: 16 / 9;
         background-color: #423B7A;
         box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.25);
         transition: box-shadow 0.3s ease-in-out;
