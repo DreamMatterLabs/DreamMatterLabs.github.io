@@ -33,14 +33,14 @@ body_class: blog-page
         border-radius: 20px;
 	height: 100%
         width: 100%;
-        background-color: #423B7A;
+        background-color: #6A2388;
         box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.25);
         transition: box-shadow 0.3s ease-in-out;
     }
 
     .post-preview:hover 
     {
-        box-shadow: 0px 0px 30px 5px rgba(80, 235, 236, 0.50);
+        box-shadow: 0px 0px 30px 5px rgba(120, 254, 100, 0.50);
     }
   </style>
 </section>
