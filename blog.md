@@ -17,7 +17,7 @@ body_class: blog-page
               <img class="img-fluid post-banner" style="border-radius: 20px 20px 0 0; width: 100%; aspect-ratio: 16 / 9" src="{{ post.banner }}">
 
               <div class="col d-flex" style="flex-direction: column; padding: 50px">         
-                <p class="fs-5 fw-normal mb-3 p-0">{{ post.date | date: "%B %d, %Y" }}</p>   
+                <p class="fs-5 fw-normal mb-3 p-0" style="color: #92dce5">{{ post.date | date: "%B %d, %Y" }}</p>   
                 <h2 class="fs-3 fw-bold mb-3 p-0">{{ post.title }}</h2>                         
                 <p class="fs-5 fw-normal m-0">{{ post.preview }}</p>
               </div>	      
