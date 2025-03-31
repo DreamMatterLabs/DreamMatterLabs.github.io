@@ -33,7 +33,6 @@ permalink: /privacy/
         max-width: 800px;
         margin: 0 auto;
 	padding: 150px 0 150px 0;
-        font-size: 1.25rem;
 	color: white;
     }
 
@@ -43,26 +42,20 @@ permalink: /privacy/
     }
 
     .post-title {
-        font-size: 2.45rem;
-        margin-bottom: 10px;
+        font-size: 2.5rem;
+        margin-bottom: 15px;
         font-weight: bold;
     }
 
     .post-meta {
         font-size: 1.25rem;
-        color: #666; /* Subtle color for metadata */
+        color: #92dce5
         margin-bottom: 0;
     }
 
-    .post-banner {
-        width: 100%;
-        aspect-ratio: 16 / 9;
-        box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.25);
-        margin-bottom: 50px;
-    }
-
     .post-content {
+        font-size: 1.25rem;
         line-height: 1.6;
-        margin-bottom: 40px;
+        margin-bottom: 50px;
     }
 </style>
