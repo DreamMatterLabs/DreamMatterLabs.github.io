@@ -11,6 +11,7 @@ Breaking into the game industry is exhausting – and we're tired of waiting for
 
 Therefore! We have taken *matters* into our own hands by creating our own studio – Dream Matter Labs, to gain experience and show the industry exactly what we can do. 
 
-Through a team of 15 junior volunteers, we focus on making games that challenge conventions, foster creativity, and bring you worlds that linger in your mind long after you leave them. Follow along as we share our adventure and unveil our debut game!
+Through a team of 15 junior volunteers, we focus on making games that challenge conventions, foster creativity, and bring you worlds that linger in your mind. Follow along as we share our adventure and unveil our debut game!
 
-💭 Want to be part of the community? Join us on Discord and come chat with us! <https://discord.gg/XAYvJhkkqE>
+💭 Want to be part of the community? Join us on Discord and come chat with us!
+<https://discord.gg/XAYvJhkkqE>
