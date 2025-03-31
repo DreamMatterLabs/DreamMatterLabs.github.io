@@ -1,6 +1,6 @@
 <!-- Team -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<section class="page-section" style="background: linear-gradient(to bottom, #6A2388 0vh, #812BA5 150vh); background-size: 100% 300vh; background-repeat: no-repeat " id="{{ site.data.sitetext[site.locale].team.section | default: "team" }}">
+<section class="page-section" style="background: linear-gradient(to bottom, #6A2388 0vh, #812BA5 150vh); background-size: 100% 300vh; background-repeat: no-repeat" id="{{ site.data.sitetext[site.locale].team.section | default: "team" }}">
     <div class="container d-flex flex-column" style="padding-top: 150px; padding-bottom: 50px; row-gap: 50px">
         <!--Tagline-->
         <div class="section-header text-center">
@@ -14,9 +14,9 @@
                 <div class="team-member">
                     <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
 
-                    <h2 class="fs-3 fw-bold text-white mb-3 p-0">{{ person.name }}</h2>
+                    <h2 class="fs-3 fw-bold text-white">{{ person.name }}</h2>
 
-                    <p class="fs-5 text-muted2 mb-3 p-0">{{ person.role }}</p>
+                    <p class="fs-5 text-muted2">{{ person.role }}</p>
 
                     <ul class="list-inline social-buttons">
                         {% for network in person.social %}
@@ -34,7 +34,7 @@
     </div>
 </section>
 {% else %}
-<section class="page-section" style="background: linear-gradient(to bottom, #5B0557, #3A4175, #423B7A)" id="{{ site.data.sitetext.team.section | default: "team" }}">
+<section class="page-section" style="background: linear-gradient(to bottom, #6A2388 0vh, #812BA5 150vh); background-size: 100% 300vh; background-repeat: no-repeat" id="{{ site.data.sitetext.team.section | default: "team" }}">
     <div class="container d-flex flex-column" style="padding-top: 50px; padding-bottom: 50px; row-gap: 150px">
         <!--Tagline-->
          <div class="section-header text-center">
@@ -48,9 +48,9 @@
                 <div class="team-member">
                     <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
 
-                    <h4 class="text-white">{{ person.name }}</h4>
+                    <h2 class="fs-3 fw-bold text-white">{{ person.name }}</h2>
 
-                    <p class="text-muted2">{{ person.role }}</p>
+                    <p class="fs-5 text-muted2">{{ person.role }}</p>
 
                     <ul class="list-inline social-buttons">
                         {% for network in person.social %}
