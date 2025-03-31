@@ -27,17 +27,17 @@ en: &DEFAULT_EN
     events:
       - title: "2023: JAM TIME"
         year: "2023"
-        desc: "Our roots start at the LSDJAM 2023, a game jam celebrating LSD: Dream Emulator and similar dream-inspired games. Here, we assembled the first members of our team and started conceptualizing and building our debut game ONEiRA."
+        desc: "Our roots start at the LSDJAM 2023, a game jam celebrating LSD: Dream Emulator and similar surreal, dream-inspired games. Here, we assembled the first members of our team and started conceptualizing and building ONEiRA."
         image: /assets/img/timeline/lsdjam.jpg
         alt:
       - title: "2024: POWER-UP"
         year: "2024"
-        desc: "After the LSDJAM 2023, we decided to continue with ONEiRA and give it the time and effort it deserves. Here, our roots spread as we expanded our team and turned our creation into a full-fledged game."
+        desc: "After the LSDJAM 2023, we decided to continue with ONEiRA and give it the time and effort it deserves. Here, our roots spread as we established Dream Matter Labs, expanded our team, and turned ONEiRA into a full-fledged game."
         image: /assets/img/timeline/2.jpg
         alt:
       - title: "2025: ASSEMBLE"
         year: "2025"
-        desc: "This year, what was once taking root has now begun to bloom. ONEiRA enters its final development phase as the dreamscapes are polished, narrative threads are finalized, and a community is being built. What awaits? Stay tuned and find out!"
+        desc: "What was once taking root has now begun to bloom. ONEiRA enters its final development phase as the dreamscapes are polished, narrative threads are finalized, and a community is being built. What awaits? Stay tuned and find out!"
         image: /assets/img/timeline/3.jpg
         alt:
         # you can enforce the alignment
@@ -210,17 +210,17 @@ es: &DEFAULT_ES
     events:
       - title: "2023: JAM TIME"
         year: "2023"
-        desc: "Our roots start at the LSDJAM 2023, a game jam celebrating LSD: Dream Emulator and similar dream-inspired games. Here, we assembled the first members of our team and started conceptualizing and building our debut game ONEiRA."
+        desc: "Our roots start at the LSDJAM 2023, a game jam celebrating LSD: Dream Emulator and similar surreal, dream-inspired games. Here, we assembled the first members of our team and started conceptualizing and building ONEiRA."
         image: /assets/img/timeline/lsdjam.jpg
         alt:
       - title: "2024: POWER-UP"
         year: "2024"
-        desc: "After the LSDJAM 2023, we decided to continue with ONEiRA and give it the time and effort it deserves. Here, our roots spread as we expanded our team and turned our creation into a full-fledged game."
+        desc: "After the LSDJAM 2023, we decided to continue with ONEiRA and give it the time and effort it deserves. Here, our roots spread as we established Dream Matter Labs, expanded our team, and turned ONEiRA into a full-fledged game."
         image: /assets/img/timeline/2.jpg
         alt:
       - title: "2025: ORGANIZED"
         year: "2025"
-        desc: "This year, what was once taking root has now begun to bloom. ONEiRA enters its final development phase as the dreamscapes are polished, narrative threads are finalized, and a community is being built. What awaits? Stay tuned and find out!"
+        desc: "What was once taking root has now begun to bloom. ONEiRA enters its final development phase as the dreamscapes are polished, narrative threads are finalized, and a community is being built. What awaits? Stay tuned and find out!"
         image: /assets/img/timeline/3.jpg
         alt:
         # you can enforce the alignment
