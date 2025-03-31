@@ -3,7 +3,7 @@ layout: post
 title: "Dream Matter Labs x Cave Bear Games"
 author: Dream Matter Labs
 banner: /assets/img/blog/blogpost_1.jpg
-preview: "We're teaming up with Cave Bear Games!"
+preview: "We're joining the Cave Bear Games Partner Studio Program!"
 ---
 <h2 class="post-heading">Joining Forces</h2>
 
@@ -17,4 +17,4 @@ Cave Bear Games shares this vision and is actively creating opportunities to hel
 
 As a result, we’re joining their Partner Studio Program—combining our strengths to share insights, pool resources, and challenge how things our done.
 
-💭 Want to be part of the community? Join us on Discord and come chat with us! https://discord.gg/XAYvJhkkqE
+💭 Want to be part of the community? Join us on Discord and come chat with us! <https://discord.gg/XAYvJhkkqE>
