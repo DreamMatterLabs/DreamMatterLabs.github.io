@@ -67,7 +67,7 @@
     }
     // When scrolling, make navbar solid
     &.scrolled {
-        background-color: #5B0557 !important;
+        background-color: #541C6C !important;
         transition: all 0.3s ease-in-out;
     }
 }
@@ -76,7 +76,7 @@
 /* Responsive Navbar Styling */
 @media (max-width: 991px) {
     #mainNav {
-        background-color: #5B0557; // Solid color for small screens
+        background-color: #541C6C; // Solid color for small screens
     }
 
     .navbar-nav {
@@ -84,12 +84,12 @@
     }
 
     .navbar-collapse {
-        background-color: #5B0557; // Background for collapsed menu
+        background-color: #541C6C; // Background for collapsed menu
         max-width: 50%; // Restrict width
         padding: 5px; // Add padding for proper spacing
         text-align: right;
         position: absolute;
         top: 100px;
-        right:0;
+        right: 0;
     }
 }
