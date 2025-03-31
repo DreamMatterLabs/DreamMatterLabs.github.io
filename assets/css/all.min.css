@@ -10,7 +10,7 @@ body.blog-page {
 
 body.blog-page .devlog-container {
   background: linear-gradient(to bottom, #6A2388, #812BA5, #92dce5) !important;
-  background-size: 100% 300vh !important;
+  background-size: 100% 250vh !important;
   background-repeat: no-repeat !important;  
 }
 
