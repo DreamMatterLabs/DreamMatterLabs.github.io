@@ -147,7 +147,7 @@ body.blog-page .devlog-container {
 
 .social-icons a i {
   font-size: 24px; /* Make icons larger */
-    color: #ffffff !important; /* Replace with your desired color */
+  color: #ffffff !important; /* Replace with your desired color */
   transition: color 0.3s ease-in-out;
 }
 
