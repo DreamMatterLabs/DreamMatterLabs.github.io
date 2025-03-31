@@ -40,7 +40,7 @@ body_class: blog-page
 
     .post-preview:hover 
     {
-        box-shadow: 0px 0px 30px 5px rgba(120, 254, 100, 0.50);
+        box-shadow: 0px 0px 30px 5px rgba(146, 220, 229, 0.50);
     }
   </style>
 </section>
