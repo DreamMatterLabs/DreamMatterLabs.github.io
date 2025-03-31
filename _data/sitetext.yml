@@ -32,7 +32,7 @@ en: &DEFAULT_EN
         alt:
       - title: "2024: POWER-UP"
         year: "2024"
-        desc: "After the LSDJAM 2023, we decided to continue with ONEiRA and give it the time and effort it deserves. Here, our roots spread as we established Dream Matter Labs, expanded our team, and turned ONEiRA into a full-fledged game."
+        desc: "After LSDJAM 2023, we decided to continue with ONEiRA and give it the time and effort it deserves. Here, our roots spread as we established Dream Matter Labs, expanded our team, and turned ONEiRA into a full-fledged game."
         image: /assets/img/timeline/happysun.jpg
         alt:
       - title: "2025: ASSEMBLE"
@@ -215,7 +215,7 @@ es: &DEFAULT_ES
         alt:
       - title: "2024: POWER-UP"
         year: "2024"
-        desc: "After the LSDJAM 2023, we decided to continue with ONEiRA and give it the time and effort it deserves. Here, our roots spread as we established Dream Matter Labs, expanded our team, and turned ONEiRA into a full-fledged game."
+        desc: "After LSDJAM 2023, we decided to continue with ONEiRA and give it the time and effort it deserves. Here, our roots spread as we established Dream Matter Labs, expanded our team, and turned ONEiRA into a full-fledged game."
         image: /assets/img/timeline/happysun.jpg
         alt:
       - title: "2025: ORGANIZED"

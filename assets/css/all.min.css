@@ -9,7 +9,7 @@ body.blog-page {
 }
 
 body.blog-page .devlog-container {
-  background: linear-gradient(to bottom, #6A2388 0vh, #812BA5 150vh) !important;
+  background: linear-gradient(to bottom, #6A2388, #812BA5, #FFA69E) !important;
   background-size: 100% 300vh !important;
   background-repeat: no-repeat !important;  
 }
