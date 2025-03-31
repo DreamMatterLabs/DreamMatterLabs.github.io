@@ -10,6 +10,8 @@ body.blog-page {
 
 body.blog-page .devlog-container {
   background: linear-gradient(to bottom, #6A2388, #812BA5, #F694C1) !important;
+  background-size: 100% 300vh !important;
+  background-repeat: no-repeat !important;  
 }
 
 /* START MODAL - more info buttons on profile - FORMATTING */
