@@ -9,7 +9,7 @@ body.blog-page {
 }
 
 body.blog-page .devlog-container {
-  background: linear-gradient(to bottom, #6A2388, #812BA5, #F694C1) !important;
+  background: linear-gradient(to bottom, #6A2388, #812BA5, #92dce5) !important;
   background-size: 100% 300vh !important;
   background-repeat: no-repeat !important;  
 }
@@ -39,11 +39,6 @@ body.blog-page .devlog-container {
 .modal {
   background-color: rgba(0, 0, 0, 0.8); /* Darkens the overlay when modal is open */
 }
-/* End MODAL - more info buttons on profile - FORMATTING */
-
-
-/* Start PROFILE FORMATTING */
-
 
 .full-width-section {
   width: 100vw !important;
@@ -129,13 +124,6 @@ body.blog-page .devlog-container {
     height: auto;
   }
 }
-
-/* END PROFILE FORMATTING */
-
-
-}
-
-/* END DEVLOG FORMATTING */
 
 /* Start Socials Banner FORMATTING */
 .social-icons {
