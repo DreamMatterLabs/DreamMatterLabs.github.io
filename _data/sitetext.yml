@@ -27,7 +27,7 @@ en: &DEFAULT_EN
     events:
       - title: "2023: JAM TIME"
         year: "2023"
-        desc: "Our roots start at the LSDJAM 2023, a game jam celebrating LSD: Dream Emulator and similar surreal, dream-inspired games. Here, we assembled the first members of our team and started conceptualizing and building ONEiRA."
+        desc: "Our roots start at the LSDJAM 2023, a game jam celebrating LSD: Dream Emulator and similar surreal, dream-inspired games. Here, we assembled the first members of our team and started conceptualizing ONEiRA."
         image: /assets/img/timeline/lsdjam.jpg
         alt:
       - title: "2024: POWER-UP"
@@ -210,7 +210,7 @@ es: &DEFAULT_ES
     events:
       - title: "2023: JAM TIME"
         year: "2023"
-        desc: "Our roots start at the LSDJAM 2023, a game jam celebrating LSD: Dream Emulator and similar surreal, dream-inspired games. Here, we assembled the first members of our team and started conceptualizing and building ONEiRA."
+        desc: "Our roots start at the LSDJAM 2023, a game jam celebrating LSD: Dream Emulator and similar surreal, dream-inspired games. Here, we assembled the first members of our team and started conceptualizing ONEiRA."
         image: /assets/img/timeline/lsdjam.jpg
         alt:
       - title: "2024: POWER-UP"
