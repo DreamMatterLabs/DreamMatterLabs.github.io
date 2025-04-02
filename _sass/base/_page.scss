@@ -21,12 +21,6 @@ p {
     line-height: 1.75;
 }
 
-a {
-    &:hover {
-        color: #2ba7b6 !important;
-    }
-}
-
 .text-primary {
     color: $primary !important;
 }
