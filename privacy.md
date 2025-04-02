@@ -13,10 +13,12 @@ permalink: /privacy/
         <div class="post-content">
 	    <h2 class="fs-4 fw-bold">Overview</h2>
 
-	    <p>At Dream Matter Labs, your privacy is important to us and we will always try to treat you and your personal information with care and respect. Consequently, this Privacy Policy outlines our privacy practices regarding your personal information. We may update this from time to time based on personal, operational, legal, or regulatory reasons.</p>
+	    <p>At Dream Matter Labs, your privacy is important to us and we will always try to treat you and your personal information with care and respect. Consequently, this Privacy Policy outlines our privacy practices regarding your personal information.</p>
+
+            <p>We may update this from time to time based on personal, operational, legal, or regulatory reasons.</p>
 
             <p>If you have questions or complaints, please contact us <a class="post-link" href="mailto:{{ site.email }}">here</a>.</p>	
-	    <p></p>		 
+	    		 
 	    <h2 class="fs-4 fw-bold">Data Collection</h2>
       
    	    {% if site.analytics.google %}
@@ -62,6 +64,7 @@ permalink: /privacy/
     .post-link {
         color: #92dce5;
         text-decoration: none;
+	font-weight: bold;
     }
 
     .post-link:hover {
