@@ -7,8 +7,24 @@ preview: "An independent video game studio focused on bringing dreams to life."
 ---
 <h2 class="post-heading">Hello World!</h2>
 
-Breaking into the game industry is exhausting – and we're tired of waiting for it to see our potential. Therefore! We have taken *matters* into our own hands by creating our own studio – Dream Matter Labs, to gain experience and show the industry exactly what we can do. 
+We're a brand-new indie game studio called Dream Matter Labs. 
 
-Through a team of 15 junior volunteers, we focus on making games that challenge conventions, foster creativity, and bring you worlds that linger in your mind. Follow along as we share our adventure and unveil our debut game!
+As a group of juniors, we know firsthand how exhausting it is to break into the game industry nowadays. 
+
+What was once a welcoming place filled with experimentation and unconventionality, has now shut its doors and become a place depraved of these very same qualities.
+
+In 2024 alone, 14.600 people were reportedly laid off in the game industry as various companies prioritized their short-term metrics and downsized their teams.
+
+As a result, the job market is now bursting at the seams with more and more people eager for an opportunity, all competing for the same job openings.
+
+Especially for juniors, breaking into the game industry has therefore become a battle that is nearly impossible to win.
+
+As a result, we have come to the conclusion that the beaten path fos us is one with a dead end.
+
+Encouraging us to forge our own path and take *matters* into our own hands by creating our own indie studio–Dream Matter Labs.
+
+Here, we dedicate ourselves to bringing dreams to life and reigniting the renowned qualities that the industry has since lost.
+
+Specifically, we focus on creating surreal, narrative-driven experiences that immerse, inspire, and challenge conventions.
 
 💭 Want to be part of the community? Join us on Discord and come chat with us!<br><https://discord.gg/XAYvJhkkqE>
