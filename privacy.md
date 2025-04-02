@@ -15,10 +15,10 @@ permalink: /privacy/
 
 	    <p>At Dream Matter Labs, your privacy is important to us and we will always try to treat you and your personal information with care and respect. Consequently, this Privacy Policy outlines our privacy practices regarding your personal information. We may update this from time to time based on personal, operational, legal, or regulatory reasons.</p>
 
-            <p>If you have questions or complaints, please contact us <a class="post-link" href="mailto:{{ site.email }}">here</a>.</p>
-
+            <p>If you have questions or complaints, please contact us <a class="post-link" href="mailto:{{ site.email }}">here</a>.</p>	
+	    <p></p>		 
 	    <h2 class="fs-4 fw-bold">Data Collection</h2>
-
+      
    	    {% if site.analytics.google %}
             <p>When you visit the Dream Matter Labs website, we automatically receive information about your device from your browser, such as your IP address. As you browse this website, we also collect information about how you interact with it. We refer to this automatically-collected information as “Device Information”. We collect Device Information using cookies. “Cookies” are data files that are placed on your device. For more information about cookies and how to disable them, visit http://www.allaboutcookies.org. We do this using Google Analytics: <https://www.google.com/intl/en/policies/privacy/>. You can opt-out of Google Analytics here: <https://tools.google.com/dlpage/gaoptout>.</p>
             {% else %}
