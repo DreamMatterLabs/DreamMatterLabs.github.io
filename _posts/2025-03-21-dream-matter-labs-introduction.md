@@ -9,7 +9,7 @@ preview: "An independent video game studio focused on bringing dreams to life."
 
 We're a brand-new indie game studio called Dream Matter Labs. 
 
-**21 March, 2025—**As a group of juniors, we have experienced firsthand how exhausting it is to break into the game industry nowadays. What was once a welcoming place filled with experimentation and unconventionality, has now shut its doors to those trying to get in and become a place deprived of these very same qualities.
+**21 March, 2025**—As a group of juniors, we have experienced firsthand how exhausting it is to break into the game industry nowadays. What was once a welcoming place filled with experimentation and unconventionality, has now shut its doors to those trying to get in and become a place deprived of these very same qualities.
 
 In 2024 alone, 14.600 people were reportedly laid off in the game industry as various companies prioritized their short-term metrics and downsized their teams. And as a result, the job market is now bursting at the seams with more and more people eager for an opportunity; all competing for the same limited job openings.
 
