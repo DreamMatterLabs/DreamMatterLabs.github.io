@@ -22,10 +22,10 @@ include:
 
 title      : Dream Matter Labs
 email      : DreamMatterLabs@protonmail.com #this is also the email contact forms will go to
-description: "A Game Studio dedicated to creating surreal and impactful experiences."
+description: "An independent game studio creating surreal, narrative-driven games that blur the lines between dreams and reality."
 author     : Dream Matter Labs
 logo:     #optional, defaults to site title
-   path: assets/img/dreamatter-logo-text.png
+   path: assets/img/dreammatterlabs-logo.png
    height: 65 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
