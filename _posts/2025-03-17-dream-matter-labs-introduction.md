@@ -13,12 +13,8 @@ As a group of juniors, we know firsthand how exhausting it is to break into the 
 
 In 2024 alone, 14.600 people were reportedly laid off in the game industry as various companies prioritized their short-term metrics and downsized their teams. As a result, the job market is now bursting at the seams with more and more people eager for an opportunity, all competing for the same job openings.
 
-Especially for juniors, breaking into the game industry has therefore become a battle that is nearly impossible to win. As a result, we have come to the conclusion that the beaten path fos us is one with a dead end and that we need to forge our own.
+Especially for juniors, breaking into the game industry has therefore become a battle that is nearly impossible to win. As a result, we have come to the conclusion that the beaten path fos us is one with a dead end—encouraging us to create our own studio!
 
-Consequently, Dream Matter Labs was created!
-
-Here, we dedicate ourselves to bringing dreams to life and reigniting the renowned qualities that the industry has since lost.
-
-Specifically, we focus on creating surreal, narrative-driven experiences that immerse, inspire, and challenge conventions.
+At Dream Matter Labs, we dedicate ourselves to bringing dreams to life and reigniting the qualities that the industry has long lost. Specifically, we focus on creating surreal, narrative-driven experiences that immerse, inspire, and challenge conventions.
 
 💭 Want to be part of the community? Join us on Discord and come chat with us!<br><https://discord.gg/XAYvJhkkqE>
