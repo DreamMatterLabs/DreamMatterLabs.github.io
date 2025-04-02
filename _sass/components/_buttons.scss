@@ -25,7 +25,7 @@
 
     &:active,
     &:focus {
-        box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+        box-shadow: 0 0 0 0.2rem rgba(255, 166, 158, 0.5) !important;
     }
 }
 
@@ -40,11 +40,13 @@
     text-transform: uppercase !important;
     transition: all 0.3s ease-in-out !important;
     display: inline-block !important;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.25) !important;
 }
 
 .btn-rounded:hover {
     background-color: #541C6C !important;
     color: #fff !important;
+    box-shadow: 0px 0px 30px 5px rgba(146, 220, 229, 0.50) !important;
 }
 
 .btn-oneira {
