@@ -61,9 +61,11 @@ permalink: /privacy/
 
     .post-link {
         color: #92dce5;
+        text-decoration: none;
     }
 
     .post-link:hover {
         color: #a8e3ea;
+        text-decoration: underline;
     }
 </style>
