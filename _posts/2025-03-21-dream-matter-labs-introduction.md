@@ -17,6 +17,4 @@ Especially for juniors, breaking into the game industry has become a battle that
 
 Here, at Dream Matter Labs, we dedicate ourselves to bringing dreams to life and try to reignite the same qualities that the industry has long lost. Therefore, while we gain experience and show the industry exactly what we can do, our goal is to create surreal, narrative-driven games that blur the lines between dreams and reality. 
 
-Follow along so we get to share our adventure with you and release ONEiRA!
-
-💭 Want to be part of the community? Join us on Discord and come chat with us!<br><https://discord.gg/XAYvJhkkqE>
+If you want to follow our adventure up close, join us on Discord!<br><https://discord.gg/XAYvJhkkqE>
