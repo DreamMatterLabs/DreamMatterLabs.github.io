@@ -15,7 +15,7 @@ permalink: /privacy/
 
 	    <p>At Dream Matter Labs, your privacy is important to us and we will always try to treat you and your personal information with care and respect. Consequently, this Privacy Policy outlines our privacy practices regarding your personal information.</p>
 
-            <p>We may update this from time to time based on personal, operational, legal, or regulatory reasons.</p>
+            <p>We may update this from time to time based on operational, regulatory, or legal reasons.</p>
 
             <p>If you have questions or complaints, please contact us <a class="post-link" href="mailto:{{ site.email }}">here</a>.</p>	
 	    		 
