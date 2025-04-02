@@ -15,7 +15,7 @@ permalink: /privacy/
 
 	    <p>At Dream Matter Labs, your privacy is important to us and we will always try to treat you and your personal information with care and respect. Consequently, this Privacy Policy outlines our privacy practices regarding your personal information. We may update this from time to time based on personal, operational, legal, or regulatory reasons.</p>
 
-            <p>If you have questions or complaints, please contact us at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+            <p>If you have questions or complaints, please contact us at <a class="post-link" href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
 
 	    <h2 class="fs-4 fw-bold">Data Collection</h2>
 
@@ -57,5 +57,13 @@ permalink: /privacy/
         font-size: 1.25rem;
         line-height: 1.6;
         margin-bottom: 50px;
+    }
+
+    .post-link {
+        color: #92dce5;
+    }
+
+    .post-link:hover {
+        color: #65cdda;
     }
 </style>
