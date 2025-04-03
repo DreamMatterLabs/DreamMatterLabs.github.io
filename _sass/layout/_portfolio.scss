@@ -7,6 +7,11 @@
         justify-content: center;
         align-items: center;
         position: relative;
+        overflow: hidden;
+
+        .portfolio-item:hover {
+            opacity: 1;
+        }
 
         .portfolio-link {
             position: relative;
@@ -22,8 +27,14 @@
                 -webkit-transition: all ease 0.5s;
                 -moz-transition: all ease 0.5s;
                 transition: all ease 0.5s;
-                opacity: 0;
+                opacity: 0; //maybe 1
                 background: fade-out($primary, 0.1);
+                top: 0;
+                left: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: opacity 0.3s ease;
 
                 &:hover {
                     opacity: 1;
@@ -49,6 +60,18 @@
                     }
                 }
             }
+        }
+
+        .portfolio-media {
+            width: 100%;
+            max-width: 500px;
+            height: 280px;
+            background: black;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-style: italic;
         }
 
         .portfolio-caption {

@@ -61,41 +61,6 @@ body.blog-page {
     padding: 0px 0;
 }
 
-.portfolio-hover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.3s ease; /* Ensure smooth fade-in effect */
-}
-
-.portfolio-item {
-    position: relative; /* This ensures the hover overlay is positioned correctly */
-    overflow: hidden; /* Prevents any shifting */
-}
-
-    .portfolio-item:hover .portfolio-hover {
-        opacity: 1;
-    }
-
-.portfolio-media {
-    width: 100%;
-    max-width: 500px;
-    height: 280px;
-    background: black;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-style: italic;
-}
-
 .section-heading {
     font-size: 22px;
     font-weight: bold;
