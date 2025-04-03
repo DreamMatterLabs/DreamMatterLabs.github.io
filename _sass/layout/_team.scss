@@ -19,3 +19,29 @@
         margin-top: 0;
     }
 }
+
+ul.social-buttons {
+    margin-bottom: 0;
+
+    li {
+        a {
+            font-size: 20px;
+            line-height: 50px;
+            display: block;
+            width: 50px;
+            height: 50px;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+            color: white;
+            border-radius: 100%;
+            outline: none;
+            background-color: #6A2388;
+            box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.25);
+
+            &:hover {
+                box-shadow: 0px 0px 30px 5px rgba(146, 220, 229, 0.50);
+            }
+        }
+    }
+}
