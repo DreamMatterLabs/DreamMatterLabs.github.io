@@ -7,7 +7,7 @@ body_class: blog-page
 {% include header_dml.html %}
 
 <section class="devlog-container">
-  <div class="container d-flex flex-column" style="padding-top: 100px; padding-bottom: 150px; row-gap: 50px">
+  <div class="container d-flex flex-column" style="padding: 100px 0 150px 0; row-gap: 50px">
     <div class="section-header text-center">
       <h1 class="fs-1 fw-bold text-uppercase text-white m-0">Blog</h1>
     </div>
@@ -18,7 +18,7 @@ body_class: blog-page
             <article class="post-preview">
               <img class="img-fluid post-banner" style="border-radius: 20px 20px 0 0; width: 100%; aspect-ratio: 16 / 9" src="{{ post.banner }}">
 
-              <div class="col d-flex" style="flex-direction: column; padding: 50px">         
+              <div class="col d-flex p-3 p-md-5" style="flex-direction: column">         
                 <p class="fs-5 fw-normal mb-3 p-0" style="color: #92dce5">{{ post.date | date: "%B %d, %Y" }}</p>   
                 <h2 class="fs-3 fw-bold mb-3 p-0">{{ post.title }}</h2>                         
                 <p class="fs-5 fw-normal m-0">{{ post.preview }}</p>
