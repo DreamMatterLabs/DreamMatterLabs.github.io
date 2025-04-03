@@ -5,7 +5,7 @@ author: Dream Matter Labs
 banner: /assets/img/blog/blogpost_2.jpg
 preview: "We're joining the Cave Bear Games Partner Studio Program!"
 ---
-<h2 class="post-heading">We're Joining Forces</h2>
+<h2 class="post-heading">Joining Forces!</h2>
 
 28 March, 2025—<a class="post-link" href="/2025/03/21/dream-matter-labs-introduction/">Last week</a>, we talked about how we founded Dream Matter Labs because we experienced firsthand how difficult it is to enter the game industry as a junior nowadays and wanted to forge our own path. As a consequence, we dedicate ourselves to bringing dreams to life, whether that be ours or yours, literal or figurative. 
 
