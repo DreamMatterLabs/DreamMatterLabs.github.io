@@ -14,18 +14,20 @@ body_class: blog-page
 
     <div class="row align-items-start g-5 m-0">
         {% for post in site.posts %}
-          <a class="col col-md-4 text-decoration-none text-white m-0" href="{{ post.url }}">
-            <article class="post-preview">
-              <img class="img-fluid post-banner" style="border-radius: 20px 20px 0 0; width: 100%; aspect-ratio: 16 / 9" src="{{ post.banner }}">
+	  <div>
+            <a class="col col-md-4 text-decoration-none text-white p-0 m-0" href="{{ post.url }}">
+              <article class="post-preview">
+                <img class="img-fluid post-banner" style="border-radius: 20px 20px 0 0; width: 100%; aspect-ratio: 16 / 9" src="{{ post.banner }}">
 
-              <div class="col d-flex p-3 p-md-5" style="flex-direction: column">         
-                <p class="fs-5 fw-normal mb-3 p-0" style="color: #92dce5">{{ post.date | date: "%B %d, %Y" }}</p>   
-                <h2 class="fs-3 fw-bold mb-3 p-0">{{ post.title }}</h2>                         
-                <p class="fs-5 fw-normal m-0">{{ post.preview }}</p>
-              </div>	      
-            </article>
-          </a>       
-        {% endfor %}
+                <div class="col d-flex p-3 p-md-5" style="flex-direction: column">         
+                  <p class="fs-5 fw-normal mb-3 p-0" style="color: #92dce5">{{ post.date | date: "%B %d, %Y" }}</p>   
+                  <h2 class="fs-3 fw-bold mb-3 p-0">{{ post.title }}</h2>                         
+                  <p class="fs-5 fw-normal m-0">{{ post.preview }}</p>
+                </div>	      
+              </article>
+            </a>  
+          </div>     
+        {% endfor %}   
       </div>
   </div>
 
