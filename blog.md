@@ -7,7 +7,7 @@ body_class: blog-page
 {% include header_dml.html %}
 
 <section class="devlog-container">
-  <div class="container d-flex flex-column" style="padding-top: 150px; padding-bottom: 150px; row-gap: 50px">
+  <div class="container d-flex flex-column" style="padding-top: 100px; padding-bottom: 150px; row-gap: 50px">
     <div class="section-header text-center">
       <h1 class="fs-1 fw-bold text-uppercase text-white m-0">Blog</h1>
     </div>
