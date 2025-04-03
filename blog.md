@@ -14,7 +14,7 @@ body_class: blog-page
 
     <div class="row g-5 m-0">
         {% for post in site.posts %}
-	  <div class="col col-md-4 d-flex m-0 p-0">
+	  <div class="col col-md-4 d-flex">
             <a class="text-decoration-none text-white m-0 p-0" href="{{ post.url }}">
               <article class="post-preview">
                 <img class="img-fluid post-banner" style="border-radius: 20px 20px 0 0; width: 100%; aspect-ratio: 16 / 9" src="{{ post.banner }}">
