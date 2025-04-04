@@ -13,4 +13,6 @@ This means that if you are a fellow indie developer or simply someone aspiring t
 
 As a result, we’re joining their Partner Studio Program—combining our strengths to share insights, pool resources, and challenge how things are done. This way, as we work on our games and navigate the saturated marketplace as a fully independent studio, we aim to create a supportive community where we share our tools and takeaways with you.
 
+With the help of our network, we will try our best to provide you with valuable content, regardless of your discipline. For now, feel free to check out our Discord where we are frequently adding new resources or follow this blog where we post every Friday! This is only the beginning so stay tuned as we have some cool stuff and collaborations coming up.
+
 If you want to be part of this community, <a class="post-link" href="https://discord.gg/XAYvJhkkqE">join us on Discord</a>!
