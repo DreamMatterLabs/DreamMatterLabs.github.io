@@ -3,16 +3,6 @@
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 
-body.blog-page {
-    background-color: #b9c5ea !important; /* Light Lav Blue */
-}
-
-    body.blog-page .devlog-container {
-        background: linear-gradient(to bottom, #6A2388, #812BA5, #FFA69E) !important;
-        background-size: 100% 300vh !important;
-        background-repeat: no-repeat !important;
-    }
-
 .modal-content {
     background: linear-gradient(to bottom, #8D41A1, #7F70D9); /* Replace with your desired colors */
     color: white; /* Ensures text remains readable */

@@ -6,7 +6,7 @@ body_class: blog-page
 ---
 {% include header_dml.html %}
 
-<section class="devlog-container">
+<section style="background: linear-gradient(to bottom, #6A2388, #812BA5, #FFA69E)">
   <div class="container d-flex flex-column" style="padding: 100px 0 150px 0; row-gap: 50px">
     <div class="section-header text-center">
       <h1 class="fs-1 fw-bold text-uppercase text-white m-0">Blog</h1>

@@ -1,6 +1,6 @@
 <!-- Team -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<section class="page-section" style="background: linear-gradient(to bottom, #6A2388, #812BA5, #FFA69E); background-size: 100% 300vh; background-repeat: no-repeat " id="{{ site.data.sitetext[site.locale].team.section | default: "team" }}">
+<section class="page-section" style="background: linear-gradient(to bottom, #6A2388, #812BA5, #FFA69E)" id="{{ site.data.sitetext[site.locale].team.section | default: "team" }}">
     <div class="container d-flex flex-column" style="padding-top: 100px; padding-bottom: 50px; row-gap: 50px">
         <!--Tagline-->
         <div class="section-header text-center">
@@ -34,7 +34,7 @@
     </div>
 </section>
 {% else %}
-<section class="page-section" style="background: linear-gradient(to bottom, #6A2388 0vh, #812BA5 150vh); background-size: 100% 300vh; background-repeat: no-repeat" id="{{ site.data.sitetext.team.section | default: "team" }}">
+<section class="page-section" style="background: linear-gradient(to bottom, #6A2388 0vh, #812BA5 150vh)" id="{{ site.data.sitetext.team.section | default: "team" }}">
     <div class="container d-flex flex-column" style="padding-top: 50px; padding-bottom: 50px; row-gap: 150px">
         <!--Tagline-->
          <div class="section-header text-center">
