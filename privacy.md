@@ -50,7 +50,7 @@ permalink: /privacy/
 
     .post-meta {
         font-size: 1.25rem;
-        color: #92dce5;
+        color: #B7FDFE;
         margin-bottom: 0;
     }
 
@@ -61,13 +61,13 @@ permalink: /privacy/
     }
 
     .post-link {
-        color: #92dce5;
+        color: #B7FDFE;
         text-decoration: none;
 	font-weight: bold;
     }
 
     .post-link:hover {
-        color: #a8e3ea;
+        color: #C5FDFE;
         text-decoration: underline;
     }
 </style>
