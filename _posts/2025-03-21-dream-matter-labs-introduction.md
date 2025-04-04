@@ -4,7 +4,7 @@ title: "Introducing Dream Matter Labs"
 author: Dream Matter Labs
 banner: /assets/img/blog/blogpost_1.jpg
 preview: "We're a brand-new indie studio focused on bringing dreams to life."
-next: https://dreammatterlabs.com/2025/03/28/cave-bear-games-partnership/
+next: "https://dreammatterlabs.com/2025/03/28/cave-bear-games-partnership/"
 ---
 <h2 class="post-heading">Hello World!</h2>
 
