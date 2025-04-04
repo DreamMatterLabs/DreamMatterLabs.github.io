@@ -122,12 +122,12 @@
 <section class="bg-light page-section" style="background-image: url('/assets/img/timeline/background.jpg'); color: #ffdede; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;" id="{{ site.data.sitetext.timeline.section | default: 'team' }}">
     <div class="container d-flex flex-column" style="padding-top: 100px; padding-bottom: 100px">
         <!--Header-->
-        <div class="col-12 text-center" style="margin-bottom: 25px">
+        <div class="col-12 text-center order-1" style="margin-bottom: 25px">
             <h1 class="fs-1 fw-bold text-uppercase text-white m-0">{{ site.data.sitetext.timeline.title | markdownify | default: "About" }}</h1>
         </div>
 
         <!--Timeline-->
-        <div class="col-12 d-none d-md-flex">
+        <div class="col-12 d-none d-md-flex order-2">
             <ul class="flex-grow-1 d-flex list-unstyled m-0 align-items-center justify-content-center">
                 {%- for event in site.data.sitetext[site.locale].timeline.events -%}
                 <li style="height: 100px; width: 100px; max-height: 100px; max-width: 100px">
@@ -144,8 +144,25 @@
             </ul>
         </div>
 
+        <!--Display-->
+        <div class="pl-md-5 pr-md-5 order-3 order-md-4">
+            <div style="border-radius: 20px; background-color: #6A2388">
+                <div class="row align-items-center m-0">
+                    <div class="col-12 col-md-6 text-start m-0 p-0">
+                        <img id="timelineImage" class="img-fluid project-image" src="{{ site.data.sitetext.timeline.events[0].image }}" alt="{{ site.data.sitetext.timeline.events[0].alt }}">
+                    </div>
+
+                    <div class="col-12 col-md-6 text-start text-md-left m-0 p-5">
+                        <h2 id="timelineTitle" class="text-white fs-3 fw-bold mb-3">{{ site.data.sitetext.timeline.events[0].title }}</h2>
+
+                        <p id="timelineText" class="text-light fs-4 m-0">{{ site.data.sitetext.timeline.events[0].desc }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!--Buttons-->
-        <div class="col-12 d-flex" style="margin-top: 25px; margin-bottom: 25px; padding-left: 0; padding-right: 0">
+        <div class="col-12 d-flex order-4 order-md-3" style="margin-top: 25px; margin-bottom: 25px; padding-left: 0; padding-right: 0">
             <ul class="flex-grow-1 d-flex list-unstyled align-items-center justify-content-center justify-content-md-end m-0" style="column-gap: 30px">
                 <li style="height: 50px; width: 50px">
                     <button id="buttonLeft" class="d-flex h-100 w-100 align-items-center justify-content-center border border-white border-2 rounded-circle timeline-button" type="button">
@@ -160,30 +177,21 @@
                 </li>
             </ul>
         </div>
-
-        <!--Display-->
-        <div style="padding-left: 65px; padding-right: 65px">
-            <div style="border-radius: 20px; background-color: #6A2388">
-                <div class="row align-items-center m-0">
-                    <div class="col-12 col-md-6 text-start m-0 p-0">
-                        <img id="timelineImage" class="img-fluid project-image" src="{{ site.data.sitetext.timeline.events[0].image }}" alt="{{ site.data.sitetext.timeline.events[0].alt }}">
-                    </div>
-
-                    <div class="col-12 col-md-6 text-start text-md-left m-0 pl-md-5 pr-md-5">
-                        <h2 id="timelineTitle" class="text-white fs-4 fw-bold mb-3">{{ site.data.sitetext.timeline.events[0].title }}</h2>
-
-                        <p id="timelineText" class="text-light fs-4 m-0">{{ site.data.sitetext.timeline.events[0].desc }}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 
     <style>
         .project-image {
-            border-radius: 20px 0 0 20px;
+            border-radius: 20px 20px 0 0;
             width: 100%;
             aspect-ratio: 16 / 9;
+        }
+
+        @media (min-width: 768px) {
+            .project-image {
+                border-radius: 20px 0 0 20px;
+                width: 100%;
+                aspect-ratio: 16 / 9;
+            }
         }
 
         .timeline-button {

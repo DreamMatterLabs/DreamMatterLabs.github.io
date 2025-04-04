@@ -4,7 +4,7 @@ title: "Privacy Policy"
 permalink: /privacy/
 ---
 <section style="background: linear-gradient(to bottom, #6A2388, #812BA5, #FFA69E)">
-    <article class="post">
+    <article class="col-8 col-md-5 post">
         <header class="post-header">
             <h1 class="post-title">Privacy Policy</h1>
             <p class="post-meta">March 24, 2025 • Dream Matter Labs</p>
@@ -32,7 +32,6 @@ permalink: /privacy/
 
 <style>
     .post {
-        max-width: 800px;
         margin: 0 auto;
 	padding: 150px 0 150px 0;
 	color: white;
@@ -45,8 +44,8 @@ permalink: /privacy/
 
     .post-title {
         font-size: 2.5rem;
-        margin-bottom: 15px;
         font-weight: bold;
+        margin-bottom: 15px;
     }
 
     .post-meta {
