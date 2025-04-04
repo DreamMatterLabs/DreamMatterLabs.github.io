@@ -4,7 +4,7 @@ title: "Dream Matter Labs x Cave Bear Games"
 author: Dream Matter Labs
 banner: /assets/img/blog/blogpost_2.jpg
 preview: "We're joining the Cave Bear Games Partner Studio Program!"
-next: "https://dreammatterlabs.com/blog/"
+next: https://dreammatterlabs.com/blog/
 ---
 <h2 class="post-heading">Joining Forces!</h2>
 
