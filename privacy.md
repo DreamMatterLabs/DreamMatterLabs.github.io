@@ -3,7 +3,7 @@ layout: default
 title: "Privacy Policy"
 permalink: /privacy/
 ---
-<section style="background: linear-gradient(to bottom, #6A2388, #812BA5, #FFA69E); background-size: 100% 300vh; background-repeat: no-repeat">
+<section style="background: linear-gradient(to bottom, #6A2388, #812BA5, #FFA69E)">
     <article class="post">
         <header class="post-header">
             <h1 class="post-title">Privacy Policy</h1>
