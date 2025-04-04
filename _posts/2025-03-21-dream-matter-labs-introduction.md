@@ -3,7 +3,6 @@ layout: post
 title: "Introducing Dream Matter Labs"
 author: Dream Matter Labs
 banner: /assets/img/blog/blogpost_1.jpg
-next: https://dreammatterlabs.com/2025/03/28/cave-bear-games-partnership/
 preview: "We're a brand-new indie studio focused on bringing dreams to life."
 ---
 <h2 class="post-heading">Hello World!</h2>
