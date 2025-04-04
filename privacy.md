@@ -7,7 +7,7 @@ permalink: /privacy/
     <article class="col-8 col-md-5 post">
         <header class="post-header">
             <h1 class="post-title">Privacy Policy</h1>
-            <p class="post-meta">March 24, 2025 • Dream Matter Labs</p>
+            <p class="post-meta">March 24, 2025 ✧˚- Dream Matter Labs</p>
         </header>
 
         <div class="post-content">
