@@ -1,6 +1,6 @@
 // Button Styles
 .btn {
-    @include heading-font;
+    @include serif-font;
     font-weight: 700;
 }
 
@@ -15,15 +15,10 @@
     background-color: $primary;
     border-color: $primary;
 
-    &:active,
-    &:focus,
     &:hover {
-        background-color: darken($primary, 7.5%) !important;
-        border-color: darken($primary, 7.5%) !important;
-        color: white;
+        box-shadow: 0px 0px 30px 5px rgba(183, 253, 254, 0.50) !important;
     }
 
-    &:active,
     &:focus {
         box-shadow: 0 0 0 0.2rem rgba(183, 253, 254, 0.50) !important;
     }
@@ -48,6 +43,8 @@
 }
 
 .btn-oneira {
+    @include heading-font;
+
     background-color: #b1f8f2 !important;
     color: #221A23 !important;
     font-weight: bold !important;
