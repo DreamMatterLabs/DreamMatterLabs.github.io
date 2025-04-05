@@ -47,7 +47,7 @@
             <button class="button carousel-control-next d-flex align-items-center justify-content-center border border-white border-2 rounded-circle" style="height: 50px; width: 50px; margin: auto" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
                 <img style="height: 40px; width: 40px" src="/assets/img/timeline/next_arrow.png" alt="Next button.">
             </button>
-        </div>       
+        </div>
     </div>
 
     <style>
@@ -58,5 +58,84 @@
             .button:hover {
                 background-color: rgba(255, 255, 255, 0.50);
             }
+    </style>
+
+    <div id="customCarousel" class="carousel slide" data-bs-interval="false">
+        <div class="carousel-inner">
+
+            <!-- First group -->
+            <div class="carousel-item active">
+                <div class="d-flex justify-content-center gap-3">
+                    <img src="img5.jpg" class="carousel-img small-img" alt="5">
+                    <img src="img1.jpg" class="carousel-img active-img" alt="1">
+                    <img src="img2.jpg" class="carousel-img small-img" alt="2">
+                </div>
+            </div>
+
+            <!-- Second group -->
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center gap-3">
+                    <img src="img1.jpg" class="carousel-img small-img" alt="1">
+                    <img src="img2.jpg" class="carousel-img active-img" alt="2">
+                    <img src="img3.jpg" class="carousel-img small-img" alt="3">
+                </div>
+            </div>
+
+            <!-- Third group -->
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center gap-3">
+                    <img src="img2.jpg" class="carousel-img small-img" alt="2">
+                    <img src="img3.jpg" class="carousel-img active-img" alt="3">
+                    <img src="img4.jpg" class="carousel-img small-img" alt="4">
+                </div>
+            </div>
+
+            <!-- Fourth group -->
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center gap-3">
+                    <img src="img3.jpg" class="carousel-img small-img" alt="3">
+                    <img src="img4.jpg" class="carousel-img active-img" alt="4">
+                    <img src="img5.jpg" class="carousel-img small-img" alt="5">
+                </div>
+            </div>
+
+            <!-- Loop back to start -->
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center gap-3">
+                    <img src="img4.jpg" class="carousel-img small-img" alt="4">
+                    <img src="img5.jpg" class="carousel-img active-img" alt="5">
+                    <img src="img1.jpg" class="carousel-img small-img" alt="1">
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#customCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#customCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!-- CSS -->
+    <style>
+        .carousel-img {
+            width: 30%;
+            height: auto;
+            object-fit: cover;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+            opacity: 0.7;
+        }
+
+        .active-img {
+            transform: scale(1.1);
+            opacity: 1;
+        }
+
+        .carousel-inner {
+            align-items: center;
+        }
     </style>
 </header>
