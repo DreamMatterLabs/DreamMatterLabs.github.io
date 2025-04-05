@@ -17,22 +17,34 @@ layout: default
         <div class="d-flex flex-column flex-md-row">
 
             {% if page.previous and page.next %}
-            <div class="col-12 col-md-6 p-0 d-flex justify-content-center justify-content-md-start mb-5 mb-md-0">
-                <a class="btn btn-rounded text-uppercase js-scroll-trigger w-100 w-md-75 text-start overflow-hidden text-nowrap text-truncate" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+            <div class="col-12 col-md-5 p-0 d-flex justify-content-center justify-content-md-start mb-5 mb-md-0">
+                <a class="btn btn-rounded text-uppercase js-scroll-trigger w-100 text-start overflow-hidden text-nowrap text-truncate" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
             </div>
 
-            <div class="col-12 col-md-6 p-0 d-flex justify-content-center justify-content-md-end">
-                <a class="btn btn-rounded text-uppercase js-scroll-trigger w-100 w-md-75 text-end overflow-hidden text-nowrap text-truncate" href="{{ page.next.url }}">{{ page.next.title }}</a>
+            <div class="col-md-2 d-md-none">
+                <!--Empty-->
+            </div>
+
+            <div class="col-12 col-md-5 p-0 d-flex justify-content-center justify-content-md-end">
+                <a class="btn btn-rounded text-uppercase js-scroll-trigger w-100 text-end overflow-hidden text-nowrap text-truncate" href="{{ page.next.url }}">{{ page.next.title }}</a>
             </div>
             {% else %}
                 {% if page.previous %}
-                <div class="col-12 p-0 d-flex justify-content-center justify-content-md-start mb-5 mb-md-0">
+                <div class="col-12 col-md-5 p-0 d-flex justify-content-center justify-content-md-start mb-5 mb-md-0">
                     <a class="btn btn-rounded text-uppercase js-scroll-trigger w-100 overflow-hidden text-nowrap text-truncate" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+                </div>
+
+                <div class="col-md-7 d-md-none">
+                    <!--Empty-->
                 </div>
                 {% endif %}
 
                 {% if page.next %}
-                <div class="col-12 p-0 d-flex justify-content-center justify-content-md-end">
+                <div class="col-md-7 d-md-none">
+                    <!--Empty-->
+                </div>
+
+                <div class="col-12 col-md-5 p-0 d-flex justify-content-center justify-content-md-end">
                     <a class="btn btn-rounded text-uppercase js-scroll-trigger w-100 overflow-hidden text-nowrap text-truncate" href="{{ page.next.url }}">{{ page.next.title }}</a>
                 </div>
                 {% endif %}
