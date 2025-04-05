@@ -60,82 +60,75 @@
             }
     </style>
 
-    <div id="customCarousel" class="carousel slide" data-bs-interval="false">
-        <div class="carousel-inner">
-
-            <!-- First group -->
-            <div class="carousel-item active">
-                <div class="d-flex justify-content-center gap-3">
-                    <img src="img5.jpg" class="carousel-img small-img" alt="5">
-                    <img src="img1.jpg" class="carousel-img active-img" alt="1">
-                    <img src="img2.jpg" class="carousel-img small-img" alt="2">
-                </div>
-            </div>
-
-            <!-- Second group -->
-            <div class="carousel-item">
-                <div class="d-flex justify-content-center gap-3">
-                    <img src="img1.jpg" class="carousel-img small-img" alt="1">
-                    <img src="img2.jpg" class="carousel-img active-img" alt="2">
-                    <img src="img3.jpg" class="carousel-img small-img" alt="3">
-                </div>
-            </div>
-
-            <!-- Third group -->
-            <div class="carousel-item">
-                <div class="d-flex justify-content-center gap-3">
-                    <img src="img2.jpg" class="carousel-img small-img" alt="2">
-                    <img src="img3.jpg" class="carousel-img active-img" alt="3">
-                    <img src="img4.jpg" class="carousel-img small-img" alt="4">
-                </div>
-            </div>
-
-            <!-- Fourth group -->
-            <div class="carousel-item">
-                <div class="d-flex justify-content-center gap-3">
-                    <img src="img3.jpg" class="carousel-img small-img" alt="3">
-                    <img src="img4.jpg" class="carousel-img active-img" alt="4">
-                    <img src="img5.jpg" class="carousel-img small-img" alt="5">
-                </div>
-            </div>
-
-            <!-- Loop back to start -->
-            <div class="carousel-item">
-                <div class="d-flex justify-content-center gap-3">
-                    <img src="img4.jpg" class="carousel-img small-img" alt="4">
-                    <img src="img5.jpg" class="carousel-img active-img" alt="5">
-                    <img src="img1.jpg" class="carousel-img small-img" alt="1">
-                </div>
-            </div>
-
+    <div class="carousel-wrapper position-relative overflow-hidden">
+        <div id="carouselTrack" class="d-flex transition">
+            <img src="img1.jpg" class="carousel-item-img">
+            <img src="img2.jpg" class="carousel-item-img">
+            <img src="img3.jpg" class="carousel-item-img">
+            <img src="img4.jpg" class="carousel-item-img">
+            <img src="img5.jpg" class="carousel-item-img">
+            <!-- Add as many images as you want -->
         </div>
 
         <!-- Controls -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#customCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#customCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </button>
+        <button class="carousel-btn left" onclick="moveCarousel(-1)">‹</button>
+        <button class="carousel-btn right" onclick="moveCarousel(1)">›</button>
     </div>
 
-    <!-- CSS -->
     <style>
-        .carousel-img {
-            width: 30%;
+        .carousel-wrapper {
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+            height: auto;
+        }
+
+        #carouselTrack {
+            width: max-content;
+            transition: transform 0.4s ease;
+        }
+
+        .carousel-item-img {
+            width: calc(100% / 3);
+            flex: 0 0 auto;
             height: auto;
             object-fit: cover;
-            transition: transform 0.3s ease, opacity 0.3s ease;
-            opacity: 0.7;
         }
 
-        .active-img {
-            transform: scale(1.1);
-            opacity: 1;
+        .carousel-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 2rem;
+            background: none;
+            border: none;
+            z-index: 10;
+            cursor: pointer;
         }
 
-        .carousel-inner {
-            align-items: center;
-        }
+            .carousel-btn.left {
+                left: 0;
+            }
+
+            .carousel-btn.right {
+                right: 0;
+            }
     </style>
+
+    <script>
+        const track = document.getElementById('carouselTrack');
+        let currentIndex = 0;
+
+        function moveCarousel(direction) {
+            const items = track.querySelectorAll('.carousel-item-img');
+            const itemWidth = items[0].offsetWidth;
+            const maxIndex = items.length - 3; // show 3 at a time
+
+            currentIndex += direction;
+            if (currentIndex < 0) currentIndex = 0;
+            if (currentIndex > maxIndex) currentIndex = maxIndex;
+
+            track.style.transform = `translateX(-${itemWidth * currentIndex}px)`;
+        }
+    </script>
 </header>
