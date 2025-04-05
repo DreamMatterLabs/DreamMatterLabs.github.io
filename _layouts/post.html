@@ -18,22 +18,22 @@ layout: default
 
             {% if page.previous and page.next %}
             <div class="col-12 col-md-6 p-0 d-flex justify-content-center justify-content-md-start mb-5 mb-md-0">
-                <a class="btn btn-rounded fs-4 fw-bold text-uppercase js-scroll-trigger" href="{{ page.previous.url }}">PREVIOUS POST</a>
+                <a class="btn btn-rounded fs-4 fw-bold text-uppercase js-scroll-trigger w-60 text-start" href="{{ page.previous.url }}">PREVIOUS POST</a>
             </div>
 
             <div class="col-12 col-md-6 p-0 d-flex justify-content-center justify-content-md-end">
-                <a class="btn btn-rounded fs-4 fw-bold text-uppercase js-scroll-trigger" href="{{ page.next.url }}">NEXT POST</a>
+                <a class="btn btn-rounded fs-4 fw-bold text-uppercase js-scroll-trigger w-60 text-end" href="{{ page.next.url }}">NEXT POST</a>
             </div>
             {% else %}
                 {% if page.previous %}
                 <div class="col-12 p-0 d-flex justify-content-center justify-content-md-start mb-5 mb-md-0">
-                    <a class="btn btn-rounded fs-4 fw-bold text-uppercase js-scroll-trigger" href="{{ page.previous.url }}">PREVIOUS POST</a>
+                    <a class="btn btn-rounded fs-4 fw-bold text-uppercase js-scroll-trigger w-100" href="{{ page.previous.url }}">PREVIOUS POST</a>
                 </div>
                 {% endif %}
 
                 {% if page.next %}
                 <div class="col-12 p-0 d-flex justify-content-center justify-content-md-end">
-                    <a class="btn btn-rounded fs-4 fw-bold text-uppercase js-scroll-trigger" href="{{ page.next.url }}">NEXT POST</a>
+                    <a class="btn btn-rounded fs-4 fw-bold text-uppercase js-scroll-trigger w-100" href="{{ page.next.url }}">NEXT POST</a>
                 </div>
                 {% endif %}
             {% endif %}
