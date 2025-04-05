@@ -18,11 +18,11 @@ layout: default
 
             {% if page.previous and page.next %}
             <div class="col-12 col-md-6 p-0 d-flex justify-content-center justify-content-md-start mb-5 mb-md-0">
-                <a class="btn btn-rounded text-uppercase js-scroll-trigger w-75 text-start overflow-hidden text-nowrap text-truncate" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+                <a class="btn btn-rounded text-uppercase js-scroll-trigger w-100 w-md-75 text-start overflow-hidden text-nowrap text-truncate" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
             </div>
 
             <div class="col-12 col-md-6 p-0 d-flex justify-content-center justify-content-md-end">
-                <a class="btn btn-rounded text-uppercase js-scroll-trigger w-75 text-end overflow-hidden text-nowrap text-truncate" href="{{ page.next.url }}">{{ page.next.title }}</a>
+                <a class="btn btn-rounded text-uppercase js-scroll-trigger w-100 w-md-75 text-end overflow-hidden text-nowrap text-truncate" href="{{ page.next.url }}">{{ page.next.title }}</a>
             </div>
             {% else %}
                 {% if page.previous %}
