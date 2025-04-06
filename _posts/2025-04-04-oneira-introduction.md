@@ -13,6 +13,6 @@ By entering and inspecting various virtual dreamscapes, you get to explore surre
 
 Just follow the company guidelines and tread carefully as each decision you make shapes the story and dreamscape around you. Additionally, listen closely to the characters that you encounter on your journey, as some may know more than they let on. Will you choose wisely and uncover the hidden truths or will you let them slip away?
 
-ONEiRA is still in development for a little while longer,  but we’re excited to finally start sharing it with you. Join us on our socials where we’ll be posting regular updates—and let us know what you think! We’d love to bring you along for the ride and shape this experience together.
+ONEiRA is still in development for a little while longer,  but we’re excited to finally start sharing it with you. Join us on our socials where we’ll be posting regular updates—and let us know what you think! We’d love to bring you along for the ride, share the ins and outs of being an indie studio, and shape this experience together.
 
 For exclusive behind-the-scenes content, <a class="post-link" href="https://discord.gg/XAYvJhkkqE">join us on Discord</a>!
