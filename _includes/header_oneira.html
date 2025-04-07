@@ -1,5 +1,5 @@
 <!-- Header -->
-<header class="masthead dynamicHeader" style="background-image: url(/assets/img/oneira/header.jpg); background-attachment: fixed; background-size: cover">
+<header class="masthead dynamicHeader">
     <div class="container h-100 d-flex flex-column">
         <!--Empty-->
         <div class="col d-flex"></div>
@@ -31,13 +31,14 @@
         {% endif %}
     </div>
 
-    <img src="/assets/img/oneira/header.jpg" alt="Background" class="position-fixed top-0 start-50 translate-middle-x h-100" style="height: 100%; width: auto; z-index: -1;">
-
     <style>
         .dynamicHeader {
             width: 100%;
             height: auto;
             aspect-ratio: 1 / 1;
+            background-image: url(/assets/img/oneira/header_small.jpg);
+            background-attachment: fixed;
+            background-size: cover
         }
 
         @media (min-width: 768px) {
@@ -45,6 +46,9 @@
                 width: 100%;
                 height: auto;
                 aspect-ratio: 5 / 2;
+                background-image: url(/assets/img/oneira/header.jpg);
+                background-attachment: fixed;
+                background-size: cover
             }
         }
     </style>
