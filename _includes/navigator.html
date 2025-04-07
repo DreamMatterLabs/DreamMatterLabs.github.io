@@ -16,7 +16,7 @@
         </button>
 
         <!-- Navbar Items -->
-        <div class="collapse navbar-collapse gap-5" id="navbarResponsive">
+        <div class="collapse navbar-collapse gap-4" id="navbarResponsive">
             <ul class="navbar-nav ms-auto align-items-center gap-4">
                 {% if site.locale and site.locale != "" and site.locale != nil %}
                 {% for link in site.data.navigation[site.locale].nav %}
@@ -68,14 +68,14 @@
         .dynamicHeight {
             height: 30px;
             align-content: center;
-            text-align: end;
+            margin-left: auto;
         }
 
         @media (min-width: 768px) {
             .dynamicHeight {
                 height: 100px;
                 align-content: center;
-                text-align: center;
+                margin-left: auto;
             }
         }
     </style>
