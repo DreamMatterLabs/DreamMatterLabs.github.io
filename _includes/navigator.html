@@ -72,8 +72,9 @@
         const navbarToggler = document.querySelector(".navbar-toggler");
         const navbarCollapse = document.querySelector("#navbarResponsive");
 
-        // Ensure the navbar is hidden on load
+        // Ensure the navbar is hidden on load and right aligned
         navbarCollapse.style.display = "none";
+        navbarCollapse.style.justifyContent = "flex-end";
 
         // Manages navbar size as user scrolls up and down
         window.addEventListener("scroll", function ()
