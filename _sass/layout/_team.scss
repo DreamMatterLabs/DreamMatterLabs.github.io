@@ -6,7 +6,7 @@
     img {
         width: 225px;
         height: 225px;
-        border: 7px solid fade-out($black, 0.9);
+        border: 8px solid rgba(59, 20, 76,1)
     }
 
     h4 {
@@ -36,7 +36,7 @@ ul.social-buttons {
             color: white;
             border-radius: 100%;
             outline: none;
-            background-color: #212529;
+            background-color: #60207b;
             box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.25);
 
             &:hover {
