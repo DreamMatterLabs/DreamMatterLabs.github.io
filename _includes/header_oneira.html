@@ -1,6 +1,6 @@
 <!-- Header -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<header class="masthead" style="width: 100%; aspect-ratio: 5 / 2; background-image: url(/assets/img/oneira/header.jpg); background-attachment: fixed">
+<header class="masthead dynamicHeader" style="background-image: url(/assets/img/oneira/header.jpg); background-attachment: fixed">
     <div class="container h-100 d-flex flex-column">
         <!--Empty-->
         <div class="col d-flex"></div>
@@ -20,6 +20,22 @@
         </div>
         {%- endif -%}
     </div>
+
+    <style>
+        .dynamicHeader {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 1 / 1;
+        }
+
+        @media (min-width: 768px) {
+            .dynamicHeader {
+                width: 100%;
+                height: auto;
+                aspect-ratio: 5 / 2;
+            }
+        }
+    </style>
 </header>
 {% else %}
 <header class="masthead" style="width: 100%; aspect-ratio: 5 / 2; background-image: url(/assets/img/oneira/header.jpg); background-attachment: fixed">
@@ -42,5 +58,21 @@
         </div>
         {%- endif -%}
     </div>
+
+    <style>
+        .dynamicHeader {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 1 / 1;
+        }
+
+        @media (min-width: 768px) {
+            .dynamicHeader {
+                width: 100%;
+                height: auto;
+                aspect-ratio: 5 / 2;
+            }
+        }
+    </style>
 </header>
 {% endif %}
