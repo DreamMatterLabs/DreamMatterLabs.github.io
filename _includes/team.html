@@ -1,6 +1,6 @@
 <!-- Team -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<section class="page-section" style="background-color: #6B2489" id="{{ site.data.sitetext[site.locale].team.section | default: "team" }}">
+<section class="page-section" style="background-color: #321141" id="{{ site.data.sitetext[site.locale].team.section | default: "team" }}">
     <div class="container d-flex flex-column" style="padding: 50px 0 50px 0; row-gap: 50px">
         <!--Tagline-->
         <div class="section-header text-center">
@@ -34,11 +34,11 @@
     </div>
 </section>
 {% else %}
-<section class="page-section" style="background: linear-gradient(to bottom, #6A2388 0vh, #812BA5 150vh)" id="{{ site.data.sitetext.team.section | default: "team" }}">
-    <div class="container d-flex flex-column" style="padding-top: 50px; padding-bottom: 50px; row-gap: 150px">
+<section class="page-section" style="background-color: #321141" id="{{ site.data.sitetext.team.section | default: "team" }}">
+    <div class="container d-flex flex-column" style="padding: 50px 0 50px 0; row-gap: 50px">
         <!--Tagline-->
-         <div class="section-header text-center">
-            <h3 class="m-0 fs-4 text-uppercase text-muted2">{{ site.data.sitetext.team.text }}</h3>
+        <div class="section-header text-center">
+            <h1 class="fs-1 fw-bold text-uppercase text-white m-0">{{ site.data.sitetext.team.text }}</h1>
         </div>
 
         <!--Team Members-->
@@ -48,9 +48,9 @@
                 <div class="team-member">
                     <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
 
-                    <h2 class="fs-3 fw-bold text-white">{{ person.name }}</h2>
+                    <h2 class="fs-3 fw-bold text-white mb-3 mt-3">{{ person.name }}</h2>
 
-                    <p class="fs-5 text-muted2">{{ person.role }}</p>
+                    <p class="fs-5 text-muted2 mb-3">{{ person.role }}</p>
 
                     <ul class="list-inline social-buttons">
                         {% for network in person.social %}
