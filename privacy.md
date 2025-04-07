@@ -3,7 +3,7 @@ layout: default
 title: "Privacy Policy"
 permalink: /privacy/
 ---
-<section style="background-color: #6B2489">
+<section style="background-color: #47185C">
     <article class="col-8 col-md-5 post">
         <header class="post-header">
             <h1 class="post-title">Privacy Policy</h1>
