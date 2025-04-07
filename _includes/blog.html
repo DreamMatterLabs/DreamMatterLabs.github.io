@@ -1,5 +1,5 @@
 <section style="background-color: #47185C">
-    <div class="container d-flex flex-column" style="padding: 50px 0 150px 0; row-gap: 50px">
+    <div class="container d-flex flex-column" style="padding: 50px 0 100px 0; row-gap: 50px">
         <div class="section-header text-center">
             <h1 class="fs-1 fw-bold text-uppercase text-white mb-3">Blog</h1>
             <h2 class="fs-3 m-0 p-0" style="color: #B7FDFE">New Posts Every Friday!</h2>
@@ -7,7 +7,7 @@
 
         <div class="row g-5 m-0">
             {% for post in site.posts %}
-            <div class="col col-md-4 d-flex m-0">
+            <div class="col col-md-4 d-flex" style="margin: 0 0 50px 0">
                 <a class="text-decoration-none text-white m-0 p-0" href="{{ post.url }}">
                     <article class="post-preview">
                         <img class="img-fluid post-banner" style="border-radius: 20px 20px 0 0; width: 100%; aspect-ratio: 16 / 9" src="{{ post.banner }}">
