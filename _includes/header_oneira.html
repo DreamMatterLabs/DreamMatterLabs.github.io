@@ -1,6 +1,5 @@
 <!-- Header -->
-{% if site.locale and site.locale != "" and site.locale != nil %}
-<header class="masthead dynamicHeader" style="background-image: url(/assets/img/oneira/header.jpg); background-attachment: fixed">
+<header class="masthead dynamicHeader" style="background-image: url(/assets/img/oneira/header.jpg); background-attachment: fixed; background-size: cover">
     <div class="container h-100 d-flex flex-column">
         <!--Empty-->
         <div class="col d-flex"></div>
@@ -11,14 +10,25 @@
         </div>
 
         <!--Button-->
-        {%- if site.data.sitetext[site.locale].header.button -%}
-        <div class="col d-flex align-items-start justify-content-center">
-            <a class="btn btn-oneira js-scroll-trigger"
-               href="{{ site.data.sitetext[site.locale].header.buttonlink }}">
-                {{ site.data.sitetext[site.locale].header.button }}
-            </a>
-        </div>
-        {%- endif -%}
+        {% if site.locale and site.locale != "" and site.locale != nil %}
+            {%- if site.data.sitetext[site.locale].header.button -%}
+            <div class="col d-flex align-items-start justify-content-center">
+                <a class="btn btn-oneira js-scroll-trigger"
+                   href="{{ site.data.sitetext[site.locale].header.buttonlink }}">
+                    {{ site.data.sitetext[site.locale].header.button }}
+                </a>
+            </div>
+            {%- endif -%}
+        {% else %}
+            {%- if site.data.sitetext.header.button -%}
+            <div class="col d-flex align-items-start justify-content-center">
+                <a class="btn btn-oneira js-scroll-trigger"
+                   href="{{ site.data.sitetext.header.buttonlink }}">
+                    {{ site.data.sitetext.header.button }}
+                </a>
+            </div>
+            {%- endif -%}
+        {% endif %}
     </div>
 
     <style>
@@ -37,42 +47,3 @@
         }
     </style>
 </header>
-{% else %}
-<header class="masthead" style="width: 100%; aspect-ratio: 5 / 2; background-image: url(/assets/img/oneira/header.jpg); background-attachment: fixed">
-    <div class="container h-100 d-flex flex-column">
-        <!--Empty-->
-        <div class="col d-flex"></div>
-
-        <!--Logo-->
-        <div class="col d-flex align-items-center justify-content-center">
-            <img class="img-fluid" style="max-width: 75%" src="/assets/img/oneira/logo.png" alt="ONEiRA logo.">
-        </div>
-
-        <!--Button-->
-        {%- if site.data.sitetext.header.button -%}
-        <div class="col d-flex align-items-start justify-content-center">
-            <a class="btn btn-oneira js-scroll-trigger"
-               href="{{ site.data.sitetext.header.buttonlink }}">
-                {{ site.data.sitetext.header.button }}
-            </a>
-        </div>
-        {%- endif -%}
-    </div>
-
-    <style>
-        .dynamicHeader {
-            width: 100%;
-            height: auto;
-            aspect-ratio: 1 / 1;
-        }
-
-        @media (min-width: 768px) {
-            .dynamicHeader {
-                width: 100%;
-                height: auto;
-                aspect-ratio: 5 / 2;
-            }
-        }
-    </style>
-</header>
-{% endif %}
