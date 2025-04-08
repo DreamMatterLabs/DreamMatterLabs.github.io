@@ -84,8 +84,9 @@
     }
 
     .navbar-collapse {
+        align-items: end !important;
         background-color: #541C6C; // Background for collapsed menu
-        max-width: 50%; // Restrict width
+        min-width: 200px;
         padding: 5px; // Add padding for proper spacing
         text-align: right;
         position: absolute;
