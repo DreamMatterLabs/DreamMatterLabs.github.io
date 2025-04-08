@@ -21,13 +21,13 @@
                 {% if site.locale and site.locale != "" and site.locale != nil %}
                     {% for link in site.data.navigation[site.locale].nav %}
                         {% if link.newTab %}
-                        <li class="nav-item">
+                        <li class="nav-item dynamicWidth">
                             <a class="nav-link js-scroll-trigger p-0 dynamicHeight" style="font-family: Montserrat" href="{{ link.url }}" target="_blank">
                                 {{ link.title }}
                             </a>
                         </li>
                         {% else %}
-                        <li class="nav-item">
+                        <li class="nav-item dynamicWidth">
                             <a class="nav-link js-scroll-trigger p-0 dynamicHeight" style="font-family: Montserrat" href="{{ link.url }}">
                                 {{ link.title }}
                             </a>
@@ -37,13 +37,13 @@
                 {% else %}
                     {% for link in site.data.navigation.nav %}
                         {% if link.newTab %}
-                        <li class="nav-item">
+                        <li class="nav-item dynamicWidth">
                             <a class="nav-link js-scroll-trigger p-0 dynamicHeight" style="font-family: Montserrat" href="{{ link.url }}" target="_blank">
                                 {{ link.title }}
                             </a>
                         </li>
                         {% else %}
-                        <li class="nav-item">
+                        <li class="nav-item dynamicWidth">
                             <a class="nav-link js-scroll-trigger p-0 dynamicHeight" style="font-family: Montserrat" href="{{ link.url }}">
                                 {{ link.title }}
                             </a>
@@ -54,7 +54,7 @@
             </ul>
 
             <!-- Social Icons -->
-            <div class="social-icons d-flex g-4 g-md-0 gap-md-4">
+            <div class="social-icons d-flex g-4 g-md-0 gap-md-4 dynamicWidth">
                 <a class="text-decoration-none dynamicHeight" href="https://x.com/DreamMatterLabs" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                 <a class="text-decoration-none dynamicHeight" href="https://bsky.app/profile/dreammatterlabs.bsky.social" target="_blank" aria-label="Bluesky"><i class="fa fa-bskyicon"></i></a>
                 <a class="text-decoration-none dynamicHeight" href="https://www.linkedin.com/company/dreammatterlabs" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
@@ -76,6 +76,18 @@
                 height: 100px;
                 align-items: center;
                 display: flex;
+            }
+        }
+
+        .dynamicWidth {
+            width: 100%;
+            text-align: right;
+        }
+
+        @media (min-width: 768px) {
+            .dynamicWidth {
+                width: auto;
+                text-align: center;
             }
         }
     </style>
