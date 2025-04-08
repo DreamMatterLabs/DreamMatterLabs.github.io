@@ -22,13 +22,13 @@
                     {% for link in site.data.navigation[site.locale].nav %}
                         {% if link.newTab %}
                         <li class="nav-item dynamicWidth">
-                            <a class="nav-link js-scroll-trigger p-0 dynamicHeight" style="font-family: Montserrat" href="{{ link.url }}" target="_blank">
+                            <a class="nav-link js-scroll-trigger dynamicHeight" style="font-family: Montserrat" href="{{ link.url }}" target="_blank">
                                 {{ link.title }}
                             </a>
                         </li>
                         {% else %}
                         <li class="nav-item dynamicWidth">
-                            <a class="nav-link js-scroll-trigger p-0 dynamicHeight" style="font-family: Montserrat" href="{{ link.url }}">
+                            <a class="nav-link js-scroll-trigger dynamicHeight" style="font-family: Montserrat" href="{{ link.url }}">
                                 {{ link.title }}
                             </a>
                         </li>
@@ -38,13 +38,13 @@
                     {% for link in site.data.navigation.nav %}
                         {% if link.newTab %}
                         <li class="nav-item dynamicWidth">
-                            <a class="nav-link js-scroll-trigger p-0 dynamicHeight" style="font-family: Montserrat" href="{{ link.url }}" target="_blank">
+                            <a class="nav-link js-scroll-trigger dynamicHeight" style="font-family: Montserrat" href="{{ link.url }}" target="_blank">
                                 {{ link.title }}
                             </a>
                         </li>
                         {% else %}
                         <li class="nav-item dynamicWidth">
-                            <a class="nav-link js-scroll-trigger p-0 dynamicHeight" style="font-family: Montserrat" href="{{ link.url }}">
+                            <a class="nav-link js-scroll-trigger dynamicHeight" style="font-family: Montserrat" href="{{ link.url }}">
                                 {{ link.title }}
                             </a>
                         </li>
@@ -69,6 +69,7 @@
             height: 50px;
             align-items: center;
             display: flex;
+            padding: 0 10px 0 10px;
         }
 
         @media (min-width: 768px) {
@@ -76,6 +77,7 @@
                 height: 100px;
                 align-items: center;
                 display: flex;
+                padding: 0;
             }
         }
 
