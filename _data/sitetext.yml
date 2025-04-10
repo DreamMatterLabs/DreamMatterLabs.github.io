@@ -3,32 +3,34 @@
 # English (default)
 # -----------------
 en: &DEFAULT_EN
-  header:
-    title: ONEiRA
-    text:
-    button: MEET THE TEAM
-    buttonlink: "https://dreammatterlabs.com/about/"
   oneira:
+    title: "ONEiRA"
+    button: "MEET THE TEAM"
+    buttonlink: "https://dreammatterlabs.com/about/"
     CTA: "JOIN OUR DISCORD TO FOLLOW DEVELOPMENT"
     content:
       - title: "Explore Surreal, Immersive Dreamscapes"
         desc: "In a world where dreams are sold as entertainment, it's your job to ensure that each experience is market-ready. Step into virtual dreamscapes as a maintenance worker and immerse yourself in serene yet fractured landscapes, where every dream holds a story waiting to be unraveled."
         image: /assets/img/oneira/picture_1.jpg
+        alt:
         link: '#p1'
         layout: "left"     
       - title: "Uncover Secrets Buried in the Mind"
         desc: "Some memories don’t fade—they hide. As you navigate the minds behind the dreams, cryptic messages and lingering voices pull you deeper into a psychological mystery where the truth is waiting to be untangled. Sharpen your senses and dive into an unforgettable story."
         image: /assets/img/oneira/picture_2.jpg
+        alt:
         link: '#p2'
         layout: "right"    
       - title: "Shape the Story with Every Decision"
         desc: "Tread carefully however, as every decision shapes the story and the dreamscapes around you. Listen closely to the characters that you encounter on your journey, as some may know more than they let on. Will you choose wisely and uncover the hidden truths or let them slip away?"
         image: /assets/img/oneira/picture_3.jpg
+        alt:
         link: '#p3'
         layout: "left"     
       - title: "A Mix of Puzzles, Platforming & Exploration"
         desc: "ONEiRA is a narrative-driven puzzle-platformer that blends immersive storytelling with unique mechanics. Collect exciting abilities that help you solve puzzles, traverse obstacles, and explore the ever-shifting dreamscapes. Get ready to suit up and wishlist ONEiRA on Steam soon!"
         image: /assets/img/oneira/picture_4.jpg
+        alt:
         link: '#p4'
         layout: "right"  
     disclaimer: "ONEiRA is a work in progress, and the images shown may not reflect the final game."     
@@ -51,9 +53,7 @@ en: &DEFAULT_EN
         image: /assets/img/timeline/oneira.jpg
         alt:
   team:
-    title: "Dream Matter Labs"
-    text: "About Us"
-    section: team
+    title: "About Us"
     people:
       - name: "John"
         role: "Studio Director & Interactive Audio Designer"
@@ -174,6 +174,7 @@ en: &DEFAULT_EN
           - url: https://www.linkedin.com/in/patrickmccabeac/
             icon: fab fa-linkedin-in     
   footer:
+    contact: "CONTACT US"
     legal: "PRIVACY POLICY"
 en-US:
   <<: *DEFAULT_EN
@@ -186,32 +187,34 @@ en-AU:
 # Spanish
 # -------
 es: &DEFAULT_ES
-  header:
-    title: ONEiRA
-    text:
-    button: MEET THE TEAM
-    buttonlink: "https://dreammatterlabs.com/about/"
   oneira:
+    title: "ONEiRA"
+    button: "MEET THE TEAM"
+    buttonlink: "https://dreammatterlabs.com/about/"
     CTA: "JOIN OUR DISCORD TO FOLLOW DEVELOPMENT"
     content:
       - title: "Explore Surreal, Immersive Dreamscapes"
         desc: "In a world where dreams are sold as entertainment, it's your job to ensure that each experience is market-ready. Step into virtual dreamscapes as a maintenance worker and immerse yourself in serene yet fractured landscapes, where every dream holds a story waiting to be unraveled."
         image: /assets/img/oneira/picture_1.jpg
+        alt: 
         link: '#p1'
         layout: "left"     
       - title: "Uncover Secrets Buried in the Mind"
         desc: "Some memories don’t fade—they hide. As you navigate the minds behind the dreams, cryptic messages and lingering voices pull you deeper into a psychological mystery where the truth is waiting to be untangled. Sharpen your senses and dive into an unforgettable story."
         image: /assets/img/oneira/picture_2.jpg
+        alt: 
         link: '#p2'
         layout: "right"    
       - title: "Shape the Story with Every Decision"
         desc: "Tread carefully however, as every decision shapes the story and the dreamscapes around you. Listen closely to the characters that you encounter on your journey, as some may know more than they let on. Will you choose wisely and uncover the hidden truths or let them slip away?"
         image: /assets/img/oneira/picture_3.jpg
+        alt: 
         link: '#p3'
         layout: "left"     
       - title: "A Mix of Puzzles, Platforming & Exploration"
         desc: "ONEiRA is a narrative-driven puzzle-platformer that blends immersive storytelling with unique mechanics. Collect exciting abilities that help you solve puzzles, traverse obstacles, and explore the ever-shifting dreamscapes. Get ready to suit up and wishlist ONEiRA on Steam soon!"
         image: /assets/img/oneira/picture_4.jpg
+        alt: 
         link: '#p4'
         layout: "right"  
     disclaimer: "ONEiRA is a work in progress, and the images shown may not reflect the final game."   
@@ -234,9 +237,7 @@ es: &DEFAULT_ES
         image: /assets/img/timeline/oneira.jpg
         alt:
   team:
-    title: "Dream Matter Labs"
-    text: "About Us"
-    section: team
+    title: "About Us"
     people:
       - name: "John"
         role: "Studio Director & Interactive Audio Designer"
@@ -365,6 +366,7 @@ es: &DEFAULT_ES
           - url: https://www.youtube.com/@ashe_xo
             icon: fab fa-youtube     
   footer:
+    contact: "CONTACT US"
     legal: "PRIVACY POLICY"
 es-ES:
   <<: *DEFAULT_ES

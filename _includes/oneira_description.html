@@ -58,7 +58,7 @@
                     {% if content.layout == "left" %}
                     <div class="col-12 col-md-6 text-start order-1">
                         <a class="portfolio-link" data-toggle="modal" href="{{ content.link }}">
-                            <img class="img-fluid project-image" src="{{ content.image }}" alt="{{ content.title }}">
+                            <img class="img-fluid project-image" src="{{ content.image }}" alt="{{ content.alt }}">
                         </a>
                     </div>
 
@@ -74,7 +74,7 @@
 
                     <div class="col-12 col-md-6 text-start order-1 order-md-2">
                         <a class="portfolio-link" data-toggle="modal" href="{{ content.link }}">
-                            <img class="img-fluid project-image" src="{{ content.image }}" alt="{{ content.title }}">
+                            <img class="img-fluid project-image" src="{{ content.image }}" alt="{{ content.alt }}">
                         </a>
                     </div>
                     {% endif %}

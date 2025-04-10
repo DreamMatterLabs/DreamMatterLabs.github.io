@@ -1,10 +1,10 @@
 <!-- Team -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<section class="page-section" style="background-color: #47185C" id="{{ site.data.sitetext[site.locale].team.section | default: "team" }}">
+<section class="page-section" style="background-color: #47185C" id="team">
     <div class="container d-flex flex-column" style="padding: 50px 0 50px 0; row-gap: 50px">
         <!--Tagline-->
         <div class="section-header text-center">
-            <h1 class="fs-1 fw-bold text-uppercase text-white m-0">{{ site.data.sitetext[site.locale].team.text }}</h1>
+            <h1 class="fs-1 fw-bold text-uppercase text-white m-0">{{ site.data.sitetext[site.locale].team.title }}</h1>
         </div>
 
         <!--Team Members-->
@@ -34,11 +34,11 @@
     </div>
 </section>
 {% else %}
-<section class="page-section" style="background-color: #47185C" id="{{ site.data.sitetext.team.section | default: "team" }}">
+<section class="page-section" style="background-color: #47185C" id="team">
     <div class="container d-flex flex-column" style="padding: 50px 0 50px 0; row-gap: 50px">
         <!--Tagline-->
         <div class="section-header text-center">
-            <h1 class="fs-1 fw-bold text-uppercase text-white m-0">{{ site.data.sitetext.team.text }}</h1>
+            <h1 class="fs-1 fw-bold text-uppercase text-white m-0">{{ site.data.sitetext.team.title }}</h1>
         </div>
 
         <!--Team Members-->

@@ -1,41 +1,35 @@
 <!-- Footer -->
 <footer class="footer" id="footer" style="background-color: #541C6C">
     <div class="container d-flex p-0" style="width: 95% !important; max-width: none !important">
+        <!-- Contact and Privacy-->
         {% if site.locale and site.locale != "" and site.locale != nil %}
-        <!-- Email and Privacy-->
         <div class="flex-grow-1 text-start">
             <ul class="list-inline quicklinks d-flex gap-4">
                 <li class="list-inline-item m-0">
-                    <a class="hover-underline d-flex align-items-center" style="font-family: Montserrat; height: 100px" href="mailto:DreamMatterLabs@protonmail.com">EMAIL US</a>
+                    <a class="hover-underline d-flex align-items-center" style="font-family: Montserrat; height: 100px" href="mailto:DreamMatterLabs@protonmail.com">{{ site.data.sitetext[site.locale].footer.contact | default: "CONTACT US" }}</a>
                 </li>
                 <li class="list-inline-item m-0">
                     <a class="hover-underline d-flex align-items-center" style="font-family: Montserrat; height: 100px" href="/privacy">{{ site.data.sitetext[site.locale].footer.legal | default: "PRIVACY POLICY" }}</a>
                 </li>
             </ul>
         </div>
-
-        <!--Copyright -->
-        <div class="flex-grow-1 text-end">
-            <span class="copyright d-flex align-items-center justify-content-end" style="font-family: Montserrat; height: 100px">&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</span>
-        </div>
         {% else %}
-        <!-- Email and Privacy-->
         <div class="flex-grow-1 text-start">
             <ul class="list-inline quicklinks d-flex gap-4">
                 <li class="list-inline-item m-0">
-                    <a class="hover-underline d-flex align-items-center" style="font-family: Montserrat; height: 100px" href="mailto:DreamMatterLabs@protonmail.com">EMAIL US</a>
+                    <a class="hover-underline d-flex align-items-center" style="font-family: Montserrat; height: 100px" href="mailto:DreamMatterLabs@protonmail.com">{{ site.data.sitetext.footer.contact | default: "CONTACT US" }}</a>
                 </li>
                 <li class="list-inline-item m-0">
                     <a class="hover-underline d-flex align-items-center" style="font-family: Montserrat; height: 100px" href="/privacy">{{ site.data.sitetext.footer.legal | default: "PRIVACY POLICY" }}</a>
                 </li>
             </ul>
         </div>
+        {% endif %}
 
         <!--Copyright -->
         <div class="flex-grow-1 text-end">
             <span class="copyright d-flex align-items-center justify-content-end" style="font-family: Montserrat; height: 100px">&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</span>
         </div>
-        {% endif %}
     </div>
 
     <style>
