@@ -105,19 +105,19 @@ en: &DEFAULT_EN
             icon: fab fa-artstation
       - name: "Steph H."
         role: "Unreal Generalist"
-        image: /assets/img/about/1.jpg
+        image: /assets/img/about/steph-gen.png
         social:
           - url: https://github.com/sljeandell
             icon: fab fa-github
       - name: "Pam"
         role: "Level Designer"
-        image: /assets/img/about/1.jpg
+        image: /assets/img/about/pam.png
         social:
           - url: https://www.linkedin.com/in/p%C3%A2mela-beltrani-a4b808106/
             icon: fab fa-linkedin-in
       - name: "Steph T."
         role: "UI/UX"
-        image: /assets/img/about/1.jpg
+        image: /assets/img/about/steph-ui.png
         social:
           - url: https://stephanieterrero.com/
             icon: fa fa-globe
@@ -153,7 +153,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in            
       - name: "Gabe"
         role: "Environmental Artist"
-        image: /assets/img/about/1.jpg
+        image: /assets/img/about/gabe.png
         social:
           - url: https://www.artstation.com/gabekabam
             icon: fab fa-artstation
@@ -288,19 +288,19 @@ es: &DEFAULT_ES
             icon: fab fa-artstation
       - name: "Steph H."
         role: "Unreal Generalist"
-        image: /assets/img/about/1.jpg
+        image: /assets/img/about/steph-gen.png
         social:
           - url: https://github.com/sljeandell
             icon: fab fa-github
       - name: "Pam"
         role: "Level Designer"
-        image: /assets/img/about/1.jpg
+        image: /assets/img/about/pam.png
         social:
           - url: https://www.linkedin.com/in/p%C3%A2mela-beltrani-a4b808106/
             icon: fab fa-linkedin-in
       - name: "Steph T."
         role: "UI/UX"
-        image: /assets/img/about/1.jpg
+        image: /assets/img/about/steph-ui.png
         social:
           - url: https://stephanieterrero.com/
             icon: fa fa-globe
@@ -336,7 +336,7 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in            
       - name: "Gabe"
         role: "Environmental Artist"
-        image: /assets/img/about/1.jpg
+        image: /assets/img/about/gabe.png
         social:
           - url: https://www.artstation.com/gabekabam
             icon: fab fa-artstation
