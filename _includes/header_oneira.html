@@ -11,7 +11,7 @@
 
         <!--Button-->
         {% if site.locale and site.locale != "" and site.locale != nil %}
-            {%- if site.data.sitetext[site.locale].header.button -%}
+            {%- if site.data.sitetext[site.locale].oneira.button -%}
             <div class="col d-flex align-items-start justify-content-center">
                 <a class="btn btn-oneira js-scroll-trigger"
                    href="{{ site.data.sitetext[site.locale].oneira.buttonlink }}">
@@ -20,7 +20,7 @@
             </div>
             {%- endif -%}
         {% else %}
-            {%- if site.data.sitetext.header.button -%}
+            {%- if site.data.sitetext.oneira.button -%}
             <div class="col d-flex align-items-start justify-content-center">
                 <a class="btn btn-oneira js-scroll-trigger"
                    href="{{ site.data.sitetext.oneira.buttonlink }}">
