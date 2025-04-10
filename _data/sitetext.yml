@@ -159,7 +159,7 @@ en: &DEFAULT_EN
             icon: fab fa-artstation
       - name: "Joël"
         role: "Marketing Manager"
-        image: /assets/img/about/1.jpg
+        image: /assets/img/about/joel.png
         social:
           - url: https://www.artstation.com/artwork/BknOQk
             icon: fab fa-artstation
@@ -167,7 +167,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in 
       - name: "Ashe"
         role: "Community Manager"
-        image: /assets/img/about/1.jpg
+        image: /assets/img/about/ashe.png
         social:
           - url: https://www.twitch.tv/ashe_xo
             icon: fa-brands fa-twitch
@@ -342,7 +342,7 @@ es: &DEFAULT_ES
             icon: fab fa-artstation
       - name: "Joël"
         role: "Marketing Manager"
-        image: /assets/img/about/1.jpg
+        image: /assets/img/about/joel.png
         social:
           - url: https://www.artstation.com/artwork/BknOQk
             icon: fab fa-artstation
@@ -350,7 +350,7 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in 
       - name: "Ashe"
         role: "Community Manager"
-        image: /assets/img/about/1.jpg
+        image: /assets/img/about/ashe.png
         social:
           - url: https://www.twitch.tv/ashe_xo
             icon: fa-brands fa-twitch
