@@ -31,7 +31,7 @@ en: &DEFAULT_EN
         image: /assets/img/oneira/picture_4.jpg
         link: '#p4'
         layout: "right"  
-    disclaimer: ONEiRA is a work in progress, and the images shown may not reflect the final game.     
+    disclaimer: "ONEiRA is a work in progress, and the images shown may not reflect the final game."     
   timeline:
     title: "Timeline"
     events:
@@ -53,7 +53,6 @@ en: &DEFAULT_EN
   team:
     title: "Dream Matter Labs"
     text: "About Us"
-    subtext: We welcome diverse backgrounds and point of views to conjure up engaging and surreal interactive worlds. We are making **dreams** come true!
     section: team
     people:
       - name: "John"
@@ -215,7 +214,7 @@ es: &DEFAULT_ES
         image: /assets/img/oneira/picture_4.jpg
         link: '#p4'
         layout: "right"  
-    disclaimer: ONEiRA is a work in progress, and the images shown may not reflect the final game.   
+    disclaimer: "ONEiRA is a work in progress, and the images shown may not reflect the final game."   
   timeline:
     title: "Timeline"
     events:
@@ -237,7 +236,6 @@ es: &DEFAULT_ES
   team:
     title: "Dream Matter Labs"
     text: "About Us"
-    subtext: We welcome diverse backgrounds and point of views to conjure up engaging and surreal interactive worlds. We are making **dreams** come true!
     section: team
     people:
       - name: "John"
