@@ -9,73 +9,36 @@
                 <a href="https://discord.gg/XAYvJhkkqE" style="color: inherit; text-decoration: underline">JOIN OUR DISCORD TO FOLLOW DEVELOPMENT</a>
             </div>
 
-            <!--First-->
+            <!--Contents-->
+            {% for content in site.data.sitetext[site.locale].oneira.content %}
             <div class="p-md-5">
                 <div class="row align-items-center g-5">
+                    {% if content.layout == "left" %}
                     <div class="col-12 col-md-6 text-start order-1">
-                        <a class="portfolio-link" data-toggle="modal" href="#p1">
-                            <img class="img-fluid project-image" src="/assets/img/oneira/picture_1.jpg" alt="ONEiRA picture 1.">
+                        <a class="portfolio-link" data-toggle="modal" href="{{ content.link }}">
+                            <img class="img-fluid project-image" src="{{ content.image }}" alt="{{ content.title }}">
                         </a>
                     </div>
 
                     <div class="col-12 col-md-6 text-start text-md-left order-2">
-                        <h2 class="text-white fs-3 fw-bold mb-3" style="font-family: Oxanium">Explore Surreal, Immersive Dreamscapes</h2>
-
-                        <p class="text-light fs-4 m-0">In a world where dreams are sold as entertainment, it's your job to ensure that each experience is market-ready. Step into virtual dreamscapes as a maintenance worker and immerse yourself in serene yet fractured landscapes, where every dream holds a story waiting to be unraveled.</p>
+                        <h2 class="text-white fs-3 fw-bold mb-3" style="font-family: Oxanium">{{ content.title }}</h2>
+                        <p class="text-light fs-4 m-0">{{ content.description }}</p>
                     </div>
-                </div>
-            </div>
-
-            <!--Second-->
-            <div class="p-md-5">
-                <div class="row align-items-center g-5">
+                    {% else %}
                     <div class="col-12 col-md-6 text-start text-md-left order-2 order-md-1">
-                        <h2 class="text-white fs-3 fw-bold mb-3" style="font-family: Oxanium">Uncover Secrets Buried in the Mind</h2>
-
-                        <p class="text-light fs-4 m-0">Some memories don’t fade—they hide. As you navigate the minds behind the dreams, cryptic messages and lingering voices pull you deeper into a psychological mystery where the truth is waiting to be untangled. Sharpen your senses and dive into an unforgettable story.</p>
+                        <h2 class="text-white fs-3 fw-bold mb-3" style="font-family: Oxanium">{{ content.title }}</h2>
+                        <p class="text-light fs-4 m-0">{{ content.description }}</p>
                     </div>
 
                     <div class="col-12 col-md-6 text-start order-1 order-md-2">
-                        <a class="portfolio-link" data-toggle="modal" href="#p2">
-                            <img class="img-fluid project-image" src="/assets/img/oneira/picture_2.jpg" alt="ONEiRA picture 2.">
+                        <a class="portfolio-link" data-toggle="modal" href="{{ content.link }}">
+                            <img class="img-fluid project-image" src="{{ content.image }}" alt="{{ content.title }}">
                         </a>
                     </div>
+                    {% endif %}
                 </div>
             </div>
-
-            <!--Third-->
-            <div class="p-md-5">
-                <div class="row align-items-center g-5">
-                    <div class="col-12 col-md-6 text-start order-1">
-                        <a class="portfolio-link" data-toggle="modal" href="#p3">
-                            <img class="img-fluid project-image" src="/assets/img/oneira/picture_3.jpg" alt="ONEiRA picture 3.">
-                        </a>
-                    </div>
-
-                    <div class="col-12 col-md-6 text-start text-md-left order-2">
-                        <h2 class="text-white fs-3 fw-bold mb-3" style="font-family: Oxanium">Shape the Story with Every Decision</h2>
-
-                        <p class="text-light fs-4 m-0">Tread carefully however, as every decision shapes the story and the dreamscapes around you. Listen closely to the characters that you encounter on your journey, as some may know more than they let on. Will you choose wisely and uncover the hidden truths or let them slip away?</p>
-                    </div>
-                </div>
-            </div>
-
-            <!--Fourth-->
-            <div class="p-md-5">
-                <div class="row align-items-center g-5">
-                    <div class="col-12 col-md-6 text-start text-md-left order-2 order-md-1">
-                        <h2 class="text-white fs-3 fw-bold mb-3" style="font-family: Oxanium">A Mix of Puzzles, Platforming & Exploration</h2>
-
-                        <p class="text-light fs-4 m-0">ONEiRA is a narrative-driven puzzle-platformer that blends immersive storytelling with unique mechanics. Collect exciting abilities that help you solve puzzles, traverse obstacles, and explore the ever-shifting dreamscapes. Get ready to suit up and wishlist ONEiRA on Steam soon!</p>
-                    </div>
-
-                    <div class="col-12 col-md-6 text-start order-1 order-md-2">
-                        <a class="portfolio-link" data-toggle="modal" href="#p4">
-                            <img class="img-fluid project-image" src="/assets/img/oneira/picture_4.jpg" alt="ONEiRA picture 4.">
-                        </a>
-                    </div>
-                </div>
-            </div>
+            {% endfor %}
 
             <!--Disclaimer-->
             <div class="col-12 text-center">
