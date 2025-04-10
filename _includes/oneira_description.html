@@ -4,9 +4,10 @@
 
     <div style="width: 100%; background: linear-gradient(to bottom, #646e6e 0%, #3c4646 45%, #141e1e 90%)">
         <div class="container d-flex flex-column pt-5 pt-md-0" style="padding-bottom: 150px; row-gap: 100px">
+            {% if site.locale and site.locale != "" and site.locale != nil %}
             <!--Discord Invite-->
             <div class="section-header text-center text-white fs-4 fw-normal">
-                <a href="https://discord.gg/XAYvJhkkqE" style="color: inherit; text-decoration: underline">JOIN OUR DISCORD TO FOLLOW DEVELOPMENT</a>
+                <a href="https://discord.gg/XAYvJhkkqE" style="color: inherit; text-decoration: underline">{{ site.data.sitetext[site.locale].oneira.CTA }}</a>
             </div>
 
             <!--Contents-->
@@ -42,8 +43,50 @@
 
             <!--Disclaimer-->
             <div class="col-12 text-center">
-                <p class="fs-5 text-white m-0">ONEiRA is a work in progress, and the images shown may not reflect the final product.</p>
+                <p class="fs-5 text-white m-0">{{ site.data.sitetext[site.locale].oneira.disclaimer }}</p>
             </div>
+            {% else %}
+            <!--Discord Invite-->
+            <div class="section-header text-center text-white fs-4 fw-normal">
+                <a href="https://discord.gg/XAYvJhkkqE" style="color: inherit; text-decoration: underline">{{ site.data.sitetext.oneira.CTA }}</a>
+            </div>
+
+            <!--Contents-->
+            {% for content in site.data.sitetext.oneira.content %}
+            <div class="p-md-5">
+                <div class="row align-items-center g-5">
+                    {% if content.layout == "left" %}
+                    <div class="col-12 col-md-6 text-start order-1">
+                        <a class="portfolio-link" data-toggle="modal" href="{{ content.link }}">
+                            <img class="img-fluid project-image" src="{{ content.image }}" alt="{{ content.title }}">
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-6 text-start text-md-left order-2">
+                        <h2 class="text-white fs-3 fw-bold mb-3" style="font-family: Oxanium">{{ content.title }}</h2>
+                        <p class="text-light fs-4 m-0">{{ content.desc }}</p>
+                    </div>
+                    {% else %}
+                    <div class="col-12 col-md-6 text-start text-md-left order-2 order-md-1">
+                        <h2 class="text-white fs-3 fw-bold mb-3" style="font-family: Oxanium">{{ content.title }}</h2>
+                        <p class="text-light fs-4 m-0">{{ content.desc }}</p>
+                    </div>
+
+                    <div class="col-12 col-md-6 text-start order-1 order-md-2">
+                        <a class="portfolio-link" data-toggle="modal" href="{{ content.link }}">
+                            <img class="img-fluid project-image" src="{{ content.image }}" alt="{{ content.title }}">
+                        </a>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+
+            <!--Disclaimer-->
+            <div class="col-12 text-center">
+                <p class="fs-5 text-white m-0">{{ site.data.sitetext.oneira.disclaimer }}</p>
+            </div>
+            {% endif %}
         </div>
     </div>
 
