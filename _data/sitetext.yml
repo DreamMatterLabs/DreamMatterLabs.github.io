@@ -69,16 +69,6 @@ en: &DEFAULT_EN
             icon: fab fa-github
           - url: https://www.linkedin.com/in/mharris382/
             icon: fab fa-linkedin-in
-      - name: "Forgotten Dawn"
-        role: "Composer & Character Designer"
-        image: /assets/img/about/claudio.png
-        social:
-          - url: https://www.youtube.com/@ForgottenDawn
-            icon: fab fa-youtube
-          - url: https://play.reelcrafter.com/0fzIJxfjToOpUPzmgm2y6g
-            icon: fa fa-headphones
-          - url: https://linktr.ee/forgottendawn
-            icon: fa fa-tree
       - name: "Bella"
         role: "3D Artist"
         image: /assets/img/about/bella.png
@@ -97,12 +87,24 @@ en: &DEFAULT_EN
             icon: fab fa-itch-io
           - url: https://www.linkedin.com/in/frederik-helgesen-208303217/
             icon: fab fa-linkedin-in
-      - name: "Habu"
-        role: "3D Artist"
-        image: /assets/img/about/habu.png
+      - name: "Forgotten Dawn"
+        role: "Composer & Character Designer"
+        image: /assets/img/about/claudio.png
         social:
-          - url: https://www.artstation.com/habukatu
+          - url: https://www.youtube.com/@ForgottenDawn
+            icon: fab fa-youtube
+          - url: https://play.reelcrafter.com/0fzIJxfjToOpUPzmgm2y6g
+            icon: fa fa-headphones
+          - url: https://linktr.ee/forgottendawn
+            icon: fa fa-tree
+      - name: "Joël"
+        role: "Marketing Manager"
+        image: /assets/img/about/joel.png
+        social:
+          - url: https://www.artstation.com/artwork/BknOQk
             icon: fab fa-artstation
+          - url: https://www.linkedin.com/in/joel-van-doorn/
+            icon: fab fa-linkedin-in   
       - name: "Steph H."
         role: "Unreal Generalist"
         image: /assets/img/about/steph-gen.png
@@ -116,7 +118,7 @@ en: &DEFAULT_EN
           - url: https://www.linkedin.com/in/p%C3%A2mela-beltrani-a4b808106/
             icon: fab fa-linkedin-in
       - name: "Steph T."
-        role: "UI/UX"
+        role: "UI Artist"
         image: /assets/img/about/steph-ui.png
         social:
           - url: https://stephanieterrero.com/
@@ -124,15 +126,29 @@ en: &DEFAULT_EN
           - url: https://bsky.app/profile/stephdoesui.bsky.social
             icon: fa fa-bskyicon
           - url: https://www.linkedin.com/in/stephanieterrero/
-            icon: fab fa-linkedin-in 
-      - name: "Nick"
-        role: "Game Designer"
-        image: /assets/img/about/nick.png
-        social:
-          - url: https://www.nicksceusa.com/
-            icon: fa fa-dice-d20
-          - url: https://www.linkedin.com/in/nicholas-sceusa-44089017/
             icon: fab fa-linkedin-in
+      - name: "Habu"
+        role: "3D Artist"
+        image: /assets/img/about/habu.png
+        social:
+          - url: https://www.artstation.com/habukatu
+            icon: fab fa-artstation            
+      - name: "Gabe"
+        role: "Environmental Artist"
+        image: /assets/img/about/gabe.png
+        social:
+          - url: https://www.artstation.com/gabekabam
+            icon: fab fa-artstation         
+      - name: "Ashe"
+        role: "Community Manager"
+        image: /assets/img/about/ashe.png
+        social:
+          - url: https://www.twitch.tv/ashe_xo
+            icon: fa-brands fa-twitch
+          - url: https://www.tiktok.com/@a.s.h.e_xo
+            icon: fa fa-tiktok
+          - url: https://www.youtube.com/@ashe_xo
+            icon: fab fa-youtube
       - name: "Cody"
         role: "Concept Artist"
         image: /assets/img/about/cody.png
@@ -150,31 +166,7 @@ en: &DEFAULT_EN
           - url: https://www.pat-mccabe.com/
             icon: fa fa-user-astronaut
           - url: https://www.linkedin.com/in/patrickmccabeac/
-            icon: fab fa-linkedin-in            
-      - name: "Gabe"
-        role: "Environmental Artist"
-        image: /assets/img/about/gabe.png
-        social:
-          - url: https://www.artstation.com/gabekabam
-            icon: fab fa-artstation
-      - name: "Joël"
-        role: "Marketing Manager"
-        image: /assets/img/about/joel.png
-        social:
-          - url: https://www.artstation.com/artwork/BknOQk
-            icon: fab fa-artstation
-          - url: https://www.linkedin.com/in/joel-van-doorn/
-            icon: fab fa-linkedin-in 
-      - name: "Ashe"
-        role: "Community Manager"
-        image: /assets/img/about/ashe.png
-        social:
-          - url: https://www.twitch.tv/ashe_xo
-            icon: fa-brands fa-twitch
-          - url: https://www.tiktok.com/@a.s.h.e_xo
-            icon: fa fa-tiktok
-          - url: https://www.youtube.com/@ashe_xo
-            icon: fab fa-youtube
+            icon: fab fa-linkedin-in     
   contact:
     title: "Contact Us"
     text: "Get in touch"
