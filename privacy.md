@@ -22,7 +22,9 @@ permalink: /privacy/
 	    <h2 class="fs-4 fw-bold">Data Collection</h2>
       
    	    {% if site.analytics.google %}
-            <p>When you visit the Dream Matter Labs website, we automatically receive information about your device from your browser, such as your IP address. As you browse this website, we also collect information about how you interact with it. We refer to this automatically-collected information as “Device Information”. We collect Device Information using cookies. “Cookies” are data files that are placed on your device. For more information about cookies and how to disable them, visit http://www.allaboutcookies.org. We do this using <a class="post-link" href="https://www.google.com/intl/en/policies/privacy/">Google Analytics</a>. You can opt-out of Google Analytics <a class="post-link" href="https://tools.google.com/dlpage/gaoptout">here</a>.</p>
+            <p>When you visit the Dream Matter Labs website, we automatically receive information about your device from your browser, such as your IP address. As you browse this website, we also collect information about how you interact with it. We refer to this automatically-collected information as “Device Information”. We collect Device Information using cookies. “Cookies” are data files that are placed on your device. For more information about cookies and how to disable them, visit <a class="post-link" href="http://www.allaboutcookies.org">http://www.allaboutcookies.org</a>.</p>	 
+
+            <p>We do this using <a class="post-link" href="https://www.google.com/intl/en/policies/privacy/">Google Analytics</a>, you can opt out <a class="post-link" href="https://tools.google.com/dlpage/gaoptout">here</a>.</p>
             {% else %}
             <p>We do not collect any of your personal data nor make use of cookies.</p>
             {% endif %}
