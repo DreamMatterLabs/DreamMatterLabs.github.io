@@ -1,3 +1,4 @@
+ {% if site.analytics.google %}
 <section id="consent" class="fixed-bottom align-content-center" style="z-index: 1050; height: 100px; background-color: #541C6C">
     <div class="container d-flex p-0 justify-content-between align-items-center" style="width: 95% !important; max-width: none !important">
         <span class="text-white">This website uses cookies for Google Analytics. Do you consent?</span>
@@ -19,23 +20,24 @@
 
         function loadGoogleAnalytics() {
             const scriptTag = document.createElement('script');
-            scriptTag.src = 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX';
+            scriptTag.src = "https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google }}";
             scriptTag.async = true;
             document.head.appendChild(scriptTag);
 
             window.dataLayer = window.dataLayer || [];
             function gtag() { dataLayer.push(arguments); }
             gtag('js', new Date());
-            gtag('config', 'G-XXXXXXX');
+            gtag("config", "{{ site.analytics.google }}");
         }
 
         (function checkConsent() {
             const consent = localStorage.getItem('ga-consent');
             if (consent === 'granted') {
-                loadGoogleAnalytics();
+            loadGoogleAnalytics();
             } else if (consent === 'denied') {
-                document.getElementById('consent-banner').style.display = 'none';
+            document.getElementById('consent-banner').style.display = 'none';
             }
         })();
     </script>
 </section>
+{% endif %}
