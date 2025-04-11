@@ -64,7 +64,7 @@ permalink: /privacy/
     .post-heading {
         font-weight: bold;
         font-size: 1.5rem;
-        margin-bottom: 50px;
+        margin-bottom: 15px;
     }
 
     .post-link {
