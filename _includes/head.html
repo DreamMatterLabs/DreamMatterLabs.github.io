@@ -1,8 +1,8 @@
 <head>
+    <!--Google Analytics -->
     {% if site.analytics.google %}
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google }}"></script>
+
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
@@ -24,12 +24,13 @@
     <!-- Bootstrap core CSS -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
 
-    <!-- Custom fonts for this template -->
+    <!-- Custom fonts -->
     <link href="/assets/css/all.min.css" rel="stylesheet" type="text/css">
+
     {% if site.data.style.fonts_urls %}
-    {% for font_url in site.data.style.fonts_urls %}
-    <link href="{{font_url}}" rel="stylesheet" type="text/css">
-    {% endfor %}
+        {% for font_url in site.data.style.fonts_urls %}
+        <link href="{{font_url}}" rel="stylesheet" type="text/css">
+        {% endfor %}
     {% else %}
     <link href="/assets/css/all.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -46,12 +47,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
     {% endif %}
-    <!-- Custom styles for this theme -->
+
+    <!-- Custom styles -->
     <!--<link href="assets/css/agency.min.css" rel="stylesheet">-->
     <!--<link href="assets/css/agency.css" rel="stylesheet" />-->
     <link rel="stylesheet" href="{{ "/assets/css/agency.css" | prepend: site.baseurl }}">
 
-    <!--<Favicon>-->
+    <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/fav/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/fav/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/fav/favicon-16x16.png">
@@ -66,20 +68,4 @@
 
     <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Adjust Page Container Padding Based on Navbar State
-    {% if page.layout == "page" %}
-    <style>
-      /* Default padding for large screens */
-      #pagecontainer {
-        padding-top: 150px;
-        transition: padding-top 0.3s ease-in-out; /* Smooth transition */
-      }
-
-      /* Adjust for smaller screens */
-      @media (max-width: 991px) {
-        #pagecontainer {
-          padding-top: 120px; /* More space to prevent overlap */
-        }
-    {% endif %} -->
 </head>
