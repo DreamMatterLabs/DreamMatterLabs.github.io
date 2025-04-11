@@ -23,7 +23,7 @@ permalink: /privacy/
 
 	    <p>Additionally, we use Google Analytics to help us understand how visitors interact with our website. Google Analytics collects information in a way that does not directly identify anyone and anonymizes IP addresses where possible. For more information on how Google collects and processes data, visit <a class="post-link" href="https://www.google.com/intl/en/policies/privacy/">Google’s Privacy & Terms</a>.</p>
 
-	    <p>If you want, you can opt out of Google Analytics tracking <a class="post-link" href="https://tools.google.com/dlpage/gaoptout">here</a> or by installing the Google Analytics Opt-out Browser Add-on.</p>
+            <a class="btn btn-rounded w-100 overflow-hidden text-nowrap text-truncate" href="https://tools.google.com/dlpage/gaoptout">Click here to opt out</a>
 
 	    <h2 class="post-heading">Contact Us</h2>
 
