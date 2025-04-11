@@ -22,11 +22,13 @@ permalink: /privacy/
 	    <h2 class="fs-4 fw-bold">Data Collection</h2>
       
    	    {% if site.analytics.google %}
-            <p>When you visit the Dream Matter Labs website, we automatically receive information about your device from your browser, such as your IP address. As you browse this website, we also collect information about how you interact with it. We refer to this automatically-collected information as “Device Information”. We collect Device Information using cookies. “Cookies” are data files that are placed on your device. For more information about cookies and how to disable them, visit <a class="post-link" href="http://www.allaboutcookies.org">http://www.allaboutcookies.org</a>.</p>	 
+	    <p>When you visit the Dream Matter Labs website, we collect certain information about your device and browsing behavior. This may include your IP address, browser type, pages viewed, and the time spent on each page. This "Device Information" helps us understand how visitors use our site and improve their experience.</p>
 
-            <p>We do this using <a class="post-link" href="https://www.google.com/intl/en/policies/privacy/">Google Analytics</a>, you can opt out <a class="post-link" href="https://tools.google.com/dlpage/gaoptout">here</a>.</p>
-            {% else %}
-            <p>We do not collect any of your personal data nor make use of cookies.</p>
+	    <p>We collect this information using cookies which are small data files stored on your device. For more general information about cookies, visit <a class="post-link" href="http://www.allaboutcookies.org">www.allaboutcookies.org</a>.</p>
+
+	    <p>Additionally, we use Google Analytics to help us understand how visitors interact with our website. Google Analytics collects information in a way that does not directly identify anyone and anonymizes IP addresses where possible. For more information on how Google collects and processes data, visit <a class="post-link" href="https://www.google.com/intl/en/policies/privacy/">Google’s Privacy & Terms</a>.</p>
+
+	    <p>We only use analytics cookies with your consent. You can choose to accept or reject non-essential cookies when you first visit the site. You may also opt out of Google Analytics tracking <a class="post-link" href="https://tools.google.com/dlpage/gaoptout">here</a> or by installing the Google Analytics Opt-out Browser Add-on.</p>
             {% endif %}
         </div>
     </article>
