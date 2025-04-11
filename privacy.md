@@ -17,7 +17,7 @@ permalink: /privacy/
 	 
 	    <h2 class="post-heading">Data Collection</h2>
       
-	    <p>When you visit the Dream Matter Labs website, we collect certain information about your device and browsing behavior. This may include your IP address, browser type, pages viewed, and the time spent on each page. This "Device Information" helps us understand how visitors use our site and is only used to improve their experience.</p>
+	    <p>When you visit the Dream Matter Labs website, we collect certain information about your device and browsing behavior. This may include your IP address, browser type, pages viewed, and the time spent on each page. This "Device Information" helps us understand how visitors use our site and is <b>only</b> used to improve our content.</p>
 
 	    <p>We collect this information using cookies which are small data files stored on your device. For more general information about cookies, visit <a class="post-link" href="http://www.allaboutcookies.org">www.allaboutcookies.org</a>.</p>
 
@@ -27,7 +27,7 @@ permalink: /privacy/
 
 	    <h2 class="post-heading">Contact Us</h2>
 
-            <p>If you have questions or complaints, please contact us at <a class="post-link" href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>		 
+            <p>If you have any questions or complaints, please contact us at <a class="post-link" href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>		 
         </div>
     </article>
 </section>
