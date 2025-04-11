@@ -1,0 +1,40 @@
+<section>
+    <div id="consent-banner" class="fixed-bottom text-white d-flex justify-content-between align-items-center" style="z-index: 1050; height: 100px; background-color: #541C6C">
+        <span>This website uses cookies for Google Analytics. Do you consent?</span>
+        <div>
+            <button class="btn btn-success btn-sm me-2" onclick="handleConsent(true)">Accept</button>
+            <button class="btn btn-secondary btn-sm" onclick="handleConsent(false)">Decline</button>
+        </div>
+    </div>
+
+    <script>
+        function handleConsent(consent) {
+            localStorage.setItem('ga-consent', consent ? 'granted' : 'denied');
+            document.getElementById('consent-banner').style.display = 'none';
+            if (consent) {
+                loadGoogleAnalytics();
+            }
+        }
+
+        function loadGoogleAnalytics() {
+            const scriptTag = document.createElement('script');
+            scriptTag.src = 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX';
+            scriptTag.async = true;
+            document.head.appendChild(scriptTag);
+
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'G-XXXXXXX');
+        }
+
+        (function checkConsent() {
+            const consent = localStorage.getItem('ga-consent');
+            if (consent === 'granted') {
+                loadGoogleAnalytics();
+            } else if (consent === 'denied') {
+                document.getElementById('consent-banner').style.display = 'none';
+            }
+        })();
+    </script>
+</section>
