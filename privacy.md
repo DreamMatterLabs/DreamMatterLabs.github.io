@@ -21,7 +21,7 @@ permalink: /privacy/
 
             <p>This may include your IP address, browser type, pages viewed, and the time spent on each page. This "Device Information" helps us understand how visitors use our site and what content they find most interesting.</p>
 
-	    <p>Moreover, we do this through Google Analytics, which collects information in a way that does not directly identify anyone and anonymizes IP addresses where possible. For more information on how Google collects and processes data, visit <a class="post-link" href="https://www.google.com/intl/en/policies/privacy/">Google’s Privacy & Terms</a>.</p>
+	    <p>Moreover, we do this through Google Analytics, which collects information in a way that does not directly identify anyone and anonymizes IP addresses where possible. For more information on how Google collects and processes data, visit their <a class="post-link" href="https://www.google.com/intl/en/policies/privacy/">privacy policy</a>.</p>
 
             <a class="btn btn-rounded w-100 overflow-hidden text-nowrap text-truncate" style="margin-bottom: 15px" href="https://tools.google.com/dlpage/gaoptout" target="_blank">Click here to opt out</a>
 
