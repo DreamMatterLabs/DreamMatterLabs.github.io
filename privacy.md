@@ -19,7 +19,7 @@ permalink: /privacy/
       
 	    <p>We strictly use analytics cookies that allow us to track website traffic and improve our content. Specifically, these are <a class="post-link" href="http://www.allaboutcookies.org" target="_blank">cookies</a> (i.e. small data files stored on your device) that collect information about your device and how you interact with our website.</p>
 
-            <p>This may include your IP address, browser type, pages viewed, and the time spent on each page. This "Device Information" helps us understand how visitors use our site and what content they find most interesting.</p>
+            <p>This may include your IP address, browser type, pages viewed, and the time spent on each page. This information helps us understand how visitors use our site and what content they find most interesting.</p>
 
 	    <p>Moreover, we do this through Google Analytics, which collects information in a way that does not directly identify anyone and anonymizes IP addresses where possible. For more information on how Google collects and processes data, visit their <a class="post-link" href="https://www.google.com/intl/en/policies/privacy/">privacy policy</a>.</p>
 
