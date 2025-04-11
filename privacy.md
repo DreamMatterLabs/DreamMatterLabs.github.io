@@ -65,6 +65,7 @@ permalink: /privacy/
         font-weight: bold;
         font-size: 1.5rem;
         margin-bottom: 15px;
+        margin-top: 30px;
     }
 
     .post-link {
