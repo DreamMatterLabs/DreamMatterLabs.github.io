@@ -13,15 +13,15 @@ permalink: /privacy/
         <div class="post-content">
 	    <h2 class="post-heading">Overview</h2>
 
-	    <p>This privacy policy applies to the website of Dream Matter Labs (“we” / “us”) and will carefully outline our practices regarding your personal information. Do note that we may update this from time to time based on operational, regulatory, or legal reasons.</p>
+	    <p>This privacy policy applies to the website of Dream Matter Labs (“we” / “us”) and carefully outlines our practices regarding your personal information. Do note that we may update this from time to time based on operational, regulatory, or legal reasons.</p>
 	 
 	    <h2 class="post-heading">Data Collection</h2>
       
-	    <p>At Dream Matter Labs, we strictly use analytics cookies that allow us to track website traffic and improve our content. Specifically, these are cookies (i.e. small data files stored on your device) that collect general information about your device and how you interact with our website. 
+	    <p>We strictly use analytics cookies that allow us to track website traffic and improve our content. Specifically, these are cookies (i.e. small data files stored on your device) that collect information about your device and how you interact with our website.</p>
 
             <p>This may include your IP address, browser type, pages viewed, and the time spent on each page. This "Device Information" helps us understand how visitors use our site and what content they find most interesting.</p>
 
-	    <p>In particular, we do this through Google Analytics, which collects information in a way that does not directly identify anyone and anonymizes IP addresses where possible. For more information on how Google collects and processes data, visit <a class="post-link" href="https://www.google.com/intl/en/policies/privacy/">Google’s Privacy & Terms</a>.</p>
+	    <p>Moreover, we do this through Google Analytics, which collects information in a way that does not directly identify anyone and anonymizes IP addresses where possible. For more information on how Google collects and processes data, visit <a class="post-link" href="https://www.google.com/intl/en/policies/privacy/">Google’s Privacy & Terms</a>.</p>
 
             <a class="btn btn-rounded w-100 overflow-hidden text-nowrap text-truncate" style="margin-bottom: 15px" href="https://tools.google.com/dlpage/gaoptout">Click here to opt out</a>
 
