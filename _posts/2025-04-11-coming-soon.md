@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "COMING SOON"
-author: Dream Matter Labs
+author: Joël
 banner: /assets/img/blog/blogpost_3.jpg
-preview: "COMING SOON"
+preview: ""
 ---
 <h2 class="post-heading">COMING SOON</h2>
