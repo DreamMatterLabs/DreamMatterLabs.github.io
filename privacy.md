@@ -13,7 +13,7 @@ permalink: /privacy/
         <div class="post-content">
 	    <h2 class="post-heading">Overview</h2>
 
-	    <p>This privacy policy applies to the website of Dream Matter Labs (“we” / “us”) and carefully outlines our practices regarding your personal information. Do note that we may update this from time to time based on operational, regulatory, or legal reasons.</p>
+	    <p>This privacy policy applies to the website of Dream Matter Labs (“we” / “us” / "our") and carefully outlines our practices regarding your personal information. Do note that we may update this from time to time based on operational, regulatory, or legal reasons.</p>
 	 
 	    <h2 class="post-heading">Data Collection</h2>
       
