@@ -23,13 +23,20 @@ permalink: /privacy/
 
 	    <p>Moreover, we do this through Google Analytics, which collects information in a way that does not directly identify anyone and anonymizes IP addresses where possible. For more information on how Google collects and processes data, visit their <a class="post-link" href="https://www.google.com/intl/en/policies/privacy/">privacy policy</a>.</p>
 
-            <a class="btn btn-rounded w-100 overflow-hidden text-nowrap text-truncate" style="margin-bottom: 15px" href="https://tools.google.com/dlpage/gaoptout" target="_blank">Click here to opt out</a>
+            <button class="btn btn-rounded w-100 overflow-hidden text-nowrap text-truncate" style="margin-bottom: 15px" onclick="handleConsent(false)">Click here to opt out</button>
 
 	    <h2 class="post-heading">Contact Us</h2>
 
             <p>If you have any questions or complaints, please contact us at <a class="post-link" href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>		 
         </div>
     </article>
+
+    <script>
+        function handleConsent(consent)
+        {
+            localStorage.setItem('ga-consent', 'denied');
+        }
+    </script>
 </section>
 
 <style>
