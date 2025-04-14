@@ -27,7 +27,7 @@ permalink: /privacy/
 
 	    <h2 class="post-heading">Contact Us</h2>
 
-            <p>If you have any questions or complaints, please contact us as <a class="post-link" href="mailto:{{ site.email }}">here</a>.</p>		 
+            <p>If you have any questions or complaints, please contact us <a class="post-link" href="mailto:{{ site.email }}">here</a>.</p>		 
         </div>
     </article>
 
