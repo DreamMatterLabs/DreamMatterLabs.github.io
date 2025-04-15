@@ -3,11 +3,7 @@
     <div class="container navbar-container align-items-center p-0" style="width: 95% !important; max-width: none !important">
         <!-- Logo -->
         <a class="navbar-brand js-scroll-trigger m-0" href="#page-top">
-            {%- if site.logo -%}
             <img height="{{ site.logo.height | default: 52 }}" src="{{ site.baseurl }}/assets/img/dreammatterlabs-logo.png" alt="Dream Matter Labs logo." />
-            {%- else -%}
-            {{ site.title }}
-            {%- endif -%}
         </a>
 
         <!-- Mobile Toggle Button -->
@@ -22,13 +18,13 @@
                     {% for link in site.data.navigation[site.locale].nav %}
                         {% if link.newTab %}
                         <li class="nav-item dynamicWidth">
-                            <a class="nav-link js-scroll-trigger p-0 dynamicHeight" style="font-family: Montserrat" href="{{ link.url }}" target="_blank">
+                            <a class="nav-link js-scroll-trigger dynamicHeight" style="font-family: Montserrat" href="{{ link.url }}" target="_blank">
                                 {{ link.title }}
                             </a>
                         </li>
                         {% else %}
                         <li class="nav-item dynamicWidth">
-                            <a class="nav-link js-scroll-trigger p-0 dynamicHeight" style="font-family: Montserrat" href="{{ link.url }}">
+                            <a class="nav-link js-scroll-trigger dynamicHeight" style="font-family: Montserrat" href="{{ link.url }}">
                                 {{ link.title }}
                             </a>
                         </li>
@@ -38,13 +34,13 @@
                     {% for link in site.data.navigation.nav %}
                         {% if link.newTab %}
                         <li class="nav-item dynamicWidth">
-                            <a class="nav-link js-scroll-trigger p-0 dynamicHeight" style="font-family: Montserrat" href="{{ link.url }}" target="_blank">
+                            <a class="nav-link js-scroll-trigger dynamicHeight" style="font-family: Montserrat" href="{{ link.url }}" target="_blank">
                                 {{ link.title }}
                             </a>
                         </li>
                         {% else %}
                         <li class="nav-item dynamicWidth">
-                            <a class="nav-link js-scroll-trigger p-0 dynamicHeight" style="font-family: Montserrat" href="{{ link.url }}">
+                            <a class="nav-link js-scroll-trigger dynamicHeight" style="font-family: Montserrat" href="{{ link.url }}">
                                 {{ link.title }}
                             </a>
                         </li>
@@ -70,6 +66,7 @@
             align-items: center;
             display: flex;
             margin-left: auto !important;
+            padding: 0 0 0 10px !important;
         }
 
         @media (min-width: 768px) {
@@ -78,6 +75,7 @@
                 align-items: center;
                 display: flex;
                 margin: auto !important;
+                padding: 0 !important;
             }
         }
 
