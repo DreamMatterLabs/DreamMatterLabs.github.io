@@ -23,4 +23,4 @@ Here, we’ll document our process with you in the hopes that you’ll be able t
 
 <h2 class="post-heading">Want to stay updated?</h2>
 
-<a class="post-link" href="https://discord.gg/XAYvJhkkqE">Join our Discord</a> to stay up to date and get informed whenever a new post goes live! We place high importance on our community and welcome any feedback from you with open arms. If there’s anything you’d like to see here, let us know!
+<a class="post-link" href="https://discord.gg/XAYvJhkkqE">Join our Discord</a> to stay up to date and get informed whenever a new post goes live! We place high importance on our community and welcome any feedback from you with open arms. If there’s anything you’d like to change or see here, let us know!
