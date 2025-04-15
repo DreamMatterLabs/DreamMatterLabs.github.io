@@ -50,12 +50,12 @@
             </ul>
 
             <!-- Social Icons -->
-            <div class="social-icons d-flex g-4 g-md-0 gap-md-4 dynamicWidth">
-                <a class="text-decoration-none dynamicHeight" href="https://x.com/DreamMatterLabs" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                <a class="text-decoration-none dynamicHeight" href="https://bsky.app/profile/dreammatterlabs.bsky.social" target="_blank" aria-label="Bluesky"><i class="fa fa-bskyicon"></i></a>
-                <a class="text-decoration-none dynamicHeight" href="https://www.linkedin.com/company/dreammatterlabs" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                <a class="text-decoration-none dynamicHeight" href="https://www.youtube.com/@DreamMatterLabs" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                <a class="text-decoration-none dynamicHeight" href="https://discord.gg/XAYvJhkkqE" target="_blank" aria-label="Discord"><i class="fab fa-discord "></i></a>
+            <div class="social-icons d-flex g-4 g-md-0 gap-md-4 dynamicWidthSocial">
+                <a class="text-decoration-none dynamicHeightSocial" href="https://x.com/DreamMatterLabs" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a class="text-decoration-none dynamicHeightSocial" href="https://bsky.app/profile/dreammatterlabs.bsky.social" target="_blank" aria-label="Bluesky"><i class="fa fa-bskyicon"></i></a>
+                <a class="text-decoration-none dynamicHeightSocial" href="https://www.linkedin.com/company/dreammatterlabs" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a class="text-decoration-none dynamicHeightSocial" href="https://www.youtube.com/@DreamMatterLabs" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a class="text-decoration-none dynamicHeightSocial" href="https://discord.gg/XAYvJhkkqE" target="_blank" aria-label="Discord"><i class="fab fa-discord "></i></a>
             </div>
         </div>
     </div>
@@ -79,6 +79,22 @@
             }
         }
 
+        .dynamicHeightIcon {
+            height: 60px;
+            align-items: center;
+            display: flex;
+            margin-left: auto !important;
+        }
+
+        @media (min-width: 768px) {
+            .dynamicHeightIcon {
+                height: 100px;
+                align-items: center;
+                display: flex;
+                margin: auto !important;
+            }
+        }
+
         .dynamicWidth {
             width: 100%;
             text-align: left;
@@ -88,6 +104,20 @@
             .dynamicWidth {
                 width: auto;
                 text-align: center;
+            }
+        }
+
+        .dynamicWidthSocial {
+            width: 100%;
+            text-align: left;
+            padding: 0 20px 0 20px !important;
+        }
+
+        @media (min-width: 768px) {
+            .dynamicWidthSocial {
+                width: auto;
+                text-align: center;
+                padding: 0 !important;
             }
         }
     </style>
