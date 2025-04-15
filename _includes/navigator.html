@@ -13,7 +13,7 @@
 
         <!-- Navbar Items -->
         <div class="collapse navbar-collapse gap-5" id="navbarResponsive">
-            <ul class="navbar-nav ms-auto align-items-center gap-4">
+            <ul class="navbar-nav ms-auto align-items-center gap-md-4">
                 {% if site.locale and site.locale != "" and site.locale != nil %}
                     {% for link in site.data.navigation[site.locale].nav %}
                         {% if link.newTab %}
