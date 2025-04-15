@@ -3,7 +3,7 @@ layout: post
 title: "Introducing ONEiRA: Our Debut Game"
 author: Dream Matter Labs
 banner: /assets/img/blog/blogpost_3.jpg
-preview: "A narrative-driven puzzle-platformer where choices matter."
+preview: "A narrative-driven puzzle-platformer where your choices matter."
 ---
 <h2 class="post-heading">Introducing Our Debut Game!</h2>
 
