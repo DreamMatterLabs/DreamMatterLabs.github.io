@@ -17,4 +17,6 @@ Here, we’ll document our process with you in the hopes that you’ll be able t
 - Dev diaries from our team (and maybe some ramblings from me 👀)
 - Insights about running an indie studio and entering the game industry
 - Marketing experiments, player feedback, and community-driven decisions
-- Occasional chaos and cat gifs 🐾
+- Occasional chaos and cat stuff 🐾
+
+<img class="img-fluid post-image" src="/assets/img/blog/cat.jpg">
