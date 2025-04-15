@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "What to Expect From This Blog"
+title: "What to Expect From Our Blog"
 author: Joël
 banner: /assets/img/blog/blogpost_3.jpg
 preview: "Our cozy corner of the internet where we’ll share what’s going on behind the scenes."
 ---
-<h2 class="post-heading">A Little Bit About This Blog</h2>
+<h2 class="post-heading">A Little Bit About Our Blog</h2>
 
 This blog is our cozy corner of the internet where we’ll share what’s going on behind the scenes. Whether you’re a fellow dev, trying to enter the game industry, or just someone who just loves surreal, narrative-driven experiences—you’re in the right place!
 
@@ -19,4 +19,4 @@ Here, we’ll document our process with you in the hopes that you’ll be able t
 - Marketing experiments, player feedback, and community-driven decisions
 - Occasional chaos and cat stuff 🐾
 
-<img class="img-fluid post-image" src="/assets/img/blog/cat.jpg">
+<img class="img-fluid post-image w-50" src="/assets/img/blog/cat.jpg">
