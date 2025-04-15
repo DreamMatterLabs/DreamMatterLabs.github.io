@@ -7,7 +7,7 @@ preview: "Our cozy corner of the internet where we’ll share what’s going on 
 ---
 <h2 class="post-heading">A Little Bit About Our Blog</h2>
 
-This blog is our cozy corner of the internet where we’ll share what’s going on behind the scenes. Whether you’re a fellow dev, trying to enter the game industry, or just someone who just loves surreal, narrative-driven experiences—you’re in the right place!
+This blog is our cozy corner of the internet where we’ll share what’s going on behind the scenes. Whether you’re a fellow dev, trying to enter the game industry, or just someone who just loves surreal, narrative-driven indie games—you’re in the right place!
 
 Here, we’ll document our process with you in the hopes that you’ll be able to learn alongside us and enjoy being brought along for this adventure. Our goal is to supply you with a fresh new post every Friday…because Friday is simply the best day of the week.
 
@@ -16,7 +16,7 @@ Here, we’ll document our process with you in the hopes that you’ll be able t
 - Deep dives into the development of <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a>
 - Dev diaries from our team (and maybe some ramblings from me 👀)
 - Insights about running an indie studio and entering the game industry
-- Marketing experiments, player feedback, and community-driven decisions
+- Marketing lessons, player feedback, and community-driven decisions
 - Occasional chaos and cat stuff 🐾
 
 <img class="img-fluid post-image w-50" src="/assets/img/blog/cat.jpg">
