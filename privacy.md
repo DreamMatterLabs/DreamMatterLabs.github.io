@@ -101,10 +101,9 @@ permalink: /privacy/
 	
     .post-heading {
 	color: white;
+        font-size: 1.50rem;
         font-weight: bold;
-        font-size: 1.5rem;
-        margin-bottom: 15px;
-        margin-top: 30px;
+        margin: 25px 0 25px 0;
     }
 
     .post-link {
