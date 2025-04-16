@@ -5,7 +5,7 @@ author: Dream Matter Labs
 banner: /assets/img/blog/blogpost_3.jpg
 preview: "A narrative-driven puzzle-platformer where your choices matter."
 ---
-<h2 class="post-heading">Introducing Our Debut Game!</h2>
+<h2 class="post-h2">Introducing Our Debut Game!</h2>
 
 **4 April, 2025**—For the past year, our team has been working tirelessly on something truly special: <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a>—a narrative-driven puzzle-platformer where your choices matter. Step into a world where dreams are sold as entertainment and you're the underpaid maintenance worker making sure each experience is market-ready.
 

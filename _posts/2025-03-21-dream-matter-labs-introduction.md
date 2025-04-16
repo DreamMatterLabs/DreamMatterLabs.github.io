@@ -5,7 +5,7 @@ author: Dream Matter Labs
 banner: /assets/img/blog/blogpost_1.jpg
 preview: "We're a brand-new indie studio focused on bringing dreams to life."
 ---
-<h2 class="post-heading">Hello World!</h2>
+<h2 class="post-h2">Hello World!</h2>
 
 **21 March, 2025**—As a group of juniors, we have experienced firsthand how exhausting it is to break into the game industry nowadays. What was once a welcoming place filled with experimentation and unconventionality, has now shut its doors to those trying to get in and become a place deprived of these very same qualities.
 
