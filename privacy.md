@@ -10,7 +10,7 @@ permalink: /privacy/
             <p class="post-meta">March 24, 2025 ✧˚- Dream Matter Labs</p>
         </header>
 
-        <div class="post-content">
+        <div class="post-content" style="color: #f1e1f7">
 	    <h2 class="post-heading">Overview</h2>
 
 	    <p>This privacy policy applies to the website of Dream Matter Labs (“we” / “us” / "our") and carefully outlines our practices regarding your personal information. Do note that we may update this from time to time based on operational, regulatory, or legal reasons.</p>
@@ -100,6 +100,7 @@ permalink: /privacy/
     }
 	
     .post-heading {
+	color: white;
         font-weight: bold;
         font-size: 1.5rem;
         margin-bottom: 15px;
