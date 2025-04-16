@@ -23,7 +23,7 @@ permalink: /privacy/
 
 	    <p>Moreover, we do this through Google Analytics, which collects information in a way that does not directly identify anyone and anonymizes IP addresses where possible. For more information on how Google collects and processes data, visit their <a class="post-link" href="https://www.google.com/intl/en/policies/privacy/">privacy policy</a>.</p>
 
-            <button id="btn-consent" class="btn btn-rounded w-100 overflow-hidden text-nowrap text-truncate" style="margin-bottom: 15px" onclick="toggleConsent()">Click here to opt out</button>
+            <button id="btn-consent" class="btn btn-rounded w-100 overflow-hidden text-nowrap text-truncate" style="margin-top: 16px" onclick="toggleConsent()">Click here to opt out</button>
 
 	    <h2 class="post-heading">Contact Us</h2>
 
@@ -103,7 +103,7 @@ permalink: /privacy/
 	color: white;
         font-size: 1.50rem;
         font-weight: bold;
-        margin: 25px 0 25px 0;
+        margin: 32px 0 16px 0;
     }
 
     .post-link {
