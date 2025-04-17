@@ -11,7 +11,7 @@ preview: "We're joining the Cave Bear Games Partner Studio Program!"
 
 This means that if you are a fellow indie developer or simply someone aspiring to enter the game industry like us, we want to help you achieve your dreams. Fortunately, Cave Bear Games shares part of this mission and helps us with shaking up the game industry. 
 
-Specifically, they’re creating opportunities to help the next generation of game industry talent with landing their first job. As a result, we’re joining their Partner Studio Program—combining our strengths to share insights, pool resources, and challenge how things are done. 
+Specifically, they’re actively creating opportunities to help juniors with landing their first job. As a result, we’re joining their Partner Studio Program—combining our strengths to share insights, pool resources, and challenge how things are done. 
 
 This way, as we work on our games and navigate the saturated marketplace as a fully independent studio, we aim to create a supportive community where we get to help others like us. Here, we will try our best to help you out, regardless of your discipline. 
 
