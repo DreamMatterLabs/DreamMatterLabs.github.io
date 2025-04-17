@@ -15,6 +15,6 @@ Specifically, they’re actively creating opportunities to help juniors with lan
 
 This way, as we work on our games and navigate the saturated marketplace as a fully independent studio, we aim to create a supportive community where we get to help others like us. Here, we will try our best to help you out, regardless of your discipline. 
 
-For now, feel free to check out our Discord where we are frequently posting new insights and resources, or follow this blog to be fully up to date with all our developments! This is only the beginning so stay tuned as we have some cool stuff cooking up.
+For now, feel free to check out our socials where we are frequently posting new insights and resources, or follow this blog to be fully up to date with all our developments! This is only the beginning so stay tuned as we have some cool stuff cooking up.
 
 If you want to be part of this community, <a class="post-link" href="https://discord.gg/XAYvJhkkqE">join us on Discord</a>!
