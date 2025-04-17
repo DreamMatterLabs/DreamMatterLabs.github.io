@@ -7,7 +7,7 @@ preview: "A narrative-driven puzzle-platformer where your choices matter."
 ---
 <h2 class="post-h2">Introducing Our Debut Game!</h2>
 
-**4 April, 2025**—For the past year, our team has been working tirelessly on something truly special: <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a>—a narrative-driven puzzle-platformer where your choices matter. Step into a world where dreams are sold as entertainment and you're the underpaid maintenance worker making sure each experience is market-ready.
+For the past year, our team has been working tirelessly on something truly special: <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a>—a narrative-driven puzzle-platformer where your choices matter. Step into a world where dreams are sold as entertainment and you're the underpaid maintenance worker making sure each experience is market-ready.
 
 By entering and inspecting various virtual dreamscapes, you get to explore surreal, immersive environments that each contain a story waiting to be unraveled. Specifically, as you navigate the minds behind each dream, cryptic messages and lingering voices pull you deeper into a psychological mystery where the truth is waiting to be untangled.
 
