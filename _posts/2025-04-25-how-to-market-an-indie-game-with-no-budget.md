@@ -3,7 +3,7 @@ layout: post
 title: "How to Market an Indie Game with No Budget?"
 author: Joël
 banner: /assets/img/blog/blogpost_3.jpg
-preview: "DML GUIDE: A 5-step framework on how to market your indie game for free!"
+preview: "A 5-step framework on how to market your indie game for free!"
 ---
 <h2 class="post-h2">Great Question!</h2>
 
@@ -42,7 +42,7 @@ In case your game is nearly finished, this USP could help you focus your efforts
 
 <h2 class="post-h2">3. Develop a Content Strategy</h2>
 
-if you got this far, you should know **who** you’re talking to and **what** you’re talking about, allowing you to think about **how** to talk to them. Generally, this process is very specific to your own situation and the place for you to get creative, but I can give a few pointers.
+If you got this far, you should know **who** you’re talking to and **what** you’re talking about, allowing you to think about **how** to talk to them. Generally, this process is very specific to your own situation and the place for you to get creative, but I can give a few pointers.
 
 Firstly, understand what you’re trying to achieve. Is it gaining awareness, gathering feedback, or increasing your Steam wishlists? Then, think of content that allows you to accomplish that. This, alongside a strong CTA, will allow you to guide your audience.  
 
@@ -58,7 +58,7 @@ It might be tempting, but put yourself in the shoes of your target audience and 
 
 Heck, if you had to read a blogpost on how to market an indie game with no budget, I assume you’re either working by yourself or in a small team with plenty of work on your hands already. Just focus your efforts and spend your time and effort wisely.
 
-If you need a steam page, make a steam page; if you need a trailer, make a trailer; if you need an entire blog for the purpose of a crazy ambitious content marketing strategy, …maybe don’t. EITHER WAY, understand what’s important and prioritize that.
+If you need a steam page, make a steam page; if you need a trailer, make a trailer; if you need an entire blog for the purpose of a crazy ambitious content marketing strategy..., maybe don’t. EITHER WAY, understand what’s important and prioritize that.
 
 Additionally, understand what’s within your control. If you’re aiming to release your game on Steam, you can only really focus on wishlists. In that case, aim to get 7000 so that the Steam algorithm will actively push it out to people (and publish your store page asap!)
 
