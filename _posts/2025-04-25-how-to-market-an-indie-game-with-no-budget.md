@@ -72,6 +72,6 @@ Just don’t wait until your game is perfect before showing it off to your commu
 
 <h2 class="post-h2">Got Any Questions?</h2>
 
-<a class="post-link" href="https://discord.gg/XAYvJhkkqE">Join us on Discord</a> and ask away!
+<a class="post-link" href="https://discord.gg/XAYvJhkkqE">Join us on Discord</a> and ask away! Regardless, I hope you enjoyed this blogpost! We intend to post here every Friday and will share whenever a new post is live on our socials! If there's anything you want to see specifically, let us know! 
 
-Regardless, I really hope you enjoyed this blogpost! We intend to post here every Friday and will share whenever a new post is live on our socials! If there's anything you want to see specifically, let us know! Additionally, check out ONEiRA's new steam page!
+Additionally, <a class="post-link" href="https://store.steampowered.com/app/3521080/ONEiRA/?utm_source=website&utm_medium=other&utm_campaign=wishlist&utm_content=blogpost_5">check out ONEiRA's new Steam page</a>!
