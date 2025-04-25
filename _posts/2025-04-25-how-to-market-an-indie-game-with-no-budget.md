@@ -54,6 +54,8 @@ Before anything is put in motion, reflect on the previous steps and assess if wh
 
 It might be tempting, but put yourself in the shoes of your target audience and remind yourself of who and where they are. You could post on TikTok and stumble on some overworked Hay Day players, but you might just have a better chance on LinkedIn…
 
+<img class="img-fluid post-image w-100" src="/assets/img/blog/marketing-101-linkedin.jpg">
+
 Heck, if you had to read a blogpost on how to market an indie game with no budget, I assume you’re either working by yourself or in a small team with plenty of work on your hands already. Just focus your efforts and spend your time and effort wisely.
 
 If you need a steam page, make a steam page; if you need a trailer, make a trailer; if you need an entire blog for the purpose of a crazy ambitious content marketing strategy, …maybe don’t. EITHER WAY, understand what’s important and prioritize that.
