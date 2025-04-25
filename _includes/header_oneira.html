@@ -13,8 +13,7 @@
         {% if site.locale and site.locale != "" and site.locale != nil %}
             {%- if site.data.sitetext[site.locale].oneira.button -%}
             <div class="col d-flex align-items-start justify-content-center">
-                <a class="btn btn-oneira js-scroll-trigger"
-                   href="{{ site.data.sitetext[site.locale].oneira.buttonlink }}">
+                <a class="btn btn-oneira" href="{{ site.data.sitetext[site.locale].oneira.buttonlink }}" target="_blank">
                     {{ site.data.sitetext[site.locale].oneira.button }}
                 </a>
             </div>
@@ -22,8 +21,7 @@
         {% else %}
             {%- if site.data.sitetext.oneira.button -%}
             <div class="col d-flex align-items-start justify-content-center">
-                <a class="btn btn-oneira js-scroll-trigger"
-                   href="{{ site.data.sitetext.oneira.buttonlink }}">
+                <a class="btn btn-oneira" href="{{ site.data.sitetext.oneira.buttonlink }}" target="_blank">
                     {{ site.data.sitetext.oneira.button }}
                 </a>
             </div>
