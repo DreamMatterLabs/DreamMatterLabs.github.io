@@ -66,12 +66,16 @@ Additionally, understand what’s within your control. If you’re aiming to rel
 
 Lastly, with a marketing plan at your disposal, start interacting with people and invite them into the world that you’ve been creating! It’s crucial that you work on building a community of people that are willing to support your content and development.
 
-We can’t afford to spend thousands on advertising so we need to find ways to organically reach people and gain momentum. Even the most well-known indie games like Celeste and Stardew Valley stuck to this approach and I know that it can work for you too!
+We can’t afford to spend thousands on advertising so we need to find ways to organically reach people and gain momentum. Even the most well-known indie games like Celeste and Hollow Knight stuck to this approach and I know that it can work for you too!
 
 Just don’t wait until your game is perfect before showing it off to your community, simply invite them into the development process and embrace their feedback. This way, you get to draw people into your world and make them a part of it!
 
-<h2 class="post-h2">Got Any Questions?</h2>
+<h2 class="post-h2">Summary</h2>
 
-<a class="post-link" href="https://discord.gg/XAYvJhkkqE">Join us on Discord</a> and ask away! Regardless, I hope you enjoyed this blogpost! We intend to post here every Friday and will share whenever a new post is live on our socials! If there's anything you want to see specifically, let us know! 
+With this 5-step framework, I hope to have provided you with an actionable plan that allows you to kickstart your marketing succesfully! There's no one-size-fits-all approach to marketing so don't panic if you feel like you're doing it incorrectly.
 
-Additionally, <a class="post-link" href="https://store.steampowered.com/app/3521080/ONEiRA/?utm_source=website&utm_medium=other&utm_campaign=wishlist&utm_content=blogpost_5">check out ONEiRA's new Steam page</a>!
+As long as you know your audience, your game's USP, and have a content strategy to reach these people and build up a community, you're on the right track. Though, if you have any questions, <a class="post-link" href="https://discord.gg/XAYvJhkkqE">join us on Discord</a> and ask away!
+
+Regardless, I really hope you enjoyed this blogpost. We intend to post here every Friday and will share whenever a new post is live on our socials! And as always, if there's anything you want to see specifically, let us know ;)
+
+(PS: you can <a class="post-link" href="https://store.steampowered.com/app/3521080/ONEiRA/?utm_source=website&utm_medium=other&utm_campaign=wishlist&utm_content=blogpost_5" target="_blank">wishlist ONEiRA on Steam</a> starting today!)
