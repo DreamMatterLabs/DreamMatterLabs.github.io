@@ -5,8 +5,8 @@
 en: &DEFAULT_EN
   oneira:
     title: "ONEiRA"
-    button: "MEET THE TEAM"
-    buttonlink: "https://dreammatterlabs.com/about/"
+    button: "WISHLIST NOW"
+    buttonlink: "https://store.steampowered.com/app/3521080/ONEiRA/?utm_source=website&utm_medium=other&utm_campaign=wishlist&utm_content=header"
     CTA: "JOIN OUR DISCORD TO FOLLOW DEVELOPMENT"
     content:
       - title: "Explore Surreal, Immersive Dreamscapes"
@@ -28,7 +28,7 @@ en: &DEFAULT_EN
         link: '#p3'
         layout: "left"     
       - title: "A Mix of Puzzles, Platforming & Exploration"
-        desc: "ONEiRA is a narrative-driven puzzle-platformer that blends immersive storytelling with unique mechanics. Collect exciting abilities that help you solve puzzles, traverse obstacles, and explore the ever-shifting dreamscapes. Get ready to suit up and wishlist ONEiRA on Steam soon!"
+        desc: "ONEiRA is a narrative-driven puzzle-platformer that blends immersive storytelling with unique mechanics. Collect exciting abilities that help you solve puzzles, traverse obstacles, and explore the ever-shifting dreamscapes. Get ready to suit up and [wishlist ONEiRA on Steam now](https://store.steampowered.com/app/3521080/ONEiRA/?utm_source=website&utm_medium=other&utm_campaign=wishlist&utm_content=footer)!"
         image: /assets/img/oneira/picture_4.jpg
         alt:
         link: '#p4'
@@ -189,8 +189,8 @@ en-AU:
 es: &DEFAULT_ES
   oneira:
     title: "ONEiRA"
-    button: "MEET THE TEAM"
-    buttonlink: "https://dreammatterlabs.com/about/"
+    button: "WISHLIST NOW"
+    buttonlink: "https://store.steampowered.com/app/3521080/ONEiRA/?utm_source=website&utm_medium=other&utm_campaign=wishlist&utm_content=header"
     CTA: "JOIN OUR DISCORD TO FOLLOW DEVELOPMENT"
     content:
       - title: "Explore Surreal, Immersive Dreamscapes"
@@ -212,7 +212,7 @@ es: &DEFAULT_ES
         link: '#p3'
         layout: "left"     
       - title: "A Mix of Puzzles, Platforming & Exploration"
-        desc: "ONEiRA is a narrative-driven puzzle-platformer that blends immersive storytelling with unique mechanics. Collect exciting abilities that help you solve puzzles, traverse obstacles, and explore the ever-shifting dreamscapes. Get ready to suit up and wishlist ONEiRA on Steam soon!"
+        desc: "ONEiRA is a narrative-driven puzzle-platformer that blends immersive storytelling with unique mechanics. Collect exciting abilities that help you solve puzzles, traverse obstacles, and explore the ever-shifting dreamscapes. Get ready to suit up and [wishlist ONEiRA on Steam now](https://store.steampowered.com/app/3521080/ONEiRA/?utm_source=website&utm_medium=other&utm_campaign=wishlist&utm_content=footer)!"
         image: /assets/img/oneira/picture_4.jpg
         alt: 
         link: '#p4'

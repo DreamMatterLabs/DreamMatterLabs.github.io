@@ -20,8 +20,6 @@ en: &DEFAULT_EN
     - title: "PRESS KIT"
       url: https://drive.proton.me/urls/4KF4TVH6BW#biLotE7ERWMo
       newTab: true
-    - title: "STEAM PAGE"
-      url: https://store.steampowered.com/app/3521080/ONEiRA/
 en-US:
   <<: *DEFAULT_EN
 en-CA:
