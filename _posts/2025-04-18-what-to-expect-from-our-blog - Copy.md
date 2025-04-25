@@ -2,7 +2,7 @@
 layout: post
 title: "What to Expect From Our Blog"
 author: Joël
-banner: /assets/img/blog/blogpost_1.jpg
+banner: /assets/img/blog/blogpost_4.jpg
 preview: "Our cozy corner where we’ll share what’s going on behind the scenes."
 ---
 <h2 class="post-h2">A Little Bit About Our Blog</h2>
