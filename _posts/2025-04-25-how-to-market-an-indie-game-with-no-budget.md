@@ -72,10 +72,8 @@ Just don’t wait until your game is perfect before showing it off to your commu
 
 <h2 class="post-h2">Summary</h2>
 
-With this 5-step framework, I hope to have provided you with an actionable plan that allows you to kickstart your marketing succesfully! There's no one-size-fits-all approach to marketing so don't panic if you feel like you're doing it incorrectly.
+With this 5-step framework, I hope to have provided you with an actionable plan that allows you to kickstart your marketing succesfully! There's no one-size-fits-all approach to marketing so don't panic if you feel like you're doing it wrong
 
-As long as you know your audience, your game's USP, and have a content strategy to reach these people and build up a community, you're on the right track. Though, if you have any questions, <a class="post-link" href="https://discord.gg/XAYvJhkkqE">join us on Discord</a> and ask away!
-
-Regardless, I really hope you enjoyed this blogpost. We intend to post here every Friday and will share whenever a new post is live on our socials! And as always, if there's anything you want to see specifically, let us know ;)
+As long as you know your audience, your game's USP, and have a general content strategy to reach these people and build up a community, you're on the right track. However, if you have any questions, <a class="post-link" href="https://discord.gg/XAYvJhkkqE">join us on Discord</a> and ask away!
 
 (PS: you can <a class="post-link" href="https://store.steampowered.com/app/3521080/ONEiRA/?utm_source=website&utm_medium=other&utm_campaign=wishlist&utm_content=blogpost_5" target="_blank">wishlist ONEiRA on Steam</a> starting today!)
