@@ -69,3 +69,9 @@ Lastly, with a marketing plan at your disposal, start interacting with people an
 We can’t afford to spend thousands on advertising so we need to find ways to organically reach people and gain momentum. Even the most well-known indie games like Celeste and Stardew Valley stuck to this approach and I know that it can work for you too!
 
 Just don’t wait until your game is perfect before showing it off to your community, simply invite them into the development process and embrace their feedback. This way, you get to draw people into your world and make them a part of it!
+
+<h2 class="post-h2">Got Any Questions?</h2>
+
+<a class="post-link" href="https://discord.gg/XAYvJhkkqE">Join us on Discord</a> and ask away!
+
+Regardless, I really hope you enjoyed this blogpost! We intend to post here every Friday and will share whenever a new post is live on our socials! If there's anything you want to see specifically, let us know! Additionally, check out ONEiRA's new steam page!
