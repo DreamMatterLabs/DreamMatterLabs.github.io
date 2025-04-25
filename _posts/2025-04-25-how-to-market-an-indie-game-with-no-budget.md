@@ -5,7 +5,7 @@ author: Joël
 banner: /assets/img/blog/blogpost_3.jpg
 preview: "Coming soon..."
 ---
-<h2 class="post-h2">Great Question</h2>
+<h2 class="post-h2">Great Question!</h2>
 
 If I had to take a wild guess, you’re someone working on your own game and bumped into the inevitable marketing process with no idea where to start. And I get it. Before I did marketing, I developed games by myself for about 10 years until I made my career pivot.
 
@@ -62,7 +62,7 @@ Additionally, understand what’s within your control. If you’re aiming to rel
 
 <h2 class="post-h2">5. Build a Community</h2>
 
-Lastly, with a marketing plan at your disposal, start interacting with people and invite them into the world that you’ve been creating! It’s crucial that you work on building a community of people that are willing to support your development and help spread the word.
+Lastly, with a marketing plan at your disposal, start interacting with people and invite them into the world that you’ve been creating! It’s crucial that you work on building a community of people that are willing to support your content and development.
 
 We can’t afford to spend thousands on advertising so we need to find ways to organically reach people and gain momentum. Even the most well-known indie games like Celeste and Stardew Valley stuck to this approach and I know that it can work for you too!
 
