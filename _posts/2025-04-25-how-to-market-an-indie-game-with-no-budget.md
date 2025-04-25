@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to market an indie game with no budget?"
+title: "How to Market an Indie Game with No Budget?"
 author: Joël
 banner: /assets/img/blog/blogpost_3.jpg
 preview: "Coming soon..."
