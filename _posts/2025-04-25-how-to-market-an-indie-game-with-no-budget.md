@@ -72,7 +72,7 @@ Just don’t wait until your game is perfect before showing it off to your commu
 
 <h2 class="post-h2">Summary</h2>
 
-With this 5-step framework, I hope to have provided you with an actionable plan that allows you to kickstart your marketing succesfully! There's no one-size-fits-all approach to marketing so don't panic if you feel like you're doing it wrong
+With this 5-step framework, I hope to have provided you with an actionable plan that allows you to kickstart your marketing succesfully! There's no one-size-fits-all approach to marketing so don't panic if you feel like you're doing it wrong.
 
 As long as you know your audience, your game's USP, and have a general content strategy to reach these people and build up a community, you're on the right track. However, if you do have any questions, <a class="post-link" href="https://discord.gg/XAYvJhkkqE">join us on Discord</a> and ask away!
 
