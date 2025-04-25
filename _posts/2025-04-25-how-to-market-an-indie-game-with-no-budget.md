@@ -2,7 +2,7 @@
 layout: post
 title: "How to Market an Indie Game with No Budget?"
 author: Joël
-banner: /assets/img/blog/blogpost_3.jpg
+banner: /assets/img/blog/blogpost_5.jpg
 preview: "A 5-step framework on how to market your indie game for free!"
 ---
 <h2 class="post-h2">Great Question!</h2>
@@ -54,7 +54,7 @@ Before anything is put in motion, reflect on the previous steps and assess if wh
 
 It might be tempting, but put yourself in the shoes of your target audience and remind yourself of who and where they are. You could post on TikTok and stumble on some overworked Hay Day players, but you might just have a better chance on LinkedIn…
 
-<img class="img-fluid post-image w-50" src="/assets/img/blog/marketing-101-linkedin.jpg">
+<img class="img-fluid post-image w-50" src="/assets/img/blog/linkedin_post_1.jpg">
 
 Heck, if you had to read a blogpost on how to market an indie game with no budget, I assume you’re either working by yourself or in a small team with plenty of work on your hands already. Just focus your efforts and spend your time and effort wisely.
 
