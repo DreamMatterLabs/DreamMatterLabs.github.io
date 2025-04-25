@@ -54,7 +54,7 @@ Before anything is put in motion, reflect on the previous steps and assess if wh
 
 It might be tempting, but put yourself in the shoes of your target audience and remind yourself of who and where they are. You could post on TikTok and stumble on some overworked Hay Day players, but you might just have a better chance on LinkedIn…
 
-<img class="img-fluid post-image w-100" src="/assets/img/blog/marketing-101-linkedin.jpg">
+<img class="img-fluid post-image w-50" src="/assets/img/blog/marketing-101-linkedin.jpg">
 
 Heck, if you had to read a blogpost on how to market an indie game with no budget, I assume you’re either working by yourself or in a small team with plenty of work on your hands already. Just focus your efforts and spend your time and effort wisely.
 
@@ -68,4 +68,4 @@ Lastly, with a marketing plan at your disposal, start interacting with people an
 
 We can’t afford to spend thousands on advertising so we need to find ways to organically reach people and gain momentum. Even the most well-known indie games like Celeste and Stardew Valley stuck to this approach and I know that it can work for you too!
 
-Just don’t wait until your game or feature is perfect before showing it off to your community, simply invite them into the development process and embrace their feedback. This way, you get to draw people into your world and make them a part of it!
+Just don’t wait until your game is perfect before showing it off to your community, simply invite them into the development process and embrace their feedback. This way, you get to draw people into your world and make them a part of it!
