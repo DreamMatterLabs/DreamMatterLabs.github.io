@@ -11,7 +11,7 @@ If I had to take a wild guess, you’re someone working on your own game and bum
 
 Personally, I never really bothered much with marketing at the time, as I simply believed that If I made a game that’s great, surely it would sell itself. In a way, I suppose that’s true when games like Schedule 1 seem to pull it off, but marketing isn't always conscious.
 
-<h2 class="post-h2">Picture This</h2>
+<h3 class="post-h3">Picture This</h3>
 
 Let’s say you have a great idea; you want to merge a farming sim with souls-like fighting mechanics (bless your heart). That’s marketing right there! You’ve essentially determined the USP of your game by building upon a popular genre with a unique twist.
 
