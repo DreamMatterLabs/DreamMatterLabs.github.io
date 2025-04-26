@@ -13,9 +13,9 @@ Personally, I never really bothered much with marketing at the time, as I simply
 
 <h3 class="post-h3">Picture This</h3>
 
-Let’s say you have a great idea; you want to merge a farming sim with souls-like fighting mechanics (bless your heart). That’s marketing right there! You’ve essentially determined the USP of your game by building upon a popular genre with a unique twist.
+Let’s say you have a great idea; you want to merge a farming sim with souls-like fighting mechanics (bless your heart). That’s marketing right there! You’ve essentially determined the <a class="post-link" href="https://blog.hubspot.com/sales/unique-selling-proposition" target="_blank">USP</a> of your game by building upon a popular genre with a unique twist.
 
-Whether conscious or unconscious, you’re bound to make marketing decisions that help put your game on the market and influence how people perceive it.  Now, with 8639 indie games released on Steam in 2024 alone, I want to help you stand out.
+Whether conscious or unconscious, you’re bound to make marketing decisions that help put your game on the market and influence how people perceive it.  Now, with <a class="post-link" href="https://steamdb.info/stats/releases/?tagid=492" target="_blank">8639</a> indie games released on Steam in 2024 alone, I want to help you stand out.
 
 <h2 class="post-h2">1. Identify Your Target Audience</h2>
 
@@ -23,7 +23,7 @@ All good marketing starts at pinpointing your target audience so you can make a 
 
 Think about it like this. With millions of games available online, why would people want to spend time and potentially money on yours? For this, you have to know what audience you cater to, and the more specific the better. Everything else then follows from this.
 
-I recommend using this classic segmentation method (using market data):
+I recommend using this <a class="post-link" href="https://www.investopedia.com/terms/m/marketsegmentation.asp" target="_blank">classic segmentation method</a> (using market data):
 
 - Demographic (e.g. age, gender, income)
 - Geographic (e.g. location, rural / urban / suburban) 
@@ -60,7 +60,7 @@ Heck, if you had to read a blogpost on how to market an indie game with no budge
 
 If you need a steam page, make a steam page; if you need a trailer, make a trailer; if you need an entire blog for the purpose of a crazy ambitious content marketing strategy..., maybe don’t. EITHER WAY, understand what’s important and prioritize that.
 
-Additionally, understand what’s within your control. If you’re aiming to release your game on Steam, you can only really focus on wishlists. In that case, aim to get 7000 so that the Steam algorithm will actively push it out to people (and publish your store page asap!).
+Additionally, understand what’s within your control. If you’re aiming to release your game on Steam, you can only really focus on wishlists. In that case, aim to get <a class="post-link" href="https://howtomarketagame.com/2024/01/29/do-wishlists-matter-any-more/" target="_blank">7000</a> so that the Steam algorithm will actively push it out to people (and publish your store page asap!).
 
 <h2 class="post-h2">5. Build a Community</h2>
 
