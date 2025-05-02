@@ -41,6 +41,6 @@ You might imagine that this then throws a wrench in the entire development pipel
 
 With most of the essentials out of the way, we are focusing our efforts on getting <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> ready for you all to playtest. After all, our community is most important to us and we can't wait to get your direct feedback on ONEiRA as soon as possible.
 
-In the meantime, I will spend more time on trying to get you all content that helps and delights you. I hope to kickstart our YouTube channel soon so we can show you the behind-the-scenes of ONEIRA and really dive deep into some of its features!
+In the meantime, I will spend more time on trying to get you all content that helps and delights you. Specifically, I want to kickstart our <a class="post-link" href="https://www.youtube.com/@DreamMatterLabs">YouTube channel</a> soon so we can show you the behind-the-scenes of <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> and dive deep into some of its features!
 
 In case you’re interested, <a class="post-link" href="https://discord.gg/XAYvJhkkqE">join us on Discord</a> to stay up to date!
