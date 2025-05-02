@@ -3,7 +3,7 @@ layout: post
 title: "Studio Update: April 2025"
 author: Joël
 banner: /assets/img/blog/blogpost_4.jpg
-preview: "An outline of what we've been working on last month"
+preview: "An outline of what we've been up to last month"
 ---
 <h2 class="post-h2">Hey There!</h2>
 
@@ -31,16 +31,16 @@ Specifically, just this month, we:
 
 <h2 class="post-h2">Pleasing the Steam Algorithm</h2>
 
-The Steam page in particular turned out to be a lot of work. For those unfamiliar, Steam puts indie studios in an awkward position as its algorithm rewards store pages that have been up for a long time and also include a trailer that properly shows off the game.
+The Steam page in particular turned out to be a lot of work. For those unfamiliar, Steam puts indie studios in an awkward position as its algorithm rewards pages that have been up for a long time and also include a trailer that properly shows off the game.
 
 This means that we can’t afford to wait until our game is ready for us to start showcasing it. Instead, we had to plan our trailer strategically and prioritize development on certain areas of <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> that we wanted to show off.
 
-You might imagine that this then throws a wrench in the entire development pipeline and puts a lot of pressure on getting this done quickly. Fortunately, most of this work is now behind us and I hope to be able to show you an official announcement trailer soon!
+You might imagine that this then throws a wrench in the development process and puts a lot of pressure on getting this done quickly. Fortunately, most of this work is now behind us and I hope to be able to show you an official announcement trailer soon!
 
 <h2 class="post-h2">What's Next?</h2>
 
 With most of the essentials out of the way, we are focusing our efforts on getting <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> ready for you all to playtest. After all, our community is most important to us and we can't wait to get your direct feedback on the game as soon as possible.
 
-In the meantime, I will spend more time on trying to get you all content that helps and delights you. Specifically, I want to kickstart our <a class="post-link" href="https://www.youtube.com/@DreamMatterLabs">YouTube channel</a> soon so we can show you the behind-the-scenes of <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> and dive deep into some of its features!
+In the meantime, I will spend more time on trying to get you all content that helps and delights you. Specifically, I want to kickstart our <a class="post-link" href="https://www.youtube.com/@DreamMatterLabs" target="_blank">YouTube channel</a> soon so we can show you the behind-the-scenes of <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> and dive deep into some of its features!
 
 In case you’re interested, <a class="post-link" href="https://discord.gg/XAYvJhkkqE">join us on Discord</a> to stay up to date!
