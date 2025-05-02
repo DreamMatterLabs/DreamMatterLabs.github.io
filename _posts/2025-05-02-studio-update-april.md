@@ -39,7 +39,7 @@ As a result, this then throws a wrench in the development process and puts a lot
 
 <h2 class="post-h2">What's Next?</h2>
 
-Currently, with most of the essentials out of the way, we are focusing on getting <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> ready for you all to playtest. After all, our community is most important to us and we can't wait to get your direct feedback on the game as soon as possible.
+Currently, with the aforementioned out of the way, we are focusing on getting <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> ready for you all to playtest. After all, our community is most important to us and we can't wait to get your direct feedback on the game as soon as possible.
 
 In the meantime, I will spend more time on trying to get you all content that helps and delights you. Specifically, I want to kickstart our <a class="post-link" href="https://www.youtube.com/@DreamMatterLabs" target="_blank">YouTube channel</a> soon so we can show you the behind-the-scenes of <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> and dive deep into some of its features!
 
