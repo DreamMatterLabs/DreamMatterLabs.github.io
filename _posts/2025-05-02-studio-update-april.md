@@ -9,7 +9,7 @@ preview: "An outline of what we've been working on last month"
 
 It’s already been a little over a month since we introduced Dream Matter Labs to the world, so I wanted to give you all an update on what’s been happening. However, before that, I wanted to thank all of you on behalf of the entire team for supporting us!
 
-<h2 class="post-h3">The Month of April</h2>
+<h2 class="post-h2">The Month of April</h2>
 
 If I had to choose one word to describe the month of April, it would be ‘chaotic’. Not necessarily because we’re incredibly messy and incompetent, but because operating as an indie studio is awfully similar to playing Overcooked.
 
@@ -29,7 +29,7 @@ Specifically, just this month, we:
 
 (massive respect gained for recruiters)
 
-<h2 class="post-h3">Pleasing the Steam Algorithm</h2>
+<h2 class="post-h2">Pleasing the Steam Algorithm</h2>
 
 The Steam page in particular turned out to be a lot of work. For those unfamiliar, Steam puts indie studios in an awkward position as its algorithm rewards store pages that have been up for a long time and also include a trailer that properly shows off the game.
 
