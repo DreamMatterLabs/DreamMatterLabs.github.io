@@ -17,7 +17,7 @@ It’s like a bunch of little devs running around in the indie kitchen, trying t
 
 <img class="img-fluid post-image w-100" src="/assets/img/blog/overcooked.gif">
 
-Personally, I always imagined that if you had more people and segmented tasks, you would have more time on your hands. But it turns out that with more time on your hands, more opportunities arise, and more work still ends up being done.
+Personally, I always imagined that if you were in a team and able to distribute tasks, you would have much more time on your hands. But it turns out that with more time on your hands, more opportunities arise, and more work needs to get done.
 
 Specifically, just this month, we:
 
@@ -27,13 +27,13 @@ Specifically, just this month, we:
 - Hired 3 level designers and 1 concept artist.
 - Drafted an announcement trailer.
 
-(massive respect gained for recruiters)
+(Massive respect gained for recruiters)
 
 <h2 class="post-h2">Pleasing the Steam Algorithm</h2>
 
-The Steam page in particular turned out to be a lot of work. For those unfamiliar, Steam puts indie studios in an awkward position as its algorithm rewards pages that have been up for a long time and also include a trailer that properly shows off the game.
+Here, the Steam page ended up taking most of our time. For those unfamiliar, Steam puts indie studios in an awkward position as its algorithm rewards pages that have been up for a long time and also include a trailer that properly shows off the game.
 
-This means that we can’t afford to wait until our game is ready for us to start showcasing it. Instead, we had to plan our trailer strategically and prioritize development on certain areas of <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> that we wanted to show off.
+This means that we can’t afford to wait until our game is ready for us to start showcasing it. Instead, we needed to plan our trailer strategically and prioritize development on certain areas of <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> that we wanted to show off.
 
 You might imagine that this then throws a wrench in the development process and puts a lot of pressure on getting this done quickly. Fortunately, most of this work is now behind us and I hope to be able to show you an official announcement trailer soon!
 
