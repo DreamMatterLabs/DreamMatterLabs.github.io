@@ -21,7 +21,7 @@ Personally, I always imagined that if you were in a team and able to distribute 
 
 Specifically, just this month, we:
 
-- Created a <a class="post-link" href="https://store.steampowered.com/app/3521080/ONEiRA/?utm_source=website&utm_medium=other&utm_campaign=wishlist&utm_content=blogpost_5" target="_blank">Steam page</a>.
+- Created a <a class="post-link" href="https://store.steampowered.com/app/3521080/ONEiRA/?utm_source=website&utm_medium=other&utm_campaign=wishlist&utm_content=blogpost_5" target="_blank">Steam page for ONEiRA</a>.
 - Started posting weekly on our socials.
 - Partnered up with Cave Bear Games.
 - Hired 3 level designers and 1 concept artist.
