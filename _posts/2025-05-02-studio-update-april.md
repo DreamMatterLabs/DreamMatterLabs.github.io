@@ -35,7 +35,7 @@ Here, the Steam page ended up taking most of our time. For those unfamiliar, Ste
 
 This means that we can’t afford to wait until our game is ready for us to start showcasing it. Instead, we needed to plan our trailer strategically and prioritize development on certain areas of <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> that we wanted to show off.
 
-You might imagine that this then throws a wrench in the development process and puts a lot of pressure on getting this done quickly. Fortunately, most of this work is now behind us and I hope to be able to show you an official announcement trailer soon!
+As a result, this then throws a wrench in the development process and puts a lot of pressure on getting this done quickly. Thankfully, most of this work is now behind us and I hope to be able to show you an official announcement trailer soon!
 
 <h2 class="post-h2">What's Next?</h2>
 
