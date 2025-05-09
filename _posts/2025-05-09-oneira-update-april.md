@@ -3,7 +3,7 @@ layout: post
 title: "ONEIRA Update: April 2025"
 author: Joël
 banner: /assets/img/blog/blogpost_3.jpg
-preview: "Lighting the environment, prototyping the UI, & teasing our upcoming level!"
+preview: "Environmental lighting, UI prototyping, & our upcoming level!"
 ---
 <h2 class="post-h2">Hey There!</h2>
 
