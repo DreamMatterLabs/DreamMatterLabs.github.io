@@ -17,17 +17,15 @@ Mainly, now that we have a <a class="post-link" href="https://store.steampowered
 
 <img class="img-fluid post-image w-100" src="/assets/img/blog/overcooked.gif">
 
-In my eyes, environmental lighting is such an underestimated part of game development as it seems like a small cog in the machine but really makes a world of difference. If done right, lighting makes a world come to life and helps guide the player to what is important.
+In my eyes, environmental lighting is such an underestimated part of game development as it seems like a small cog in the machine but really makes a world of difference. If done right, it makes a game come to life and helps guide the player to what is important.
 
 <h2 class="post-h2">Laying the UI Groundwork</h2>
 
-However, you may have noticed that UI has been missing from all our images so far. BUT, trust and believe that it is being worked on. Similarly to environmental lighting, I find UI to be such a crucial part of game development as it really makes a game feel like a game.
+However, you may have noticed that UI has been missing from all our images so far. BUT, trust and believe that it is being worked on. Similarly to environmental lighting, I find UI to be such a crucial part of game development so it's super-duper exciting!
 
 <img class="img-fluid post-image w-100" src="/assets/img/blog/overcooked.gif">
 
-Do keep in mind that this is still an early draft of the UI and will be updated significantly in the upcoming weeks—Stay tuned! For now, this is a general layout of the menu that allows players to access their inventory, view their progress, and learn more about <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a>.
-
-More UI stuff soon!
+Do keep in mind that this is an early draft of the UI and will be updated significantly in the upcoming weeks—Stay tuned! For now, this is a prototype of a menu that allows players to access their inventory, view their progress, and learn more about <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a>.
 
 <h2 class="post-h2">A Glimpse Into the Future</h2>
 
