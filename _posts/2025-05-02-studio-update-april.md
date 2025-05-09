@@ -3,7 +3,7 @@ layout: post
 title: "Studio Update: April 2025"
 author: Joël
 banner: /assets/img/blog/blogpost_1.jpg
-preview: "An outline of what we've been up to last month."
+preview: "Navigating chaos, appeasing the Steam gods, & more!"
 ---
 <h2 class="post-h2">Hey There!</h2>
 
