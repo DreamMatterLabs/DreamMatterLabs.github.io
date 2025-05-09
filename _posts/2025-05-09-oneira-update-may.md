@@ -19,6 +19,8 @@ In my eyes, environmental lighting is such an underestimated part of game develo
 
 <img class="img-fluid post-image w-100" src="/assets/img/blog/oneira_ss_2.jpg">
 
+Specifically, these images showcase an early puzzle area as well as the mushroom trench. With the new lighting, we aim to make the colors and details pop and clearly convey the aesthetic and vibe of each area. I hope you like the changes!
+
 <h2 class="post-h2">Laying the UI Groundwork</h2>
 
 You may or may not have noticed that UI has been missing from all our images so far. BUT, trust and believe that it is being worked on. Similarly to environmental lighting, I find UI to be such a crucial part of game development so it's super-duper exciting!
