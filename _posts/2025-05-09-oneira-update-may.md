@@ -11,13 +11,13 @@ A lot has happened since <a class="post-link" href="https://dreammatterlabs.com/
 
 <h2 class="post-h2">Polishing and Touching Up</h2>
 
-Mainly, now that we have a <a class="post-link" href="https://store.steampowered.com/app/3521080/ONEiRA/?utm_source=website&utm_medium=other&utm_campaign=wishlist&utm_content=blogpost_5" target="_blank">Steam page</a> up and running, the focus has been on making a trailer and ensuring that the necessary features and areas are polished. SO, as a result, a lot of areas have gotten a proper lighting pass and a brand new look 😎
+Mainly, now that we have a <a class="post-link" href="https://store.steampowered.com/app/3521080/ONEiRA/?utm_source=website&utm_medium=other&utm_campaign=wishlist&utm_content=blogpost_5" target="_blank">Steam page</a> up and running, the focus has been on making a trailer and ensuring that the necessary features and areas are polished. SO, as a result, a lot of areas have gotten a proper lighting pass and a brand new look. 😎
 
 <img class="img-fluid post-image w-100" src="/assets/img/blog/oneira_ss_1.jpg">
 
 <img class="img-fluid post-image w-100" src="/assets/img/blog/oneira_ss_2.jpg">
 
-In my eyes, environmental lighting is such an underestimated part of game development as it seems like a small cog in the machine but really makes a world of difference. If done right, it makes a game come to life and helps guide the player to what is important.
+In my eyes, environmental lighting is such an underestimated part of game development as it seems like a small cog in the machine but really makes a world of difference. If done right, it makes a game come to life and helps guide the player. ✨
 
 <h2 class="post-h2">Laying the UI Groundwork</h2>
 
@@ -37,4 +37,4 @@ In the meantime, here’s a lil teaser of what’s to come:
 
 <h2 class="post-h2">Want to See More?</h2>
 
-<a class="post-link" href="https://discord.gg/XAYvJhkkqE">Join our Discord</a> to be the first to find out about <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a>’s development updates and get the chance to playtest when possible! We gladly welcome any thoughts, ideas, or feedback you might have so don’t hesitate to join us and say what’s on your mind!
+<a class="post-link" href="https://discord.gg/XAYvJhkkqE">Join our Discord</a> to be the first to find out about <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a>’s updates and get the chance to playtest when possible! We gladly welcome any thoughts, ideas, or feedback you might have so don’t hesitate to join us and tell us what’s on your mind!
