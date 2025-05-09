@@ -29,7 +29,7 @@ Do keep in mind that this is an early draft of the UI and will be updated signif
 
 <h2 class="post-h2">A Glimpse Into the Future</h2>
 
-While I’ve mainly shown you stuff about our trippy mushroom world, a new one is right around the corner! In terms of technology, this dreamscape will definitely be our most experimental one yet and I can’t wait to be able to show you more!
+While I’ve mainly shown you stuff about our trippy mushroom world, a new one is right around the corner! In terms of technology, this techno dreamscape will definitely be our most experimental one yet and I can’t wait to be able to show you more!
 
 In the meantime, here’s a lil teaser of what’s to come:
 
