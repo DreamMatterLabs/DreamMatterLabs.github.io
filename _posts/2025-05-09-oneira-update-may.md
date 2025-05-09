@@ -15,9 +15,9 @@ Mainly, now that we have a <a class="post-link" href="https://store.steampowered
 
 <img class="img-fluid post-image w-100" src="/assets/img/blog/oneira_ss_1.jpg">
 
-<img class="img-fluid post-image w-100" src="/assets/img/blog/oneira_ss_2.jpg">
-
 In my eyes, environmental lighting is such an underestimated part of game development as it seems like a small cog in the machine but really makes a world of difference. If done right, it makes a game come to life and helps guide the player. ✨
+
+<img class="img-fluid post-image w-100" src="/assets/img/blog/oneira_ss_2.jpg">
 
 <h2 class="post-h2">Laying the UI Groundwork</h2>
 
@@ -25,7 +25,7 @@ You may or may not have noticed that UI has been missing from all our images so 
 
 <img class="img-fluid post-image w-100" src="/assets/img/blog/ui_prototype_1.jpg">
 
-Do keep in mind that this is an early draft of the UI and will be updated significantly in the upcoming weeks—So stay tuned! For now, this is a prototype of a menu that allows players to access their inventory, view their progress, and learn more about <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a>.
+Do keep in mind that this is an early draft of the UI and will be updated significantly in the upcoming weeks—So stay tuned! For now, this is a prototype of a menu that allows players to access their inventory, view their progress, and learn about <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a>.
 
 <h2 class="post-h2">A Glimpse Into the Future</h2>
 
