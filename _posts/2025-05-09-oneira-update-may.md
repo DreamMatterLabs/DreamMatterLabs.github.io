@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ONEiRA Update: May 2025"
+title: "ONEiRA Update:<br>May 2025"
 author: Joël
 banner: /assets/img/blog/blogpost_3.jpg
 preview: "Lighting the environment, prototyping the UI, & more!"
