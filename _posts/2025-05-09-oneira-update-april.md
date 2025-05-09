@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "ONEIRA Update: April 2025"
+title: "A Timely ONEiRA Update"
 author: Joël
 banner: /assets/img/blog/blogpost_3.jpg
-preview: "Environmental lighting, UI prototyping, & our upcoming level!"
+preview: "Environmental lighting, UI prototyping, & more!"
 ---
 <h2 class="post-h2">Hey There!</h2>
 
@@ -11,7 +11,7 @@ A lot has happened since <a class="post-link" href="https://dreammatterlabs.com/
 
 <h2 class="post-h2">Polishing and Touching Up</h2>
 
-Mainly, now that we have a <a class="post-link" href="https://store.steampowered.com/app/3521080/ONEiRA/?utm_source=website&utm_medium=other&utm_campaign=wishlist&utm_content=blogpost_5" target="_blank">Steam page</a> up and running, the focus has been on making a trailer and ensuring that the necessary features and areas are polished. SO, as a result, a lot of areas have gotten a proper lighting pass and a brand new look B)
+Mainly, now that we have a <a class="post-link" href="https://store.steampowered.com/app/3521080/ONEiRA/?utm_source=website&utm_medium=other&utm_campaign=wishlist&utm_content=blogpost_5" target="_blank">Steam page</a> up and running, the focus has been on making a trailer and ensuring that the necessary features and areas are polished. SO, as a result, a lot of areas have gotten a proper lighting pass and a brand new look 😎
 
 <img class="img-fluid post-image w-100" src="/assets/img/blog/overcooked.gif">
 
