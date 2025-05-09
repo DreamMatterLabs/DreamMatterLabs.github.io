@@ -236,7 +236,7 @@ es: &DEFAULT_ES
         desc: "What was once taking root has now begun to bloom. ONEiRA enters its final development phase as the dreamscapes are polished, narrative threads are finalized, and a community is being built. What awaits? Stay tuned and find out!"
         image: /assets/img/timeline/oneira.jpg
         alt:
- team:
+  team:
     title: "About Us"
     people:
       - name: "John"
