@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Studio Update: April 2025"
+title: "Studio Update:<br>April 2025"
 author: Joël
 banner: /assets/img/blog/blogpost_1.jpg
 preview: "Navigating indie chaos, appeasing the Steam gods, & more!"
