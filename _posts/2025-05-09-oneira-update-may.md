@@ -21,11 +21,11 @@ In my eyes, environmental lighting is such an underestimated part of game develo
 
 <h2 class="post-h2">Laying the UI Groundwork</h2>
 
-However, you may have noticed that UI has been missing from all our images so far. BUT, trust and believe that it is being worked on. Similarly to environmental lighting, I find UI to be such a crucial part of game development so it's super-duper exciting!
+You may or may not have noticed that UI has been missing from all our images so far. BUT, trust and believe that it is being worked on. Similarly to environmental lighting, I find UI to be such a crucial part of game development so it's super-duper exciting!
 
 <img class="img-fluid post-image w-100" src="/assets/img/blog/ui_prototype_1.jpg">
 
-Do keep in mind that this is an early draft of the UI and will be updated significantly in the upcoming weeks—Stay tuned! For now, this is a prototype of a menu that allows players to access their inventory, view their progress, and learn more about <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a>.
+Do keep in mind that this is an early draft of the UI and will be updated significantly in the upcoming weeks—So stay tuned! For now, this is a prototype of a menu that allows players to access their inventory, view their progress, and learn more about <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a>.
 
 <h2 class="post-h2">A Glimpse Into the Future</h2>
 
@@ -37,4 +37,4 @@ In the meantime, here’s a lil teaser of what’s to come:
 
 <h2 class="post-h2">Want to See More?</h2>
 
-<a class="post-link" href="https://discord.gg/XAYvJhkkqE">Join our Discord</a> to be the first to find out about <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a>’s development updates and get the chance to playtest when possible! We gladly welcome any thoughts, ideas, or feedback you might have so don’t hesitate to join us and tell us what’s on your mind!
+<a class="post-link" href="https://discord.gg/XAYvJhkkqE">Join our Discord</a> to be the first to find out about <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a>’s development updates and get the chance to playtest when possible! We gladly welcome any thoughts, ideas, or feedback you might have so don’t hesitate to join us and say what’s on your mind!
