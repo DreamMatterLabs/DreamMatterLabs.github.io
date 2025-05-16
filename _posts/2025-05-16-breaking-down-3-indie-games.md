@@ -105,7 +105,7 @@ While these games are radically different, there are some general takeaways:
 - Embrace your distinct identity, both visually and emotionally
 - Design your game to be memorable and shareable
 
-Granted, there are plenty of other factors that have played a part in the successes of these games, but I hope to have extracted the relevant ones for you. For example, Clair Obscur: Expedition 33 had a publisher and launched on XBox game pass.
+Granted, there are plenty of other factors that have played a part in the successes of these games, but I hope to have extracted the relevant ones for you. For example, Clair Obscur: Expedition 33 had a publisher and launched on Xbox game pass.
 
 ...but I wouldn’t call that a useful tip for small indie devs like us.
 
