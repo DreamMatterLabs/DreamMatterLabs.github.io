@@ -51,6 +51,8 @@ That sentence alone paints a world, sets a mood, and hints at gameplay stakes. A
 
 Its reveal trailer leaned less on combat mechanics and more on atmosphere and tone through slow camera pans, moody music, and a quiet sense of urgency. It made people feel something before they understood everything…
 
+<img class="img-fluid post-image w-50" src="/assets/img/blog/clair-obscur-expedition-33-2.jpg">
+
 To back this up, the turn-based RPG gameplay is very niche. In a way, it reminds me of Baldur’s Gate gameplay which I’d argue is not something people generally play. However, these games know how to resonate with people and reel them in regardless.
 
 If you’re a solo indie dev, chances are you're developer-brained. You’re working hard to perfect gameplay, features, and systems to make the best possible game in that genre. However, this way, chances are that you overlook what people generally look for:
