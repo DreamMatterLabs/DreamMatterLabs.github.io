@@ -99,7 +99,7 @@ Sincerely, I estimate 10.000+ indie games to be published on Steam this year. Wi
 
 For us at Dream Matter Labs, the rise of these games is deeply encouraging. They prove that players crave originality, feeling, and meaning. And they show that you don’t need massive budgets to market a game successfully!
 
-While these games are radically different, there are some general takeaways:
+While these games are radically different, these are some general takeaways:
 
 - Know who it’s for and lean into that audience unapologetically
 - Embrace your distinct identity, both visually and emotionally
