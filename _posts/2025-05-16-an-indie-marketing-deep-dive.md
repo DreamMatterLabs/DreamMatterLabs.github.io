@@ -7,7 +7,7 @@ preview: "Analyzing R.E.P.O., Clair Obscur: Expedition 33, & Schedule 1."
 ---
 <h2 class="post-h2">Hey There!</h2>
 
-If you're even remotely tapped into the indie gaming scene right now, you've likely heard names like R.E.P.O., Clair Obscur: Expedition 33, and Schedule 1. Notably, these aren’t blockbuster studio projects, but indie games created by small teams that became a huge hit.
+If you're even remotely tapped into the indie gaming scene right now, you've likely heard names like R.E.P.O., Clair Obscur: Expedition 33, and Schedule 1. Notably, these aren’t huge studio projects, but indie games created by small teams that became a huge hit.
 
 At Dream Matter Labs, we're not just building <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a>—we're learning from those pushing boundaries in real-time. So today, we’re breaking down what made these games rise above the noise, what lessons indies can learn, and what patterns are emerging.
 
