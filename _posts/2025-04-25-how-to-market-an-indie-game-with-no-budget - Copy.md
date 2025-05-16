@@ -3,7 +3,7 @@ layout: post
 title: "How to Market an Indie Game with No Budget?"
 author: Joël
 banner: /assets/img/blog/blogpost_4.jpg
-preview: "A 5-step framework on how to market your indie game for free!"
+preview: "A 5-step framework on how to market your indie game for free."
 ---
 <h2 class="post-h2">Great Question!</h2>
 
