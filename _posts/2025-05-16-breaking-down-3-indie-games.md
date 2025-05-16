@@ -19,7 +19,7 @@ Let’s break it down!
 
 R.E.P.O. is a co-op horror game where you play a debt-ridden worker in a grim, corporate-controlled dystopia. You’re effectively under a contract of reanimation: die on the job, and your body gets repossessed and sent back out to work.
 
-<img class="img-fluid post-image w-100" src="/assets/img/blog/oneira_ss_3.jpg">
+<img class="img-fluid post-image w-100" src="/assets/img/blog/repo.jpg">
 
 <h3 class="post-h3">Why it's working:</h3>
 
@@ -27,7 +27,7 @@ R.E.P.O. builds upon the previous hype that Lethal Company had ignited amongst i
 
 In my eyes, the reason this approach worked is because semiwork was very overt and consistent with communicating this USP. After all, R.E.P.O. is just a silly game and this is even reflected in the character design, youtube channel, and psychotic steam banner.
 
-<img class="img-fluid post-image w-100" src="/assets/img/blog/oneira_ss_3.jpg">
+<img class="img-fluid post-image w-100" src="/assets/img/blog/repo-emoji.jpg">
 
 Everything was imbued with a silly sense of humor, which made it not only fun to play, but to share as well. Personally, I think this is what made R.E.P.O. so successful—You didn’t have to try to make a funny clip because the game was designed for it.
 
@@ -43,7 +43,7 @@ Design your game to be shared! After all, a game works best when it is designed 
 
 Clair Obscur: Expedition 33 is a turn-based RPG set in a world where a so-called paintress curses everyone of a certain age each year-Those whose age is over the number she paints, die. You play as the last expedition seeking to end this cycle.
 
-<img class="img-fluid post-image w-100" src="/assets/img/blog/oneira_ss_3.jpg">
+<img class="img-fluid post-image w-100" src="/assets/img/blog/clair-obscur-expedition-33.jpg">
 
 <h3 class="post-h3">Why it's working:</h3>
 
@@ -75,7 +75,7 @@ Sometimes the best marketing isn’t flashy action-packed trailers—it’s just
 
 In Schedule 1, you play as a small-time drug dealer and build your own drug empire from the ground up. It’s a management game about control, simulation, and manipulation—and its minimal visuals serve to keep attention on the ideas and anxieties it provokes.
 
-<img class="img-fluid post-image w-100" src="/assets/img/blog/oneira_ss_3.jpg">
+<img class="img-fluid post-image w-100" src="/assets/img/blog/schedule-1.jpg">
 
 <h3 class="post-h3">Why it's working:</h3>
 
