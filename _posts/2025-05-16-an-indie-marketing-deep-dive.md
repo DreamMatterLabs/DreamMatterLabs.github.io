@@ -55,7 +55,7 @@ To back this up, the turn-based RPG gameplay is very niche. In a way, it reminds
 
 If you’re a solo indie dev, chances are you're developer-brained. You’re working hard to perfect gameplay, features, and systems to make the best possible game in that genre. However, this way, chances are that you overlook what people generally look for:
 
-An emotional connection.
+**An emotional connection.**
 
 Without a strong emotional hook to make people connect with your game, their interest dissipates. In a market where thousands of games are published each year, it’s crucial that you go beyond the gameplay and show what makes **your game** special.
 
@@ -83,15 +83,11 @@ Then again, like I mentioned with Expedition 33, gameplay isn’t what reels peo
 
 As a result, combining this with great execution seems to be a recipe for success. I’ve seen people praise how it is really well made and simply feels satisfying to play. Additionally, it offers online multiplayer which seems to work well for these silly games.
 
-Perhaps, this simple formula is what made people fall in love with it. After all, it's just a good silly game that people get to lose themselves in. Games don’t have to be much more than that, especially when they’re not that expensive.
-
 <h3 class="post-h3">Key takeaway for indies:</h3>
 
 Sincerely, I estimate 10.000+ indie games to be published on Steam this year. Without a strong hook, you radically reduce your chances of cutting through the noise. I think Schedule 1 was just lucky, although it proves that a good game *can* still be enough. 
 
 <h2 class="post-h2">To Summarize</h2>
-
-For us at Dream Matter Labs, the rise of these games is deeply encouraging. They prove that players crave originality, feeling, and meaning. And they show that you don’t need massive budgets to market a game successfully!
 
 While these games are radically different, these are some general takeaways:
 
@@ -103,4 +99,4 @@ Granted, there are plenty of other factors that have played a part in the succes
 
 ...but I wouldn’t call that a useful tip for small indie devs like us.
 
-Regardless, we’re taking notes! <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> is being built with the same values: surrealism, emotion, and meaning. And thanks to games like R.E.P.O., Clair Obscur: Expedition 33, and Schedule 1, we’re more excited than ever to see where this new wave takes us.
+Regardless, we’re taking notes! <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> is being built with the same values: surrealism, emotion, and meaning. And thanks to games like R.E.P.O., Clair Obscur: Expedition 33, and Schedule 1, we’re more excited than ever to see where this new wave takes us!
