@@ -27,7 +27,7 @@ R.E.P.O. builds upon the previous hype that Lethal Company had ignited amongst i
 
 In my eyes, the reason this approach worked is because semiwork was very overt and consistent with communicating this USP. After all, R.E.P.O. is just a silly game and this is even reflected in the character design, youtube channel, and psychotic steam banner.
 
-<img class="img-fluid post-image w-100" src="/assets/img/blog/oneira_ss_3.jpg">
+<img class="img-fluid post-image w-50" src="/assets/img/blog/repo.emoji.jpg">
 
 Everything was imbued with a silly sense of humor, which made it not only fun to play, but to share as well. Personally, I think this is what made R.E.P.O. so successful—You didn’t have to try to make a funny clip because the game was designed for it.
 
