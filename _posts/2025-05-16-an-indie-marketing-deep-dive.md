@@ -37,7 +37,7 @@ Design your game to be shared! After all, a game works best when it is designed 
 
 <h2 class="post-h2">2. Clair Obscur: Expedition 33</h2>
 
-Clair Obscur: Expedition 33 is a turn-based RPG set in a world where a so-called paintress curses everyone of a certain age each year-Those whose age matches the number she paints, die. You play as the last expedition seeking to end this cycle.
+Clair Obscur: Expedition 33 is a turn-based RPG set in a world where a so-called paintress curses everyone of a certain age each year-Those whose age exceeds the number she paints, die. You play as the last expedition seeking to end this cycle.
 
 <img class="img-fluid post-image w-100" src="/assets/img/blog/clair-obscur-expedition-33.jpg">
 
