@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What the New Wave of Indie Games Reveal About Marketing in 2025"
+title: "An Indie Marketing Deep Dive"
 author: Joël
 banner: /assets/img/blog/blogpost_3.jpg
 preview: "Breaking down the success of R.E.P.O., Clair Obscur: Expedition 33, and Schedule 1."
