@@ -2,7 +2,7 @@
 layout: post
 title: "An Indie Marketing Deep Dive"
 author: Joël
-banner: /assets/img/blog/blogpost_4.jpg
+banner: /assets/img/blog/blogpost_5.jpg
 preview: "Analyzing R.E.P.O., Clair Obscur: Expedition 33, & Schedule 1."
 ---
 <h2 class="post-h2">Hey There!</h2>
