@@ -15,8 +15,6 @@ Let’s break it down!
 
 <h2 class="post-h2">1. R.E.P.O.</h2>
 
-<h3 class="post-h3">What is it:</h3>
-
 R.E.P.O. is a co-op horror game where you play a debt-ridden worker in a grim, corporate-controlled dystopia. You’re effectively under a contract of reanimation: die on the job, and your body gets repossessed and sent back out to work.
 
 <img class="img-fluid post-image w-100" src="/assets/img/blog/repo.jpg">
@@ -38,8 +36,6 @@ After all, the majority of gamers in 2025 discover new games through social medi
 Design your game to be shared! After all, a game works best when it is designed to make players feel or think something, especially in a social experience. You might as well make something that takes your immediate attention and is worth sharing.
 
 <h2 class="post-h2">2. Clair Obscur: Expedition 33</h2>
-
-<h3 class="post-h3">What is it:</h3>
 
 Clair Obscur: Expedition 33 is a turn-based RPG set in a world where a so-called paintress curses everyone of a certain age each year-Those whose age is over the number she paints, die. You play as the last expedition seeking to end this cycle.
 
@@ -71,9 +67,7 @@ Sometimes the best marketing isn’t flashy action-packed trailers—it’s just
 
 <h2 class="post-h2">3. Schedule 1</h2>
 
-<h3 class="post-h3">What is it:</h3>
-
-In Schedule 1, you play as a small-time drug dealer and build your own drug empire from the ground up. It’s a management game about control, simulation, and manipulation—and its minimal visuals serve to keep attention on the ideas and anxieties it provokes.
+Schedule 1 is a management game where you play as a small-time drug dealer and build your own drug empire from the ground up. It’s all about control, simulation, and manipulation—and its minimal visuals serve to keep attention on the ideas and anxieties it provokes.
 
 <img class="img-fluid post-image w-100" src="/assets/img/blog/schedule-1.jpg">
 
