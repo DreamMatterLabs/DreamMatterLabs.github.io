@@ -29,7 +29,7 @@ In my eyes, the reason this approach worked is because semiwork was very overt a
 
 Everything was imbued with a silly sense of humor, which made it not only fun to play, but to share as well. Personally, I think this is what made R.E.P.O. so successful—You didn’t have to try to make a funny clip because the game was designed for it.
 
-After all, the majority of gamers in 2025 discover new games through social media such as TikTok and YouTube where others can authentically share their gameplay. Tapping into this as a fellow indie dev is crucial as traditional marketing “dies off”.
+The majority of gamers in 2025 discover new games through social media such as TikTok and YouTube where others can authentically share their gameplay. Tapping into this as a fellow indie dev is crucial as traditional marketing “dies off”.
 
 <h3 class="post-h3">Key takeaway for indies:</h3>
 
@@ -37,7 +37,7 @@ Design your game to be shared! After all, a game works best when it is designed 
 
 <h2 class="post-h2">2. Clair Obscur: Expedition 33</h2>
 
-Clair Obscur: Expedition 33 is a turn-based RPG set in a world where a so-called paintress curses everyone of a certain age each year-Those whose age exceeds the number she paints, die. You play as the last expedition seeking to end this cycle.
+Clair Obscur: Expedition 33 is a turn-based RPG set in a world where a so-called paintress curses everyone of a certain age each year—Those whose age exceeds the number she paints, die. You play as the last expedition seeking to end this cycle.
 
 <img class="img-fluid post-image w-100" src="/assets/img/blog/clair-obscur-expedition-33.jpg">
 
@@ -55,7 +55,7 @@ Its reveal trailer leaned less on combat mechanics and more on atmosphere and to
 
 To back this up, the turn-based RPG gameplay is very niche. In a way, it reminds me of Baldur’s Gate gameplay which I’d argue is not something people generally play. However, these games know how to resonate with people and reel them in regardless.
 
-If you’re a solo indie dev, chances are you're developer-brained. You’re working hard to perfect gameplay, features, and systems to make the best possible game in that genre. However, this way, chances are that you overlook what people generally look for:
+If you’re an indie dev, chances are you're developer-brained. You’re working hard to perfect gameplay, features, and systems to make the best possible game in that genre. However, this way, chances are that you overlook what people generally look for:
 
 **An emotional connection.**
 
@@ -69,7 +69,7 @@ Sometimes the best marketing isn’t flashy action-packed trailers—it’s just
 
 <h2 class="post-h2">3. Schedule 1</h2>
 
-Schedule 1 is a management game where you play as a small-time drug dealer and build your own drug empire from the ground up. It’s all about control, simulation, and manipulation—and its minimal visuals serve to keep attention on the ideas and anxieties it provokes.
+Schedule 1 is a management game where you play as a small-time drug dealer and build your own drug empire from the ground up. It’s all about control, simulation, and manipulation—and its minimal visuals serve to keep attention on its ideas and anxieties.
 
 <img class="img-fluid post-image w-100" src="/assets/img/blog/schedule-1.jpg">
 
@@ -101,4 +101,4 @@ Granted, there are plenty of other factors that have played a part in the succes
 
 ...but I wouldn’t call that a useful tip for small indie devs like us.
 
-Regardless, we’re taking notes! <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> is being built with the same values: surrealism, emotion, and meaning. And thanks to games like R.E.P.O., Clair Obscur: Expedition 33, and Schedule 1, we’re more excited than ever to see where this new wave takes us!
+Regardless, we’re taking notes! <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> is being built with the same takeaways in mind. And thanks to games like R.E.P.O., Clair Obscur: Expedition 33, and Schedule 1, we’re more excited than ever to see where this new wave takes us!
