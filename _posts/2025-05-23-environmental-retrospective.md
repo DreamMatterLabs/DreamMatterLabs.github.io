@@ -21,8 +21,6 @@ To make it look visually interesting and also intimidating, I used one of the we
 
 <img class="img-fluid post-image w-100" src="/assets/img/blog/edr1-1.jpg">
 
-<img class="img-fluid post-image w-100" src="/assets/img/blog/edr1-2.jpg">
-
 With all this, we had a pretty decent start, but the team and I got pulled away from this area onto other priorities that were related to <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a>’s first trailer (coming soon!). As a result, this prototype remained untouched until it was time to return…  
 
 <h2 class="post-h2">The Big Tower Tool</h2>
