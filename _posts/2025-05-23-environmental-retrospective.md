@@ -41,7 +41,7 @@ Without getting into too complex details of how this actually worked under the h
 
 As a result, by simply giving this tool a height and an offset, it would generate a level that seamlessly fit within the tower. I then set this up to spawn trigger boxes around each layer that would sync the gameplay (work in progress) directly to the environment!  
 
-Then, with our Unreal Generalist’s help, I added floors, ceilings, and walls to this tool until it could create a fully procedural temple chamber. Ultimately, by combining it with some columns and some pretty lighting, I created the chamber room as shown below!
+Then, with our Unreal Generalist’s help, I added floors, ceilings, and walls to this tool until it could create a fully procedural temple chamber. Ultimately, by combining it with some columns and some pretty lighting, I created the room as shown below!
 
 <img class="img-fluid post-image w-100" src="/assets/img/blog/edr1-5.jpg">
 
