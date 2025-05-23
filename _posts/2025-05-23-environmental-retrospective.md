@@ -7,7 +7,7 @@ preview: "A retrospective on environmental design & procedural generation."
 ---
 <h2 class="post-h2">Hello!</h2>
 
-For this week, I wanted to give you my retrospective on ONEiRA's first-ever boss fight area. Specifically, this area would serve as the climax of the entire level and it needed to visually convey that. As a result, I started conceptualizing!
+For this week, I wanted to give you my retrospective on <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a>'s first-ever boss fight area. Specifically, this area would serve as the climax of the entire level and it needed to visually convey that. As a result, I started conceptualizing!
 
 <h2 class="post-h2">Early Prototyping</h2>
 
