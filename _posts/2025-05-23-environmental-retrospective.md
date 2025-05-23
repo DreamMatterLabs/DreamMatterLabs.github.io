@@ -36,7 +36,7 @@ This then sparked an idea in my head for creating a big tool that would allow us
 
 <img class="img-fluid post-image w-100" src="/assets/img/blog/edr1-3.jpg">
 
-<img class="img-fluid post-image w-100" src="/assets/img/blog/edr1-4.jpg">
+<img class="img-fluid post-image w-50" src="/assets/img/blog/edr1-4.jpg">
 
 Without getting into too complex details of how this actually worked under the hood, the basic idea is that we would provide an array of so-called LevelSpawningData to determine the size of the layers, as well as the offset of each relative to its predecessor.
 
