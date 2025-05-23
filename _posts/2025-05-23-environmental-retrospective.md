@@ -21,7 +21,7 @@ To make it look visually interesting and also intimidating, I used one of the we
 
 <img class="img-fluid post-image w-100" src="/assets/img/blog/repo.jpg">
 
-With all this, we had a pretty decent start, but the team and I got pulled away from this area onto other priorities that were related to ONEiRA’s first trailer (coming soon!). As a result, this prototype remained untouched until it was time to return…  
+With all this, we had a pretty decent start, but the team and I got pulled away from this area onto other priorities that were related to <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a>’s first trailer (coming soon!). As a result, this prototype remained untouched until it was time to return…  
 
 <h2 class="post-h2">The Big Tower Tool</h2>
 
@@ -57,7 +57,7 @@ Originally, I had planned on making new modules for the lower levels of the towe
 
 <img class="img-fluid post-image w-100" src="/assets/img/blog/schedule-1.jpg">
 
-Lastly, I added some glowing boxes to the tower that would somewhat embrace its general structure as you went down. This approach created a sense of drama and really helped with making the tower come to life in a way that fit the world of ONEiRA.
+Lastly, I added some glowing boxes to the tower that would somewhat embrace its general structure as you went down. This approach created a sense of drama and really helped with making the tower come to life in a way that fit the world of <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a>.
 
 <img class="img-fluid post-image w-100" src="/assets/img/blog/schedule-1.jpg">
 
