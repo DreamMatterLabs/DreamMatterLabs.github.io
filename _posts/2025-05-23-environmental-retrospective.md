@@ -2,10 +2,9 @@
 layout: post
 title: "Designing ONEiRA's First Boss Fight"
 author: Max
-banner: /assets/img/blog/blogpost_3.jpg
+banner: /assets/img/blog/blogpost_6.jpg
 preview: "A retrospective in the boss fight's environmental design."
 ---
-
 <h2 class="post-h2">Hello!</h2>
 
 For this week, I wanted to give you my retrospective on ONEiRA's first ever boss fight area. Specifically, this area would serve as the climax of the entire level and it needed to visually convey that. As a result, I started conceptualizing!
@@ -66,8 +65,8 @@ Lastly, I added some glowing cubes to the tower that would somewhat embrace its 
 
 With alllll that, the boss fight area was finally done!
 
-<img class="img-fluid post-image w-100" src="/assets/img/blog/schedule-9.jpg">
+<img class="img-fluid post-image w-100" src="/assets/img/blog/edr1-9.jpg">
 
-<img class="img-fluid post-image w-100" src="/assets/img/blog/schedule-10.jpg">
+<img class="img-fluid post-image w-100" src="/assets/img/blog/edr1-10.jpg">
 
-<img class="img-fluid post-image w-100" src="/assets/img/blog/schedule-11.jpg">
+<img class="img-fluid post-image w-100" src="/assets/img/blog/edr1-11.jpg">
