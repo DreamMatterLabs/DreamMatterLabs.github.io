@@ -5,13 +5,16 @@ author: Max
 banner: /assets/img/blog/blogpost_3.jpg
 preview: "A retrospective in the boss fight's environmental design."
 ---
-<h2 class="post-h2">Early Conceptualization</h2>
+
+<h2 class="post-h2">Hello!</h2>
+
+For this week, I wanted to give you my retrospective on ONEiRA's first ever boss fight area. Specifically, this area would serve as the climax of the entire level and it needed to visually convey that. As a result, I started conceptualizing!
+
+<h2 class="post-h2">Early Prototyping</h2>
 
 Initially, when I started working on this area, all we had was this prompt:  
 
 *“Descend from the Temple of the Mother into the Dreamer’s subconscious.”*  
-
-Additionally, this area would serve as the climax of the entire level and it needed to visually convey that. As a result, I started conceptualizing!
 
 Firstly, I repurposed one of our “temple wall” generators and created a giant stone tube that would serve as the base for a tower. The general goal of the player here would be to descend the tower and reach the subconscious as an anomaly tries to stop you. 
 
