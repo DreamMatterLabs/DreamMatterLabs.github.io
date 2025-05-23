@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Designing ONEiRA's First Boss Fight"
+title: "Designing ONEiRA's First Boss Fight Area"
 author: Max
 banner: /assets/img/blog/blogpost_6.jpg
 preview: "A retrospective on environmental design & procedural generation."
@@ -47,7 +47,7 @@ Then, with our Unreal Generalist’s help, I added floors, ceilings, and walls t
 
 <h2 class="post-h2">Highlighting the Narrative</h2>
 
-During this process, I wanted the area to be imbued with ONEiRA’s story and reflect aspects of it visually. Specifically, without giving away too much, this area represents conflict and I wanted to highlight that aspect through the environmental design.
+During this process, I wanted the area to be imbued with <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a>’s story and reflect aspects of it visually. Specifically, without giving away too much, this area represents conflict and I wanted to highlight that aspect through the environmental design.
 
 By using a material mapping plugin that maps meshes to a material instance using a datatable, I was able to achieve this. By simply adding two material instances to each mesh, the conflict could be highlighted in the very foundation of the tower.
 
