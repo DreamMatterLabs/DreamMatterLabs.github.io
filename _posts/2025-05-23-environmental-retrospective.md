@@ -3,7 +3,7 @@ layout: post
 title: "Designing ONEiRA's First Boss Fight"
 author: Max
 banner: /assets/img/blog/blogpost_6.jpg
-preview: "A retrospective in the boss fight's environmental design."
+preview: "A retrospective on environmental design and procedural generation."
 ---
 <h2 class="post-h2">Hello!</h2>
 
