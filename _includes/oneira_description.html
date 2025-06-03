@@ -17,7 +17,11 @@
                     {% if content.layout == "left" %}
                     <div class="col-12 col-md-6 text-start order-1">
                         <a class="portfolio-link" data-toggle="modal" href="{{ content.link }}">
+                            {% if content.image %}
                             <img class="img-fluid project-image" src="{{ content.image }}" alt="{{ content.title }}">
+                            {% else %}
+                            <iframe class="project-image img-fluid" src="https://www.youtube.com/embed/IJyrITE4vSA"></iframe>
+                            {% endif %}
                         </a>
                     </div>
 
@@ -33,7 +37,11 @@
 
                     <div class="col-12 col-md-6 text-start order-1 order-md-2">
                         <a class="portfolio-link" data-toggle="modal" href="{{ content.link }}">
+                            {% if content.image %}
                             <img class="img-fluid project-image" src="{{ content.image }}" alt="{{ content.title }}">
+                            {% else %}
+                            <iframe class="project-image img-fluid" src="https://www.youtube.com/embed/IJyrITE4vSA"></iframe>
+                            {% endif %}
                         </a>
                     </div>
                     {% endif %}

@@ -11,7 +11,7 @@ en: &DEFAULT_EN
     content:
       - title: "Explore Surreal, Immersive Dreamscapes"
         desc: "In a world where dreams are sold as entertainment, it's your job to ensure that each experience is market-ready. Step into virtual dreamscapes as a maintenance worker and immerse yourself in serene yet fractured landscapes, where every dream holds a story waiting to be unraveled."
-        image: /assets/img/oneira/picture_1.jpg
+        image:
         alt:
         link: '#p1'
         layout: "left"     
@@ -195,7 +195,7 @@ es: &DEFAULT_ES
     content:
       - title: "Explore Surreal, Immersive Dreamscapes"
         desc: "In a world where dreams are sold as entertainment, it's your job to ensure that each experience is market-ready. Step into virtual dreamscapes as a maintenance worker and immerse yourself in serene yet fractured landscapes, where every dream holds a story waiting to be unraveled."
-        image: /assets/img/oneira/picture_1.jpg
+        image:
         alt: 
         link: '#p1'
         layout: "left"     
