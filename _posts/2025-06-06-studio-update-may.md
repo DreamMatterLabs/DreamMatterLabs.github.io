@@ -11,9 +11,9 @@ It’s already been a whole month since the last studio update and honestly I ca
 
 <h2 class="post-h2">Our Very First Interview</h2>
 
-I had no choice but to start with the fact that we had our very first interview this week. Massive shoutout to Indie Game Origin who reached out to us and enabled us to geek out about <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> in public… If you’re interested, go check it out!
+I had no choice but to start with the fact that we had our very first interview this week. Massive shoutout to <a class="post-link" href="https://indiegameorigin.com/">Indie Game Origin</a> who reached out to us and enabled us to geek out about <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> in public… If you’re interested, go check it out!
 
-<iframe class="project-image img-fluid" src="https://www.youtube.com/embed/ORu9Vv620r0"></iframe>
+<iframe class="project-image img-fluid" src="https://www.youtube.com/embed/UfxsbpqB1Do"></iframe>
 
 Additionally, you can check out their article on <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> <a class="post-link" href="https://indiegameorigin.com/blog/oneira-and-on-dreaming-dreams-for-sale">here</a>! It covers everything from our game jam days, to development struggles, and the very essence of our studio. Christen really asked phenomenal questions and it was a blast to watch (just a little biased :)).
 
@@ -39,7 +39,7 @@ As we had the trailer knocking on our doorstep, we knew we had to make some dras
 
 <h3 class="post-h3">AKA: The very important pillar that ties the entire game together.</h3>
 
-Fortunately, with the power of friendship and Max’ amazing PCG tools, we were able to flip it on its head and create something entirely new within a week. Below are some screenshots that show what the hub used to be like and what it is right now.
+Fortunately, with the power of friendship and Max’ amazing PCG tools, we were able to flip it on its head and create something entirely new within a week. Below are some super-highly-exclusive screenshots that show what the hub looks like right now!
 
 <img class="img-fluid post-image w-100" src="/assets/img/blog/hub1.jpg">
 
