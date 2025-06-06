@@ -15,7 +15,7 @@ I had no choice but to start with the fact that we had our very first interview 
 
 <iframe class="img-fluid post-video w-100" src="https://www.youtube.com/embed/UfxsbpqB1Do"></iframe>
 
-Additionally, you can check out their article on <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> <a class="post-link" href="https://indiegameorigin.com/blog/oneira-and-on-dreaming-dreams-for-sale">here</a>! It covers everything from our game jam days, to development struggles, and the very essence of our studio. Christen really asked phenomenal questions and it was a blast to watch.
+Additionally, you can check out their article <a class="post-link" href="https://indiegameorigin.com/blog/oneira-and-on-dreaming-dreams-for-sale">here</a>! It covers everything from our game jam days, to development struggles, and the very essence of our studio. Christen really asked phenomenal questions and it was a blast to watch.
 
 <h2 class="post-h2">An Early Alpha Trailer</h2>
 
