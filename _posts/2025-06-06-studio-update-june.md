@@ -13,7 +13,7 @@ It’s already been a whole month since the last studio update and honestly I ca
 
 I had no choice but to start with the fact that we had our very first interview this week. Massive shoutout to <a class="post-link" href="https://indiegameorigin.com/">Indie Game Origin</a> who reached out to us and enabled us to geek out about <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> in public… If you’re interested, go check it out!
 
-<iframe class="project-image img-fluid" src="https://www.youtube.com/embed/UfxsbpqB1Do"></iframe>
+<iframe class="img-fluid post-video w-100" src="https://www.youtube.com/embed/UfxsbpqB1Do"></iframe>
 
 Additionally, you can check out their article on <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> <a class="post-link" href="https://indiegameorigin.com/blog/oneira-and-on-dreaming-dreams-for-sale">here</a>! It covers everything from our game jam days, to development struggles, and the very essence of our studio. Christen really asked phenomenal questions and it was a blast to watch (just a little biased :)).
 
@@ -23,7 +23,7 @@ Secondly, we finally made a trailer!
 
 I honestly wouldn’t say we were ready for this but Steam forced our hand on this one. Without a trailer, your Steam page loses credibility, plummets in the algorithm, and needs to have amazing screenshots that clarify gameplay instead.
 
-<iframe class="project-image img-fluid" src="https://www.youtube.com/embed/ORu9Vv620r0"></iframe>
+<iframe class="img-fluid post-video w-100" src="https://www.youtube.com/embed/ORu9Vv620r0"></iframe>
 
 It was quite a journey to get here, but it’s finally done. Do note, this is an early alpha trailer and is still a bit rough around the edges. We have a proper trailer planned later down the development pipeline but would love to get your feedback on this now.
 
