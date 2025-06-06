@@ -57,7 +57,7 @@ As a marketer, I recognize both the good and the bad of this craft. In my eyes, 
 
 Unfortunately, <a class="post-link" href="https://www.linkedin.com/posts/donnellychris_organic-reach-is-down-65-on-linkedin-activity-7300502090672398336-xbyU/">the most recent LinkedIn algorithm changes</a> seem to steer content in the latter direction. Organic pages like ours seemed to have lost 65% of their reach as short-form TikTok videos are prioritized and advertised content spreads.
 
-It’s already difficult enough as an indie to cut through the noise, but with more and more restrictions, you really start to wonder what the point of posting is if all content has to be shaped by the same mold.
+It’s already difficult enough as an indie to cut through the noise, but with more and more restrictions, you really start to wonder what the point is if all content has to be shaped by the same mold.
 
 For now, I’ll be trying my best to make it work still. After all, we really want to help people like ourselves with fulfilling their dream of entering the game industry and Linkedin has the potential to be a great place for this. The war is not lost !!!
 
