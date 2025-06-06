@@ -25,9 +25,9 @@ I honestly wouldn’t say we were ready for this but Steam forced our hand on th
 
 <iframe class="img-fluid post-video w-100" src="https://www.youtube.com/embed/ORu9Vv620r0"></iframe>
 
-It was quite a journey to get here, but it’s finally done. Do note, this is an early alpha trailer and is still a bit rough around the edges. We have a proper trailer planned later down the development pipeline but would love to get your feedback on this now.
+It was quite a journey to get here, but it’s finally done. *Do note*, this is an early alpha trailer and is still a bit rough around the edges. We have a proper trailer planned later down the development pipeline but would love to get your feedback on this now.
 
-(Feel free to spam and yell at me on <a class="post-link" href="https://discord.gg/XAYvJhkkqE">Discord</a>)
+(Feel free to spam and yell your thoughts at me on <a class="post-link" href="https://discord.gg/XAYvJhkkqE">Discord</a>)
 
 I think that as creatives, we obsess over showing things to the public when we think they are "ready"—but whether or not we ever get to that point is to be debated. Perhaps I’m glad that our dearly beloved Steam pushed us out of our comfort zone for this one.
 
@@ -35,7 +35,7 @@ Regardless, I hope you enjoy what we made so far!
 
 <h2 class="post-h2">Redesigning the Hub</h2>
 
-As we had the trailer knocking on our doorstep, we knew we had to make some drastic changes, and make them quickly. One of these being the hub of ONEiRA; the area where you spawn, travel to the dreamscapes, and receive your monthly evaluation.
+As we had the trailer knocking on our doorstep, we knew we had to make some drastic changes, and make them quickly. One of these being the hub of <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a>; the area where you spawn, travel to the dreamscapes, and receive your monthly evaluation.
 
 <h3 class="post-h3">AKA: The very important pillar that ties the entire game together.</h3>
 
@@ -67,6 +67,6 @@ If you have any critique or feedback on our current content, please let me know!
 
 In sum, that wraps up some of the most exciting things for now! 
 
-Many things are still on your way but they’ll have to wait juuuuusssttt a little longer. For now, in the spirit of sharing exciting things, I’ll be preparing for Summer Game Fest. Geoff Keighley if you are reading this, PLEASE keep hosting it every year.
+Many things are still on your way but they’ll have to wait juuuuusssttt a little longer. For now, in the spirit of sharing exciting things, I’ll be preparing for <a class="post-link" href="https://www.summergamefest.com/">Summer Game Fest</a>. Geoff Keighley if you are reading this (super likely), PLEASE keep hosting it every year.
 
-Additionally, the Nintendo Switch 2 just got unleashed to the public so I will be delving into that. If there's any games you’re hoping to see at Summer Game Fest, or are trying out Mario Kart World, come geek out with me on <a class="post-link" href="https://discord.gg/XAYvJhkkqE">Discord</a>!
+Additionally, the Nintendo Switch 2 just got unleashed to the public so I will be delving into that. If there's any games you’re hoping to see at <a class="post-link" href="https://www.summergamefest.com/">Summer Game Fest</a>, or are trying out Mario Kart World, come geek out with me on <a class="post-link" href="https://discord.gg/XAYvJhkkqE">Discord</a>!
