@@ -29,7 +29,7 @@ Additionally, you may have noticed that UI has been missing from all our images 
 
 <img class="img-fluid post-image w-100" src="/assets/img/blog/ui_prototype_1.jpg">
 
-Do keep in mind that this is an early draft of the UI and will be updated significantly in the upcoming weeks—So stay tuned! For now, this is a prototype of a menu that allows players to access their inventory, view their progress, and learn about <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a>.
+Do keep in mind that this is an early draft of the UI and will be updated significantly in the upcoming weeks. For now, this is a prototype of a menu that allows players to access their inventory, view their progress, and learn about <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a>.
 
 <h2 class="post-h2">A Glimpse Into the Future</h2>
 
