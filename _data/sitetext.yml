@@ -10,30 +10,30 @@ en: &DEFAULT_EN
     CTA: "JOIN OUR DISCORD TO FOLLOW DEVELOPMENT"
     content:
       - title: "Explore Surreal, Immersive Dreamscapes"
-        desc: "In a world where dreams are sold as entertainment, it's your job to ensure that each experience is market-ready. Step into virtual dreamscapes as a maintenance worker and immerse yourself in serene yet fractured landscapes, where every dream holds a story waiting to be unraveled."
+        desc: "ONEiRA is a narrative-driven puzzle-platformer where your choices matter. Explore a world where dreams are sold as entertainment and your job is to ensure each is market-ready. Inspect virtual dreamscapes and untangle the trauma hidden within."
         image:
         alt:
         link: '#p1'
         layout: "left"     
       - title: "Uncover Secrets Buried in the Mind"
-        desc: "Some memories don’t fade—they hide. As you navigate the minds behind the dreams, cryptic messages and lingering voices pull you deeper into a psychological mystery where the truth is waiting to be untangled. Sharpen your senses and dive into an unforgettable story."
+        desc: "Some memories don’t fade—they hide. As you perform your inspection, cryptic messages and lingering voices will pull you deep into a psychological mystery. Sharpen your senses and help the minds behind the dreams process their deeply rooted pain."
         image: /assets/img/oneira/picture_2.jpg
         alt:
         link: '#p2'
         layout: "right"    
       - title: "Shape the Story with Every Decision"
-        desc: "Tread carefully however, as every decision shapes the story and the dreamscapes around you. Listen closely to the characters that you encounter on your journey, as some may know more than they let on. Will you choose wisely and uncover the hidden truths or let them slip away?"
+        desc: "Just tread carefully, as every choice you make alters the story and world around you. Listen closely to the characters that you encounter on your journey, as some may know more than they let on. Will you uncover what lies beneath, or lose yourself in the dream?"
         image: /assets/img/oneira/picture_3.jpg
         alt:
         link: '#p3'
         layout: "left"     
       - title: "A Mix of Puzzles, Platforming & Exploration"
-        desc: "ONEiRA is a narrative-driven puzzle-platformer that blends immersive storytelling with unique mechanics. Collect exciting abilities that help you solve puzzles, traverse obstacles, and explore the ever-shifting dreamscapes. Get ready to suit up and wishlist ONEiRA on Steam now!"
+        desc: "Luckily, the company has equipped you with a full arsenal of specialized gear. Collect and manage unique abilities to overcome puzzles, navigate obstacles, and explore the ever-shifting dreamscapes. Get ready to suit up—and don’t forget to wishlist ONEiRA today!"
         image: /assets/img/oneira/picture_4.jpg
         alt:
         link: '#p4'
         layout: "right"  
-    disclaimer: "ONEiRA is a work in progress, and the images shown may not reflect the final game."     
+    disclaimer: "ONEiRA is a work in progress, and the footage shown may not reflect the final game."     
   timeline:
     title: "Timeline"
     events:
@@ -194,30 +194,30 @@ es: &DEFAULT_ES
     CTA: "JOIN OUR DISCORD TO FOLLOW DEVELOPMENT"
     content:
       - title: "Explore Surreal, Immersive Dreamscapes"
-        desc: "In a world where dreams are sold as entertainment, it's your job to ensure that each experience is market-ready. Step into virtual dreamscapes as a maintenance worker and immerse yourself in serene yet fractured landscapes, where every dream holds a story waiting to be unraveled."
+        desc: "ONEiRA is a narrative-driven puzzle-platformer where your choices matter. Explore a world where dreams are sold as entertainment and your job is to ensure each is market-ready. Inspect virtual dreamscapes and untangle the trauma hidden within."
         image:
-        alt: 
+        alt:
         link: '#p1'
         layout: "left"     
       - title: "Uncover Secrets Buried in the Mind"
-        desc: "Some memories don’t fade—they hide. As you navigate the minds behind the dreams, cryptic messages and lingering voices pull you deeper into a psychological mystery where the truth is waiting to be untangled. Sharpen your senses and dive into an unforgettable story."
+        desc: "Some memories don’t fade—they hide. As you perform your inspection, cryptic messages and lingering voices will pull you deep into a psychological mystery. Sharpen your senses and help the minds behind the dreams process their deeply rooted pain."
         image: /assets/img/oneira/picture_2.jpg
-        alt: 
+        alt:
         link: '#p2'
         layout: "right"    
       - title: "Shape the Story with Every Decision"
-        desc: "Tread carefully however, as every decision shapes the story and the dreamscapes around you. Listen closely to the characters that you encounter on your journey, as some may know more than they let on. Will you choose wisely and uncover the hidden truths or let them slip away?"
+        desc: "Just tread carefully, as every choice you make alters the story and world around you. Listen closely to the characters that you encounter on your journey, as some may know more than they let on. Will you uncover what lies beneath, or lose yourself in the dream?"
         image: /assets/img/oneira/picture_3.jpg
-        alt: 
+        alt:
         link: '#p3'
         layout: "left"     
       - title: "A Mix of Puzzles, Platforming & Exploration"
-        desc: "ONEiRA is a narrative-driven puzzle-platformer that blends immersive storytelling with unique mechanics. Collect exciting abilities that help you solve puzzles, traverse obstacles, and explore the ever-shifting dreamscapes. Get ready to suit up and wishlist ONEiRA on Steam now!"
+        desc: "Luckily, the company has equipped you with a full arsenal of specialized gear. Collect and manage unique abilities to overcome puzzles, navigate obstacles, and explore the ever-shifting dreamscapes. Get ready to suit up—and don’t forget to wishlist ONEiRA today!"
         image: /assets/img/oneira/picture_4.jpg
-        alt: 
+        alt:
         link: '#p4'
         layout: "right"  
-    disclaimer: "ONEiRA is a work in progress, and the images shown may not reflect the final game."   
+    disclaimer: "ONEiRA is a work in progress, and the footage shown may not reflect the final game."   
   timeline:
     title: "Timeline"
     events:
