@@ -212,7 +212,7 @@ en: &DEFAULT_EN
           - url: https://www.linkedin.com/in/patrickmccabeac/
             icon: fab fa-linkedin-in 
       - name: "Paula"
-        role: ""Community Manager"
+        role: "Community Manager"
         image: /assets/img/about/placeholder.png
         social:
           - url: https://www.pat-mccabe.com/
