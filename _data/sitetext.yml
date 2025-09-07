@@ -107,10 +107,10 @@ en: &DEFAULT_EN
         role: "Marketing Manager"
         image: /assets/img/about/joel.png
         social:
-          - url: https://www.artstation.com/artwork/BknOQk
-            icon: fab fa-artstation
           - url: https://www.linkedin.com/in/joel-van-doorn/
             icon: fab fa-linkedin-in   
+          - url: https://www.artstation.com/artwork/BknOQk
+            icon: fab fa-artstation
       - name: "Steph H."
         role: "Unreal Generalist"
         image: /assets/img/about/steph-gen.png
@@ -182,7 +182,7 @@ en: &DEFAULT_EN
           - url: https://tnaskk.artstation.com/
             icon: fab fa-artstation
       - name: "Khang"
-        role: "Concept Artist"
+        role: "Environmental Artist"
         image: /assets/img/about/placeholder.png
         social:
           - url: https://www.khangaroo3d.com/
@@ -323,10 +323,10 @@ es: &DEFAULT_ES
         role: "Marketing Manager"
         image: /assets/img/about/joel.png
         social:
-          - url: https://www.artstation.com/artwork/BknOQk
-            icon: fab fa-artstation
           - url: https://www.linkedin.com/in/joel-van-doorn/
             icon: fab fa-linkedin-in   
+          - url: https://www.artstation.com/artwork/BknOQk
+            icon: fab fa-artstation
       - name: "Steph H."
         role: "Unreal Generalist"
         image: /assets/img/about/steph-gen.png
@@ -398,7 +398,7 @@ es: &DEFAULT_ES
           - url: https://tnaskk.artstation.com/
             icon: fab fa-artstation
       - name: "Khang"
-        role: "Concept Artist"
+        role: "Environmental Artist"
         image: /assets/img/about/placeholder.png
         social:
           - url: https://www.khangaroo3d.com/
