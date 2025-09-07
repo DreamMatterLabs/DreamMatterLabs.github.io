@@ -361,16 +361,6 @@ es: &DEFAULT_ES
         social:
           - url: https://www.artstation.com/gabekabam
             icon: fab fa-artstation         
-      - name: "Ashe"
-        role: "Community Manager"
-        image: /assets/img/about/ashe.png
-        social:
-          - url: https://www.twitch.tv/ashe_xo
-            icon: fa-brands fa-twitch
-          - url: https://www.tiktok.com/@a.s.h.e_xo
-            icon: fa fa-tiktok
-          - url: https://www.youtube.com/@ashe_xo
-            icon: fab fa-youtube
       - name: "Cody"
         role: "Concept Artist"
         image: /assets/img/about/cody.png
@@ -380,15 +370,57 @@ es: &DEFAULT_ES
           - url: https://www.artstation.com/ahlr
             icon: fab fa-artstation
           - url: https://www.linkedin.com/in/codyschroederdesign/
-            icon: fab fa-linkedin-in 
-      - name: "Pat"
-        role: "Level Designer (Level 1)"
-        image: /assets/img/about/pat.png
+            icon: fab fa-linkedin-in  
+      - name: "Adam"
+        role: "Level Designer"
+        image: /assets/img/about/placeholder.png
         social:
-          - url: https://www.pat-mccabe.com/
-            icon: fa fa-user-astronaut
-          - url: https://www.linkedin.com/in/patrickmccabeac/
-            icon: fab fa-linkedin-in      
+          - url: https://www.adamvillareal.com/
+            icon: fa fa-globe
+      - name: "George"
+        role: "Level Designer"
+        image: /assets/img/about/placeholder.png
+        social:
+          - url: https://georgebandyld.wixsite.com/george-bandy-level-d
+            icon: fa fa-globe
+      - name: "Daniel"
+        role: "Level Designer"
+        image: /assets/img/about/placeholder.png
+        social:
+          - url: https://www.danieltvete.com/
+            icon: fa fa-globe
+          - url: https://www.linkedin.com/in/daniel-tvete/
+            icon: fab fa-linkedin-in   
+      - name: "Anastasia"
+        role: "Concept Artist"
+        image: /assets/img/about/placeholder.png
+        social:
+          - url: https://tnaskk.artstation.com/
+            icon: fab fa-artstation
+      - name: "Khang"
+        role: "Concept Artist"
+        image: /assets/img/about/placeholder.png
+        social:
+          - url: https://www.khangaroo3d.com/
+            icon: fa fa-hand-peace
+      - name: "Pierce"
+        role: "Concept Artist"
+        image: /assets/img/about/placeholder.png
+        social:
+          - url: https://ekpap.com/portfolio/
+            icon: fa fa-hand-peace
+      - name: "Jordan"
+        role: "Community Manager"
+        image: /assets/img/about/placeholder.png
+        social:
+          - url: https://www.linkedin.com/in/jordan-stephens-270697
+            icon: fab fa-linkedin-in 
+      - name: "Paula"
+        role: "Community Manager"
+        image: /assets/img/about/placeholder.png
+        social:
+          - url: https://thenerdytype.com/
+            icon: fa fa-globe
   footer:
     contact: "CONTACT US"
     legal: "PRIVACY POLICY"
