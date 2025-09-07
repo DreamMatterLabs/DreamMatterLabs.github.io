@@ -154,7 +154,15 @@ en: &DEFAULT_EN
           - url: https://www.artstation.com/ahlr
             icon: fab fa-artstation
           - url: https://www.linkedin.com/in/codyschroederdesign/
-            icon: fab fa-linkedin-in  
+            icon: fab fa-linkedin-in 
+      - name: "Daniel"
+        role: "Level Designer"
+        image: /assets/img/about/daniel.png
+        social:
+          - url: https://www.danieltvete.com/
+            icon: fa fa-globe
+          - url: https://www.linkedin.com/in/daniel-tvete/
+            icon: fab fa-linkedin-in    
       - name: "Adam"
         role: "Level Designer"
         image: /assets/img/about/placeholder.png
@@ -167,14 +175,6 @@ en: &DEFAULT_EN
         social:
           - url: https://georgebandyld.wixsite.com/george-bandy-level-d
             icon: fa fa-globe
-      - name: "Daniel"
-        role: "Level Designer"
-        image: /assets/img/about/placeholder.png
-        social:
-          - url: https://www.danieltvete.com/
-            icon: fa fa-globe
-          - url: https://www.linkedin.com/in/daniel-tvete/
-            icon: fab fa-linkedin-in   
       - name: "Anastasia"
         role: "Concept Artist"
         image: /assets/img/about/placeholder.png
@@ -371,6 +371,14 @@ es: &DEFAULT_ES
             icon: fab fa-artstation
           - url: https://www.linkedin.com/in/codyschroederdesign/
             icon: fab fa-linkedin-in  
+      - name: "Daniel"
+        role: "Level Designer"
+        image: /assets/img/about/daniel.png
+        social:
+          - url: https://www.danieltvete.com/
+            icon: fa fa-globe
+          - url: https://www.linkedin.com/in/daniel-tvete/
+            icon: fab fa-linkedin-in   
       - name: "Adam"
         role: "Level Designer"
         image: /assets/img/about/placeholder.png
@@ -383,14 +391,6 @@ es: &DEFAULT_ES
         social:
           - url: https://georgebandyld.wixsite.com/george-bandy-level-d
             icon: fa fa-globe
-      - name: "Daniel"
-        role: "Level Designer"
-        image: /assets/img/about/placeholder.png
-        social:
-          - url: https://www.danieltvete.com/
-            icon: fa fa-globe
-          - url: https://www.linkedin.com/in/daniel-tvete/
-            icon: fab fa-linkedin-in   
       - name: "Anastasia"
         role: "Concept Artist"
         image: /assets/img/about/placeholder.png
