@@ -76,7 +76,7 @@ en: &DEFAULT_EN
           - url: https://www.linkedin.com/in/mharris382/
             icon: fab fa-linkedin-in
       - name: "Bella"
-        role: "3D Artist"
+        role: "Lead Artist"
         image: /assets/img/about/bella.png
         social:
           - url: https://www.artstation.com/bellapix
@@ -292,7 +292,7 @@ es: &DEFAULT_ES
           - url: https://www.linkedin.com/in/mharris382/
             icon: fab fa-linkedin-in
       - name: "Bella"
-        role: "3D Artist"
+        role: "Lead Artist"
         image: /assets/img/about/bella.png
         social:
           - url: https://www.artstation.com/bellapix
