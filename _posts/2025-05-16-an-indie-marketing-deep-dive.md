@@ -7,9 +7,9 @@ preview: "Analyzing R.E.P.O., Clair Obscur: Expedition 33, & Schedule 1."
 ---
 <h2 class="post-h2">Hey There!</h2>
 
-If you're even remotely tapped into the indie gaming scene right now, you've likely heard names like R.E.P.O., Clair Obscur: Expedition 33, and Schedule 1. Notably, these aren’t huge studio projects, but indie games created by small teams that became a huge hit.
+If you're even remotely tapped into the indie gaming scene right now, you've likely heard names like R.E.P.O., Clair Obscur: Expedition 33, and Schedule 1. And the best part? These aren’t huge studio projects, but great indie games created by a handful of people.
 
-At Dream Matter Labs, we're not just building <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a>—we're learning from those pushing boundaries in real-time. So today, we’re breaking down what made these games rise above the noise, what lessons indies can learn, and what patterns are emerging.
+At Dream Matter Labs, we're trying to build <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> by learning from those pushing the boundaries in real-time. So today, we’re breaking down what made these games rise above the noise, what lessons indies can learn, and what patterns are emerging.
 
 Let’s break it down!
 
@@ -27,7 +27,7 @@ In my eyes, the reason this approach worked is because semiwork was very overt a
 
 <img class="img-fluid post-image w-50" src="/assets/img/blog/repo-emoji.jpg">
 
-Everything was imbued with a silly sense of humor, which made it not only fun to play, but to share as well. Personally, I think this is what made R.E.P.O. so successful—You didn’t have to try to make a funny clip because the game was designed for it.
+Everything was imbued with a silly sense of humor, which made it not only fun to play, but to share as well. Personally, I think this is what made R.E.P.O. so successful. You didn’t have to try to make a funny clip because the game was designed for it.
 
 The majority of gamers in 2025 discover new games through social media such as TikTok and YouTube where others can authentically share their gameplay. Tapping into this as a fellow indie dev is crucial as traditional marketing “dies off”.
 
@@ -37,7 +37,7 @@ Design your game to be shared! After all, a game works best when it is designed 
 
 <h2 class="post-h2">2. Clair Obscur: Expedition 33</h2>
 
-Clair Obscur: Expedition 33 is a turn-based RPG set in a world where a so-called paintress curses everyone of a certain age each year—Those whose age exceeds the number she paints, die. You play as the last expedition seeking to end this cycle.
+Clair Obscur: Expedition 33 is a turn-based RPG set in a world where a so-called paintress curses everyone of a certain age each year; those whose age exceeds the number she paints, die. You play as the last expedition seeking to end this cycle.
 
 <img class="img-fluid post-image w-100" src="/assets/img/blog/clair-obscur-expedition-33.jpg">
 
@@ -65,11 +65,11 @@ Without a strong emotional hook to make people connect with your game, their int
 
 <h3 class="post-h3">Key takeaway for indies:</h3>
 
-Sometimes the best marketing isn’t flashy action-packed trailers—it’s just a single sentence that hits hard. If your game’s concept can be summarized in a way that sparks emotion or intrigue, you’ve already won half the battle!
+Sometimes the best marketing isn’t flashy action-packed trailers. It’s just a single sentence that hits hard. If your game’s concept can be summarized in a way that sparks emotion or intrigue, you’ve already won half the battle!
 
 <h2 class="post-h2">3. Schedule 1</h2>
 
-Schedule 1 is a management game where you play as a small-time drug dealer and build your own drug empire from the ground up. It’s all about control, simulation, and manipulation—and its minimal visuals serve to keep attention on its ideas and anxieties.
+Schedule 1 is a management game where you play as a small-time drug dealer and build your own drug empire from the ground up. It’s all about control, simulation, and manipulation; and its minimal visuals serve keep attention on its ideas and anxieties.
 
 <img class="img-fluid post-image w-100" src="/assets/img/blog/schedule-1.jpg">
 
@@ -97,8 +97,6 @@ While these games are radically different, these are some general takeaways:
 - Embrace your distinct identity, both visually and emotionally
 - Design your game to be memorable and shareable
 
-Granted, there are plenty of other factors that have played a part in the successes of these games, but I hope to have extracted the relevant ones for you. For example, Clair Obscur: Expedition 33 had a publisher and launched on Xbox game pass.
-
-...but I wouldn’t call that a useful tip for small indie devs like us.
+Granted, there are plenty of other factors that have played a part in the successes of these games, but I hope to have extracted the relevant ones for you. For example, Clair Obscur: Expedition 33 had a well-established publisher and launched on Xbox game pass.
 
 Regardless, we’re taking notes! <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> is being built with the same takeaways in mind. And thanks to games like R.E.P.O., Clair Obscur: Expedition 33, and Schedule 1, we’re more excited than ever to see where this new wave takes us!

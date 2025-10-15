@@ -49,20 +49,6 @@ Fortunately, with the power of friendship and Max’ amazing PCG tools, we were 
 
 Here, the lady with the auburn hair is one that you’ll bump into frequently. Whether pleasant or unpleasant, you’ll encounter her whenever you return to the hub as she’ll be there to assess your performance; and instruct you on your next tasks.
 
-<h2 class="post-h2">The LinkedIn War</h2>
-
-Amidst all the good and exciting things, I have also been having parasocial beef with LinkedIn. I have experimented, analyzed, and adapted in an effort to provide the most value to our followers there. But somehow, nothing seems to stick. 
-
-As a marketer, I recognize both the good and the bad of this craft. In my eyes, marketing serves to build community and bridge a product with its users, but so much of it becomes an insult to people’s time and intelligence—and I want to avoid that.
-
-Unfortunately, <a class="post-link" href="https://www.linkedin.com/posts/donnellychris_organic-reach-is-down-65-on-linkedin-activity-7300502090672398336-xbyU/">the most recent LinkedIn algorithm changes</a> seem to steer content in the latter direction. Organic pages like ours seemed to have lost 65% of their reach as short-form TikTok videos are prioritized and advertised content spreads.
-
-It’s already difficult enough as an indie to cut through the noise, but with more and more restrictions, you really start to wonder what the point is if all content has to be shaped by the same mold.
-
-For now, I’ll be trying my best to make it work still. After all, we really want to help people like ourselves with fulfilling their dream of entering the game industry and Linkedin has the potential to be a great place for this. The war is not lost !!!
-
-If you have any critique or feedback on our current content, please let me know!
-
 <h2 class="post-h2">Exciting Things</h2>
 
 In sum, that wraps up some of the most exciting things for now! 

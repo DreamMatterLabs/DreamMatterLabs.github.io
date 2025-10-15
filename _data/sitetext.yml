@@ -163,12 +163,6 @@ en: &DEFAULT_EN
             icon: fa fa-globe
           - url: https://www.linkedin.com/in/daniel-tvete/
             icon: fab fa-linkedin-in    
-      - name: "Adam"
-        role: "Level Designer"
-        image: /assets/img/about/placeholder.png
-        social:
-          - url: https://www.adamvillareal.com/
-            icon: fa fa-globe
       - name: "George"
         role: "Level Designer"
         image: /assets/img/about/placeholder.png
@@ -199,12 +193,6 @@ en: &DEFAULT_EN
         social:
           - url: https://www.linkedin.com/in/jordan-stephens-270697
             icon: fab fa-linkedin-in 
-      - name: "Paula"
-        role: "Community Manager"
-        image: /assets/img/about/placeholder.png
-        social:
-          - url: https://thenerdytype.com/
-            icon: fa fa-globe
   footer:
     contact: "CONTACT US"
     legal: "PRIVACY POLICY"
@@ -379,12 +367,6 @@ es: &DEFAULT_ES
             icon: fa fa-globe
           - url: https://www.linkedin.com/in/daniel-tvete/
             icon: fab fa-linkedin-in   
-      - name: "Adam"
-        role: "Level Designer"
-        image: /assets/img/about/placeholder.png
-        social:
-          - url: https://www.adamvillareal.com/
-            icon: fa fa-globe
       - name: "George"
         role: "Level Designer"
         image: /assets/img/about/placeholder.png
@@ -415,12 +397,6 @@ es: &DEFAULT_ES
         social:
           - url: https://www.linkedin.com/in/jordan-stephens-270697
             icon: fab fa-linkedin-in 
-      - name: "Paula"
-        role: "Community Manager"
-        image: /assets/img/about/placeholder.png
-        social:
-          - url: https://thenerdytype.com/
-            icon: fa fa-globe
   footer:
     contact: "CONTACT US"
     legal: "PRIVACY POLICY"
