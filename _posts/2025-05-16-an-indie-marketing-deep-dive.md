@@ -53,9 +53,9 @@ Its reveal trailer leaned less on combat mechanics and more on atmosphere and to
 
 <img class="img-fluid post-image w-50" src="/assets/img/blog/clair-obscur-expedition-33-2.jpg">
 
-To back this up, the turn-based RPG gameplay is very niche. In a way, it reminds me of Baldur’s Gate gameplay which I’d argue is not something people generally play. However, these games know how to resonate with people and reel them in regardless.
+To back this up, the turn-based JRPG gameplay is not necessarily mainstream. In a way, it reminds me of Baldur’s Gate 3 as I'd argue that it's also not a type of game that people overwhelmingly play. However, these games know how to resonate with people and reel them in regardless.
 
-If you’re an indie dev, chances are you're developer-brained. You’re working hard to perfect gameplay, features, and systems to make the best possible game in that genre. However, this way, chances are that you overlook what people generally look for:
+If you’re an indie dev, chances are you're developer-brained. You’re working hard to perfect gameplay, features, and systems to make the best possible game in that genre. But this way, chances are that you also overlook what people generally look for:
 
 **An emotional connection.**
 
