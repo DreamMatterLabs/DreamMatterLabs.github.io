@@ -9,7 +9,7 @@ preview: "Analyzing R.E.P.O., Clair Obscur: Expedition 33, & Schedule 1."
 
 If you're even remotely tapped into the indie gaming scene right now, you've likely heard names like R.E.P.O., Clair Obscur: Expedition 33, and Schedule 1. And the best part? These aren’t huge studio projects, but great indie games created by a handful of people.
 
-At Dream Matter Labs, we're trying to build <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> by learning from those pushing the boundaries in real-time. So today, we’re breaking down what made these games rise above the noise, what lessons indies can learn, and what patterns are emerging.
+At Dream Matter Labs, we're trying to build <a class="post-link" href="https://dreammatterlabs.com/">ONEiRA</a> by learning from those pushing the boundaries in real-time. So today, we’re breaking down what made these games rise above the noise, what lessons indies can learn, and what patterns are emerging...
 
 Let’s break it down!
 
@@ -49,11 +49,11 @@ Personally, Expedition 33 offers one of the best one-liners I’ve seen in a whi
 
 That sentence alone paints a world, sets a mood, and hints at gameplay stakes. Add to that the emotionally resonant themes of mortality, purpose, and legacy, and you have a game that feels important even before you pick up your controller (or keyboard?).
 
-Its reveal trailer leaned less on combat mechanics and more on atmosphere and tone through slow camera pans, moody music, and a quiet sense of urgency. It made people feel something before they understood everything…
+Its reveal trailer leaned less on combat mechanics and more on atmosphere and tone through slow camera pans, moody music, and a quiet sense of urgency. It made people feel what the game was about before they understood everything.
 
 <img class="img-fluid post-image w-50" src="/assets/img/blog/clair-obscur-expedition-33-2.jpg">
 
-To back this up, the turn-based JRPG gameplay is not necessarily mainstream. In a way, it reminds me of Baldur’s Gate 3 as it's also not a type of game that people generally play. However, these games know how to resonate with people and reel them in regardless.
+To back this up, the turn-based JRPG gameplay is not necessarily mainstream. It reminds me of Baldur’s Gate 3 as it's also not a type of game that people generally play. However, these games know how to resonate with people and reel them in regardless.
 
 If you’re an indie dev, chances are you're developer-brained. You’re working hard to perfect gameplay, features, and systems to make the best possible game in that genre. But this way, chances are that you also overlook what people generally look for:
 
