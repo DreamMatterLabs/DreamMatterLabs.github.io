@@ -56,7 +56,7 @@ en: &DEFAULT_EN
     title: "About Us"
     people:
       - name: "John"
-        role: "Studio Director & Interactive Audio Designer"
+        role: "Studio Director & Interactive Audio"
         image: /assets/img/about/john.png
         social:
           - url: https://ambientartstyles.com/
@@ -76,7 +76,7 @@ en: &DEFAULT_EN
           - url: https://www.linkedin.com/in/mharris382/
             icon: fab fa-linkedin-in
       - name: "Bella"
-        role: "Lead Artist"
+        role: "Art Director & Lead Artist, Producer"
         image: /assets/img/about/bella.png
         social:
           - url: https://www.artstation.com/bellapix
@@ -85,8 +85,14 @@ en: &DEFAULT_EN
             icon: fab fa-twitter
           - url: https://www.linkedin.com/in/isabella-piechota-248197ba/
             icon: fab fa-linkedin-in
+      - name: "Pam"
+        role: "Level Design Director, Producer"
+        image: /assets/img/about/pam.png
+        social:
+          - url: https://www.linkedin.com/in/p%C3%A2mela-beltrani-a4b808106/
+            icon: fab fa-linkedin-in
       - name: "Fred"
-        role: "Narrative Specialist"
+        role: "Narrative Specialist, Producer"
         image: /assets/img/about/fred.png
         social:
           - url: https://fredomato.itch.io/
@@ -117,12 +123,6 @@ en: &DEFAULT_EN
         social:
           - url: https://github.com/sljeandell
             icon: fab fa-github
-      - name: "Pam"
-        role: "Level Designer"
-        image: /assets/img/about/pam.png
-        social:
-          - url: https://www.linkedin.com/in/p%C3%A2mela-beltrani-a4b808106/
-            icon: fab fa-linkedin-in
       - name: "Steph T."
         role: "UI Artist"
         image: /assets/img/about/steph-ui.png
