@@ -193,6 +193,8 @@ en: &DEFAULT_EN
         social:
           - url: https://www.linkedin.com/in/jordan-stephens-270697
             icon: fab fa-linkedin-in 
+  team:
+    title: "Extended Team & Special Thanks"
   footer:
     contact: "CONTACT US"
     legal: "PRIVACY POLICY"
