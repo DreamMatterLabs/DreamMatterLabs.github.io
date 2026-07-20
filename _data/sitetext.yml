@@ -195,6 +195,12 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in 
   team2:
     title: "Extended Team & Special Thanks"
+          - name: "XXXXXXXXXXX"
+        role: "Community Manager"
+        image: /assets/img/about/placeholder.png
+        social:
+          - url: https://www.linkedin.com/in/jordan-stephens-270697
+            icon: fab fa-linkedin-in 
   footer:
     contact: "CONTACT US"
     legal: "PRIVACY POLICY"
