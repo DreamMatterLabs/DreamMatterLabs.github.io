@@ -119,8 +119,8 @@ sections:
             icon: fab fa-linkedin-in   
           - url: https://www.artstation.com/artwork/BknOQk
             icon: fab fa-artstation
-      - name: "Steph H."
 - section_title: "Extended Team & Contributors"
+      - name: "Steph H."
         role: "Unreal Generalist"
         image: /assets/img/about/steph-gen.png
         social:
