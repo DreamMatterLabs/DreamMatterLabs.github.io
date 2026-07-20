@@ -53,8 +53,7 @@ en: &DEFAULT_EN
         image: /assets/img/timeline/oneira.jpg
         alt:
   team:
-sections:
-    - section_title: "Core Team"
+    title: "About Us"
     people:
       - name: "John"
         role: "Studio Director & Interactive Audio"
