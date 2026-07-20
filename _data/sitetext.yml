@@ -52,6 +52,7 @@ en: &DEFAULT_EN
         desc: "What was once taking root has now begun to bloom. ONEiRA enters its final development phase as the dreamscapes are polished, narrative threads are finalized, and a community is being built. What awaits? Stay tuned and find out!"
         image: /assets/img/timeline/oneira.jpg
         alt:
+
   team:
     title: "About Us"
     people:
@@ -65,7 +66,7 @@ en: &DEFAULT_EN
             icon: fa fa-bskyicon
           - url: https://www.linkedin.com/in/john-s-6b47a565/
             icon: fab fa-linkedin-in
-    - header: "Extended Team & Contributors"
+      - header: "Extended Team & Contributors"
       - name: "Max"
         role: "Lead Programmer, Game Designer"
         image: /assets/img/about/maxB.png
