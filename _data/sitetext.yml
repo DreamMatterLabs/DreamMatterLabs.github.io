@@ -110,16 +110,6 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
           - url: 
             icon: fa fa-tree
-      - name: "Steph T."
-        role: "UI Artist"
-        image: /assets/img/about/steph-ui.png
-        social:
-          - url: https://stephanieterrero.com/
-            icon: fa fa-globe
-          - url: https://bsky.app/profile/stephdoesui.bsky.social
-            icon: fa fa-bskyicon
-          - url: https://www.linkedin.com/in/stephanieterrero/
-            icon: fab fa-linkedin-in
       - name: "Emily"
         role: "Programmer"
         image: /assets/img/about/placeholder.png
@@ -190,6 +180,16 @@ en: &DEFAULT_EN
         social:
           - url: https://georgebandyld.wixsite.com/george-bandy-level-d
             icon: fa fa-globe
+      - name: "Steph T."
+        role: "UI Artist"
+        image: /assets/img/about/steph-ui.png
+        social:
+          - url: https://stephanieterrero.com/
+            icon: fa fa-globe
+          - url: https://bsky.app/profile/stephdoesui.bsky.social
+            icon: fa fa-bskyicon
+          - url: https://www.linkedin.com/in/stephanieterrero/
+            icon: fab fa-linkedin-in
       - name: "Anastasia"
         role: "Concept Artist"
         image: /assets/img/about/placeholder.png
