@@ -10,25 +10,31 @@
         <!--Team Members-->
         <div class="row d-flex justify-content-center">
             {% for person in site.data.sitetext[site.locale].team.people %}
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
+                {% if person.header %}
+                    <div class="col-12 text-center my-4">
+                        <h2 class="fs-2 fw-bold text-uppercase text-white mb-0">{{ person.header }}</h2>
+                    </div>
+                {% else %}
+                    <div class="col-sm-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
 
-                    <h2 class="fs-3 fw-bold text-white mb-3 mt-3">{{ person.name }}</h2>
+                            <h2 class="fs-3 fw-bold text-white mb-3 mt-3">{{ person.name }}</h2>
 
-                    <p class="fs-5 text-muted2 mb-3">{{ person.role }}</p>
+                            <p class="fs-5 text-muted2 mb-3">{{ person.role }}</p>
 
-                    <ul class="list-inline social-buttons">
-                        {% for network in person.social %}
-                        <li class="list-inline-item">
-                            <a href="{{ network.url }}">
-                                <i class="{{ network.icon }}"></i>
-                            </a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
+                            <ul class="list-inline social-buttons">
+                                {% for network in person.social %}
+                                <li class="list-inline-item">
+                                    <a href="{{ network.url }}">
+                                        <i class="{{ network.icon }}"></i>
+                                    </a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                {% endif %}
             {% endfor %}
         </div>
     </div>
@@ -44,25 +50,31 @@
         <!--Team Members-->
         <div class="row d-flex justify-content-center">
             {% for person in site.data.sitetext.team.people %}
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
+                {% if person.header %}
+                    <div class="col-12 text-center my-4">
+                        <h2 class="fs-2 fw-bold text-uppercase text-white mb-0">{{ person.header }}</h2>
+                    </div>
+                {% else %}
+                    <div class="col-sm-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
 
-                    <h2 class="fs-3 fw-bold text-white mb-3 mt-3">{{ person.name }}</h2>
+                            <h2 class="fs-3 fw-bold text-white mb-3 mt-3">{{ person.name }}</h2>
 
-                    <p class="fs-5 text-muted2 mb-3">{{ person.role }}</p>
+                            <p class="fs-5 text-muted2 mb-3">{{ person.role }}</p>
 
-                    <ul class="list-inline social-buttons">
-                        {% for network in person.social %}
-                        <li class="list-inline-item">
-                            <a href="{{ network.url }}">
-                                <i class="{{ network.icon }}"></i>
-                            </a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
+                            <ul class="list-inline social-buttons">
+                                {% for network in person.social %}
+                                <li class="list-inline-item">
+                                    <a href="{{ network.url }}">
+                                        <i class="{{ network.icon }}"></i>
+                                    </a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                {% endif %}
             {% endfor %}
         </div>
     </div>
