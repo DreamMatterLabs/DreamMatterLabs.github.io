@@ -53,7 +53,9 @@ en: &DEFAULT_EN
         image: /assets/img/timeline/oneira.jpg
         alt:
   team:
-    title: "About Us"
+
+sections:
+    - section_title: "About Us"
     people:
       - name: "John"
         role: "Studio Director & Interactive Audio"
@@ -118,6 +120,7 @@ en: &DEFAULT_EN
           - url: https://www.artstation.com/artwork/BknOQk
             icon: fab fa-artstation
       - name: "Steph H."
+- section_title: "Extended Team & Contributors"
         role: "Unreal Generalist"
         image: /assets/img/about/steph-gen.png
         social:
