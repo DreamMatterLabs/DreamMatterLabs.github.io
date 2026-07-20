@@ -100,6 +100,16 @@ en: &DEFAULT_EN
             icon: fa fa-headphones
           - url: https://linktr.ee/forgottendawn
             icon: fa fa-tree
+      - name: "Olivier"
+        role: "Lead Programmer, Head Developer"
+        image: /assets/img/about/placeholder.png
+        social:
+          - url: 
+            icon: fab fa-youtube
+          - url: 
+            icon: fab fa-linkedin-in
+          - url: 
+            icon: fa fa-tree
       - name: "Steph T."
         role: "UI Artist"
         image: /assets/img/about/steph-ui.png
