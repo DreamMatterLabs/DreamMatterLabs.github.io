@@ -195,6 +195,13 @@ en: &DEFAULT_EN
         social:
           - url: https://www.linkedin.com/in/jordan-stephens-270697
             icon: fab fa-linkedin-in 
+      - header: "Special Thanks"
+      - name: "Blue Dragon"
+        role: "___"
+        image: /assets/img/about/placeholder.png
+        social:
+          - url: https://www.linkedin.com/in/jordan-stephens-270697
+            icon: fab fa-linkedin-in
   footer:
     contact: "CONTACT US"
     legal: "PRIVACY POLICY"
