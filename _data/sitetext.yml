@@ -65,6 +65,7 @@ en: &DEFAULT_EN
             icon: fa fa-bskyicon
           - url: https://www.linkedin.com/in/john-s-6b47a565/
             icon: fab fa-linkedin-in
+- header: "Extended Team & Contributors"
       - name: "Max"
         role: "Lead Programmer, Game Designer"
         image: /assets/img/about/maxB.png
