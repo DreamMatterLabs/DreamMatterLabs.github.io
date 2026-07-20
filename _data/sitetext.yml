@@ -144,6 +144,16 @@ en: &DEFAULT_EN
             icon: fa fa-globe
           - url: https://www.linkedin.com/in/daniel-tvete/
             icon: fab fa-linkedin-in  
+      - name: "Ankitha"
+        role: "Lighting Specialist"
+        image: /assets/img/about/placeholder.png
+        social:
+          - url: 
+            icon: fab fa-youtube
+          - url: 
+            icon: fab fa-linkedin-in
+          - url: 
+            icon: fa fa-tree   
       - name: "Malu"
         role: "Ink Master"
         image: /assets/img/about/placeholder.png
