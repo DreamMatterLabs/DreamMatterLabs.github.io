@@ -57,7 +57,7 @@ en: &DEFAULT_EN
     title: "About Us"
     people:
       - name: "John"
-        role: "Studio Director & Interactive Audio"
+        role: "Studio/Creative Director & Interactive Audio"
         image: /assets/img/about/john.png
         social:
           - url: https://ambientartstyles.com/
@@ -77,7 +77,7 @@ en: &DEFAULT_EN
           - url: https://www.linkedin.com/in/isabella-piechota-248197ba/
             icon: fab fa-linkedin-in
       - name: "Pam"
-        role: "Level Design Director, Producer"
+        role: "Level Design, Producer"
         image: /assets/img/about/pam.png
         social:
           - url: https://www.linkedin.com/in/p%C3%A2mela-beltrani-a4b808106/
@@ -120,6 +120,16 @@ en: &DEFAULT_EN
             icon: fa fa-bskyicon
           - url: https://www.linkedin.com/in/stephanieterrero/
             icon: fab fa-linkedin-in
+      - name: "Emily"
+        role: "Programmer"
+        image: /assets/img/about/placeholder.png
+        social:
+          - url: 
+            icon: fab fa-youtube
+          - url: 
+            icon: fab fa-linkedin-in
+          - url: 
+            icon: fa fa-tree
       - name: "Habu"
         role: "3D Artist"
         image: /assets/img/about/habu.png
@@ -133,7 +143,27 @@ en: &DEFAULT_EN
           - url: https://www.danieltvete.com/
             icon: fa fa-globe
           - url: https://www.linkedin.com/in/daniel-tvete/
-            icon: fab fa-linkedin-in    
+            icon: fab fa-linkedin-in  
+      - name: "Malu"
+        role: "Ink Master"
+        image: /assets/img/about/placeholder.png
+        social:
+          - url: 
+            icon: fab fa-youtube
+          - url: 
+            icon: fab fa-linkedin-in
+          - url: 
+            icon: fa fa-tree         
+      - name: "Austin"
+        role: "3D Modeler"
+        image: /assets/img/about/placeholder.png
+        social:
+          - url: 
+            icon: fab fa-youtube
+          - url: 
+            icon: fab fa-linkedin-in
+          - url: 
+            icon: fa fa-tree              
       - name: "George"
         role: "Level Designer"
         image: /assets/img/about/placeholder.png
