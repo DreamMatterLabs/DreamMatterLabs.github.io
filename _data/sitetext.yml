@@ -193,19 +193,6 @@ en: &DEFAULT_EN
         social:
           - url: https://www.linkedin.com/in/jordan-stephens-270697
             icon: fab fa-linkedin-in 
-  team2:
-    title: "About Us"
-    people:
-      - name: "xxxxx"
-        role: "xxx Director & xx Audio"
-        image: /assets/img/about/john.png
-        social:
-          - url: https://ambientartstyles.com/
-            icon: fa fa-globe
-          - url: https://bsky.app/profile/ambientartstyles.bsky.social
-            icon: fa fa-bskyicon
-          - url: https://www.linkedin.com/in/john-s-6b47a565/
-            icon: fab fa-linkedin-in
   footer:
     contact: "CONTACT US"
     legal: "PRIVACY POLICY"
