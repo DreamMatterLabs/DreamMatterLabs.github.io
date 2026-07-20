@@ -130,6 +130,16 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
           - url: 
             icon: fa fa-tree
+      - name: "Débora"
+        role: "Producer"
+        image: /assets/img/about/placeholder.png
+        social:
+          - url: 
+            icon: fab fa-youtube
+          - url: 
+            icon: fab fa-linkedin-in
+          - url: 
+            icon: fa fa-tree   
       - name: "Habu"
         role: "3D Artist"
         image: /assets/img/about/habu.png
