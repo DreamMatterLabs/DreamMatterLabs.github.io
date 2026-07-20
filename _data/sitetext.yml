@@ -66,7 +66,6 @@ en: &DEFAULT_EN
             icon: fa fa-bskyicon
           - url: https://www.linkedin.com/in/john-s-6b47a565/
             icon: fab fa-linkedin-in
-      - header: "Extended Team & Contributors"
       - name: "Max"
         role: "Lead Programmer, Game Designer"
         image: /assets/img/about/maxB.png
@@ -177,6 +176,7 @@ en: &DEFAULT_EN
         social:
           - url: https://tnaskk.artstation.com/
             icon: fab fa-artstation
+      - header: "Extended Team & Contributors"
       - name: "Khang"
         role: "Environmental Artist"
         image: /assets/img/about/placeholder.png
