@@ -148,12 +148,10 @@ en: &DEFAULT_EN
         role: "Lighting Specialist"
         image: /assets/img/about/placeholder.png
         social:
-          - url: 
-            icon: fab fa-youtube
-          - url: 
+          - url: https://www.artstation.com/ankitha_sunil
+            icon: fab fa-artstation
+          - url: https://www.linkedin.com/in/ankitha-sunil/
             icon: fab fa-linkedin-in
-          - url: 
-            icon: fa fa-tree   
       - name: "Malu"
         role: "Ink Master"
         image: /assets/img/about/placeholder.png
