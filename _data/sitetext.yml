@@ -100,7 +100,7 @@ en: &DEFAULT_EN
             icon: fa fa-headphones
           - url: https://linktr.ee/forgottendawn
             icon: fa fa-tree
-      - name: "luuuust "
+      - name: "Luuuust "
         role: "Lead Programmer, Head Developer"
         image: /assets/img/about/placeholder.png
       - name: "Emily"
