@@ -100,26 +100,19 @@ en: &DEFAULT_EN
             icon: fa fa-headphones
           - url: https://linktr.ee/forgottendawn
             icon: fa fa-tree
-      - name: "Olivier"
+      - name: "luuuust "
         role: "Lead Programmer, Head Developer"
         image: /assets/img/about/placeholder.png
-        social:
-          - url: 
-            icon: fab fa-youtube
-          - url: 
-            icon: fab fa-linkedin-in
-          - url: 
-            icon: fa fa-tree
       - name: "Emily"
         role: "Programmer"
         image: /assets/img/about/placeholder.png
         social:
-          - url: 
-            icon: fab fa-youtube
-          - url: 
+          - url: https://sites.google.com/view/thorsen-programmer/home
+            icon: fa fa-globe
+          - url: https://www.linkedin.com/in/emily-thorsen-008b4a32a
             icon: fab fa-linkedin-in
-          - url: 
-            icon: fa fa-tree
+          - url: https://github.com/aryafire1
+            icon: fab fa-github
       - name: "Débora"
         role: "Producer"
         image: /assets/img/about/placeholder.png
