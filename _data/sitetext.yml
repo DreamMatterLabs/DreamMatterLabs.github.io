@@ -165,12 +165,12 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
           - url: 
             icon: fa fa-tree              
-      - name: "George"
+      - name: "George Bandy"
         role: "Level Designer"
         image: /assets/img/about/placeholder.png
         social:
-          - url: https://georgebandyld.wixsite.com/george-bandy-level-d
-            icon: fa fa-globe
+          - url: https://georgebandy.artstation.com/
+            icon: fab fa-artstation
       - name: "Steph T."
         role: "UI Artist"
         image: /assets/img/about/steph-ui.png
