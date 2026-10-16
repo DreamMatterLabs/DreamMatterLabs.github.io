@@ -102,10 +102,10 @@ en: &DEFAULT_EN
             icon: fa fa-tree
       - name: "Luuuust "
         role: "Lead Programmer, Head Developer"
-        image: /assets/img/about/placeholder.png
+        image: /assets/img/about/olivier_shadow.png
       - name: "Emily"
         role: "Programmer"
-        image: /assets/img/about/placeholder.png
+        image: /assets/img/about/emily_shadow.png
         social:
           - url: https://sites.google.com/view/thorsen-programmer/home
             icon: fa fa-globe
@@ -115,7 +115,7 @@ en: &DEFAULT_EN
             icon: fab fa-github
       - name: "Débora"
         role: "Producer"
-        image: /assets/img/about/placeholder.png
+        image: /assets/img/about/debora_shadow.png
         social:
           - url: 
             icon: fab fa-youtube
@@ -139,7 +139,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in  
       - name: "Ankitha"
         role: "Lighting Specialist"
-        image: /assets/img/about/placeholder.png
+        image: /assets/img/about/ankitha_shadow.png
         social:
           - url: https://www.artstation.com/ankitha_sunil
             icon: fab fa-artstation
@@ -147,7 +147,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
       - name: "Malu"
         role: "Ink Master"
-        image: /assets/img/about/placeholder.png
+        image: /assets/img/about/malu_shadow.png
         social:
           - url: 
             icon: fab fa-youtube
@@ -167,7 +167,7 @@ en: &DEFAULT_EN
             icon: fa fa-tree              
       - name: "George Bandy"
         role: "Level Designer"
-        image: /assets/img/about/placeholder.png
+        image: /assets/img/about/micah_shadow.png
         social:
           - url: https://georgebandy.artstation.com/
             icon: fab fa-artstation
