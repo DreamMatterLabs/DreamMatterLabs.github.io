@@ -155,7 +155,27 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
           - url: 
             icon: fa fa-tree         
-      - name: "Austin"
+      - name: "Lucie"
+        role: "Environmental Artist, Producer"
+        image: /assets/img/about/placeholder.png
+        social:
+          - url: 
+            icon: fab fa-youtube
+          - url: 
+            icon: fab fa-linkedin-in
+          - url: 
+            icon: fa fa-tree
+      - name: "Jesse"
+        role: "3D Modeler & Environmental Artist"
+        image: /assets/img/about/placeholder.png
+        social:
+          - url: 
+            icon: fab fa-youtube
+          - url: 
+            icon: fab fa-linkedin-in
+          - url: 
+            icon: fa fa-tree
+      - name: "Louis"
         role: "3D Modeler"
         image: /assets/img/about/placeholder.png
         social:
@@ -164,7 +184,7 @@ en: &DEFAULT_EN
           - url: 
             icon: fab fa-linkedin-in
           - url: 
-            icon: fa fa-tree              
+            icon: fa fa-tree            
       - name: "George Bandy"
         role: "Level Designer"
         image: /assets/img/about/micah_shadow.png
@@ -234,6 +254,16 @@ en: &DEFAULT_EN
         social:
           - url: https://www.khangaroo3d.com/
             icon: fa fa-hand-peace
+      - name: "Austin"
+        role: "3D Modeler"
+        image: /assets/img/about/placeholder.png
+        social:
+          - url: 
+            icon: fab fa-youtube
+          - url: 
+            icon: fab fa-linkedin-in
+          - url: 
+            icon: fa fa-tree  
       - name: "Ana"
         role: "Community Manager"
         image: /assets/img/about/placeholder.png
