@@ -66,6 +66,16 @@ en: &DEFAULT_EN
             icon: fa fa-bskyicon
           - url: https://www.linkedin.com/in/john-s-6b47a565/
             icon: fab fa-linkedin-in
+      - name: "Forgotten Dawn"
+        role: "Composer & Character Designer"
+        image: /assets/img/about/claudio.png
+        social:
+          - url: https://www.youtube.com/@ForgottenDawn
+            icon: fab fa-youtube
+          - url: https://play.reelcrafter.com/0fzIJxfjToOpUPzmgm2y6g
+            icon: fa fa-headphones
+          - url: https://linktr.ee/forgottendawn
+            icon: fa fa-tree
       - name: "Bella"
         role: "Art Director & Lead Artist, Producer"
         image: /assets/img/about/bella.png
@@ -90,16 +100,6 @@ en: &DEFAULT_EN
             icon: fab fa-itch-io
           - url: https://www.linkedin.com/in/frederik-helgesen-208303217/
             icon: fab fa-linkedin-in
-      - name: "Forgotten Dawn"
-        role: "Composer & Character Designer"
-        image: /assets/img/about/claudio.png
-        social:
-          - url: https://www.youtube.com/@ForgottenDawn
-            icon: fab fa-youtube
-          - url: https://play.reelcrafter.com/0fzIJxfjToOpUPzmgm2y6g
-            icon: fa fa-headphones
-          - url: https://linktr.ee/forgottendawn
-            icon: fa fa-tree
       - name: "Luuuust "
         role: "Lead Programmer, Head Developer"
         image: /assets/img/about/olivier_shadow.png
@@ -113,12 +113,6 @@ en: &DEFAULT_EN
             icon: fab fa-github
           - url: https://www.linkedin.com/in/emily-thorsen-008b4a32a
             icon: fab fa-linkedin-in
-      - name: "Habu"
-        role: "3D Artist"
-        image: /assets/img/about/habu.png
-        social:
-          - url: https://www.artstation.com/habukatu
-            icon: fab fa-artstation  
       - name: "Daniel"
         role: "Level Designer"
         image: /assets/img/about/daniel.png
@@ -127,6 +121,20 @@ en: &DEFAULT_EN
             icon: fa fa-globe
           - url: https://www.linkedin.com/in/daniel-tvete/
             icon: fab fa-linkedin-in  
+      - name: "George Bandy"
+        role: "Level Designer"
+        image: /assets/img/about/micah_shadow.png
+        social:
+          - url: https://georgebandy.artstation.com/
+      - name: "Débora"
+        role: "Level Designer"
+        image: /assets/img/about/debora.png
+      - name: "Habu"
+        role: "3D Artist"
+        image: /assets/img/about/habu.png
+        social:
+          - url: https://www.artstation.com/habukatu
+            icon: fab fa-artstation  
       - name: "Ankitha"
         role: "Lighting Specialist"
         image: /assets/img/about/ankitha_shadow.png
@@ -135,9 +143,6 @@ en: &DEFAULT_EN
             icon: fab fa-artstation
           - url: https://www.linkedin.com/in/ankitha-sunil/
             icon: fab fa-linkedin-in
-      - name: "Malu"
-        role: "Ink Master"
-        image: /assets/img/about/malu_shadow.png
       - name: "Lucie"
         role: "Environmental Artist, Producer"
         image: /assets/img/about/lucie.png
@@ -153,7 +158,7 @@ en: &DEFAULT_EN
         image: /assets/img/about/jesse.png
         social:
           - url: https://jolchawa.site/
-            icon: fab tree
+            icon: fab fa-tree
           - url: https://www.artstation.com/jolchawa
             icon: fab fa-artstation
           - url: https://www.linkedin.com/in/jolchawa
@@ -161,11 +166,6 @@ en: &DEFAULT_EN
       - name: "Louis"
         role: "3D Modeler"
         image: /assets/img/about/louis.png       
-      - name: "George Bandy"
-        role: "Level Designer"
-        image: /assets/img/about/louis.png
-        social:
-          - url: https://georgebandy.artstation.com/
             icon: fab fa-artstation
       - name: "Steph T."
         role: "UI Artist"
@@ -208,6 +208,9 @@ en: &DEFAULT_EN
         social:
           - url: https://github.com/sljeandell
             icon: fab fa-github
+      - name: "Malu"
+        role: "Ink Master"
+        image: /assets/img/about/malu_shadow.png
       - name: "Cody"
         role: "Concept Artist"
         image: /assets/img/about/cody.png
@@ -245,13 +248,6 @@ en: &DEFAULT_EN
         social:
           - url: https://www.linkedin.com/in/jordan-stephens-270697
             icon: fab fa-linkedin-in 
-      - header: "Special Thanks"
-      - name: "Pierce"
-        role: "Concept Artist"
-        image: /assets/img/about/placeholder.png
-        social:
-          - url: https://ekpap.com/portfolio/
-            icon: fa fa-hand-peace
       - name: "Harek"
         role: "Blue Dragon"
         image: /assets/img/about/harek.png
@@ -261,7 +257,13 @@ en: &DEFAULT_EN
       - name: "Magic G"
         role: "Yellow Dragon"
         image: /assets/img/about/magicg.png
-
+      - header: "Special Thanks"
+      - name: "Pierce"
+        role: "Concept Artist"
+        image: /assets/img/about/placeholder.png
+        social:
+          - url: https://ekpap.com/portfolio/
+            icon: fa fa-hand-peace
   footer:
     contact: "CONTACT US"
     legal: "PRIVACY POLICY"
