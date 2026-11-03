@@ -87,7 +87,7 @@ en: &DEFAULT_EN
           - url: https://www.linkedin.com/in/isabella-piechota-248197ba/
             icon: fab fa-linkedin-in
       - name: "Pam"
-        role: "Level Design, Producer"
+        role: "Level Designer, Producer"
         image: /assets/img/about/pam.png
         social:
           - url: https://www.linkedin.com/in/p%C3%A2mela-beltrani-a4b808106/
