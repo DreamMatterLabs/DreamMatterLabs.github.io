@@ -37,27 +37,27 @@ en: &DEFAULT_EN
   timeline:
     title: "Timeline"
     events:
-      - title: "2023: JAM TIME"
+      - title: "2023: JAM TIME - SPORES SEEDED"
         year: "2023"
         desc: "Our roots start at the LSDJAM 2023, a game jam celebrating LSD: Dream Emulator and similar surreal, dream-inspired games. Here, we assembled the first members of our team and started conceptualizing and building ONEiRA."
         image: /assets/img/timeline/lsdjam.jpg
         alt:
-      - title: "2024: POWER-UP"
+      - title: "2024: MYCELIUM"
         year: "2024"
         desc: "After LSDJAM 2023, we continued with ONEiRA and gave it the effort it deserves. Here, our roots spread as we expanded our team, and turned ONEiRA into a full-fledged game."
         image: /assets/img/timeline/happysun.jpg
         alt:
-      - title: "2025: ASSEMBLE"
+      - title: "2025: PRIMORDIA"
         year: "2025"
         desc: "ONEiRA enters a building phase and sees the start of a rebuild with extraneous details chiseled away. Scope is locked, tools are honed, and the dream takes a refined shape."
         image: /assets/img/timeline/oneira.jpg
         alt:
-      - title: "2026: BLOOMS"
+      - title: "2026: EXPANSION"
         year: "2026"
         desc: "ONEiRA enters its third year of development and the seeds for a community are planted. We pause for global heatwaves to let our PCs cool down, and work towards wrapping primary development. We affirm that ONEiRA is a NO AI project which to us means that no generative AI was/is/or will ever be used in the making of the project."
         image: /assets/img/timeline/oneira.jpg
         alt:
-      - title: "2027: THE FINAL LAP"
+      - title: "2027: FINAL LAP & FRUITING"
         year: "2027"
         desc: "ONEiRA enters its final development phase as the dreamscape is polished, narrative threads are finalized, and a community grows. What awaits? Stay tuned and find out!"
         image: /assets/img/timeline/oneira.jpg
@@ -176,7 +176,12 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
       - name: "Louis"
         role: "3D Modeler"
-        image: /assets/img/about/louis.png       
+        image: /assets/img/about/louis.png
+        social:
+          - url: https://www.instagram.com/russty_player/
+            icon: fab fa-instagram
+          - url: https://www.artstation.com/louis_boisserie
+            icon: fab fa-artstation        
       - name: "Steph T."
         role: "UI Artist"
         image: /assets/img/about/steph-ui.png
