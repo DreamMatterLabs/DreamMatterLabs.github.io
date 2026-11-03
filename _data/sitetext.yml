@@ -193,7 +193,7 @@ en: &DEFAULT_EN
           - url: https://www.artstation.com/artwork/BknOQk
             icon: fab fa-artstation
       - name: "Max"
-        role: "Lead Programmer, Game Designer"
+        role: "Programmer, Game Designer, VFX artist"
         image: /assets/img/about/maxB.png
         social:
           - url: https://mharris382.github.io/
