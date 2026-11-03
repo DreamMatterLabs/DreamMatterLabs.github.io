@@ -126,6 +126,7 @@ en: &DEFAULT_EN
         image: /assets/img/about/micah_shadow.png
         social:
           - url: https://georgebandy.artstation.com/
+            icon: fab fa-artstation
       - name: "Débora"
         role: "Level Designer"
         image: /assets/img/about/debora.png
@@ -148,7 +149,7 @@ en: &DEFAULT_EN
         image: /assets/img/about/lucie.png
         social:
           - url: https://flashkilia.itch.io/
-            icon: fab itch-io
+            icon: fab tree
           - url: https://www.artstation.com/flashkilia
             icon: fab fa-artstation
           - url: https://www.linkedin.com/in/lucie-robert-95008138a/
@@ -158,7 +159,7 @@ en: &DEFAULT_EN
         image: /assets/img/about/jesse.png
         social:
           - url: https://jolchawa.site/
-            icon: fab fa-tree
+            icon: fab fa-hat-wizard
           - url: https://www.artstation.com/jolchawa
             icon: fab fa-artstation
           - url: https://www.linkedin.com/in/jolchawa
