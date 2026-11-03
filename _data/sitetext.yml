@@ -166,7 +166,6 @@ en: &DEFAULT_EN
       - name: "Louis"
         role: "3D Modeler"
         image: /assets/img/about/louis.png       
-            icon: fab fa-artstation
       - name: "Steph T."
         role: "UI Artist"
         image: /assets/img/about/steph-ui.png
