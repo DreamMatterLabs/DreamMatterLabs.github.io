@@ -109,20 +109,10 @@ en: &DEFAULT_EN
         social:
           - url: https://sites.google.com/view/thorsen-programmer/home
             icon: fa fa-globe
-          - url: https://www.linkedin.com/in/emily-thorsen-008b4a32a
-            icon: fab fa-linkedin-in
           - url: https://github.com/aryafire1
             icon: fab fa-github
-      - name: "Débora"
-        role: "Producer"
-        image: /assets/img/about/debora_shadow.png
-        social:
-          - url: 
-            icon: fab fa-youtube
-          - url: 
+          - url: https://www.linkedin.com/in/emily-thorsen-008b4a32a
             icon: fab fa-linkedin-in
-          - url: 
-            icon: fa fa-tree   
       - name: "Habu"
         role: "3D Artist"
         image: /assets/img/about/habu.png
@@ -148,46 +138,32 @@ en: &DEFAULT_EN
       - name: "Malu"
         role: "Ink Master"
         image: /assets/img/about/malu_shadow.png
-        social:
-          - url: 
-            icon: fab fa-youtube
-          - url: 
-            icon: fab fa-linkedin-in
-          - url: 
-            icon: fa fa-tree         
       - name: "Lucie"
         role: "Environmental Artist, Producer"
-        image: /assets/img/about/placeholder.png
+        image: /assets/img/about/lucie.png
         social:
-          - url: 
-            icon: fab fa-youtube
-          - url: 
+          - url: https://flashkilia.itch.io/
+            icon: fab itch-io
+          - url: https://www.artstation.com/flashkilia
+            icon: fab fa-artstation
+          - url: https://www.linkedin.com/in/lucie-robert-95008138a/
             icon: fab fa-linkedin-in
-          - url: 
-            icon: fa fa-tree
-      - name: "Jesse"
+      - name: "Jesse Olchawa"
         role: "3D Modeler & Environmental Artist"
-        image: /assets/img/about/placeholder.png
+        image: /assets/img/about/jesse.png
         social:
-          - url: 
-            icon: fab fa-youtube
-          - url: 
+          - url: https://jolchawa.site/
+            icon: fab tree
+          - url: https://www.artstation.com/jolchawa
+            icon: fab fa-artstation
+          - url: https://www.linkedin.com/in/jolchawa
             icon: fab fa-linkedin-in
-          - url: 
-            icon: fa fa-tree
       - name: "Louis"
         role: "3D Modeler"
-        image: /assets/img/about/placeholder.png
-        social:
-          - url: 
-            icon: fab fa-youtube
-          - url: 
-            icon: fab fa-linkedin-in
-          - url: 
-            icon: fa fa-tree            
+        image: /assets/img/about/louis.png       
       - name: "George Bandy"
         role: "Level Designer"
-        image: /assets/img/about/micah_shadow.png
+        image: /assets/img/about/louis.png
         social:
           - url: https://georgebandy.artstation.com/
             icon: fab fa-artstation
@@ -203,7 +179,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
       - name: "Anastasia"
         role: "Concept Artist"
-        image: /assets/img/about/placeholder.png
+        image: /assets/img/about/ana.png
         social:
           - url: https://tnaskk.artstation.com/
             icon: fab fa-artstation
@@ -231,13 +207,7 @@ en: &DEFAULT_EN
         image: /assets/img/about/steph-gen.png
         social:
           - url: https://github.com/sljeandell
-            icon: fab fa-github            
-      - name: "Gabe"
-        role: "Environmental Artist"
-        image: /assets/img/about/gabe.png
-        social:
-          - url: https://www.artstation.com/gabekabam
-            icon: fab fa-artstation         
+            icon: fab fa-github
       - name: "Cody"
         role: "Concept Artist"
         image: /assets/img/about/cody.png
@@ -247,7 +217,13 @@ en: &DEFAULT_EN
           - url: https://www.artstation.com/ahlr
             icon: fab fa-artstation
           - url: https://www.linkedin.com/in/codyschroederdesign/
-            icon: fab fa-linkedin-in 
+            icon: fab fa-linkedin-in             
+      - name: "Gabe"
+        role: "Environmental Artist"
+        image: /assets/img/about/gabe.png
+        social:
+          - url: https://www.artstation.com/gabekabam
+            icon: fab fa-artstation         
       - name: "Khang"
         role: "Environmental Artist"
         image: /assets/img/about/placeholder.png
@@ -257,13 +233,6 @@ en: &DEFAULT_EN
       - name: "Austin"
         role: "3D Modeler"
         image: /assets/img/about/placeholder.png
-        social:
-          - url: 
-            icon: fab fa-youtube
-          - url: 
-            icon: fab fa-linkedin-in
-          - url: 
-            icon: fa fa-tree  
       - name: "Ana"
         role: "Community Manager"
         image: /assets/img/about/placeholder.png
@@ -283,24 +252,16 @@ en: &DEFAULT_EN
         social:
           - url: https://ekpap.com/portfolio/
             icon: fa fa-hand-peace
-      - name: "Blue Dragon"
-        role: "___"
-        image: /assets/img/about/placeholder.png
-        social:
-          - url: 
-            icon: fab fa-linkedin-in
-      - name: "Red Dragon"
-        role: "___"
-        image: /assets/img/about/placeholder.png
-        social:
-          - url: 
-            icon: fab fa-linkedin-in
-      - name: "Green Dragon"
-        role: "___"
-        image: /assets/img/about/placeholder.png
-        social:
-          - url: 
-            icon: fab fa-linkedin-in
+      - name: "Harek"
+        role: "Blue Dragon"
+        image: /assets/img/about/harek.png
+      - name: "K Bear"
+        role: "Red Dragon"
+        image: /assets/img/about/kbear.png
+      - name: "Magic G"
+        role: "Yellow Dragon"
+        image: /assets/img/about/magicg.png
+
   footer:
     contact: "CONTACT US"
     legal: "PRIVACY POLICY"
