@@ -44,12 +44,22 @@ en: &DEFAULT_EN
         alt:
       - title: "2024: POWER-UP"
         year: "2024"
-        desc: "After LSDJAM 2023, we decided to continue with ONEiRA and give it the time and effort it deserves. Here, our roots spread as we established Dream Matter Labs, expanded our team, and turned ONEiRA into a full-fledged game."
+        desc: "After LSDJAM 2023, we continued with ONEiRA and gave it the time and effort it deserves. Here, our roots spread as we established Dream Matter Labs, expanded our team, and turned ONEiRA into a full-fledged game."
         image: /assets/img/timeline/happysun.jpg
         alt:
       - title: "2025: ASSEMBLE"
         year: "2025"
-        desc: "What was once taking root has now begun to bloom. ONEiRA enters its final development phase as the dreamscapes are polished, narrative threads are finalized, and a community is being built. What awaits? Stay tuned and find out!"
+        desc: "ONEiRA enters a building phase and sees the start of a rebuild with extraneous details chiseled away. Scope is locked, tools are honed, and the dream takes a refined shape.
+        image: /assets/img/timeline/oneira.jpg
+        alt:
+      - title: "2026: BLOOMS"
+        year: "2026"
+        desc: "ONEiRA enters its third year of development and the seeds for a community are planted. We pause for heatwaves and wrap primary development."
+        image: /assets/img/timeline/oneira.jpg
+        alt:
+      - title: "2027: THE FINAL LAP"
+        year: "2027"
+        desc: "ONEiRA enters its final development phase as the dreamscape is polished, narrative threads are finalized, and a community grows. What awaits? Stay tuned and find out!"
         image: /assets/img/timeline/oneira.jpg
         alt:
 
