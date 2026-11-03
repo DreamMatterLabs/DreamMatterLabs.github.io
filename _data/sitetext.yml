@@ -188,7 +188,7 @@ en: &DEFAULT_EN
         social:
           - url: https://stephanieterrero.com/
             icon: fa fa-globe
-          - url: https://bsky.app/profile/stephdoesui.bsky.social
+          - url: https://bsky.app/profile/slickysteph.bsky.social
             icon: fa fa-bskyicon
           - url: https://www.linkedin.com/in/stephanieterrero/
             icon: fab fa-linkedin-in
