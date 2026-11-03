@@ -149,7 +149,7 @@ en: &DEFAULT_EN
         image: /assets/img/about/lucie.png
         social:
           - url: https://flashkilia.itch.io/
-            icon: fab tree
+            icon: fa tree
           - url: https://www.artstation.com/flashkilia
             icon: fab fa-artstation
           - url: https://www.linkedin.com/in/lucie-robert-95008138a/
@@ -159,7 +159,7 @@ en: &DEFAULT_EN
         image: /assets/img/about/jesse.png
         social:
           - url: https://jolchawa.site/
-            icon: fab fa-hat-wizard
+            icon: fa fa-hat-wizard
           - url: https://www.artstation.com/jolchawa
             icon: fab fa-artstation
           - url: https://www.linkedin.com/in/jolchawa
