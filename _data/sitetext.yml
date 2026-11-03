@@ -10,25 +10,25 @@ en: &DEFAULT_EN
     CTA: "JOIN OUR DISCORD TO FOLLOW DEVELOPMENT"
     content:
       - title: "Explore Surreal, Immersive Dreamscapes"
-        desc: "ONEiRA is a narrative-driven puzzle-platformer where your choices matter. Explore a world where dreams are sold as entertainment and your job is to ensure each is market-ready. Inspect virtual dreamscapes and untangle the trauma hidden within."
+        desc: "ONEiRA is a fantastical narrative puzzle platformer where you must explore surreal dreamscapes in a world where dreams are sold as entertainment. Inspect virtual dreamscapes and untangle the trauma hidden within."
         image:
         alt:
         link: '#p1'
         layout: "left"     
       - title: "Uncover Secrets Buried in the Mind"
-        desc: "Some memories don’t fade—they hide. As you perform your inspection, cryptic messages and lingering voices will pull you deep into a psychological mystery. Sharpen your senses and help the minds behind the dreams process their deeply rooted pain."
+        desc: "Some memories don’t fade—they hide. Cryptic messages and lingering voices will pull you deep into a psychological mystery. Sharpen your senses and help the mind behind the dream process their deeply rooted pain."
         image: /assets/img/oneira/picture_2.jpg
         alt:
         link: '#p2'
         layout: "right"    
-      - title: "Shape the Story with Every Decision"
-        desc: "Just tread carefully, as every choice you make alters the story and world around you. Listen closely to the characters that you encounter on your journey, as some may know more than they let on. Will you uncover what lies beneath, or lose yourself in the dream?"
+      - title: "Wander Through The Dream"
+        desc: "Listen closely to the characters you encounter. Will you uncover what lies beneath, or lose yourself in the dream?"
         image: /assets/img/oneira/picture_3.jpg
         alt:
         link: '#p3'
         layout: "left"     
       - title: "A Mix of Puzzles, Platforming & Exploration"
-        desc: "Luckily, the company has equipped you with a full arsenal of specialized gear. Collect and manage unique abilities to overcome puzzles, navigate obstacles, and explore the ever-shifting dreamscapes. Get ready to suit up—and don’t forget to wishlist ONEiRA today!"
+        desc: "Use your gravity pad to overcome puzzles, navigate obstacles, and explore. Get ready to suit up—and don’t forget to wishlist ONEiRA today!"
         image: /assets/img/oneira/picture_4.jpg
         alt:
         link: '#p4'
