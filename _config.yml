@@ -22,7 +22,7 @@ include:
 
 title      : Dream Matter Labs
 email      : DreamMatterLabs@protonmail.com #this is also the email contact forms will go to
-description: "An independent game studio creating surreal, narrative-driven games that blur the lines between dreams and reality."
+description: "An independent game studio making handcrafted games that blur the lines between dreams and reality."
 author     : Dream Matter Labs
 logo:     #optional, defaults to site title
    path: assets/img/dreammatterlabs-logo.png
