@@ -67,7 +67,7 @@ en: &DEFAULT_EN
     title: "About Us"
     people:
       - name: "John"
-        role: "Studio/Creative Director & Interactive Audio"
+        role: "Studio/Creative Director, Interactive Audio"
         image: /assets/img/about/john.png
         social:
           - url: https://ambientartstyles.com/
@@ -77,7 +77,7 @@ en: &DEFAULT_EN
           - url: https://www.linkedin.com/in/john-s-6b47a565/
             icon: fab fa-linkedin-in
       - name: "Forgotten Dawn"
-        role: "Composer & Character Designer"
+        role: "Composer, Character Designer"
         image: /assets/img/about/claudio.png
         social:
           - url: https://www.youtube.com/@ForgottenDawn
@@ -138,7 +138,7 @@ en: &DEFAULT_EN
           - url: https://georgebandy.artstation.com/
             icon: fab fa-artstation
       - name: "Débora"
-        role: "Level Designer"
+        role: "Project Manager, Produce"
         image: /assets/img/about/debora.png
       - name: "Habu"
         role: "3D Artist"
@@ -165,7 +165,7 @@ en: &DEFAULT_EN
           - url: https://www.linkedin.com/in/lucie-robert-95008138a/
             icon: fab fa-linkedin-in
       - name: "Jesse Olchawa"
-        role: "3D Modeler & Environmental Artist"
+        role: "3D Modeler, Environmental Artist"
         image: /assets/img/about/jesse.png
         social:
           - url: https://jolchawa.site/
@@ -385,7 +385,7 @@ es: &DEFAULT_ES
           - url: https://www.linkedin.com/in/frederik-helgesen-208303217/
             icon: fab fa-linkedin-in
       - name: "Forgotten Dawn"
-        role: "Composer & Character Designer"
+        role: "Composer, Character Designer"
         image: /assets/img/about/claudio.png
         social:
           - url: https://www.youtube.com/@ForgottenDawn
