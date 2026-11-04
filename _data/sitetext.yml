@@ -138,7 +138,7 @@ en: &DEFAULT_EN
           - url: https://georgebandy.artstation.com/
             icon: fab fa-artstation
       - name: "Débora"
-        role: "Project Manager, Produce"
+        role: "Project Manager, Producer"
         image: /assets/img/about/debora.png
       - name: "Habu"
         role: "3D Artist"
